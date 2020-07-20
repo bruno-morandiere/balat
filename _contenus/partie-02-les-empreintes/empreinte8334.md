@@ -1,28 +1,25 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8334
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : indéterminé
-typeObjet : Empreinte
-type_empreinte : contrescellement simple
-n_Inv_CSA : 3004
-emp_ies_SCE_type_sceau : sceau estampille (empreinte)
-emp_ies_SCE_type_sceau : cylindre 
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 116
-emp_IES_fid_sceau : 20
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8334_3004_08_3424.jpg
-emp_PHO_nomFichier : 8334_3004_08_3425.jpg
-emp_ies_SCE_id_sceau : 0020
-emp_ies_SCE_id_sceau : 0116
-emp_ies_SCE_motif : 2 acrobates avec un chien
-emp_ies_SCE_motif : symboles hiéroglyphiques
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8334"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "indéterminé"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple"
+n_Inv_CSA : "3004"
+emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
+emp_ies_SCE_type_sceau : "cylindre "
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "116"
+emp_IES_fid_sceau : "20"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8334_3004_08_3424.jpg"
+emp_PHO_nomFichier : "8334_3004_08_3425.jpg"
+emp_ies_SCE_id_sceau : "0020"
+emp_ies_SCE_id_sceau : "0116"
+emp_ies_SCE_motif : "2 acrobates avec un chien"
+emp_ies_SCE_motif : "symboles hiéroglyphiques"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

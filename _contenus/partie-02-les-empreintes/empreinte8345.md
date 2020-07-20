@@ -1,21 +1,19 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8345
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3005
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 84
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8345_3005_08_3438.jpg
-emp_ies_SCE_id_sceau : 0084
-emp_ies_SCE_motif : petit labyrinthe ovale, "style nouille"
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8345"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3005"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "84"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8345_3005_08_3438.jpg"
+emp_ies_SCE_id_sceau : "0084"
+emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

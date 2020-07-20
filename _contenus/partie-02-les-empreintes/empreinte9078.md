@@ -1,29 +1,26 @@
 ---
-emp_US_us_nom : 4200,01
-fid_sec : 1
-n_Inv_IFAO : 9078
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement simple
-n_Inv_CSA : 3143
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 16
-emp_IES_fid_sceau : 83
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 6
-emp_PHO_nomFichier : 9078_1.jpg
-emp_PHO_nomFichier : 9078_2.jpg
-emp_PHO_nomFichier : 9078_3.jpg
-emp_ies_SCE_id_sceau : 0016
-emp_ies_SCE_id_sceau : 0083
-emp_ies_SCE_motif : symboles hiéroglyphiques, silhouettes humaines, animaux
-emp_ies_SCE_motif : amulette z3, zigzags
-remarque : 
+emp_US_us_nom : "4200,01"
+fid_sec : "1"
+n_Inv_IFAO : "9078"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple"
+n_Inv_CSA : "3143"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "16"
+emp_IES_fid_sceau : "83"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "6"
+emp_PHO_nomFichier : "9078_1.jpg"
+emp_PHO_nomFichier : "9078_2.jpg"
+emp_PHO_nomFichier : "9078_3.jpg"
+emp_ies_SCE_id_sceau : "0016"
+emp_ies_SCE_id_sceau : "0083"
+emp_ies_SCE_motif : "symboles hiéroglyphiques, silhouettes humaines, animaux"
+emp_ies_SCE_motif : "amulette z3, zigzags"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

@@ -1,21 +1,19 @@
 ---
-emp_US_us_nom : 4181
-fid_sec : 1
-n_Inv_IFAO : 9108
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3144
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 105
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 4
-emp_PHO_nomFichier : 9108.jpg
-emp_ies_SCE_id_sceau : 0105
-emp_ies_SCE_motif : cercle divisé en quartiers
-remarque : 
+emp_US_us_nom : "4181"
+fid_sec : "1"
+n_Inv_IFAO : "9108"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3144"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "105"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "4"
+emp_PHO_nomFichier : "9108.jpg"
+emp_ies_SCE_id_sceau : "0105"
+emp_ies_SCE_motif : "cercle divisé en quartiers"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

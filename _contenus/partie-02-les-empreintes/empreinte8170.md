@@ -1,23 +1,23 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8170
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : sceau unique avec note hiératique
-n_Inv_CSA : 3002
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 3
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8170_3002_08_3217.jpg
-emp_PHO_nomFichier : 8170_3002_08_3218.jpg
-emp_PHO_nomFichier : 8170_3002_08_3219.jpg
-emp_ies_SCE_id_sceau : 0003
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et titre jmy-ḫt pr-‘ȝ
-remarque : traces de 3 lignes de texte perdues.
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8170"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "sceau unique avec note hiératique"
+n_Inv_CSA : "3002"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "3"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8170_3002_08_3217.jpg"
+emp_PHO_nomFichier : "8170_3002_08_3218.jpg"
+emp_PHO_nomFichier : "8170_3002_08_3219.jpg"
+emp_ies_SCE_id_sceau : "0003"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
+remarque : "traces de 3 lignes de texte perdues."
 sceaux :
   - traduction_sceau : |
      <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>

@@ -1,21 +1,21 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8467g
-emp_ies_SCE_roi : Pépy II ?
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : sceau unique ?
-n_Inv_CSA : 3030
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 47
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8467g.jpg
-emp_ies_SCE_id_sceau : 0047
-emp_ies_SCE_motif : texte hiéroglyphique en colonnes, šps-nswt
-remarque : traces d'un serekh qui appartient peut-être à un second sceau.
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8467g"
+emp_ies_SCE_roi : "Pépy II ?"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "sceau unique ?"
+n_Inv_CSA : "3030"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "47"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8467g.jpg"
+emp_ies_SCE_id_sceau : "0047"
+emp_ies_SCE_motif : "texte hiéroglyphique en colonnes, šps-nswt"
+remarque : "traces d'un serekh qui appartient peut-être à un second sceau."
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

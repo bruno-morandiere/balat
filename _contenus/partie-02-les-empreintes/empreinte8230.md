@@ -1,23 +1,23 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8230
-emp_ies_SCE_roi : Néferkarê
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : sceau unique
-n_Inv_CSA : 3002
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 41
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8230_3002_08_3302.jpg
-emp_ies_SCE_id_sceau : 0041
-emp_ies_SCE_motif : |
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8230"
+emp_ies_SCE_roi : "Néferkarê"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "sceau unique"
+n_Inv_CSA : "3002"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "41"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8230_3002_08_3302.jpg"
+emp_ies_SCE_id_sceau : "0041"
+emp_ies_SCE_motif : "|
  <p>cartouche, texte hiéroglyphique en colonnes.</p>
- <p><p>
-remarque : =8450
+ <p><p>"
+remarque : "=8450"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

@@ -1,21 +1,20 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8470t
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3029
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 3
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8470t.jpg
-emp_ies_SCE_id_sceau : 0003
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et titre jmy-ḫt pr-‘ȝ
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8470t"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3029"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "3"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8470t.jpg"
+emp_ies_SCE_id_sceau : "0003"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
 sceaux :
   - traduction_sceau : |
      <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>

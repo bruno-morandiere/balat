@@ -1,24 +1,22 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8154
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement simple avec note
-n_Inv_CSA : 3001
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 84
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_NOT_transcription : ‘ȝ ?
-emp_PHO_nomFichier : 8154_3001_08_3190.jpg
-emp_NOT_traduction : un nom d'étoffe ?
-emp_ies_SCE_id_sceau : 0084
-emp_ies_SCE_motif : petit labyrinthe ovale, "style nouille"
-emp_NOT_nom_note : N8154
-remarque : 
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8154"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple avec note"
+n_Inv_CSA : "3001"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "84"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_NOT_transcription : "‘ȝ ?"
+emp_PHO_nomFichier : "8154_3001_08_3190.jpg"
+emp_NOT_traduction : "un nom d'étoffe ?"
+emp_ies_SCE_id_sceau : "0084"
+emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
+emp_NOT_nom_note : "N8154"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

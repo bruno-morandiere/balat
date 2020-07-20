@@ -1,50 +1,45 @@
 ---
-traduction_sceau : 
-typeObjet : Sceau
-texte_sceau : 
-sce_ies_emp_ies_SCE_id_sceau : 0003
-sce_ies_emp_ies_SCE_id_sceau : 0016
-sce_ies_emp_ies_SCE_id_sceau : 0020
-sce_ies_emp_ies_SCE_id_sceau : 0083
-sce_ies_emp_ies_SCE_id_sceau : 0142
-niveau : non royal
-roi : 
-sce_ies_EMP_n_Inv_IFAO : 8128
-sce_ies_EMP_n_Inv_IFAO : 8462a
-sce_ies_EMP_n_Inv_IFAO : 8462b
-sce_ies_EMP_n_Inv_IFAO : 8462c
-sce_ies_EMP_n_Inv_IFAO : 8462d
-sce_ies_EMP_n_Inv_IFAO : 8462e
-sce_ies_EMP_n_Inv_IFAO : 8302
-sce_ies_EMP_n_Inv_IFAO : 8463a
-sce_ies_EMP_n_Inv_IFAO : 8463b
-sce_ies_EMP_n_Inv_IFAO : 8464
-sce_ies_EMP_n_Inv_IFAO : 8472a
-sce_ies_EMP_n_Inv_IFAO : 8472b
-sce_ies_EMP_n_Inv_IFAO : 8474a
-sce_ies_EMP_n_Inv_IFAO : 8474b
-sce_ies_EMP_n_Inv_IFAO : 8474c
-id_sceau : 0142
-sce_ies_emp_NOT_nom_note : N8128
-dimensions_sceau : 
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8128
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8462a
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8462b
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8462c
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8462d
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8462e
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8302
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8463a
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8463b
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8464
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8472a
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8472b
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8474a
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8474b
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8474c
-motif : 2 animaux de Seth, 2 lézards, 2 chats
-type_sceau : sceau estampille (empreinte)
-remarque : 
+typeObjet : "Sceau"
+sce_ies_emp_ies_SCE_id_sceau : "0003"
+sce_ies_emp_ies_SCE_id_sceau : "0016"
+sce_ies_emp_ies_SCE_id_sceau : "0020"
+sce_ies_emp_ies_SCE_id_sceau : "0083"
+sce_ies_emp_ies_SCE_id_sceau : "0142"
+niveau : "non royal"
+sce_ies_EMP_n_Inv_IFAO : "8128"
+sce_ies_EMP_n_Inv_IFAO : "8462a"
+sce_ies_EMP_n_Inv_IFAO : "8462b"
+sce_ies_EMP_n_Inv_IFAO : "8462c"
+sce_ies_EMP_n_Inv_IFAO : "8462d"
+sce_ies_EMP_n_Inv_IFAO : "8462e"
+sce_ies_EMP_n_Inv_IFAO : "8302"
+sce_ies_EMP_n_Inv_IFAO : "8463a"
+sce_ies_EMP_n_Inv_IFAO : "8463b"
+sce_ies_EMP_n_Inv_IFAO : "8464"
+sce_ies_EMP_n_Inv_IFAO : "8472a"
+sce_ies_EMP_n_Inv_IFAO : "8472b"
+sce_ies_EMP_n_Inv_IFAO : "8474a"
+sce_ies_EMP_n_Inv_IFAO : "8474b"
+sce_ies_EMP_n_Inv_IFAO : "8474c"
+id_sceau : "0142"
+sce_ies_emp_NOT_nom_note : "N8128"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8128"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8462a"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8462b"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8462c"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8462d"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8462e"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8302"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8463a"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8463b"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8464"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8472a"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8472b"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8474a"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8474b"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8474c"
+motif : "2 animaux de Seth, 2 lézards, 2 chats"
+type_sceau : "sceau estampille (empreinte)"
 title: sceau n°0142
 empreinte: "8128","8462a","8462b","8462c","8462d","8462e","8302","8463a","8463b","8464","8472a","8472b","8474a","8474b","8474c"
 id_notice: 0142

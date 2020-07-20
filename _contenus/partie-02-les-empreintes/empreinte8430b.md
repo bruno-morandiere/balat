@@ -1,22 +1,21 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8430b
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3037
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 83
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_PHO_nomFichier : 8430b_1.jpg
-emp_PHO_nomFichier : 8430b_2.jpg
-emp_ies_SCE_id_sceau : 0083
-emp_ies_SCE_motif : amulette z3, zigzags
-remarque : 5
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8430b"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3037"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "83"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_PHO_nomFichier : "8430b_1.jpg"
+emp_PHO_nomFichier : "8430b_2.jpg"
+emp_ies_SCE_id_sceau : "0083"
+emp_ies_SCE_motif : "amulette z3, zigzags"
+remarque : "5"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

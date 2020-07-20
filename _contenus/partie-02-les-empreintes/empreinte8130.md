@@ -1,31 +1,29 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8130
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement simple
-n_Inv_CSA : 3000
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 8
-emp_IES_fid_sceau : 84
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_PHO_nomFichier : 8130_3000_08_3155.jpg
-emp_PHO_nomFichier : 8130_3000_08_3156.jpg
-emp_PHO_nomFichier : 8130_3000_08_3157.jpg
-emp_ies_SCE_id_sceau : 0008
-emp_ies_SCE_id_sceau : 0084
-emp_ies_SCE_motif : |
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8130"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple"
+n_Inv_CSA : "3000"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "8"
+emp_IES_fid_sceau : "84"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_PHO_nomFichier : "8130_3000_08_3155.jpg"
+emp_PHO_nomFichier : "8130_3000_08_3156.jpg"
+emp_PHO_nomFichier : "8130_3000_08_3157.jpg"
+emp_ies_SCE_id_sceau : "0008"
+emp_ies_SCE_id_sceau : "0084"
+emp_ies_SCE_motif : "|
  <p>divers animaux par paires</p>
- <p>(faucons/abeilles/lézards/chiens)<p>
-emp_ies_SCE_motif : petit labyrinthe ovale, "style nouille"
-remarque : Estampille effacée délibérément.  Peu de traces du cylindre 10.
+ <p>(faucons/abeilles/lézards/chiens)<p>"
+emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
+remarque : "Estampille effacée délibérément.  Peu de traces du cylindre 10."
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

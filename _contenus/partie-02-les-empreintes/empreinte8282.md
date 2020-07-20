@@ -1,21 +1,20 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8282
-emp_ies_SCE_roi : indéterminé
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : sceau unique
-n_Inv_CSA : 3003
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 91
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8282_3003_08_3362.jpg
-emp_ies_SCE_id_sceau : 0091
-emp_ies_SCE_motif : texte hiéroglyphique
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8282"
+emp_ies_SCE_roi : "indéterminé"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "sceau unique"
+n_Inv_CSA : "3003"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "91"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8282_3003_08_3362.jpg"
+emp_ies_SCE_id_sceau : "0091"
+emp_ies_SCE_motif : "texte hiéroglyphique"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

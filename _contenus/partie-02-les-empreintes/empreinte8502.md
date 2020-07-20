@@ -1,31 +1,29 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8502
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple avec note
-n_Inv_CSA : 3032
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 4
-emp_IES_fid_sceau : 84
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_NOT_transcription : [...] sw 10 ? […] hqȝ […]
-emp_PHO_nomFichier : 8502_1.jpg
-emp_PHO_nomFichier : 8502_2.jpg
-emp_NOT_traduction : [...] jour 10+x [...] le gouverneur ?
-emp_ies_SCE_id_sceau : 0004
-emp_ies_SCE_id_sceau : 0084
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et divers titres de scribe dans la mrt de Pépy
-emp_ies_SCE_motif : petit labyrinthe ovale, "style nouille"
-emp_NOT_nom_note : N8502
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8502"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple avec note"
+n_Inv_CSA : "3032"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "4"
+emp_IES_fid_sceau : "84"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_NOT_transcription : "[...] sw 10 ? […] hqȝ […]"
+emp_PHO_nomFichier : "8502_1.jpg"
+emp_PHO_nomFichier : "8502_2.jpg"
+emp_NOT_traduction : "[...] jour 10+x [...] le gouverneur ?"
+emp_ies_SCE_id_sceau : "0004"
+emp_ies_SCE_id_sceau : "0084"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et divers titres de scribe dans la mrt de Pépy"
+emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
+emp_NOT_nom_note : "N8502"
 sceaux :
   - traduction_sceau : |
      <p>L’Horus Aimé-des-Deux terres, roi de Haute et Basse Égypte Pépy, aimé de Kherty.</p>

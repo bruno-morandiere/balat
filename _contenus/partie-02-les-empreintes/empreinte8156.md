@@ -1,24 +1,24 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8156
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : sceau unique avec note hiératique
-n_Inv_CSA : 3001
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 4
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_NOT_transcription : […] ḏfȝ […]
-emp_PHO_nomFichier : 8156_3001_08_3193.jpg
-emp_NOT_traduction : …offrandes alimentaires…
-emp_ies_SCE_id_sceau : 0004
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et divers titres de scribe dans la mrt de Pépy
-emp_NOT_nom_note : N8156
-remarque : fragments et empreintes d'étoffe au revers
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8156"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "sceau unique avec note hiératique"
+n_Inv_CSA : "3001"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "4"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_NOT_transcription : "[…] ḏfȝ […]"
+emp_PHO_nomFichier : "8156_3001_08_3193.jpg"
+emp_NOT_traduction : "…offrandes alimentaires…"
+emp_ies_SCE_id_sceau : "0004"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et divers titres de scribe dans la mrt de Pépy"
+emp_NOT_nom_note : "N8156"
+remarque : "fragments et empreintes d'étoffe au revers"
 sceaux :
   - traduction_sceau : |
      <p>L’Horus Aimé-des-Deux terres, roi de Haute et Basse Égypte Pépy, aimé de Kherty.</p>

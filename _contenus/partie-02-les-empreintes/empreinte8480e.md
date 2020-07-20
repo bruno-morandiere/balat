@@ -1,31 +1,29 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8480e
-typeObjet : Empreinte
-type_empreinte : note hiératique seule
-n_Inv_CSA : 
-emp_SEC_nom_secteur : palais, magasin sud
-nature_empreinte : scellé seulement inscrit
-fid_US : 3
-emp_NOT_transcription : bjt
-emp_NOT_transcription : bjt
-emp_NOT_transcription : bjt
-emp_NOT_transcription : bjt
-emp_NOT_transcription : bjt
-emp_PHO_nomFichier : 8480e_1.jpg
-emp_PHO_nomFichier : 8480e_2.jpg
-emp_NOT_traduction : miel
-emp_NOT_traduction : miel
-emp_NOT_traduction : miel
-emp_NOT_traduction : miel
-emp_NOT_traduction : miel
-emp_NOT_nom_note : N8480a
-emp_NOT_nom_note : N8480b
-emp_NOT_nom_note : N8480c
-emp_NOT_nom_note : N8480d
-emp_NOT_nom_note : N8480e
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8480e"
+typeObjet : "Empreinte"
+type_empreinte : "note hiératique seule"
+emp_SEC_nom_secteur : "palais, magasin sud"
+nature_empreinte : "scellé seulement inscrit"
+fid_US : "3"
+emp_NOT_transcription : "bjt"
+emp_NOT_transcription : "bjt"
+emp_NOT_transcription : "bjt"
+emp_NOT_transcription : "bjt"
+emp_NOT_transcription : "bjt"
+emp_PHO_nomFichier : "8480e_1.jpg"
+emp_PHO_nomFichier : "8480e_2.jpg"
+emp_NOT_traduction : "miel"
+emp_NOT_traduction : "miel"
+emp_NOT_traduction : "miel"
+emp_NOT_traduction : "miel"
+emp_NOT_traduction : "miel"
+emp_NOT_nom_note : "N8480a"
+emp_NOT_nom_note : "N8480b"
+emp_NOT_nom_note : "N8480c"
+emp_NOT_nom_note : "N8480d"
+emp_NOT_nom_note : "N8480e"
 sceaux :
 
 title: empreinte n°8480e

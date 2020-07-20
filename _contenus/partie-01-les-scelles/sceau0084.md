@@ -1,71 +1,67 @@
 ---
-traduction_sceau : 
-typeObjet : Sceau
-texte_sceau : 
-sce_ies_emp_ies_SCE_id_sceau : 0004
-sce_ies_emp_ies_SCE_id_sceau : 0008
-sce_ies_emp_ies_SCE_id_sceau : 0010
-sce_ies_emp_ies_SCE_id_sceau : 0022
-sce_ies_emp_ies_SCE_id_sceau : 0052
-sce_ies_emp_ies_SCE_id_sceau : 0069
-sce_ies_emp_ies_SCE_id_sceau : 0074
-sce_ies_emp_ies_SCE_id_sceau : 0084
-sce_ies_emp_ies_SCE_id_sceau : 0137
-niveau : non royal
-roi : 
-sce_ies_EMP_n_Inv_IFAO : 8127
-sce_ies_EMP_n_Inv_IFAO : 8130
-sce_ies_EMP_n_Inv_IFAO : 8131
-sce_ies_EMP_n_Inv_IFAO : 8132
-sce_ies_EMP_n_Inv_IFAO : 8151
-sce_ies_EMP_n_Inv_IFAO : 8154
-sce_ies_EMP_n_Inv_IFAO : 8339
-sce_ies_EMP_n_Inv_IFAO : 8345
-sce_ies_EMP_n_Inv_IFAO : 8363
-sce_ies_EMP_n_Inv_IFAO : 8493
-sce_ies_EMP_n_Inv_IFAO : 8502
-sce_ies_EMP_n_Inv_IFAO : 8165
-sce_ies_EMP_n_Inv_IFAO : 8232
-sce_ies_EMP_n_Inv_IFAO : 8337
-sce_ies_EMP_n_Inv_IFAO : 8354
-sce_ies_EMP_n_Inv_IFAO : 8451
-sce_ies_EMP_n_Inv_IFAO : 8454
-sce_ies_EMP_n_Inv_IFAO : 8477
-sce_ies_EMP_n_Inv_IFAO : 8478
-sce_ies_EMP_n_Inv_IFAO : 8453a
-sce_ies_EMP_n_Inv_IFAO : 8453b
-id_sceau : 0084
-sce_ies_emp_NOT_nom_note : N8151
-sce_ies_emp_NOT_nom_note : N8154
-sce_ies_emp_NOT_nom_note : N8493
-sce_ies_emp_NOT_nom_note : N8502
-sce_ies_emp_NOT_nom_note : N8165
-sce_ies_emp_NOT_nom_note : N8354
-dimensions_sceau : 
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8127
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8130
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8131
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8132
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8151
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8154
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8339
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8345
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8363
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8493
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8502
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8165
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8232
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8337
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8354
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8451
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8454
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8477
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8478
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8453a
-sce_ies_emp_ies_EMP_n_Inv_IFAO : 8453b
-motif : petit labyrinthe ovale, "style nouille"
-type_sceau : estampille (empreinte)
-remarque : = 6137 = 8345
+typeObjet : "Sceau"
+sce_ies_emp_ies_SCE_id_sceau : "0004"
+sce_ies_emp_ies_SCE_id_sceau : "0008"
+sce_ies_emp_ies_SCE_id_sceau : "0010"
+sce_ies_emp_ies_SCE_id_sceau : "0022"
+sce_ies_emp_ies_SCE_id_sceau : "0052"
+sce_ies_emp_ies_SCE_id_sceau : "0069"
+sce_ies_emp_ies_SCE_id_sceau : "0074"
+sce_ies_emp_ies_SCE_id_sceau : "0084"
+sce_ies_emp_ies_SCE_id_sceau : "0137"
+niveau : "non royal"
+sce_ies_EMP_n_Inv_IFAO : "8127"
+sce_ies_EMP_n_Inv_IFAO : "8130"
+sce_ies_EMP_n_Inv_IFAO : "8131"
+sce_ies_EMP_n_Inv_IFAO : "8132"
+sce_ies_EMP_n_Inv_IFAO : "8151"
+sce_ies_EMP_n_Inv_IFAO : "8154"
+sce_ies_EMP_n_Inv_IFAO : "8339"
+sce_ies_EMP_n_Inv_IFAO : "8345"
+sce_ies_EMP_n_Inv_IFAO : "8363"
+sce_ies_EMP_n_Inv_IFAO : "8493"
+sce_ies_EMP_n_Inv_IFAO : "8502"
+sce_ies_EMP_n_Inv_IFAO : "8165"
+sce_ies_EMP_n_Inv_IFAO : "8232"
+sce_ies_EMP_n_Inv_IFAO : "8337"
+sce_ies_EMP_n_Inv_IFAO : "8354"
+sce_ies_EMP_n_Inv_IFAO : "8451"
+sce_ies_EMP_n_Inv_IFAO : "8454"
+sce_ies_EMP_n_Inv_IFAO : "8477"
+sce_ies_EMP_n_Inv_IFAO : "8478"
+sce_ies_EMP_n_Inv_IFAO : "8453a"
+sce_ies_EMP_n_Inv_IFAO : "8453b"
+id_sceau : "0084"
+sce_ies_emp_NOT_nom_note : "N8151"
+sce_ies_emp_NOT_nom_note : "N8154"
+sce_ies_emp_NOT_nom_note : "N8493"
+sce_ies_emp_NOT_nom_note : "N8502"
+sce_ies_emp_NOT_nom_note : "N8165"
+sce_ies_emp_NOT_nom_note : "N8354"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8127"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8130"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8131"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8132"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8151"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8154"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8339"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8345"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8363"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8493"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8502"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8165"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8232"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8337"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8354"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8451"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8454"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8477"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8478"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8453a"
+sce_ies_emp_ies_EMP_n_Inv_IFAO : "8453b"
+motif : "petit labyrinthe ovale, "style nouille""
+type_sceau : "estampille (empreinte)"
+remarque : "= 6137 = 8345"
 title: sceau n°0084
 empreinte: "8127","8130","8131","8132","8151","8154","8339","8345","8363","8493","8502","8165","8232","8337","8354","8451","8454","8477","8478","8453a","8453b"
 id_notice: 0084

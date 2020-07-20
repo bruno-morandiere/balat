@@ -1,24 +1,23 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8609
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : simple avec note
-n_Inv_CSA : 3032
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 4
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_NOT_transcription : [? ] Kȝ(.)-jj(w)?
-emp_PHO_nomFichier : 8609.jpg
-emp_NOT_traduction : [...] Kaïy(ou).
-emp_ies_SCE_id_sceau : 0004
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et divers titres de scribe dans la mrt de Pépy
-emp_NOT_nom_note : N8609
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8609"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple avec note"
+n_Inv_CSA : "3032"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "4"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_NOT_transcription : "[? ] Kȝ(.)-jj(w)?"
+emp_PHO_nomFichier : "8609.jpg"
+emp_NOT_traduction : "[...] Kaïy(ou)."
+emp_ies_SCE_id_sceau : "0004"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et divers titres de scribe dans la mrt de Pépy"
+emp_NOT_nom_note : "N8609"
 sceaux :
   - traduction_sceau : |
      <p>L’Horus Aimé-des-Deux terres, roi de Haute et Basse Égypte Pépy, aimé de Kherty.</p>

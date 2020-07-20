@@ -1,31 +1,29 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8151
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : indéterminé
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement simple avec note
-n_Inv_CSA : 3001
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 22
-emp_IES_fid_sceau : 84
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_NOT_transcription : ȝbd 1 šmw sw 28 […]
-emp_PHO_nomFichier : 8151_3001_08_3186.jpg
-emp_PHO_nomFichier : 8151_3001_08_3187.jpg
-emp_NOT_traduction : 1er mois de la saison-chémou, jour 28 […]
-emp_ies_SCE_id_sceau : 0022
-emp_ies_SCE_id_sceau : 0084
-emp_ies_SCE_motif : indéterminé
-emp_ies_SCE_motif : petit labyrinthe ovale, "style nouille"
-emp_NOT_nom_note : N8151
-remarque : fragments et empreintes d'étoffe
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8151"
+emp_ies_SCE_niveau : "indéterminé"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple avec note"
+n_Inv_CSA : "3001"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "22"
+emp_IES_fid_sceau : "84"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_NOT_transcription : "ȝbd 1 šmw sw 28 […]"
+emp_PHO_nomFichier : "8151_3001_08_3186.jpg"
+emp_PHO_nomFichier : "8151_3001_08_3187.jpg"
+emp_NOT_traduction : "1er mois de la saison-chémou, jour 28 […]"
+emp_ies_SCE_id_sceau : "0022"
+emp_ies_SCE_id_sceau : "0084"
+emp_ies_SCE_motif : "indéterminé"
+emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
+emp_NOT_nom_note : "N8151"
+remarque : "fragments et empreintes d'étoffe"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

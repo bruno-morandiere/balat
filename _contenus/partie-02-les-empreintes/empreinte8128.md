@@ -1,39 +1,35 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8128
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : royal
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement double avec note hiératique
-n_Inv_CSA : 3000
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : sceau estampille (empreinte)
-emp_ies_SCE_type_sceau : sceau estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 3
-emp_IES_fid_sceau : 142
-emp_IES_fid_sceau : 20
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_NOT_transcription : Peut-être le signe de la cruche W22?
-emp_PHO_nomFichier : 8128_1.jpg
-emp_PHO_nomFichier : 8128_2.jpg
-emp_PHO_nomFichier : 8128_3.jpg
-emp_PHO_nomFichier : 8128_4.jpg
-emp_NOT_traduction : 
-emp_ies_SCE_id_sceau : 0003
-emp_ies_SCE_id_sceau : 0020
-emp_ies_SCE_id_sceau : 0142
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et titre jmy-ḫt pr-‘ȝ
-emp_ies_SCE_motif : 2 acrobates avec un chien
-emp_ies_SCE_motif : 2 animaux de Seth, 2 lézards, 2 chats
-emp_NOT_nom_note : N8128
-remarque : 
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8128"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement double avec note hiératique"
+n_Inv_CSA : "3000"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
+emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "3"
+emp_IES_fid_sceau : "142"
+emp_IES_fid_sceau : "20"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_NOT_transcription : "Peut-être le signe de la cruche W22?"
+emp_PHO_nomFichier : "8128_1.jpg"
+emp_PHO_nomFichier : "8128_2.jpg"
+emp_PHO_nomFichier : "8128_3.jpg"
+emp_PHO_nomFichier : "8128_4.jpg"
+emp_ies_SCE_id_sceau : "0003"
+emp_ies_SCE_id_sceau : "0020"
+emp_ies_SCE_id_sceau : "0142"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
+emp_ies_SCE_motif : "2 acrobates avec un chien"
+emp_ies_SCE_motif : "2 animaux de Seth, 2 lézards, 2 chats"
+emp_NOT_nom_note : "N8128"
 sceaux :
   - traduction_sceau : |
      <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>

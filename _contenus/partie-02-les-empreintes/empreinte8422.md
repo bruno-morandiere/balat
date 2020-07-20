@@ -1,24 +1,23 @@
 ---
-emp_US_us_nom : 2632
-fid_sec : 1
-n_Inv_IFAO : 8422
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : simple avec note
-n_Inv_CSA : 3032
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 3
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 2
-emp_NOT_transcription : ȝbd  2 ȝḫ[t…sw 6+x]
-emp_PHO_nomFichier : 8422.jpg
-emp_NOT_traduction : 2e mois de la saison-akhet, jour 6+x […]
-emp_ies_SCE_id_sceau : 0003
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et titre jmy-ḫt pr-‘ȝ
-emp_NOT_nom_note : N8422
-remarque : 
+emp_US_us_nom : "2632"
+fid_sec : "1"
+n_Inv_IFAO : "8422"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple avec note"
+n_Inv_CSA : "3032"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "3"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "2"
+emp_NOT_transcription : "ȝbd  2 ȝḫ[t…sw 6+x]"
+emp_PHO_nomFichier : "8422.jpg"
+emp_NOT_traduction : "2e mois de la saison-akhet, jour 6+x […]"
+emp_ies_SCE_id_sceau : "0003"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
+emp_NOT_nom_note : "N8422"
 sceaux :
   - traduction_sceau : |
      <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>

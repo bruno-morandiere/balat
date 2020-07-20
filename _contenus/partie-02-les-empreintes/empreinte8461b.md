@@ -1,27 +1,25 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8461b
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : indéterminé
-typeObjet : Empreinte
-type_empreinte : contrescellement simple
-n_Inv_CSA : 3038
-emp_ies_SCE_type_sceau : sceau estampille (empreinte)
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 21
-emp_IES_fid_sceau : 44
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8461b.jpg
-emp_ies_SCE_id_sceau : 0021
-emp_ies_SCE_id_sceau : 0044
-emp_ies_SCE_motif : un acrobate avec 2 chiens
-emp_ies_SCE_motif : indéterminé
-remarque : traces de cylindre
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8461b"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "indéterminé"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple"
+n_Inv_CSA : "3038"
+emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "21"
+emp_IES_fid_sceau : "44"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8461b.jpg"
+emp_ies_SCE_id_sceau : "0021"
+emp_ies_SCE_id_sceau : "0044"
+emp_ies_SCE_motif : "un acrobate avec 2 chiens"
+emp_ies_SCE_motif : "indéterminé"
+remarque : "traces de cylindre"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

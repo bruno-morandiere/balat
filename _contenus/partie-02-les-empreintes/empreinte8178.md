@@ -1,31 +1,29 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8178
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : contrescellement simple avec note
-n_Inv_CSA : 3002
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : sceau estampille (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 3
-emp_IES_fid_sceau : 20
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_NOT_transcription : ȝbd 1 ȝḫ[t ...]
-emp_PHO_nomFichier : 8178_3002_08_3233.jpg
-emp_PHO_nomFichier : 8178_3002_08_3234.jpg
-emp_NOT_traduction : 1er mois de la saison-akhet […]
-emp_ies_SCE_id_sceau : 0003
-emp_ies_SCE_id_sceau : 0020
-emp_ies_SCE_motif : texte hiéroglyphique &#58; protocole royal et titre jmy-ḫt pr-‘ȝ
-emp_ies_SCE_motif : 2 acrobates avec un chien
-emp_NOT_nom_note : N8178
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8178"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "contrescellement simple avec note"
+n_Inv_CSA : "3002"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "3"
+emp_IES_fid_sceau : "20"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_NOT_transcription : "ȝbd 1 ȝḫ[t ...]"
+emp_PHO_nomFichier : "8178_3002_08_3233.jpg"
+emp_PHO_nomFichier : "8178_3002_08_3234.jpg"
+emp_NOT_traduction : "1er mois de la saison-akhet […]"
+emp_ies_SCE_id_sceau : "0003"
+emp_ies_SCE_id_sceau : "0020"
+emp_ies_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
+emp_ies_SCE_motif : "2 acrobates avec un chien"
+emp_NOT_nom_note : "N8178"
 sceaux :
   - traduction_sceau : |
      <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>

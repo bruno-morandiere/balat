@@ -1,21 +1,20 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8521
-emp_ies_SCE_roi : Néferkarê
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3033
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 133
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8521.jpg
-emp_ies_SCE_id_sceau : 0133
-emp_ies_SCE_motif : texte hiéroglyphique &#58; cartouche royal Nfr-kȝ[-R‘]
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8521"
+emp_ies_SCE_roi : "Néferkarê"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3033"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "133"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8521.jpg"
+emp_ies_SCE_id_sceau : "0133"
+emp_ies_SCE_motif : "texte hiéroglyphique : cartouche royal Nfr-kȝ[-R‘]"
 sceaux :
   - traduction_sceau : Néferkarê
     typeObjet : Sceau

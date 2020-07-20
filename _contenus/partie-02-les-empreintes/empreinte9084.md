@@ -1,23 +1,21 @@
 ---
-emp_US_us_nom : 4200,15
-fid_sec : 1
-n_Inv_IFAO : 9084
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3143
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 120
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 9
-emp_PHO_nomFichier : 9084_1.jpg
-emp_PHO_nomFichier : 9084_2.jpg
-emp_PHO_nomFichier : 9084_3.jpg
-emp_ies_SCE_id_sceau : 0120
-emp_ies_SCE_motif : grand lézars, animaux, ...
-remarque : 
+emp_US_us_nom : "4200,15"
+fid_sec : "1"
+n_Inv_IFAO : "9084"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3143"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "120"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "9"
+emp_PHO_nomFichier : "9084_1.jpg"
+emp_PHO_nomFichier : "9084_2.jpg"
+emp_PHO_nomFichier : "9084_3.jpg"
+emp_ies_SCE_id_sceau : "0120"
+emp_ies_SCE_motif : "grand lézars, animaux, ..."
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

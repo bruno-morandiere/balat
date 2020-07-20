@@ -1,25 +1,23 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8495
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple avec note
-n_Inv_CSA : 3032
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 16
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_NOT_transcription : ȝbd  2  pr[t...]
-emp_PHO_nomFichier : 8495_1.jpg
-emp_PHO_nomFichier : 8495_2.jpg
-emp_NOT_traduction : 2e mois de la saison-péret […]
-emp_ies_SCE_id_sceau : 0016
-emp_ies_SCE_motif : symboles hiéroglyphiques, silhouettes humaines, animaux
-emp_NOT_nom_note : N8495
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8495"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple avec note"
+n_Inv_CSA : "3032"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "16"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_NOT_transcription : "ȝbd  2  pr[t...]"
+emp_PHO_nomFichier : "8495_1.jpg"
+emp_PHO_nomFichier : "8495_2.jpg"
+emp_NOT_traduction : "2e mois de la saison-péret […]"
+emp_ies_SCE_id_sceau : "0016"
+emp_ies_SCE_motif : "symboles hiéroglyphiques, silhouettes humaines, animaux"
+emp_NOT_nom_note : "N8495"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

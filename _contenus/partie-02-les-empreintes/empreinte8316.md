@@ -1,27 +1,24 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8316
-emp_ies_SCE_roi : 
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : non royal
-emp_ies_SCE_niveau : non royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3004
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 69
-emp_IES_fid_sceau : 0034
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8316_3004_08_3404.jpg
-emp_ies_SCE_id_sceau : 0069
-emp_ies_SCE_id_sceau : 0034
-emp_ies_SCE_motif : 3 hommes tête-bêche ("nains sauteurs"),…
-emp_ies_SCE_motif : géométrique &#58; lignes, triangle
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8316"
+emp_ies_SCE_niveau : "non royal"
+emp_ies_SCE_niveau : "non royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3004"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "69"
+emp_IES_fid_sceau : "0034"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8316_3004_08_3404.jpg"
+emp_ies_SCE_id_sceau : "0069"
+emp_ies_SCE_id_sceau : "0034"
+emp_ies_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"),…"
+emp_ies_SCE_motif : "géométrique : lignes, triangle"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

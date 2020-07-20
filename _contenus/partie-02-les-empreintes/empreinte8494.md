@@ -1,24 +1,22 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8494
-emp_ies_SCE_roi : 
-emp_ies_SCE_niveau : indéterminé
-typeObjet : Empreinte
-type_empreinte : simple avec note
-n_Inv_CSA : 3032
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 101
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_NOT_transcription : [...] sw 13+x [...] šd[t? …]
-emp_PHO_nomFichier : 8494.jpg
-emp_NOT_traduction : […] jour 13+x, prélever […]
-emp_ies_SCE_id_sceau : 0101
-emp_ies_SCE_motif : indéterminé
-emp_NOT_nom_note : N8494
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8494"
+emp_ies_SCE_niveau : "indéterminé"
+typeObjet : "Empreinte"
+type_empreinte : "simple avec note"
+n_Inv_CSA : "3032"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "101"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_NOT_transcription : "[...] sw 13+x [...] šd[t? …]"
+emp_PHO_nomFichier : "8494.jpg"
+emp_NOT_traduction : "[…] jour 13+x, prélever […]"
+emp_ies_SCE_id_sceau : "0101"
+emp_ies_SCE_motif : "indéterminé"
+emp_NOT_nom_note : "N8494"
 sceaux :
   - traduction_sceau : 
     typeObjet : Sceau

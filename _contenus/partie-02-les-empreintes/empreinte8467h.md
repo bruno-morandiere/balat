@@ -1,21 +1,20 @@
 ---
-emp_US_us_nom : 2635
-fid_sec : 1
-n_Inv_IFAO : 8467h
-emp_ies_SCE_roi : Pépy Ier
-emp_ies_SCE_niveau : royal
-typeObjet : Empreinte
-type_empreinte : simple
-n_Inv_CSA : 3030
-emp_ies_SCE_type_sceau : cylindre (empreinte)
-emp_SEC_nom_secteur : palais, magasin sud
-emp_IES_fid_sceau : 114
-nature_empreinte : empreinte de sceau sur scellé
-fid_US : 3
-emp_PHO_nomFichier : 8467h.jpg
-emp_ies_SCE_id_sceau : 0114
-emp_ies_SCE_motif : texte hiéroglyphique &#58; šps-nswt
-remarque : 
+emp_US_us_nom : "2635"
+fid_sec : "1"
+n_Inv_IFAO : "8467h"
+emp_ies_SCE_roi : "Pépy Ier"
+emp_ies_SCE_niveau : "royal"
+typeObjet : "Empreinte"
+type_empreinte : "simple"
+n_Inv_CSA : "3030"
+emp_ies_SCE_type_sceau : "cylindre (empreinte)"
+emp_SEC_nom_secteur : "palais, magasin sud"
+emp_IES_fid_sceau : "114"
+nature_empreinte : "empreinte de sceau sur scellé"
+fid_US : "3"
+emp_PHO_nomFichier : "8467h.jpg"
+emp_ies_SCE_id_sceau : "0114"
+emp_ies_SCE_motif : "texte hiéroglyphique : šps-nswt"
 sceaux :
   - traduction_sceau : |
      <p>L'Horus aimé-des-deux-terres Pépy [...] ; </p>
