@@ -1,0 +1,31 @@
+#martres-tolosane, 
+#vue-exposition {
+    break-inside: avoid;
+    width: 115%; 
+    position: relative;
+    left: -15%;
+}
+
+#martres-tolosane img,
+#vue-exposition img{
+    width: 100%;
+}
+
+#martres-tolosane .figcaption,
+#vue-exposition .figcaption {
+    font-style: italic;
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    text-indent: 0;  
+}
+
+#martres-tolosane .figcaption{
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+
+
+#vue-exposition .figcaption{
+    padding-top: 4px;
+    margin-bottom: 31px;
+}

@@ -1,0 +1,79 @@
+
+title: Les scellés de Balat-‘Ayn ’Asil 
+title_complet: "Les scellés de Balat-‘Ayn ’Asil"
+tagline:
+url: https://villachiragan.saintraymond.toulouse.fr
+baseurl:
+
+collection_catalogues: Les ressources numériques de l'IFAO
+
+producteur: Institut français d’archéologie orientale
+producteur_complement: "Réseau des Écoles françaises à l’Étranger"
+author:
+  name: Laure Pantalacci
+  name_id: Pantalacci L.
+  photograph: Ihab Mohammed Ibrahim
+  twitter: "@msr_tlse"
+place: Le Caire
+
+keywords: "Chiragan, Musée Saint-Raymond, Martres-Tolosane, Toulouse, archéologie, sculpture antique"
+
+locale: fr_FR
+encoding: UTF-8
+
+date: 2020
+
+
+
+description: "Commencées à la fin des années 70, les fouilles de l'Ifao dans la ville antique de Balat-‘Ayn ’Asil ont mis au jour, en différents points du site, plus de 3000 scellés marqués d'empreintes de sceaux. Ils datent d'une période comprise entre la 6e dynastie et le début du Moyen Empire (soit au moins tout le dernier quart du 3e mill. av.n.è.). Les sceaux utilisés alors étaient soit des estampilles (button-seals), petits objets gravés préfigurant les scarabées des deux millénaires suivants, soit des sceaux-cylindres, forme adoptée dès les premières dynasties par l'administration royale. Pour l'instant, seules deux collections complètes de scellés trouvés dans la ville ont été publiées au sein de rapports de fouilles ."
+
+licence: CC BY-NC-SA
+
+timezone: Europe/Paris
+
+#permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-scholar
+  - jekyll-microtypo
+  - jekyll-redirect-from
+
+exclude:
+  - rakefile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+  - _contenus/bibliographie/
+
+collections:
+  contenus:
+    output: true
+    permalink: /:path
+
+# Jekyll Scholar
+scholar:
+  style: revue-archeologique
+  locale: fr
+  source: _contenus/bibliographie
+  bibliography: bibliographie.bib
+  #relative: "/bibliographie/"
+  sort_by: author
+  bibliography_list_tag: ul
+  #bibliography_template: <span>[{{key}}]</abbr>{{reference}}
+  cite_class: citation
+  bibtex_filters:
+    - italics
+    - latex
+
+# Jekyll Microtypo
+microtypo:
+  median: true
+
+# Dépôt
+repo_url: https://gitlab.com/musee-saint-raymond/villa-chiragan
+repo_branch: master
+
+svg:
+  optimize: true

@@ -1,0 +1,766 @@
+/* Layout lists notices */
+
+#notices-list-all{
+    page: notices;  
+    color: var(--color); 
+}
+
+@page notices{
+    margin-top: 36px;
+    margin-bottom: 64px;
+    /* 76 - 12 = 64 */
+}
+
+@page notices:left {
+    margin-left: 14mm;
+    margin-right: 14mm;
+    @bottom-left{
+        position: relative;
+        top: -2px;
+    }
+}
+
+
+@page notices:right {
+    margin-left: 14mm;
+    margin-right: 14mm;
+    @bottom-right{
+        position: relative;
+        top: -2px;
+    }
+}
+
+.notices-list[data-split-from]{ padding-top: 4px!important;}
+
+
+/* Titles lists */
+
+
+
+.notices-list > h1, .sous-group{
+    text-align: center;
+    width: 100%;
+    color: var(--color);
+    break-after: avoid;
+    font-weight: 500;
+}
+
+.notices-list > h1 {
+    font-size: var(--font-size);
+    text-transform: uppercase; 
+    padding-top: 25px;
+    padding-bottom: 27px;
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
+    break-inside: avoid;
+    margin-top: 12px;
+}
+
+.notices-list > h1 span {
+    display: block;
+    font-size: var(--font-size-note);
+    padding-bottom: 4px;
+}
+
+.sous-group{
+    text-transform: uppercase; 
+    padding-top: 7px;
+    padding-bottom: 4px;
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+
+.notices-list > h1 + .sous-group{
+    margin-top: 0;
+    border-top: none;
+}
+
+
+#notices-list-03 > h1{ margin-bottom: 18px; }
+
+
+#notices-list-02-04, 
+#notices-list-04-03{ margin-top: 5px; }
+
+
+
+
+
+
+/* ITEMS global */
+
+.notice-item{
+    --size-img: 90px;
+    --padding-img: 4mm;
+    position: relative;
+    display: inline-block;
+    width: calc((100% - var(--padding-img)*2)/2); 
+    min-height: calc(10*var(--baseline-note));
+    padding-left: calc(var(--size-img) + var(--padding-img)/2);
+    margin-right: var(--padding-img);
+    vertical-align: top;
+    position: relative;
+}
+
+.block-list{
+    --padding-img: 4mm;
+    width: calc((100% - var(--padding-img)*2)/2); 
+    display: inline-block;
+    margin-right: var(--padding-img);
+    vertical-align: top;
+    position: relative;
+}
+
+.block-list .notice-item{ width: 100%;}
+
+.notice-item figure{
+    width: var(--size-img);
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 2px; 
+}
+
+.notice-item figure img { 
+    width: 100%;
+    height: calc(var(--baseline-note)*10 - 5px);
+    object-fit: cover;
+    object-position: 0 top;
+    position: relative; 
+}
+
+
+
+.notice-item .id-inventaire{ 
+    color: var(--color);
+    font-weight: 600;
+    position: relative;
+    top: 1px;
+}
+
+.notice-item h1{
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    font-weight: 600;
+    letter-spacing: 0.02px;
+    /* padding-bottom: calc(var(--baseline-note)*0.5); */
+    /* font-style: italic; */
+}
+
+
+
+.notice-item .bio{ 
+    display: none;
+}
+
+
+.notice-item p { 
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+}
+
+
+
+.notice-item { break-inside: avoid; }
+
+.notices-list .num-partie { display: none; }
+
+
+
+.notice-item .date,
+.notice-item .type,
+.notice-item .materiaux,
+.notice-item .dimensions{
+    padding-left: 7px;
+}
+
+.notice-item .date::before,
+.notice-item .type::before,
+.notice-item .materiaux::before,
+.notice-item .dimensions::before { 
+    content: "• "; 
+    content: block;
+    position: absolute;
+    padding-left: calc(var(--size-img) + var(--padding-img)/2);
+    left: 0;
+}
+
+
+
+
+
+/* PARTIE 2 __________________________________________ */
+
+#list-2-03 {
+    margin-top: calc(12px + 17px);
+}
+
+/* Époque Julio-claudienne */
+[data-num-inventaire="Ra 57"] img,
+[data-num-inventaire="Ra 165"] img{
+    width: 109%!important;
+    left: -3px!important;
+}
+
+[data-num-inventaire="Ra 31"],
+[data-num-inventaire="Ra 90"],
+[data-num-inventaire="Ra 122"] {
+    min-height: calc(var(--baseline-note)*9);
+}
+[data-num-inventaire="Ra 31"] img,
+[data-num-inventaire="Ra 90"] img,
+[data-num-inventaire="Ra 122"] img{
+    height: calc(var(--baseline-note)*9 - 5px)!important;
+}
+
+
+/* Époque Antonine */
+
+#list-ra-58-b img{
+    width: 105%!important;
+    object-position: -2px top!important;
+}
+
+#list-ra-126,
+#list-ra-60-1{
+    min-height: calc(var(--baseline-note)*9);
+}
+
+#list-ra-126 img,
+#list-ra-60-1 img {
+    height: calc(var(--baseline-note)*9 - 5px)!important;
+}
+
+#list-ra-118 img{
+    width: 109%!important;
+    object-position: -4px 0!important;
+}
+
+/* Époque sévérienne */
+
+#list-ra-66a,
+#list-ra-66b,
+#list-ra-62,
+#list-ra-119,
+#list-ra-168,
+#list-2000-32-1,
+#list-ra-73-g,
+#list-ra-65,
+#list-ra-72,
+#list-ra-59,
+#list-ra-69 {
+    min-height: calc(var(--baseline-note)*9);
+}
+
+#list-ra-66a img,
+#list-ra-66b img,
+#list-ra-62 img,
+#list-ra-119 img,
+#list-ra-168 img,
+#list-2000-32-1 img,
+#list-ra-73-g img,
+#list-ra-65 img,
+#list-ra-72 img,
+#list-ra-59 img {
+    height: calc(var(--baseline-note)*9 - 5px)!important;
+}
+
+#list-ra-168 img{
+    width: 98%!important;
+    object-position: 0 -2px!important;
+}
+
+#list-2000-32-1 img {
+    object-position: 0 -10px!important;
+}
+
+
+#list-ra-121 img,
+#list-ra-68-1 {
+    height: calc(var(--baseline-note)*10);
+}
+
+#list-ra-121 img,
+#list-ra-68-1 img {
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+
+
+
+/* L'anarchie militaire */
+
+
+#list-ra-73-d img{
+    width: 105%!important;
+    object-position: -2px 0px!important;
+}
+/* #list-ra-73-i,
+#list-ra-125,
+#list-ra-167,
+#list-ra-74,
+#list-ra-73-h {
+    min-height: calc(var(--baseline-note)*9);
+}
+
+#list-ra-73-i img,
+#list-ra-125 img,
+#list-ra-167 img,
+#list-ra-74 img,
+#list-ra-73-h img{
+    height: calc(var(--baseline-note)*9 - 5px)!important;
+} */
+
+#list-ra-74 img{
+    width: 117%!important;
+    object-position: -5px -4px!important;
+}
+
+
+
+/* Époque théodosienne  */  
+
+.group-theodosienne{
+    width: 258px;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+  
+}
+
+.group-theodosienne .sous-group { 
+    width: 100%;
+}
+
+[data-num-inventaire="Ra 82"] p { white-space: nowrap; }
+
+
+
+
+
+
+/* PARTIE 3 ------------------------------------------------ */
+
+
+/* ligne 2 */
+[data-num-inventaire="Ra 152"],
+[data-num-inventaire="Ra 32"] { 
+    min-height: calc(7*var(--baseline-note)); 
+}
+[data-num-inventaire="Ra 152"] figure img,
+[data-num-inventaire="Ra 32"] figure img { 
+    height: calc(var(--baseline-note)*7 - 5px);
+}
+
+[data-num-inventaire="Ra 152"] figure img{ object-position: -8px 0px!important; }
+[data-num-inventaire="Ra 32"] figure img{ object-position: -6px 0px!important; }
+
+/* line 3 */
+
+[data-num-inventaire="Ra 184"],
+[data-num-inventaire="Ra 41"] { 
+    min-height: calc(12*var(--baseline-note)); 
+}
+[data-num-inventaire="Ra 184"] figure img,
+[data-num-inventaire="Ra 41"] figure img { 
+    height: calc(var(--baseline-note)*12 - 5px);
+}
+
+
+ /* line 4*/
+[data-num-inventaire="Ra 112"],
+[data-num-inventaire="Ra 113"]{ 
+    min-height: calc(12*var(--baseline-note)); 
+}
+
+[data-num-inventaire="Ra 112"] figure img,
+[data-num-inventaire="Ra 113"] figure img{
+    height: calc(var(--baseline-note)*12 - 5px);
+}
+
+/* line 5*/
+
+
+[data-num-inventaire="Ra 154"],
+[data-num-inventaire="Ra 115"] { 
+    min-height: calc(11*var(--baseline-note)); 
+}
+[data-num-inventaire="Ra 154"] figure img,
+[data-num-inventaire="Ra 115"] figure img { 
+    height: calc(var(--baseline-note)*11 - 5px);
+}
+
+
+
+/* p2 */
+
+
+
+[data-num-inventaire="Ra 134-Ra 137"],
+[data-num-inventaire="Ra 46"],
+[data-num-inventaire="Ra 38 (1)"],
+[data-num-inventaire="Ra 29"],
+[data-num-inventaire="Ra 40"],
+[data-num-inventaire="Ra 151-Ra 114"] { 
+    min-height: calc(12*var(--baseline-note)); 
+}
+
+[data-num-inventaire="Ra 134-Ra 137"] figure img,
+[data-num-inventaire="Ra 46"] figure img,
+[data-num-inventaire="Ra 38 (1)"] figure img,
+[data-num-inventaire="Ra 29"] figure img,
+[data-num-inventaire="Ra 40"] figure img,
+[data-num-inventaire="Ra 151-Ra 114"] figure img { 
+    height: calc(var(--baseline-note)*12 - 5px);
+}
+/* 
+
+[data-num-inventaire="Ra 151-Ra 114"] { 
+    min-height: calc(16*var(--baseline-note)); 
+}
+[data-num-inventaire="Ra 151-Ra 114"] figure img { 
+    height: calc(var(--baseline-note)*16 - 5px);
+} */
+
+
+
+/* PARTIE 4 ------------------------------------------------ */
+
+/* portraits dynastiques */
+
+#ra-50-bis-ra-97-ra-98-1 { 
+    min-height: calc(15*var(--baseline-note)); 
+}
+#ra-50-bis-ra-97-ra-98-1 figure img { 
+    height: calc(var(--baseline-note)*15 - 5px);
+}
+
+
+/* Décor figé */
+
+#decor-fige{ margin-top: calc(12px + 17px); }
+
+/* p 1 */
+
+#ra-28-a-1,
+#ra-28-b-1{
+    min-height: calc(var(--baseline-note)*12);
+}
+
+#ra-28-a-1 img,
+#ra-28-b-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+}
+
+#ra-28-a-1 img{
+    object-position: -6px top!important;
+}
+
+
+/* p2, line 1 */
+
+#ra-28-d-1,
+#ra-28-j-1{
+    min-height: calc(var(--baseline-note)*12); 
+}
+
+#ra-28-d-1 img,
+#ra-28-j-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+    width: 100%!important;
+}
+
+#ra-28-j-1 img{
+    object-position: -5px top!important;
+}
+
+
+/* p2, line 2 */
+
+#ra-28-g-1,
+#ra-28-l-1{
+    min-height: calc(var(--baseline-note)*12);
+}
+
+#ra-28-g-1 img,
+#ra-28-l-1 img,
+#ra-28-h-1 img,
+#ra-28-f-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+    width: 100%!important;
+}
+
+/* p2, line 3 */
+
+#ra-28-c-1,
+#ra-28-i-1{
+    min-height: calc(var(--baseline-note)*12);
+}
+#ra-28-c-1 img,
+#ra-28-i-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+}
+
+#ra-28-i-1 img{
+    object-position: -3px top!important;
+}
+
+
+/* p2, line 4 */
+
+#ra-28-h-1,
+#ra-28-f-1{
+    min-height: calc(var(--baseline-note)*12);
+}
+
+#ra-28-h-1 img,
+#ra-28-f-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+    width: 100%!important;
+}
+
+#ra-28-h-1 img{
+    /* object-position: -9px top!important; */
+}
+
+/* p2, line 5 */
+
+#ra-28-e-1,
+#ra-28-k-1{
+    min-height: calc(var(--baseline-note)*12);
+}
+
+#ra-28-e-1 img,
+#ra-28-k-1 img{
+    height: calc(var(--baseline-note)*12 - 5px)!important;
+}
+
+#ra-28-k-1 img{
+    object-position: -6px top!important;
+}
+
+
+
+
+
+/* p3, line 1 */
+
+#ra-34-l-3,
+#ra-34-i-3{
+    min-height: calc(var(--baseline-note)*10);
+}
+#ra-34-l-3 img,
+#ra-34-i-3 img {
+    width: 100%!important;
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+
+/* p3, line 2*/
+
+#ra-34-m-3,
+#ra-34-k-3{
+    min-height: calc(var(--baseline-note)*10);
+}
+
+#ra-34-m-3 img,
+#ra-34-k-3 img {
+    width: 100%!important;
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+/* p3, line 3 */
+
+#ra-34-h-3,
+#ra-34-j-3{
+    min-height: calc(var(--baseline-note)*10);
+}
+
+#ra-34-h-3 img,
+#ra-34-j-3 img {
+    width: 100%!important;
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+
+/* p3, line 4 */
+
+#ra-51-bis-1,
+#ra-34-d-1 {
+    min-height: calc(var(--baseline-note)*10);
+}
+#ra-51-bis-1 img,
+#ra-34-d-1 img{
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+
+/* p3, line 5 */
+
+#ra-34-f-1,
+#ra-116-ra-95-1{
+    min-height: calc(var(--baseline-note)*10);
+}
+ 
+#ra-34-f-1 img,
+#ra-116-ra-95-1 img{
+    height: calc(var(--baseline-note)*10 - 5px)!important;
+}
+
+
+
+/* p3, line 6 */
+
+#ra-35-1{
+    min-height: calc(var(--baseline-note)*14);
+}
+#ra-35-1 img{
+    height: calc(var(--baseline-note)*14 - 5px)!important;
+    object-position: -9px top!important;
+}
+
+
+#ra-36-ra-37-1{
+    min-height: calc(var(--baseline-note)*6);
+}
+#ra-36-ra-37-1 img{
+    height: calc(var(--baseline-note)*6 - 5px)!important;
+}
+
+
+#ra-30-1{
+    min-height: calc(var(--baseline-note)*8)
+}
+#ra-30-1 img{
+    height: calc(var(--baseline-note)*8 - 5px)!important;
+    object-position: -16px top!important;
+}
+
+
+
+/* décor architectural */
+
+#id-2000-411-1-1, 
+#ra-25-1{
+    min-height: calc(var(--baseline-note)*7);
+}
+
+#id-2000-411-1-1 img, 
+#ra-25-1 img{
+    height: calc(var(--baseline-note)*7 - 5px)!important;
+    object-position: center top!important;
+}
+
+
+
+#ra-23-a-1 {
+    min-height: calc(var(--baseline-note)*26);
+}
+#ra-23-a-1 img{
+    height: calc(var(--baseline-note)*26 - 5px)!important;
+    object-position: center top!important;
+}
+
+#ra-23-b-1{
+    min-height: calc(var(--baseline-note)*13);
+}
+#ra-23-b-1 img{
+    height: calc(var(--baseline-note)*13 - 5px)!important;
+    object-position: center top!important;
+}
+
+#ra-23-f-1{
+    min-height: calc(var(--baseline-note)*7);
+}
+#ra-23-f-1 img{
+    height: calc(var(--baseline-note)*7 - 5px)!important;
+    object-position: center -13px!important
+}
+
+#id-2000-180-1-1{
+    min-height: calc(var(--baseline-note)*6);
+}
+#id-2000-180-1-1 img{
+    height: calc(var(--baseline-note)*6 - 5px)!important;
+}
+
+
+
+
+
+#ra-23-h-1{
+    min-height: calc(var(--baseline-note)*22);
+}
+#ra-23-h-1 img{
+    height: calc(var(--baseline-note)*22 - 5px)!important;
+    object-position: center top!important;
+}
+
+#id-2000-173-5-1{
+    min-height: calc(var(--baseline-note)*6);
+}
+#id-2000-173-5-1 img{
+    height: calc(var(--baseline-note)*6 - 5px)!important;
+    object-position: center top!important;
+}
+
+#ra-23-d-1{
+    min-height: calc(var(--baseline-note)*17);
+}
+#ra-23-d-1 img{
+    height: calc(var(--baseline-note)*17 - 5px)!important;
+    object-position: center top!important;
+}
+
+#id-2000-179-3-1{
+    min-height: calc(var(--baseline-note)*11);
+}
+#id-2000-179-3-1 img{
+    height: calc(var(--baseline-note)*11 - 5px)!important;
+    object-position: center top!important;
+}
+
+
+
+
+
+
+#ra-23-c-1{
+    min-height: calc(var(--baseline-note)*15);
+}
+#ra-23-c-1 img{
+    height: calc(var(--baseline-note)*15 - 5px)!important;
+    object-position: center top!important;
+}
+
+
+
+#id-2000-175-1-1-1{
+    min-height: calc(var(--baseline-note)*6);
+}
+#id-2000-175-1-1-1 img{
+    height: calc(var(--baseline-note)*6 - 5px)!important;
+    object-position: center top!important;
+}
+
+
+#id-2000-176-1-1,
+#id-2000-176-2-1,
+#id-2000-176-3-1,
+#id-2000-176-4-1{
+    min-height: calc(var(--baseline-note)*7);
+}
+#id-2000-176-1-1 img,
+#id-2000-176-2-1 img,
+#id-2000-176-3-1 img,
+#id-2000-176-4-1 img{
+   height: calc(var(--baseline-note)*7 - 5px)!important;
+    object-position: center top!important;
+}
+
+

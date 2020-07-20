@@ -1,0 +1,161 @@
+/* half-title ----------------------------------------------- */
+
+#half-title h1 {
+    font-size: var(--font-size);
+    line-height: var(--baseline-text);
+    font-weight: 400;
+    color: var(--color);
+}
+
+#half-title, #title-page, #toc, #a-propos { color: var(--color); }
+
+
+
+/* copyright ----------------------------------------------- */
+
+#copyright {
+    padding-top: 4px;
+    position: absolute;
+    bottom: 3px;
+}
+
+#copyright img{ 
+    width: 20mm; 
+    position: absolute;
+    bottom: 4px;
+    right: 150px;
+}
+
+#copyright p{
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+}
+
+#copyright .group-copyright{
+    margin-top: var(--baseline-note);
+}
+
+#copyright a { 
+    font-weight: 500;
+    color: var(--color); 
+}
+
+
+
+/* title-page ----------------------------------------------- */
+
+#title-page h1{
+    font-family: var(--font-title);
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: calc(var(--baseline-text)*3);
+    position: relative;
+    top: -1px;
+}
+
+#title-page h1 em{
+    position: relative;
+    left: 0px;
+    padding-right: 2px;
+}
+
+.line1, .line2 {
+    display: block;
+    font-size: 24px;
+    padding-left: 0px;
+    line-height: 24px;
+}
+
+
+
+.line3 {
+    display: block;
+    font-size: 106px;
+    line-height: calc(var(--baseline-text)*5);
+    position: relative;
+    left: -75px;
+    top: 10px;
+    letter-spacing: 0.5px;
+}
+
+#publisher{
+    width: 400px;
+    position: absolute;
+    bottom: 2px;
+}
+
+#publisher .musee{
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: calc(var(--baseline-text)*1.5);
+    text-transform: uppercase;
+}
+
+#publisher .year { margin-top: 18px; }
+
+
+
+/* frontmatter h1 ----------------------------------------------- */
+
+#a-propos h1, #toc h1 {
+    font-size: var(--font-size);
+    line-height: var(--baseline-text);
+    font-weight: 400;
+    margin-bottom: calc(var(--baseline-text)*8);
+    color: var(--color);
+}
+
+
+
+/* a-propos ----------------------------------------------- */
+
+#a-propos p { 
+    text-indent: var(--alinea); 
+    color: var(--color)!important;
+}
+#a-propos h1 + p { text-indent: 0; }
+#a-propos .signature { margin-top: var(--baseline-text); }
+
+
+
+
+
+/* table of content ----------------------------------------------- */
+
+#toc li { margin-bottom: calc(var(--baseline-text)*1) ; }
+
+#toc .toc-parties li,
+#toc .toc-parties {
+    margin-bottom: calc(var(--baseline-text)*2);
+}
+
+#toc ul{
+    padding-top: 19px;
+}
+
+#toc .toc-parties .titre { 
+    display: block;
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: calc(var(--baseline-text)*1);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    position: relative;
+    top: -4px;
+}
+
+#toc .assets { margin-top: -1px; }
+#toc .assets:last-of-type { margin-top: -18px; }
+
+#toc li a::after{
+    content: target-counter(attr(href), page);
+    float: right;
+    font-family: var(--font-title);
+    font-size: 20px;
+    position: relative;
+}
+
+#toc .toc-part a::after{ top: -24px;}
+#toc .assets a::after { top: -3px; }

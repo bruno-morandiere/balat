@@ -1,0 +1,63 @@
+---
+layout: microtypo
+---
+<!DOCTYPE html>
+{% include head.html %}
+<body id="home">
+
+    <header id="header-catalogue">
+        <hgroup>
+            <h1>{{ site.title }}</h1>
+            <h2>{{ site.producteur }}</h2>
+            <h3>{{ site.producteur_complement }}</h3>
+        </hgroup>
+            <p class="collection">{{ site.collection_catalogues }}</p>
+
+        <figure><img src="/images/balat_02.jpg"> </figure>
+
+        <div class="icon-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="icon-arrows">
+                <span></span>
+            </div>
+        </div>
+
+    </header>
+	<main id="page-content">
+	
+	
+	<section id="toc-home">
+       
+        {% for contenus in site.contenus %}{% if contenus.type == "partie"  %}
+        	 <section id="toc-home-partie-1" class="toc-home-partie">
+           	 <a href="{{ contenus.slug }}">
+                <div id="link-part-1" class="link-part">
+                    
+                        <h1>{{ contenus.title }}</h1>
+                        <h2>{{ contenus.sous_titre }}</h2>
+                   
+                </div>
+                <figure class="fig-part" id="fig-part1-1">
+                    <img src="images/{{ contenus.image_principale_partie }}"  alt="">
+                </figure>
+                
+            </a>
+        	</section>
+		 {% endif %}{% endfor %}
+   
+    </section>
+    
+		<section id="main-content">
+			<div class="content">
+				<div id="apropos-texte">
+					{{ content }}
+				</div>
+				
+			</div>
+		</section>
+		
+		 
+</main>
+{% include footer.html %}

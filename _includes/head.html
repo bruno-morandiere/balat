@@ -1,0 +1,73 @@
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://gmpg.org/xfn/11" rel="profile">
+		<meta name="generator" content="Jekyll https://jekyllrb.com/">
+		<meta name="description" content="{{ site.description }}" />
+		<meta name="keywords" content="{{ site.keywords }}" />
+		<!-- DC -->
+		<link rel="schema.dc" href="https://purl.org/dc/elements/1.1/">
+		<meta property="DC.creator" content="{{ site.author.name }}" />
+		<meta property="DC.publisher" content="{{ site.producteur }}, {{ site.producteur_complement }}" />
+		<meta property="DC.language" content="fr" />
+		<meta property="DC.title" content="{% if page.layout == "home" %}{{ site.title_complet }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}" />
+		<meta property="DC.description" content="{{ site.description }}" />
+		<meta property="DC.rights" content="{{ site.licence }}" />
+		<meta property="DC.date" content="{{ site.date }}" />
+		{% if page.layout == "home" %}<meta property="DC.type" content="book" />{% else %}<meta property="DC.type" content="bookSection" />{% endif %}
+		<!-- OG -->
+		<meta property="og:title" content="{% if page.layout == "home" %}{{ site.title_complet }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}"/>
+		<meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+		<meta property="og:description" content="{{ site.description }}"/>
+		<meta property="og:site_name" content="{{ site.title }}"/>
+		{% if page.layout == "home" %}<meta property="og:type" content="book"/>{% else %}<meta property="og:type" content="bookSection" />{% endif %}
+		{% if page.layout == impression %}<meta property="og:isbn" content="{{ site.isbn_papier }}"/>{% else %}<meta property="og:isbn" content="{{ site.isbn_numerique }}"/>{% endif %}
+		<meta property="og:image" content="{{ site.url }}/images/couverture.jpg" />
+		<!--  https://schema.org/Article -->
+		<meta property="description" itemprop="description" content="{{ site.description }}">
+		<meta property="article:published" itemprop="datePublished" content="{{ site.date }}">
+		<meta property="article:created" itemprop="dateCreated" content="{{ site.date }}">
+		<meta property="article:author" content="{{ site.author.name }}">
+		{% if page.layout == impression %}<meta name="citation_isbn" content="{{ site.isbn_papier }}">{% else %}<meta name="citation_isbn" content="{{ site.isbn_numerique }}">{% endif %}
+		<!-- schema citation -->
+		<meta name="citation_publisher" content="{{ site.publisher }}, {{ site.producteur_complement }}" />
+		<meta name="citation_authors" content="{{ site.author.name }}" />
+		<meta name="citation_book_title" content="{{ site.title_complet }}" />
+		{% if page.layout == "home" %}{% else %}<meta name="citation_title" content="{{ page.title }}" />{% endif %}
+		<meta name="citation_publication_date" content="{{ site.date }}" />
+		<meta name="citation_online_date" content="{{ site.date }}" />
+		<meta name="citation_isbn" content="{{ site.isbn_numerique }}" />
+		<!--  Twitter Card -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:domain" content="{{ site.url }}" />
+		<meta name="twitter:creator" content="{{ site.author.twitter }}"/>
+		<meta name="twitter:site" content="{{ site.author.twitter }}" />
+		<meta name="twitter:title" content="{% if page.layout == "home" %}{{ site.title_complet }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}" />
+		<meta name="twitter:description" content="{{ site.description }}">
+		<meta name="twitter:url" content="{{ site.url }}/{{ page.url }}"/>
+		<meta name="twitter:image" content="{{ site.url }}/images/couverture.jpg" />
+		<title>{% if page.layout == "home" %}{{ site.title_complet }}{% else %}{{ page.title }} – {{ site.title }}{% endif %}</title>
+		<link rel="stylesheet" href="/assets/style.css">
+		<link rel="stylesheet" href="/assets/fonts/bellaza/stylesheet.css">
+		<link rel="stylesheet" href="/assets/fonts/lato/stylesheet.css">
+		<link rel="stylesheet" href="/assets/fonts/crimson-text/stylesheet.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<script src="/assets/js/jquery-1.12.1.min.js"></script>
+		<script src="/assets/js/heartcode-canvasloader-min.js"></script>
+		<script src="/assets/js/threesixty.js"></script>
+		<script type="text/javascript"  src="/assets/js/jquery.panzoom.js"></script>
+		<script type="text/javascript" src="/assets/js/common.js"></script>
+		<script type="text/javascript" src="/assets/js/plan-villa.js"></script>
+		<script type="text/javascript" src="/assets/js/citation.js"></script>
+		<script type="text/javascript" src="/assets/js/links-specials.js"></script>
+		
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+		<!-- Import Leaflet -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+		<link rel="stylesheet" href="/assets/fonts/orkney/stylesheet.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+	</head>

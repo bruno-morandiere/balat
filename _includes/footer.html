@@ -1,0 +1,34 @@
+<footer id="footer">
+  <div id="description">
+    <h1>{{ site.title }}</h1>
+    <h2>{{ site.producteur }} <br>{{ site.producteur_complement }}</h2>
+    <h3>{{ site.author.name }}</h3>
+    <h3 class="photographe">Photographies : {{ site.author.photograph }}</h3>
+  </div>
+  <div id="details">
+      <div id="notice">
+        <p id="citation-footer"><span class="caps">{{ site.author.name_id }}</span>{% if page.author %} et <span class="caps">{{ page.author_id }}</span>, {% else %}, {% endif %}<em>{{ site.title_complet }}</em>, {{ site.place }}, {{ site.date }}, en ligne &lt;{{ site.url }}&gt;.</p>
+        <p>ISBN&nbsp;: {{ site.isbn_numerique }}</p>
+        <p id="licence">{{ site.date }}, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a></p>
+      </div>
+
+    <div id="liens-footer">
+      <p><a href="/a-propos">À propos</a></p>
+      <p><a href="/mentions-legales">Mentions&nbsp;légales</a></p>
+      <p><a href="/contact">Contact</a></p>
+    </div>
+
+  </div>
+
+
+</footer>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141498933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141498933-1');
+</script>
+</body>
+</html>

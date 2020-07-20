@@ -1,0 +1,4 @@
+Sitemap : https://villachiragan.saintraymond.toulouse.fr/sitemap.xml
+User-agent: *
+Disallow: /impression/
+Disallow: /impression.html

@@ -1,0 +1,47 @@
+
+/* INTERFACE ------------------------------------------------------------------- */
+
+/* paged js interface and screen view css */
+@import "interface/interface.css";
+
+/* uncomment for recto/verso book : */
+/* @import "interface/recto-verso.css"; */
+
+/* uncomment to see the baseline : */
+/* @import "interface/baseline.css"; */
+
+
+
+/* GLOBAL ----------------------------------------------------------------------- */
+
+/* Style not specific to paged.js */
+@import "global/normalize.css";
+@import "global/clean.css";
+@import "global/var.css"; 
+@import "global/text.css"; 
+
+/* Specific to paged.js */
+@import "global/layout.css";
+
+
+/* PARTS ----------------------------------------------------------------------- */
+
+@import "parts/frontmatter.css";
+@import "parts/page-title-part.css";
+@import "parts/map.css";
+@import "parts/img-text.css";
+@import "parts/figures-notices.css";
+@import "parts/refs-biblio.css";
+@import "parts/grid-images.css";
+@import "parts/notices-list.css";
+@import "parts/colophon.css";
+
+
+
+/* 
+Book design on Chrome on Mac OSX 
+(baseline and line-height is not the same on other web browser and on other OS)
+*/
+
+
+

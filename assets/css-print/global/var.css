@@ -1,0 +1,20 @@
+/* VARIABLES -------------------------------- */
+
+
+body{
+    --baseline-doc: 12px;
+    font-family: "Orkney", helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14.5px;
+    --font-size: 14.5px;
+    line-height: 18px;
+    --baseline-text: 18px;
+    color: black;
+    --alinea: 6mm;
+    --font: "Orkney", helvetica, sans-serif;
+    --font-title: "Belleza", "optima";
+    --font-size-note: 9px;
+    --baseline-note: var(--baseline-doc);
+    --font-size-upp: 13px;
+    --color: #986157; /* 0%, 0%, 5%, 41% */
+}

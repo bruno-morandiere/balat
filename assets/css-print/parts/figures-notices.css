@@ -1,0 +1,153 @@
+/* NOTICES FIGURES --------------------------------------------------------------------------------- */
+
+
+/* full page */
+.notice figure{
+    width: calc(var(--pagedjs-pagebox-width) + var(--bleed));
+    height: calc(var(--pagedjs-pagebox-height) - var(--pagedjs-margin-bottom) + var(--bleed) - 8px);
+    position: relative;
+    top: calc( (var(--pagedjs-margin-top) + var(--bleed))*-1);
+    left: calc(var(--pagedjs-margin-left)*-1);
+    overflow: hidden;
+}
+
+.pagedjs_left_page .notice figure { 
+    left: calc((var(--pagedjs-margin-left) + var(--bleed))*-1)!important; 
+}
+
+.notice figure img{ 
+    position: relative; 
+}
+
+
+
+
+/* PARTIE 1 ---------------------------------------------------------------------------- */
+
+
+#figure-ra178 img {
+    width: 193%;
+    left: -315px;
+    top: 0;
+}
+
+#figure-178-grid {
+    grid-column: 1/9;
+    grid-row: 1/6;
+}
+
+
+#figure-178-grid img{
+    width: 127%;
+    top: 0;
+    left: -55px;
+}
+
+
+/* PARTIE 2 ---------------------------------------------------------------------------- */
+
+
+#figure-ra57 img {
+    width: 128%;
+    left: -75px;
+    top: 0px;
+}
+
+#figure-ra73a img {
+    width: 201%;
+    left: -330px;
+    top: -115px;
+}
+
+#figure-ra70 img {
+    width: 137%;
+    left: -127px;
+    top: -2px;
+}
+
+#figure-ra74 img {
+    width: 153%;
+    left: -270px;
+    top: -102px;
+}
+
+
+/* PARTIE 3 ---------------------------------------------------------------------------- */
+
+#figure-ra52 img {
+    width: 120%;
+    top: 0px;
+    left: -67px;
+}
+
+#figure-ra52-grid {
+    grid-column: 6/13;
+    grid-row: 6/11;
+}
+
+#figure-ra52-grid img {
+    width: 130%;
+    top: -60px;
+    left: -5px;
+}
+
+#figure-ra152 img {
+    width: 208%;
+    top: -73px;
+    left: -232px;
+}
+
+#figure-ra152-grid{
+    grid-column: 5/13;
+    grid-row: 1/6;
+}
+
+#figure-ra152-grid img {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#figure-ra134 img {
+    width: 103%;
+    top: -9px;
+    left: 0;
+}
+
+#figure-ra134-grid {
+    grid-column: 1/6;
+    grid-row: 4/10;
+}
+
+#figure-ra134-grid img{
+    width: 180%;
+    left: -92px;
+    top: -59px;
+}
+
+
+/* PARTIE 4 ---------------------------------------------------------------------------- */
+
+#figure-ra34b img{
+    width: 129%;
+    top: -46px;
+    left: 0px;
+}
+
+#figure-ra28j img {
+    width: 106%;
+    top: -86px;
+    left: -9px;
+}
+
+#figure-ra35 img {
+    width: 140%;
+    top: -4px;
+    left: -240px;
+}
+
+
+
+
+
+

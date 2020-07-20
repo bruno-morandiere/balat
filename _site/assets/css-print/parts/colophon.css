@@ -1,0 +1,26 @@
+
+/* COLOPHON / TEXT ---------------------------------------------------------- */
+
+
+#colophon h1 {
+    font-size: var(--font-size);
+    line-height: var(--baseline-text);
+    font-weight: 400;
+    margin-bottom: calc(var(--baseline-text)*8);
+}
+
+#colophon h1 + p{ padding-top: 4px; }
+
+#colophon p {
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    margin-bottom: var(--baseline-note);
+}
+
+
+#colophon p span{
+    display: block;
+    font-weight: 500;
+    color: var(--color);
+}
+

@@ -1,0 +1,23 @@
+// Mobile Breakpoints
+@mixin for-size($size) {
+	@if $size == phone {
+		@media screen and (max-width: 700px) { @content; }
+	} @else if $size == desktop {
+		@media screen and (min-width: 700px) { @content; }
+	} @else if $size == min-900 {
+		@media screen and (min-width: 900px) { @content; }
+	} @else if $size == max-900 {
+		@media screen and (max-width: 900px) { @content; }
+	} @else if $size == desktop-900 {
+		@media screen and (min-width: 900px) { @content; }
+	}@else if $size == min-pad {
+		@media screen and (min-width: 1026px) { @content; }
+	}@else if $size == max-pad{
+		@media screen and (max-width: 1026px) { @content; }
+	} 
+}
+
+@include for-size(phone) {}
+@include for-size(desktop) {}
+@include for-size(min-900) {}
+@include for-size(max-900) {}

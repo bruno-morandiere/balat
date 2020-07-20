@@ -1,0 +1,61 @@
+/* Page title for parts */
+
+.page-title-part{ 
+    break-before: right; 
+    page: pageTitle;
+    color: #fff;
+}
+
+@page pageTitle{
+    @bottom-left { color: var(--color)!important; }
+    @bottom-right { color: var(--color)!important; } 
+}
+
+.aplat-recto,
+.aplat-verso {
+    background-color: var(--color);
+    width: calc(var(--pagedjs-pagebox-width) + var(--bleed));
+    height: calc(var(--pagedjs-pagebox-height) - var(--pagedjs-margin-bottom) + var(--bleed) - 5px);
+}
+
+.aplat-recto {
+    position: absolute; 
+    top: calc((var(--pagedjs-margin-top) + var(--bleed))*-1);
+    left: calc(var(--pagedjs-margin-left)*-1);
+    z-index: 0;
+}
+
+.aplat-verso{
+    break-before: page;
+    position: absolute; 
+    top: calc((var(--pagedjs-margin-top) + var(--bleed))*-1);
+    left: calc((var(--pagedjs-margin-left) + var(--bleed))*-1);
+}
+
+.page-title-part .num-partie{
+    position: relative;
+    z-index: 100;
+}
+
+.page-title-part hgroup{
+    position: relative;
+    z-index: 100;
+    margin-top: calc(var(--baseline-text)*6 + 4px);
+}
+
+.page-title-part h1{
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 57px;
+    line-height: calc(var(--baseline-text)*3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.page-title-part h2{
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 40px;
+    padding-top: calc(var(--baseline-text)*1 - 4px);
+    line-height: calc(var(--baseline-text)*2);
+}

@@ -1,0 +1,1634 @@
+---
+layout: microtypo
+---
+
+<!DOCTYPE html>
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>test {{ page.title }}</title>
+
+  <meta name="description" content="Catalogue imprimé de la villa Chiragan" />
+  <meta name="DC.Date.created" scheme="W3CDTF" content="2019" />
+ 
+  <!-- <script src="{{ site.baseurl }}/assets/js-print/paged-0.1.35.polyfill.js"></script> -->
+
+  <!-- <script src="{{ site.baseurl }}/assets/js-print/clean.js"></script>
+  <script src="{{ site.baseurl }}/assets/js-print/citations.js"></script>
+  <script src="{{ site.baseurl }}/assets/js-print/movePages.js"></script>
+  <script>
+
+    let elemsPrev = ['#figure-ra152', '#figure-ra28j', '#figure-ra57',];
+    let elemsNext = ['#figure-ra52'];
+    let nextPageNumber = [];
+    
+
+    class handlers extends Paged.Handler {
+      constructor(chunker, polisher, caller) {
+        super(chunker, polisher, caller);
+      }
+  
+      beforeParsed(content){     
+        let parties = content.querySelectorAll(".partie");
+          clean(content);
+          citations(content);
+      }
+
+      afterPageLayout(pageElement, page, breakToken){
+        movePages(pageElement);
+      }
+  
+     
+    }
+    Paged.registerHandlers(handlers);
+  </script> -->
+  
+
+  <link href="{{ site.baseurl }}/assets/css-print/book.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/bellaza/stylesheet.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/orkney/stylesheet.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/lato/stylesheet.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/crimson-text/stylesheet.css">  
+
+</head>
+
+<body lang="fr">
+
+  
+    <section id="half-title">
+        <h1><span>Les sculptures <br></span>de&nbsp;la&nbsp;<em>villa</em> romaine <br>de&nbsp;Chiragan</h1>
+    </section>
+
+    <section id="copyright">
+
+        <div class="group-copyright">  
+           <p>
+            Le contenu du catalogue des sculptures de la <em>villa</em> de Chiragan est la propriété <br>de la mairie de Toulouse. 
+            L’ensemble de cet ouvrage est placé sous la licence <br>Creative Commons Attribution 4.0 international License.
+           </p>
+           <p>Fichiers sources&nbsp;: <a href="https://gitlab.com/musee-saint-raymond/villa-chiragan">https://gitlab.com/musee-saint-raymond/villa-chiragan</a></p>
+        </div>
+        <div class="group-copyright">
+          <p>Les logos de la mairie de Toulouse et du musée Saint-Raymond sont protégés par le droit
+          de la propriété intellectuelle. Ainsi, toute reproduction ou modification (totale ou partielle)
+          de ces éléments graphiques sans autorisation préalable et écrite est interdite.
+        </p>
+        </div>
+        <div class="group-copyright">
+          <p>Une version numérique est disponible en ligne&nbsp;: <a href="http://villachiragan.saintraymond.toulouse.fr/">http://villachiragan.saintraymond.toulouse.fr/</a></p>
+          <p>Elle donne accès à l’ensemble des notices et images en haute résolution des sculptures provenant de la villa de Chiragan exposées ainsi qu’à une sélection d’œuvres de comparaison. Les contenus sont également téléchargeables et réutilisables gratuitement au format PDF <br>pour la version imprimée du catalogue, CSV pour les métadonnées des œuvres <br>et JPG pour les images.
+          </p>
+        </div>
+        <div class="group-copyright">
+            <p>Première édition, 2019</p>
+            <p>ISBN&nbsp;: 978-2-909454-44-3</p>
+        </div>   
+
+        <img src="/images-print/CC-BY-SA.png">
+    
+      </section>
+
+      
+
+
+    
+
+  <!-- couverture -->
+  <section id="title-page">
+    <h1><span class="line1">Les sculptures </span><span class="line2">de&nbsp;la&nbsp;<em>villa</em> romaine de </span><span class="line3">Chiragan</span></h1>
+    <div id="publisher">
+      <p class="musee">{{ site.producteur }}</h2>
+      <p class="complement">{{ site.producteur_complement }}</p>
+      <p class="year">2019</p>
+  </div>
+  </section>
+
+
+
+  
+
+  <section id="a-propos">
+    <h1>À propos</h1>
+    <p>
+        Il revient aujourd’hui au musée Saint-Raymond, en&#160;tant que lieu de&#160;conservation de&#160;l’ensemble des sculptures en&#160;marbre de&#160;la&#160;villa romaine de&#160;Chiragan, de&#160;répondre aux interrogations d’un public toujours plus nombreux mais souvent dérouté <span class="print"><br></span>face à&#160;ces austères visages impériaux ou à&#160;ces dieux qui lui sont plus ou moins familiers. Deux démarches concomitantes <span class="print"><br></span>ont été entreprises à&#160;ce sujet par l’institution toulousaine depuis la&#160;restructuration globale du bâtiment et&#160;la modernisation <span class="print"><br></span>des espaces d’exposition à&#160;la fin du siècle dernier. <span class="print"><br></span>D’une part, Daniel Cazes, alors conservateur en&#160;chef et&#160;directeur de&#160;l’institution, accorda, en&#160;1999, une place importante <span class="print"><br></span>aux sculptures de&#160;la&#160;<em>villa</em> dans son ouvrage général du musée, destiné à&#160;une large audience. De l’autre, un travail d’ordre scientifique fut engagé par Jean-Charles Balty, dès 1995, <span class="print"><br></span>auquel se&#160;joignit Emmanuelle&nbsp;Rosso, à&#160;partir de&#160;2011. <span class="print"><br></span>La rigueur qui caractérise ces&#160;études, enrichie par l’abondance des images, permirent d’apporter un éclairage édifiant sur la&#160;série des portraits de&#160;Chiragan. Il s’agissait là&#160;d’un substantiel outil pour les&#160;chercheurs, étudiants et&#160;passionnés.
+    </p>
+    <p>
+        Livrer aujourd’hui une synthèse de&#160;ces différentes sources devenait fondamental. Elle s’appuie en&#160;grande partie, <span class="print"><br></span>sur les&#160;études précédemment citées auxquelles s’ajoutent les&#160;travaux d’universitaires et&#160;de chercheurs internationaux, régulièrement cités dans ce&#160;catalogue. La pertinence de&#160;leurs analyses a&#160;largement contribué, depuis une quarantaine d’années, au renouvellement de&#160;notre regard sur la&#160;sculpture romaine. La démarche est bien entendu enrichie du travail de&#160;recherche au sein même du musée et&#160;de la&#160;réalisation <span class="print"><br></span>d’une campagne photographique de&#160;l’ensemble des <span class="print"><br></span>sculptures exposées.
+    </p>
+    <p> 
+      Afin de&#160;faciliter l’accès à&#160;ces ressources et&#160;leur offrir l’opportunité de&#160;nourrir d’autres travaux d’étude ou d’être réexploitées dans des contextes et&#160;domaines divers, <span class="print"><br></span>les&#160;contenus sont publiés sous licence ouverte en&#160;conformité avec la&#160;politique d’<em>open data</em> de&#160;la&#160;Mairie de&#160;Toulouse. La chaîne d’édition inspirée de&#160;celle des publications du Getty Museum, <span class="print"><br></span>est constituée de&#160;modules indépendants et&#160;basée sur l’utilisation d’outils <em>open source</em> et&#160;collaboratifs à&#160;partir desquels <span class="print"><br></span>est par ailleurs générée la&#160;version imprimée. Cette réalisation innovante réinvente la&#160;forme traditionnelle du catalogue de&#160;collection muséale.
+    </p>
+    <p class="signature">
+        Christelle&nbsp;Molinié et&#160;Pascal&nbsp;Capus
+    </p>
+  </section>
+
+
+  <section id="toc">
+      <h1>Table des matières</h1>
+      {% for contenus in site.contenus %}
+      <ul class="toc-parties">
+        {% if contenus.type == "partie" and contenus.partie == 1 %}
+          <li>
+            <a href="#partie-01-title">
+              <span class="titre">{{ contenus.title }}</span>
+              <span class="sous-titre">{{ contenus.sous_titre }}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if contenus.type == "partie" and contenus.partie == 2 %}
+          <li>
+            <a href="#partie-02-title">
+              <span class="titre">{{ contenus.title }}</span>
+              <span class="sous-titre">{{ contenus.sous_titre }}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if contenus.type == "partie" and contenus.partie == 3 %}
+          <li>
+            <a href="#partie-03-title">
+              <span class="titre">{{ contenus.title }}</span>
+              <span class="sous-titre">{{ contenus.sous_titre }}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if contenus.type == "partie" and contenus.partie == 4 %}
+          <li>
+            <a href="#partie-04-title">
+              <span class="titre">{{ contenus.title }}</span>
+              <span class="sous-titre">{{ contenus.sous_titre }}</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+      {% endfor %}
+      <ul>
+        <li><a href="#notices-list-all">Liste des sculptures</a></li>
+        <li><a href="#colophon">Colophon</a></li>
+      </ul>
+    </section>
+
+
+  <section class="partie" id="partie-01">
+
+    <!-- PARTIE 1 / TEXTE  ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="page-titre" data-partie="01">
+      <div class="aplat-recto"></div>
+
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 1 %}
+      <p class="num-partie">Partie 1</p>
+      <hgroup id="partie-01-title">
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {% endif %}
+      {% endfor %}
+
+   
+      <div id="section-plan-legende">
+          <div class="aplat-verso"></div>
+          <div id="plan-legende">
+              <h1>Légende</h1>
+
+              <h2>Évolution de l'architecture de la villa <span>(d'après le plan de Léon Joulin)</span></h2>
+        
+              <ul id="legende-etats">
+                <li data-legende="etat-1" id="legend-etat-1">1<sup>er</sup> état&nbsp;: <span>Époque d'Auguste&nbsp;(?)</span></li>
+                <li data-legende="etat-2" id="legend-etat-2">2<sup>e</sup> état&nbsp;: <span>Fin I<sup>e</sup>&nbsp;– début&nbsp;II<sup>e</sup>&nbsp;siècle&nbsp;(?)</span></li>
+                <li data-legende="etat-3" id="legend-etat-3">3<sup>e</sup> état&nbsp;: <span>Deuxième moitié du II<sup>e</sup>&nbsp;siècle&nbsp;(?)</span></li>
+                <li data-legende="etat-4" id="legend-etat-4">4<sup>e</sup> état&nbsp;: <span>IIIe&nbsp;–&nbsp;IV<sup>e</sup>&nbsp;siècle&nbsp;(?)</span></li>
+              </ul>
+        
+              <h2>Lieux de la villa</h2>
+        
+              <ul id="legende-lieux">
+                <li id="legende-portique" data-legende="portique">Portique</li>
+                <li id="legende-grande-esplanade" data-legende="grande-esplanade">Grande esplanade avec fontaine</li>
+                <li id="legende-exercices-physiques" data-legende="exercices-physiques">«&nbsp;Cour-jardin&nbsp;» et salles de&nbsp;réception</li>
+                <li id="legende-appart-ete" data-legende="appart-ete">Appartements&nbsp;d'été&nbsp;(?)</li>
+                <li id="legende-peristyle" data-legende="peristyle">Péristyle&nbsp;(40&nbsp;m. de&nbsp;côté)</li>
+                <li id="legende-salle-monumentale" data-legende="salle-monumentale">Salle monumentale (25&nbsp;m. de&nbsp;longueur)</li>
+                <li id="legende-termal" data-legende="termal">Ensemble&nbsp;thermal</li>
+                <li id="legende-belvedere" data-legende="belvedere">Belvédère</li>
+                <li id="legende-locaux-artisanaux" data-legende="locaux-artisanaux">Locaux artisanaux et agricoles</li>
+                <li id="legende-temple" data-legende="temple">Temple&nbsp;(?)</li>
+              </ul>
+
+              <p id="legende-sculpture">
+                {% include icons/lieu-sculpture.svg %} 
+                Lieux de découverte des sculptures</p>
+          </div>
+        
+      </div>
+
+      <div id="plan-cut">
+        <img class="img" src="/images-print/plan-chiragan-print.jpg" />
+      </div>
+
+      <div id="section-plan">
+          <div class="aplat-recto"></div>
+          <div id="plan-figure">
+            <div id="plan-container">
+              <img class="img" src="/images-print/plan-chiragan-print.jpg" />
+            </div>
+          </div>
+      </div>
+
+      <div id="titre-p4">
+          <div class="aplat-verso"></div>
+      </div>
+
+    </section>
+
+
+    <section class="partie-texte" id="partie-01-texte" data-partie="01">
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 1 %}
+      <hgroup>
+        <p class="num-partie">Partie 1</p>
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {{ contenus.content }}
+      {% endif %}
+      {% endfor %}
+
+      <figure id="martres-tolosane">
+        <img src="images-print/Vue_de_Martres-Tolosane.JPG">
+        <p class="figcaption">Vue aérienne de Martres-Tolosane</p>
+      </figure> 
+
+    </section>
+
+
+    <!-- PARTIE 1 / NOTICES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <article class="notice" id="notice-ra178" data-part-notice="2">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 178" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      <figure id="figure-ra178"><img src="/images-print/ra-178.jpg"></figure>
+      {% endif %}
+      {% endfor %}
+    </article>
+
+    <div class="grid-img" id="grid-178">
+      <!-- <figure id="figure-178-grid" data-partie="03"><img src="/images-print/ra-178.jpg"></figure> -->
+    </div>
+
+    <aside class="refs-biblio" id="refs-biblio-01">
+      <ul></ul>
+    </aside>
+
+ 
+  
+
+</section>
+<!-- end partie 01-->
+
+
+
+  <section class="partie" id="partie-02">
+
+    <!-- PARTIE 2 / TEXTE ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="page-titre" data-partie="02">
+      <div class="aplat-recto"></div>
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 2 %}
+      <p class="num-partie">Partie 2</p>
+      <hgroup id="partie-02-title">
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {% endif %}
+      {% endfor %}
+      <div class="aplat-verso"></div>
+    </section>
+
+    <section class="partie-texte" id="partie-02-texte" data-partie="02">
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 2 %}
+      <hgroup>
+        <p class="num-partie">Partie 2</p>
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {{ contenus.content }}
+      {% endif %}
+      {% endfor %}
+    </section>
+
+
+    <!-- PARTIE 2 / NOTICES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <article class="notice" id="notice-ra57" data-part-notice="2">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 57" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      <p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra57"><img src="/images/ra-57-1-5000.jpg"></figure>
+    </article>
+
+    <article class="notice" id="notice-ra73a" data-part-notice="2">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 73 a" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra73a"><img src="/images/ra-73-a-1-5000.jpg"></figure>
+    </article>
+
+    <article class="notice" id="notice-ra70" data-part-notice="2">
+      <figure id="figure-ra70"><img src="/images/ra-70-1-5000.jpg"></figure>
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 70" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+
+    </article>
+
+    <article class="notice" id="notice-ra74" data-part-notice="2">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 74" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra74"><img src="/images/ra-74-1-5000.jpg"></figure>
+    </article>
+
+    <aside class="refs-biblio" id="refs-biblio-02">
+      <ul></ul>
+    </aside>
+
+
+    <!-- PARTIE 2 / GRILLE IMAGES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <!-- grid 2-01 -->
+
+    <div class="grid-img grid-img-right" id="grid-2-01-right">
+      <figure id="figure-166" data-partie="02"><img src="/images/ra-166-1-5000.jpg"></figure>
+      
+      <div class="caption">
+        {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 166" %}
+        <p class="num-notice">{{ contenus.id_inventaire }}</p>
+        <p class="title-notice">{{ contenus.title }}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+     
+    </div>
+
+    <!-- grid 2-02 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-02-left">
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 117" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-02-right">
+      <figure id="figure-117-5" data-partie="02"><img src="/images/ra-117-5-5000.jpg"></figure>
+      <figure id="figure-117-3" data-partie="02"><img src="/images/ra-117-3-5000.jpg"></figure>
+    </div>
+
+
+    <!-- grid 2-03 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-03-left">
+      <figure id="figure-73-b" data-partie="02"><img src="/images/ra-73-b-8-5000.jpg"></figure>
+      <div class="caption caption-reverse" id="caption-73-b">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 73 b" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 73 e" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-03-right">
+      <figure id="figure-73-e" data-partie="02"><img src="/images/ra-73-e-8-5000.jpg"></figure>
+    </div>
+
+
+
+    <!-- grid 2-04 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-04-left">
+      <figure id="figure-77" data-partie="02"><img src="/images/ra-77-7-5000.jpg"></figure>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-04-right">
+
+      <figure id="figure-124" data-partie="02"><img src="/images/ra-124-2-5000.jpg"></figure>
+
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 77" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 124" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+          
+    </div>
+
+
+
+  <!-- grid 2-05 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-05-left">
+        <div class="caption">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 61 b" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-05-right">
+      <figure id="figure-61-b" data-partie="02"><img src="/images/ra-61-b-8-5000.jpg"></figure>
+    </div>
+
+
+
+  <!-- grid 2-06 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-06-left">
+      <figure id="figure-61-a" data-partie="02"><img src="/images/ra-61-a-2-5000.jpg"></figure>
+      <div class="caption" id="caption-61-a">
+        {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 61 a" %}
+        <p class="num-notice">{{ contenus.id_inventaire }}</p>
+        <p class="title-notice">{{ contenus.title }}</p>
+        {% endif %}
+        {% endfor %}
+    </div>
+      <div class="caption reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 120 a" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="grid-img grid-img-right" id="grid-2-06-right">
+      <figure id="figure-120-a-1" data-partie="02"><img src="/images/ra-120-a-1-5000.jpg"></figure>
+    </div>
+
+    
+
+    <!-- grid 2-07 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-07-left">
+        <div class="caption">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 72" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-06-right">
+      <figure id="figure-72" data-partie="02"><img src="/images/ra-72-3-5000.jpg"></figure>
+    </div>
+
+
+
+
+
+     <!-- grid 2-08 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-08-left">
+      <figure id="figure-62" data-partie="02"><img src="/images/ra-62-1-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 62" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-08-right">
+        <figure id="figure-58-c" data-partie="02"><img src="/images/ra-119-ra-58-c-2-5000.jpg"></figure>
+        <div class="caption">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 119 - Ra 58 c" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <!-- grid 2-09 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-09-left">
+      <figure id="figure-165" data-partie="02"><img src="/images/ra-165-6-5000.jpg"></figure>
+          <div class="caption">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 165" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+          </div>
+          <div class="caption caption-reverse">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 121" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-09-right">
+      <figure id="figure-121" data-partie="02"><img src="/images/ra-121-8-5000.jpg"></figure>
+    </div>
+
+
+  <!-- grid 2-10 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-10-left">
+      <figure id="figure-59" data-partie="02"><img src="/images/ra-59-1-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 73 i" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-10-right">
+      <figure id="figure-73-i" data-partie="02"><img src="/images/ra-73-i-1-5000.jpg"></figure>
+        <div class="caption">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 59" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+
+  <!-- grid 2-11 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-11-left">
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 73 d" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+
+  <div class="grid-img grid-img-right" id="grid-2-11-right">
+    <figure id="figure-73-d" data-partie="02"><img src="/images/ra-73-d-1-5000.jpg"></figure>
+  </div>
+
+
+
+<!-- grid 2-12 -->
+
+  <div class="grid-img grid-img-left" id="grid-2-12-left">
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 123" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+  </div>
+
+  <div class="grid-img grid-img-right" id="grid-2-12-right">
+    <figure id="figure-123-7" data-partie="02"><img src="/images/ra-123-7-5000.jpg"></figure>
+    <figure id="figure-123-1" data-partie="02"><img src="/images/ra-123-1-5000.jpg"></figure>
+  </div>
+
+
+  <!-- grid 2-13 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-13-left">
+      <figure id="figure-69" data-partie="02"><img src="/images/ra-69-3-5000.jpg"></figure>
+          <div class="caption">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 69" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+          </div>
+          <div class="caption caption-reverse">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 167" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+          </div>
+    </div> 
+  
+    <div class="grid-img grid-img-right" id="grid-2-13-right">
+      <figure id="figure-167" data-partie="02"><img src="/images/ra-167-1-5000.jpg"></figure>
+    </div>
+
+   
+  <!-- grid 2-14 -->
+
+    <div class="grid-img grid-img-left" id="grid-2-14-left">
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 82" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-2-14-right">
+      <figure id="figure-82" data-partie="02"><img src="/images/ra-82-1-5000.jpg"></figure>
+    </div>
+
+
+  </section>
+  <!--partie 2 -->
+
+
+
+  <section class="partie" id="partie-03">
+
+    <!-- PARTIE 3 / TEXTE ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="page-titre" data-partie="03">
+      <div class="aplat-recto"></div>
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 3 %}
+      <p class="num-partie">Partie 3</p>
+      <hgroup id="partie-03-title">
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {% endif %}
+      {% endfor %}
+      <div class="aplat-verso"></div>
+    </section>
+
+    <section class="partie-texte" id="partie-03-texte" data-partie="03">
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 3 %}
+      <hgroup>
+        <p class="num-partie">Partie 3</p>
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {{ contenus.content }}
+      {% endif %}
+      {% endfor %}
+    </section>
+
+
+
+    <!-- PARTIE 3 / NOTICES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <article class="notice" id="notice-ra52" data-part-notice="3">
+      <figure id="figure-ra52"><img src="/images/ra-52-2-5000.jpg"></figure>
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 52" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </article>
+
+    <div class="grid-img">
+      <figure id="figure-ra52-grid"><img src="/images/ra-52-3-5000.jpg"></figure>
+    </div>
+
+
+
+    <article class="notice" id="notice-ra152" data-part-notice="3">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 152" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra152"><img src="/images/ra-152-1-5000.jpg"></figure>
+    </article>
+    <!-- 
+      <div class="grid-img">
+        <figure id="figure-ra152-grid"><img src="/images/ra-152-1-5000.jpg"></figure>
+      </div> -->
+
+    <article class="notice" id="notice-ra134" data-part-notice="3">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 134-Ra 137" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra134"><img src="/images/ra-134-ra-137-2-5000.jpg"></figure>
+    </article>
+
+    <!-- <div class="grid-img">
+      <figure id="figure-ra134-grid"><img src="/images/ra-134-ra-137-1-5000.jpg"></figure>
+    </div> -->
+
+    <aside class="refs-biblio" id="refs-biblio-03">
+      <ul></ul>
+    </aside>
+
+    <!-- PARTIE 3 / GRILLE IMAGES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+      <!-- grid 3-01 -->
+
+      <div class="grid-img grid-img-left" id="grid-3-01-left">
+          <div class="caption caption-reverse">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 54 bis" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+            </div>
+      </div>
+  
+    <div class="grid-img grid-img-right" id="grid-3-01-right">
+      <figure id="figure-54-bis-1" data-partie="03"><img src="/images/ra-54-bis-1-5000.jpg"></figure>
+      <figure id="figure-54-bis-8" data-partie="03"><img src="/images/ra-54-bis-8-5000.jpg"></figure>
+    </div>
+
+
+    <!-- grid 3-02 -->
+
+    <div class="grid-img grid-img-left" id="grid-3-02-left">
+      <figure id="figure-29" data-partie="03"><img src="/images/ra-29-1-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 29" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 40" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-02-right">
+      <figure id="figure-40" data-partie="03"><img src="/images/ra-40-1-5000.jpg"></figure>
+    </div>
+
+<!-- grid 3-03 -->
+
+    <div class="grid-img grid-img-left" id="grid-3-03-left">
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 113" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-03-right">
+      <figure id="figure-113" data-partie="03"><img src="/images/ra-113-1-5000.jpg"></figure>
+    </div>
+
+
+<!-- grid 3-04 -->
+
+    <div class="grid-img grid-img-left" id="grid-3-04-left">
+      <figure id="figure-115" data-partie="03"><img src="/images/ra-115-3-5000.jpg"></figure>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-04-right">
+      <figure id="figure-32" data-partie="03"><img src="/images/ra-32-1-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 32" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 115" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+
+    <!-- grid 3-05 -->
+
+    <div class="grid-img grid-img-left" id="grid-3-05-left">
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 46" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-05-right">
+      <figure id="figure-46" data-partie="03"><img src="/images/ra-46-2-5000.jpg"></figure>
+    </div>
+
+
+        <!-- grid 3-06 -->
+
+
+    <div class="grid-img grid-img-left" id="grid-3-06-left">
+        <figure id="figure-154-4" data-partie="03"><img src="/images/ra-154-4-5000.jpg"></figure>
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 154" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-06-right">
+      <figure id="figure-154-1" data-partie="03"><img src="/images/ra-154-1-5000.jpg"></figure>
+    </div>
+
+  <!-- grid 3-07 -->
+
+  <div class="grid-img grid-img-left" id="grid-3-07-left">
+    <figure id="figure-114-1" data-partie="03"><img src="/images/ra-151-ra-114-1-5000.jpg"></figure>
+  </div>
+
+
+  <div class="grid-img grid-img-right" id="grid-3-07-right">
+      <figure id="figure-114-7" data-partie="03"><img src="/images/ra-151-ra-114-7-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 151-Ra 114" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+
+<!-- grid 3-08 -->
+
+
+  <div class="grid-img grid-img-left" id="grid-3-08-left">
+    <p></p>
+    </div>
+
+    <div class="grid-img grid-img-right" id="grid-3-08-right">
+      <figure id="figure-41" data-partie="03"><img src="/images/ra-41-1-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 41" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+
+
+  </section>
+  <!--partie 3 -->
+
+
+
+  <section class="partie" id="partie-04">
+
+    <!-- PARTIE 4 / TEXTE ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="page-titre" data-partie="04">
+      <div class="aplat-recto"></div>
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 4 %}
+      <p class="num-partie">Partie 4</p>
+      <hgroup id="partie-04-title">
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {% endif %}
+      {% endfor %}
+      <div class="aplat-verso"></div>
+    </section>
+
+    <section class="partie-texte" id="partie-04-texte" data-partie="04">
+      {% for contenus in site.contenus %}
+      {% if contenus.type == "partie" and contenus.partie == 4 %}
+      <hgroup>
+        <p class="num-partie">Partie 4</p>
+        <h1>{{ contenus.title }}</h1>
+        <h2>{{ contenus.sous_titre }}</h2>
+      </hgroup>
+      {{ contenus.content }}
+      {% endif %}
+      {% endfor %}
+    </section>
+
+
+
+    <!-- PARTIE 4 / NOTICES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <article class="notice" id="notice-ra34b" data-part-notice="4">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 b" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra34b"><img src="/images/ra-34-b-1-5000.jpg"></figure>
+    </article>
+
+
+    <article class="notice" id="notice-ra28j" data-part-notice="4">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 28 j" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p>
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra28j"><img src="/images/ra-28-j-1-5000.jpg"></figure>
+    </article>
+
+    <article class="notice" id="notice-ra35" data-part-notice="4">
+      {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 35" %}
+      <p class="num-notice">{{ contenus.id_inventaire }}</p>
+      <h1>{{ contenus.title }}</h1>
+      {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+        {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+      </p>{% endif %}
+      <p class="date">{{ contenus.date_creation }}</p>
+      {% if contenus.type_oeuvre == null %}{% else %}<p class="type">{{ contenus.type_oeuvre }}</p>{% endif %}
+      <p class="materiaux">{{ contenus.materiau }}</p>
+      <!-- <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+        {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+        {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+        {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+        {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+        {{ contenus.epaisseur }}{% endif %} (cm)</p> -->
+      <div class="notice-content">
+        {{ contenus.content }}
+      </div>
+      {% endif %}
+      {% endfor %}
+      <figure id="figure-ra35"><img src="/images/ra-35-1-5000.jpg"></figure>
+    </article>
+
+
+    <aside class="refs-biblio" id="refs-biblio-04">
+      <ul></ul>
+    </aside>
+
+
+    <!-- PARTIE 4 / GRILLE IMAGES ------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+  
+    <!-- grid 4-01 -->
+
+    <div class="grid-img grid-img-right" id="grid-4-01-right">
+        <figure id="figure-23-f" data-partie="04"><img src="/images/ra-23-f-1-5000.jpg"></figure>
+        <div class="caption">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 23 f" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+      </div>
+  
+      <!-- grid 4-02 -->
+
+
+      <div class="grid-img grid-img-left" id="grid-4-02-left">
+      <figure id="figure-38" data-partie="04"><img src="/images/ra-38-2-8-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 38 (2)" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  
+    <div class="grid-img grid-img-right" id="grid-4-02-right">
+      <figure id="figure-127" data-partie="04"><img src="/images/ra-127-2-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 127" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+
+      <!-- grid 4-03 -->
+
+  
+      <div class="grid-img grid-img-left" id="grid-4-03-left">
+          <div class="caption caption-reverse">
+              {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 28 l" %}
+              <p class="num-notice">{{ contenus.id_inventaire }}</p>
+              <p class="title-notice">{{ contenus.title }}</p>
+              {% endif %}
+              {% endfor %}
+            </div>
+        </div>
+      
+        <div class="grid-img grid-img-right" id="grid-4-03-right">
+          <figure id="figure-28-l" data-partie="04"><img src="/images/ra-28-l-1-5000.jpg"></figure>
+        </div>
+
+        <!-- grid 4-04 -->
+
+
+ <div class="grid-img grid-img-left" id="grid-4-04-left">
+    <figure id="figure-28-b" data-partie="04"><img src="/images/ra-28-b-1-5000.jpg"></figure>
+  </div>
+
+  <div class="grid-img grid-img-right" id="grid-4-04-right">
+    <figure id="figure-28-i" data-partie="04"><img src="/images/ra-28-i-1-5000.jpg"></figure>
+    <div class="caption caption">
+        {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 28 i" %}
+        <p class="num-notice">{{ contenus.id_inventaire }}</p>
+        <p class="title-notice">{{ contenus.title }}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 28 b" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+  </div>
+
+  <!-- grid 4-05 -->
+  
+  <div class="grid-img grid-img-left" id="grid-4-05-left">
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 d" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  
+    <div class="grid-img grid-img-right" id="grid-4-05-right">
+      <figure id="figure-34-d" data-partie="04"><img src="/images/ra-34-d-1-5000.jpg"></figure>
+    </div>
+
+ <!-- grid 4-06 -->
+  
+ <div class="grid-img grid-img-left" id="grid-4-06-left">
+    <div class="caption caption-reverse">
+        {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 23 b" %}
+        <p class="num-notice">{{ contenus.id_inventaire }}</p>
+        <p class="title-notice">{{ contenus.title }}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+
+  <div class="grid-img grid-img-right" id="grid-4-06-right">
+    <figure id="figure-23-b" data-partie="04"><img src="/images/ra-23-b-1-5000.jpg"></figure>
+  </div>
+
+
+    <!-- grid 4-07 -->
+  
+    <div class="grid-img grid-img-left" id="grid-4-07-left">
+      <figure id="figure-34-m" data-partie="04"><img src="/images/ra-34-m-4-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 m" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="caption caption-reverse">
+            {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 28 h" %}
+            <p class="num-notice">{{ contenus.id_inventaire }}</p>
+            <p class="title-notice">{{ contenus.title }}</p>
+            {% endif %}
+            {% endfor %}
+          </div>
+    </div>
+
+  
+    <div class="grid-img grid-img-right" id="grid-4-07-right">
+      <figure id="figure-28-h" data-partie="04"><img src="/images/ra-28-h-1-5000.jpg"></figure>
+    </div>
+
+ <!-- grid 5-08 -->
+
+  
+ <div class="grid-img grid-img-left" id="grid-4-08-left">
+      <figure id="figure-34-j" data-partie="04"><img src="/images/ra-34-j-3-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 j" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  
+    <div class="grid-img grid-img-right" id="grid-4-08-right">
+      <figure id="figure-34-l" data-partie="04"><img src="/images/ra-34-l-2-5000.jpg"></figure>
+      <div class="caption">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 l" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+
+
+
+    <!-- grid 5-09 -->
+  
+    <div class="grid-img grid-img-left" id="grid-4-09-left">
+        <!-- <figure id="figure-34f-grid" data-partie="04"><img src="/images/ra-34-f-1-5000.jpg"></figure> -->
+    </div>
+  
+    <div class="grid-img grid-img-right" id="grid-4-09-right">
+      <figure id="figure-23-c" data-partie="04"><img src="/images/ra-34-i-3-5000.jpg"></figure>
+      <div class="caption caption-reverse">
+          {% for contenus in site.contenus %}{% if contenus.type == "notice" and contenus.id_inventaire == "Ra 34 i" %}
+          <p class="num-notice">{{ contenus.id_inventaire }}</p>
+          <p class="title-notice">{{ contenus.title }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
+    </div>
+  
+
+
+  </section>
+  <!--partie 4 -->
+
+
+<!-- NOTICES LIST ------------------------------------------------------------------------------------------------------------------------------------------- -->
+<section id="notices-list-all">
+
+    <section class="notices-list" data-partie="02">
+      <h1><span>Partie 2</span> Les portraits</h1>
+     {% assign notices_classees = site.contenus | sort: 'order' %}
+     <p class="sous-group" id="notices-list-02-01">Époque Julio-Claudienne</p>
+       {% for contenus in notices_classees %}{% if contenus.type == "notice" and contenus.partie == 2 and contenus.sous_groupe == 1 %}
+       <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+         <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+         <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+         <h1>{{ contenus.title }}</h1>
+         {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+           {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+         </p>{% endif %}
+         <p class="date">{{ contenus.date_creation }}</p>
+         {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+         <p class="materiaux">{{ contenus.materiau }}</p>
+         <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+           {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+           {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+           {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+           {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+           {{ contenus.epaisseur }}{% endif %} (cm)</p>
+       </article>
+       {% endif %}
+       {% endfor %}
+  
+     {% assign notices_classees = site.contenus | sort: 'order' %}
+     <p class="num-partie">Partie 2</p>
+     <p class="sous-group">Époque Antonine</p>
+       {% for contenus in notices_classees %}{% if contenus.type == "notice" and contenus.partie == 2 and contenus.sous_groupe == 2 %}
+       <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+         <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+         <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+         <h1>{{ contenus.title }}</h1>
+         {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+           {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+         </p>{% endif %}
+         <p class="date">{{ contenus.date_creation }}</p>
+         {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+         <p class="materiaux">{{ contenus.materiau }}</p>
+         <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+           {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+           {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+           {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+           {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+           {{ contenus.epaisseur }}{% endif %} (cm)</p>
+       </article>
+       {% endif %}
+       {% endfor %}
+  
+     {% assign notices_classees = site.contenus | sort: 'order' %}
+     <p class="num-partie">Partie 2</p>
+     <p class="sous-group">Époque Sévérienne</p>
+       {% for contenus in notices_classees %}{% if contenus.type == "notice" and contenus.partie == 2 and contenus.sous_groupe == 3 %}
+       <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+         <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+         <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+         <h1>{{ contenus.title }}</h1>
+         {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+           {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+         </p>{% endif %}
+         <p class="date">{{ contenus.date_creation }}</p>
+         {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+         <p class="materiaux">{{ contenus.materiau }}</p>
+         <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+           {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+           {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+           {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+           {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+           {{ contenus.epaisseur }}{% endif %} (cm)</p>
+       </article>
+       {% endif %}
+       {% endfor %}
+  
+     {% assign notices_classees = site.contenus | sort: 'order' %}
+     <p class="num-partie">Partie 2</p>
+     <p class="sous-group" id="notices-list-02-04">L'anarchie militaire</p>
+       {% for contenus in notices_classees %}{% if contenus.type == "notice" and contenus.partie == 2 and contenus.sous_groupe == 4 %}
+       <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+         <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+         <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+         <h1>{{ contenus.title }}</h1>
+         {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+           {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+         </p>{% endif %}
+         <p class="date">{{ contenus.date_creation }}</p>
+         {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+         <p class="materiaux">{{ contenus.materiau }}</p>
+         <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+           {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+           {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+           {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+           {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+           {{ contenus.epaisseur }}{% endif %} (cm)</p>
+       </article>
+       {% endif %}
+       {% endfor %}
+
+     {% assign notices_classees = site.contenus | sort: 'order' %}
+     <p class="sous-group"  id="notices-list-02-05">Un portrait d’époque théodosienne</p>
+       {% for contenus in notices_classees %}{% if contenus.type == "notice" and contenus.partie == 2 and contenus.sous_groupe == 5 %}
+       <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+         <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+         <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+         <h1>{{ contenus.title }}</h1>
+         {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+           {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+         </p>{% endif %}
+         <p class="date">{{ contenus.date_creation }}</p>
+         {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+         <p class="materiaux">{{ contenus.materiau }}</p>
+         <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+           {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+           {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+           {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+           {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+           {{ contenus.epaisseur }}{% endif %} (cm)</p>
+       </article>
+       {% endif %}
+       {% endfor %}
+   </section>  
+  
+   <section class="notices-list" data-partie="03">
+    <h1><span>Partie 3</span> L'art grec revisité</h1>
+       {% assign notices_classeesPart3 = site.contenus | sort: 'order' %}
+           {% for contenus in notices_classeesPart3 %}{% if contenus.type == "notice" and contenus.partie == 3 %}
+         <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}">
+           <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+           <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+           <h1>{{ contenus.title }}</h1>
+           {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+             {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+           </p>{% endif %}
+           <p class="date">{{ contenus.date_creation }}</p>
+           {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+           <p class="materiaux">{{ contenus.materiau }}</p>
+           <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+             {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+             {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+             {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+             {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+             {{ contenus.epaisseur }}{% endif %} (cm)</p>
+         </article>
+         {% endif %}
+         {% endfor %}
+     </section> 
+
+   <section class="notices-list" data-partie="04">
+    <h1><span>Partie 4</span> L'antiquité tardive</h1>
+    <div id="notices-list-04-01">
+       {% assign notices_classeesPart4 = site.contenus | sort: 'order' %}
+       <p class="num-partie">Partie 4</p>
+       <p class="sous-group">Portraits dynastiques de l’époque tétrarchique</p>
+         {% for contenus in notices_classeesPart4 %}{% if contenus.type == "notice" and contenus.partie == 4 and contenus.sous_groupe == 1 %}
+         <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}" id="{{ contenus.image_principale }}">
+           <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+           <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+           <h1>{{ contenus.title }}</h1>
+           {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+             {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+           </p>{% endif %}
+           <p class="date">{{ contenus.date_creation }}</p>
+           {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+           <p class="materiaux">{{ contenus.materiau }}</p>
+           <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+             {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+             {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+             {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+             {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+             {{ contenus.epaisseur }}{% endif %} (cm)</p>
+         </article>
+         {% endif %}
+         {% endfor %}
+        </div>
+        <div id="notices-list-04-03">
+       {% assign notices_classeesPart4 = site.contenus | sort: 'order' %}
+       <p class="num-partie">Partie 4</p>
+       <p class="sous-group">Le décor figuré</p>
+         {% for contenus in notices_classeesPart4 %}{% if contenus.type == "notice" and contenus.partie == 4 and contenus.sous_groupe == 3 %}
+         <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}" id="{{ contenus.image_principale }}">
+           <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+           <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+           <h1>{{ contenus.title }}</h1>
+           {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+             {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+           </p>{% endif %}
+           <p class="date">{{ contenus.date_creation }}</p>
+           {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+           <p class="materiaux">{{ contenus.materiau }}</p>
+           <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+             {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+             {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+             {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+             {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+             {{ contenus.epaisseur }}{% endif %} (cm)</p>
+         </article>
+         {% endif %}
+         {% endfor %}
+        </div>  
+        <div id="notices-list-04-06">
+       {% assign notices_classeesPart4 = site.contenus | sort: 'order' %}
+       <p class="num-partie">Partie 4</p>
+       <p class="sous-group">Le décor architectural</p>
+         {% for contenus in notices_classeesPart4 %}{% if contenus.type == "notice" and contenus.partie == 4 and contenus.sous_groupe == 6 %}
+         <article class="notice-item" data-num-inventaire="{{ contenus.id_inventaire }}" id="{{ contenus.image_principale }}">
+           <figure><img src="/images-print/list-gray/{{ contenus.image_principale }}.jpg" alt="{{ contenus.title }}"></figure>
+           <p class="id-inventaire">{{ contenus.id_inventaire }}</p>
+           <h1>{{ contenus.title }}</h1>
+           {% if contenus.donnees_biographiques1 == null %}{% else %}<p class="bio">
+             {{ contenus.donnees_biographiques1 }}{% if contenus.donnees_biographiques2 == null %}{% else %}<br>{{ contenus.donnees_biographiques2 }}{% endif %}
+           </p>{% endif %}
+           <p class="date">{{ contenus.date_creation }}</p>
+           {% if contenus.type_oeuvre == null %}{% else %}<p class="type">Type {{ contenus.type_oeuvre }}</p>{% endif %}
+           <p class="materiaux">{{ contenus.materiau }}</p>
+           <p class="dimensions">{% if contenus.hauteur == null %}{% else %}H.
+             {{ contenus.hauteur }}{% endif %}{% if contenus.longueur == null %}{% else %} x Lo.
+             {{ contenus.longueur }}{% endif %}{% if contenus.largeur == null %}{% else %} x La.
+             {{ contenus.largeur }}{% endif %}{% if contenus.profondeur == null %}{% else %} x P.
+             {{ contenus.profondeur }}{% endif %}{% if contenus.epaisseur == null %}{% else %} x É.
+             {{ contenus.epaisseur }}{% endif %} (cm)</p>
+         </article>
+         {% endif %}
+         {% endfor %}
+         </div>
+  
+     </section> 
+  
+   </section>
+
+
+
+
+ <section id="colophon">
+    <h1>Colophon</h1>
+
+    <p>
+        <span>Directrice de la publication</span> Laure Barthet, <br>conservateur du Patrimoine, <br>directrice du musée Saint-Raymond
+    </p>
+    <p>
+        <span>Coordination éditoriale</span> Christelle Molinié, <br>responsable des ressources documentaires
+    </p>
+    <p>
+        <span>Auteurs des textes</span> Pascal Capus, responsable des collections <br>de sculptures romaines et numismatiques. <br>
+        Texte d'introduction de la partie 3 écrit en collaboration <br>avec Chloé Damay, doctorante en archéologie. <br>
+        Les notices relatives aux portraits ont été rédigées <br>à partir des travaux de Jean-Charles Balty, <br>Daniel Cazes et Emmanuelle Rosso.
+    </p>
+    <p>
+        <span>Développement du système de publication</span> Antoine Fauchié
+    </p>
+    <p>
+      <span>Conception graphique</span> Julie Blanc
+    </p>
+    <p>
+        <span>Photographies</span> Daniel Martin
+    </p>
+    <p>
+        <span>Infographie du plan de la villa Chiragan</span> Pierre Pisani (Service archéologique de Toulouse Métropole) <br>et Emanuelle Guillemot
+    </p>
+    <p>
+      <span>Typographies</span> Orkney par Hanken Design Co.<br> Bellaza par Eduardo Tunni
+    </p>
+    <p>
+      <span>Impression</span> Ménard Imprimerie, Labège (France)
+    </p>
+   
+  </section>
+
+
+  <section id="citation">
+      <p>Citer cet ouvrage:</p>
+      <p>Capus P., <em>Les sculptures de la villa romaine de Chiragan</em>, <br>Toulouse, 2019. ISBN&nbsp;: 978-2-909454-44-3.</p>
+  </section>
+
+
+
+
+
+</body>

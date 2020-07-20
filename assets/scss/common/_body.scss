@@ -1,0 +1,126 @@
+body{
+    color: $text-color;
+    font-size: $p-font-size-desktop;
+    line-height: $p-line-height-desktop;
+    max-width: 100vw;
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    font-smooth: never;
+    -moz-font-smooth: never;    
+}
+
+.fixed-position{
+    height: 100vh!important;
+    overflow: hidden!important;
+}
+
+
+a:hover{ color: $beige-hover; }
+
+.caps{ text-transform: uppercase; }
+
+
+.external-link::after{
+    content: "";
+    background-image: url("/assets/icones/external-link-symbol.png");
+    background-repeat: none;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    opacity: 0.5; 
+}
+
+.external-link:hover{
+    color: $beige-hover;
+    &::after{ 
+        opacity: 0.3!important;
+    } 
+}
+
+
+.button-group{
+    @include flex();
+    @include flex-direction(column);
+    @include align-items(center);
+    margin-bottom:  $margin-notice-desktop;
+
+    button{
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid currentColor;
+      margin-bottom: $margin-notice-desktop*1/4;
+      background-color: $beige;
+      position: relative;
+      width: $margin-notice-desktop;
+      height: $margin-notice-desktop;
+      cursor: pointer;
+      &:hover{ background-color: white;}
+      &:disabled:hover{ background-color: $beige!important;}
+    }
+
+    svg, img{ 
+      width: 100%;
+      fill: $text-color;
+    }
+  }
+
+
+
+@media screen {
+    #main-partie, #content-notice {
+
+        #bibliographie, #citation{
+            color: $beige-fonce;
+            h1{
+                content: "Bibliographie";
+                color: $beige-fonce;
+                @include sserif-14-uppercase;
+                margin-top: $baseline*5;
+                margin-bottom: $baseline*2;
+            }
+            li, p{
+                @include sserif-18;
+                @media screen and (max-width: 700px){ @include sserif-14; }              
+                @media screen and (min-width: 700px){ @include sserif-18; }  
+                @media screen and (min-width: 900px){ @include sserif-14; }
+                @media screen and (min-width: 1025px){ @include sserif-18; }
+                div, span{ display: inline; }
+            }
+        }
+
+        .bibliography li{ 
+            padding-bottom: $baseline*1;
+            margin-bottom: 0!important;
+        }
+
+    }
+
+    #main-partie #citation{ 
+        margin-bottom: $baseline*8; 
+        p{ text-align: left!important; }
+    }
+
+    .relecture{
+        @include sserif-18();
+        color: $beige-hover;
+        border-top: 1px solid $beige-border;
+        border-bottom: 1px solid $beige-border;
+        padding: $baseline 0;
+        margin-top: $baseline*3;
+        &:hover{ color: $beige-fonce; }
+    }
+  
+     
+}
+
+
+  

@@ -1,0 +1,703 @@
+/* Radio button ------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- */
+
+#radio-plan-chiragan:checked ~ #plan-chiragan{ display: block; }
+@media screen and (min-width: 780px){ #radio-plan-chiragan:checked ~ #plan-chiragan{ @include flex(); }  }
+#radio-plan-chiragan:checked ~ #map-chiragan{ display: none; }
+#radio-map-chiragan:checked ~ #map-chiragan{ display: block; }
+#radio-map-chiragan:checked ~ #plan-chiragan{ display: none; }
+
+
+
+#toggle-chirigan {
+    margin-bottom: $baseline*1.5;
+    label{
+        border-radius: 3px; 
+        height: $baseline*4;
+        color: $text-color-very-light;
+        border: 1px solid $text-color-very-light;
+        padding-top: 12px;
+        padding-right: 5px;   
+        &:first-of-type{ margin-right: 10px; }
+        p{ display: inline-flex; }
+        span{
+            @include sserif-14();
+            line-height: 22px;
+            @media screen and (min-width: 700px){ @include sserif-18(); } 
+            padding: 0px 5px;
+            padding-top: 2px;
+        }
+        svg{
+            height: $baseline*2;
+            width: $baseline*2 + 10px*2;
+            stroke-width: 3.5;
+            padding: 0px 10px;
+            .cls-1{ stroke: $text-color-very-light; }
+        }
+        &:hover{ 
+            color: $text-color;
+            border: 1px solid $text-color;
+            svg .cls-1{ stroke: $text-color; }  
+            opacity: 0.8;
+            cursor: pointer; 
+        }
+    }
+}
+
+
+#radio-plan-chiragan:checked ~ #toggle-chirigan #label-plan-chiragan,
+#radio-map-chiragan:checked ~ #toggle-chirigan #label-map-chiragan{
+    color: $text-color;
+    border: 1px solid $text-color;
+    svg .cls-1{ stroke: $text-color; }
+    &:hover{
+        color: $text-color!important;
+        border: 1px solid $text-color!important;
+        svg .cls-1{ stroke: $text-color!important; }
+        opacity: 1!important;
+    }
+}
+
+
+
+
+/* Section mesures globales ----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------- */
+
+#chiragan-villa{
+    @media screen and (max-width: 1000px){ width: calc(100% - #{$margin-phone*2}); }
+    @media screen and (min-width: 1000px){  width: calc(100% - #{$margin-desktop*2}); }
+    margin: $baseline*4 $margin-phone;
+    @media screen and (max-width: 800px){ margin-bottom: $baseline*6; }
+
+    @media screen and (min-width: 1500px){ 
+        width: 1400px; 
+        margin: $baseline*8 auto;
+    }
+
+    &:target{
+        padding-top: $height-section-navigation + $baseline*4;
+        margin-top: 0!important;
+    }
+  
+}
+
+#map-chiragan{ 
+    width: 100%; 
+    z-index: 0;
+}
+
+#openstreetmap-chiragan{
+    width: 100%;
+    
+    @media screen and (max-width: 860px){  height: 100vw; }
+    @media screen and (max-width: 700px){  height: 500px; }
+}
+
+
+
+
+/* hauteur plan max */
+
+@media screen and (min-width: 780px){
+    #plan-chiragan, #map-chiragan{
+        max-height: 70vh;
+        max-height: 400px;
+    }
+    #plan-svg, #openstreetmap-chiragan{ 
+        max-height: calc(70vh - 2px);
+        max-height: 400px - 2px;
+    }
+}
+
+
+@media screen and (min-width: 860px){
+
+    #plan-chiragan, #map-chiragan{
+        max-height: 80vh;
+        min-height: 500px;
+    }
+    #plan-svg, #openstreetmap-chiragan{ 
+        max-height: calc(80vh - 2px);
+        min-height: 500px - 2px;
+    }
+}
+
+
+/* largeur plan */
+
+#plan-svg{ width: 100%; }
+#plan-legende{ width: 100%; }
+
+@media screen and (min-width: 780px){
+    #plan-svg{ width: 450px; }
+    #plan-legende{ width: calc(100% - 450px); }
+}
+
+@media screen and (min-width: 860px){
+    #plan-svg{ width: 520px; }
+    #plan-legende{ width: calc(100% - 520px); }
+}
+
+
+@media screen and (min-width: 970px){
+    #plan-svg{ width: 560px; }
+    #plan-legende{ width: calc(100% - 560px); }
+}
+
+
+@media screen and (min-width: 1080px){
+    #plan-svg{ width: 650px; }
+    #plan-legende{ width: calc(100% - 650px); }
+}
+
+
+@media screen and (min-width: 1300px){
+    #plan-svg{ width: 800px; }
+    #plan-legende{ width: calc(100% - 800px); }
+}
+
+
+
+
+/* Plan chiragan structure -------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- */
+
+#download-plan{
+    position: absolute;
+    @media screen and (max-width: 800px){ 
+        bottom: -37px;
+    }
+    @media screen and (min-width: 800px){ 
+        top: -35px;
+    }
+    right: 5px;
+    @include sserif-14();
+    @media screen and (min-width: 1500px){ @include sserif-18(); }
+    color: $beige-fonce;
+    cursor: pointer!important;
+    z-index: 99;
+    svg, p { 
+        display: inline-block;
+        vertical-align: top;
+        cursor: pointer;
+     }
+    svg{
+        fill: $beige-fonce;
+        width: 16px;
+        height: 16px;
+    }
+    p{
+        padding-left: 8px;
+    }
+    &:hover{
+        color: $beige-hover;
+        svg { fill: $beige-hover; }
+    }
+}
+
+#plan-chiragan .button-group{
+    position: absolute;
+    left: $margin-phone;
+    top: $margin-phone;
+    z-index: 10;
+    @media screen and (min-width: 780px){
+        left: $margin-desktop/2;
+        top: $margin-desktop/2;
+    }
+}
+
+#plan-chiragan, #map-chiragan{
+    width: 100%;
+    position: relative;
+    background-color: $beige;
+    border: 1px solid $beige-border;
+    // overflow: hidden;
+}
+
+#plan-svg, #plan-legende{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+#plan-legende{ 
+    padding: $margin-desktop/2; 
+}
+
+
+#plan-svg{ 
+    background-color: white;
+    border-right: 1px solid $beige-border;
+    overflow: hidden;
+}
+
+#plan-svg-panzoom{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    svg{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+/* Plan chiragan legende ---------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- */
+
+
+/* toggle phone*/
+
+@media screen and (max-width: 780px){ 
+
+    #legende-phone-toggle ~ #plan-legende{ max-height: 0px; }
+    #legende-phone-toggle:checked ~ #plan-legende{ max-height: 1500px; }
+
+    #legende-phone-toggle + label::after{
+        @include sserif-14();
+        @media screen and (min-width: 500px){ @include sserif-18(); }
+        text-align: center;
+        display: block;
+        width: 100%;
+        padding-top: $baseline*2;
+        color: $text-color-very-light;
+        border-top: 1px solid $beige-border;
+    }
+    
+    #legende-phone-toggle + label::after{ content: "Afficher la légende"; }
+    
+    #legende-phone-toggle:checked + label::after{ 
+        content: "Fermer la légende"; 
+        border-bottom: 1px solid $beige-border;
+        padding-bottom: $baseline*2;
+        margin-bottom: $baseline*2;
+    }
+
+}
+
+
+@media screen and (min-width: 780px){ 
+    #legende-phone-toggle + label{ display: none; } 
+}
+
+/* légende contenu */
+
+#plan-legende{
+    padding: 0 $margin-desktop/2;
+    overflow-y: hidden;
+    @media screen and (min-width: 1000px){ overflow-y: scroll; }
+    transition: max-height 1s;
+    ul{
+        padding-bottom: $baseline*2.5;
+    }
+    li {  
+        cursor: pointer; 
+        padding: $baseline/4 0;
+        @media screen and (min-width: 500px) and (max-width: 780px){ padding: $baseline/2 0; }
+        @media screen and (min-width: 1200px){ padding: $baseline/2 0; }
+    }
+    li, p{ 
+        @include sserif-14(); 
+        @media screen and (min-width: 500px) and (max-width: 780px){ @include sserif-18(); }
+        @media screen and (min-width: 1200px){ @include sserif-18(); }
+    }
+    p{ margin-bottom: $baseline*4; }
+    h1{
+        @include sserif-14-uppercase(); 
+        color: $text-color-very-light;
+        padding-top: $baseline*3;
+        @media screen and (max-width: 780px){ display: none; }
+    }
+    h2{ 
+        @include sserif-14-uppercase(); 
+        @media screen and (min-width: 500px) and (max-width: 780px){ @include sserif-18-uppercase(); }
+        @media screen and (min-width: 1200px){ @include sserif-18-uppercase(); }
+        margin-bottom: $baseline;
+        &:first-of-type{ padding-top: $baseline;}
+        @media screen and (min-width: 780px){ 
+            margin-bottom: $baseline*2; 
+            &:first-of-type{ padding-top: $baseline*3;}
+        }
+        span{ 
+            @include sserif-14();
+            @media screen and (min-width: 500px) and (min-width: 780px){ @include sserif-18(); }
+            @media screen and (min-width: 1200px){ @include sserif-18(); }
+            display: block;
+        }
+    }
+
+}
+
+
+
+
+#legende-etats li::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+    background-color: black;
+     margin-right: 10px;
+}
+
+
+#legende-lieux li::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+     margin-right: 10px;
+}
+
+#legende-etats li{ opacity: 0.2; } /* inactive */
+#legende-etats .legend-active{ opacity: 1; }
+#legende-etats li:hover{ font-weight: bold; }
+
+#legende-lieux .legend-select{ font-weight: bold; }
+#legende-lieux .legend-hover{ font-weight: bold;  }
+#legende-lieux li:hover{ font-weight: bold;  }
+
+#legende-sculpture svg{ 
+    width: 15px;
+    height: 15px;
+    border: solid 1px black;
+}
+
+
+
+
+/* PLAN villa fonctionnement -----------------------------------------------------------
+---------------------------------------------------------------------------------------- */
+
+.etat-inactive{ opacity: 0.2; }
+
+#plan-svg #points-big path { display: none; }
+
+#plan-svg #points_1_ path { cursor: pointer!important; }
+
+
+[data-legende="portique"]::before{ background-color: #cd1719!important; }
+[data-legende="grande-esplanade"]::before{ background-color: #009fe3!important; }
+[data-legende="exercices-physiques"]::before{ background-color: #3fa535!important; }
+[data-legende="appart-ete"]::before{ background-color: #e6007e!important; }
+[data-legende="peristyle"]::before{ background-color: #712d13!important; }
+[data-legende="salle-monumentale"]::before{ background-color: #ffed00!important; }
+[data-legende="termal"]::before{ background-color: #1d1d1b!important; }
+[data-legende="belvedere"]::before{ background-color: #283583!important; }
+[data-legende="locaux-artisanaux"]::before{ background-color: #674c9a!important; }
+[data-legende="temple"]::before{ background-color: #e6361f!important; }
+
+[data-legende="etat-1"]::before{ background-color: #e30613!important; }
+[data-legende="etat-2"]::before{ background-color: #283583!important; }
+[data-legende="etat-3"]::before{ background-color: #5b351b!important; }
+[data-legende="etat-4"]::before{ background-color: #165f35!important; }
+
+
+
+#plan-svg svg{
+
+    .st0 {
+        fill: #6FB4E4;
+    }
+
+    .st1 {
+        fill: #FFFFFF;
+    }
+
+    .st2 {
+        opacity: 0.48;
+    }
+
+    .st3 {
+        fill: #6EB4E4;
+    }
+
+    .st4 {
+        fill: none;
+        stroke: #6EB4E4;
+        stroke-width: 2.017;
+        stroke-miterlimit: 10;
+    }
+
+    .st5 {
+        fill: #4F8BC9;
+    }
+
+    .st6 {
+        opacity: 0.6;
+    }
+
+    .st7 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 8.068;
+    }
+
+    .st8 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.202;
+    }
+
+    .st9 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.303;
+    }
+
+    .st10 {
+        fill: none;
+        stroke: #165F35;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st11 {
+        fill: none;
+        stroke: #5A351B;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st12 {
+        fill: none;
+        stroke: #5B351B;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st13 {
+        fill: #5A351B;
+    }
+
+    .st14 {
+        fill: #7B451E;
+    }
+
+    .st15 {
+        fill: none;
+        stroke: #283583;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st16 {
+        fill: none;
+        stroke: #E30613;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st17 {
+        fill: none;
+        stroke: #E52529;
+        stroke-width: 0.6;
+        stroke-miterlimit: 10;
+    }
+
+    .st18 {
+        clip-path: url(#SVGID_2_);
+    }
+
+    .st19 {
+        clip-path: url(#SVGID_2_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st20 {
+        clip-path: url(#SVGID_4_);
+    }
+
+    .st21 {
+        clip-path: url(#SVGID_4_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st22 {
+        clip-path: url(#SVGID_6_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st23 {
+        clip-path: url(#SVGID_6_);
+    }
+
+    .st24 {
+        clip-path: url(#SVGID_8_);
+    }
+
+    .st25 {
+        clip-path: url(#SVGID_8_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st26 {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.504;
+        stroke-miterlimit: 10;
+    }
+
+    .st27 {
+        clip-path: url(#SVGID_10_);
+    }
+
+    .st28 {
+        clip-path: url(#SVGID_10_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st29 {
+        clip-path: url(#SVGID_12_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st30 {
+        clip-path: url(#SVGID_14_);
+    }
+
+    .st31 {
+        clip-path: url(#SVGID_14_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st32 {
+        clip-path: url(#SVGID_16_);
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1.212;
+        stroke-linecap: round;
+    }
+
+    .st33 {
+        clip-path: url(#SVGID_16_);
+    }
+
+    .st34 {
+        opacity: 0.12;
+        fill: #FFED00;
+    }
+
+    .st35 {
+        opacity: 0.12;
+        fill: #CD1719;
+    }
+
+    .st36 {
+        opacity: 0.12;
+        fill: #009FE3;
+    }
+
+    .st37 {
+        opacity: 0.12;
+        fill: #712D13;
+    }
+
+    .st38 {
+        opacity: 0.12;
+    }
+
+    .st39 {
+        opacity: 0.12;
+        fill: #3FA535;
+    }
+
+    .st40 {
+        opacity: 0.12;
+        fill: #E6007E;
+    }
+
+    .st41 {
+        opacity: 0.12;
+        fill: #283583;
+    }
+
+    .st42 {
+        opacity: 0.12;
+        fill: #674C9A;
+    }
+
+    .st43 {
+        opacity: 0.12;
+        fill: #E6361F;
+    }
+
+    .st44 {
+        fill: #FFED00;
+    }
+
+    .st45 {
+        fill: #CD1719;
+    }
+
+    .st46 {
+        fill: #009FE3;
+    }
+
+    .st47 {
+        fill: #712D13;
+    }
+
+    .st48 {
+        fill: #3FA535;
+    }
+
+    .st49 {
+        fill: #E6007E;
+    }
+
+    .st50 {
+        fill: #283583;
+    }
+
+    .st51 {
+        fill: #674C9A;
+    }
+
+    .st52 {
+        fill: #E6361F;
+    }
+
+    .st53 {
+        clip-path: url(#SVGID_18_);
+    }
+
+    .st54 {
+        fill: #E30613;
+    }
+
+    .st55 {
+        fill: #5B351B;
+    }
+
+    .st56 {
+        fill: #165F35;
+    }
+}

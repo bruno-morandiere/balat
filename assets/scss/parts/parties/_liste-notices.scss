@@ -1,0 +1,185 @@
+
+@media screen{
+
+
+#liste-notices{
+    background-color: $beige;
+    margin-top: $height-section-navigation;
+    border-top: 1px solid $beige-border;
+    border-bottom: 1px solid $beige-border;
+    padding-top: $margin-desktop*2;
+    padding-bottom: $baseline*4;
+
+
+    .title-liste-notices{
+        text-align: center;
+        color: $beige-fonce;
+        margin-bottom: $baseline*6;
+
+        small{ 
+            display: block; 
+            margin-top: $baseline*1.5;
+
+        }
+    }
+
+    h2{
+        // @include sserif-18-uppercase();
+        color: $beige-fonce;
+        border-bottom: 1px solid $beige-border;
+        border-top: 1px solid $beige-border;
+        background-color: $beige-border;
+        padding: $baseline 0;
+        margin-top: $baseline*6;
+        margin-bottom: $baseline*3;
+        text-align: center;
+
+    }
+
+
+    .notice{
+        position: relative;
+        display: block;
+        width: 100%;
+        color: $text-color!important;
+
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: $text-color!important;
+            &:hover{ color: $text-color!important; }
+        }
+
+        .num-inventaire{ 
+            @include sserif-14();
+            font-weight: 500;
+            margin-top: $baseline/2;
+            margin-bottom: $baseline;
+        }
+
+        .num-inventaire::before{ content: "[ "; }
+        .num-inventaire::after{ content: " ]";}
+        .num-inventaire::before, .num-inventaire::after{
+            position: relative; 
+            top: -3px;
+            
+        }
+
+        ul{ display: none; }
+        
+        figure{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top center; 
+            }
+        }
+
+        button{ display: none; }
+
+        &:hover{
+            background-color: $beige-border;
+            img{ mix-blend-mode: luminosity; }
+        }
+    
+        
+    }
+    
+}
+
+}/* end media screen*/
+
+
+@include for-size(phone) {
+
+    #liste-notices{   
+
+        .title-liste-notices{
+            @include sserif-14-uppercase();
+            small{ @include bellaza-32();  }
+        }
+
+        h2{ @include sserif-14-uppercase(); }
+
+        .title-liste-notices, h2{
+            margin-left: $margin-phone;
+            margin-right: $margin-phone;
+        }
+
+        .notice{ 
+            a{ padding: $margin-phone/2; }
+            h1{ @include labeur-phone(); }
+            img{max-height: 62vh;}
+        }
+
+        .notice-group{
+            display: grid;
+            margin-left: $margin-phone/2;
+            margin-right: $margin-phone/2;
+            grid-template-columns: repeat(2, 50%);  
+            grid-row-gap: $baseline*1.5;
+        }
+
+    }
+
+}
+
+@include for-size(desktop) {
+    #liste-notices{   
+
+        .title-liste-notices{
+            @include sserif-18-uppercase();
+            small{ @include bellaza-48(); }
+        }
+
+        h2{ @include sserif-18-uppercase(); }
+
+        .title-liste-notices, h2{
+            margin-left: $margin-desktop;
+            margin-right: $margin-desktop;
+        }
+
+        .notice-group{ 
+            margin-left: $margin-desktop - 25px;
+            margin-right: $margin-desktop - 25px;
+            display: grid;
+            grid-template-columns: repeat(2, 50%); 
+
+            .notice{ 
+                a{ padding: $margin-desktop/2; }
+                h1{ @include labeur-dektop(); }
+                img{max-height: 56vh;}
+            }
+        }
+
+    }
+}
+
+
+
+@media screen and (min-width: 1000px){
+    #liste-notices .notice-group{ 
+        grid-template-columns: repeat(3, 33.3%);
+        .notice img{ max-height: 400px; } 
+    }
+}
+
+
+@media screen and (min-width: 1300px){
+    #liste-notices .notice-group{ 
+        grid-template-columns: repeat(4, 25%); 
+        .notice img{ max-height: 400px; } 
+    }
+}
+
+
+@media screen and (min-width: 1500px){
+    .liste-notices-contenu{
+        margin: 0 auto;
+        width: 1400px + 25px*2;
+    }
+    // #liste-notices .notice-group{ grid-template-columns: repeat(5, 20%); }
+}

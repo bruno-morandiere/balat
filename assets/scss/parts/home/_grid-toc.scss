@@ -1,0 +1,280 @@
+$grid-home-gap: $baseline*3; 
+
+
+    #home{ background-color: $beige; }
+
+    #toc-home {
+
+        margin: 0 auto;
+        margin-bottom: 40vh;
+        
+        .toc-home-partie{
+            overflow: hidden;
+            // border-top: 1px solid  $text-color;
+            border-bottom: 1px solid $text-color;
+            // padding-bottom: $baseline*3;
+
+            & > a{
+                @include flex();
+                @include flex-direction(row);
+                @include flex-wrap(nowrap);
+                width: 100%;
+                height: 100%;
+            }
+
+            figure{ 
+                overflow: hidden;
+                
+            }
+
+            figure img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            
+            .link-part{
+                
+                @include flex();
+                @include flex-direction(column);
+                justify-content: space-between; 
+                
+                h1{
+                    @include flex();
+                    @include flex-direction(column);
+                    justify-content: space-between;
+                    height: 100%;
+                    
+                    small{
+                        display: block;                                
+                        text-transform: capitalize;
+                        margin-bottom: $baseline;           
+                        text-align: left;
+                    }
+                }
+            }
+
+
+            &:hover{
+                background-color: $beige-border;
+                img{ mix-blend-mode: luminosity; }
+                a{ color: rgb(51, 51, 51);}
+            }
+        
+        }/* .toc-home-partie */
+
+
+    }
+
+
+
+
+
+@include for-size(phone) {
+
+    #toc-home{ 
+        width: 100%;
+        .toc-home-partie{
+            border: none; 
+            width: 100%;
+            background-color: $beige;
+            height: 180px;
+            border-bottom: 1px solid $beige-border;
+            &:first-of-type{ border-top: 1px solid $beige-border; }
+            .fig-part:nth-of-type(2){ display: none; }
+            .fig-part:nth-of-type(3){ display: none; } 
+        }
+
+        .link-part{ width: 75%; }
+
+        figure{ 
+            width: 25%; 
+            height: 100%;
+        }
+
+        h1{
+            @include bellaza-24();
+            padding: $margin-phone;
+            padding-bottom: 0;
+            text-transform: uppercase;
+            margin-bottom: $baseline;
+            small{
+                @include sserif-14();
+                line-height: 26px;  
+            }      
+        }
+
+        h2{ 
+            @include bellaza-18(); 
+            padding: $margin-phone;
+            padding-top: 0;
+        }
+
+    }
+
+}
+
+@include for-size(desktop) {
+
+    #toc-home{    
+        background-color: $beige;
+       
+        .toc-home-partie{
+            border-bottom: 1px solid $beige-border;
+            padding: $grid-home-gap $margin-desktop;
+            position: relative;
+            .fig-part:nth-of-type(2){ display: none; }
+            .fig-part:nth-of-type(3){ display: none; }
+
+            .link-part{ 
+                width: calc(100%*(3/5));
+                padding-top: $baseline*2;
+                padding-bottom: $baseline*2; 
+            }
+    
+            figure{ width: calc(100%*(2/5)); }
+    
+            h1{
+                @include bellaza();
+                font-size: 40px;
+                line-height: 40px;
+                text-transform: uppercase;
+                margin-bottom: $baseline;
+                small{
+                    display: block;
+                    @include sserif-18();
+                    line-height: 32px;  
+                }
+            }
+    
+            h2{ @include bellaza-24(); }
+
+            
+           
+    
+        }
+
+    
+    }
+
+}
+
+
+    
+
+@media screen and (min-width: 1000px){
+
+    #toc-home{ 
+        
+        max-width: 300px*4 + $baseline*3*4 + $margin-desktop*2;
+        margin: 0 auto;
+
+        .toc-home-partie{
+            .fig-part:nth-of-type(2){ display: block!important; }
+            .fig-part:nth-of-type(3){ display: none; }
+        }
+
+        .link-part{ width: calc(100%*(3/7)); }
+
+        figure{ width: calc(100%*(2/7)); }
+
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    
+    #toc-home .toc-home-partie{
+        .link-part{ margin-right: $grid-home-gap; } 
+    }
+
+    #toc-home .toc-home-partie:nth-of-type(2n){
+        .link-part{  margin-right: 0!important; }
+        figure:nth-of-type(1){ margin-right: $grid-home-gap; }
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+
+    #toc-home .toc-home-partie{
+
+        .link-part{  margin-right: $grid-home-gap;}
+        figure:nth-of-type(1){ margin-right: $grid-home-gap; } 
+
+    }
+
+    #toc-home .toc-home-partie:nth-of-type(2n){
+
+        .link-part{  margin-right: 0!important; }
+
+        figure:nth-of-type(1),  
+        figure:nth-of-type(2){ 
+            margin-right: $grid-home-gap;
+        }
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    #toc-home .toc-home-partie:nth-of-type(2n){
+        .link-part{ @include flex-order(3); }
+        figure:nth-of-type(1){ @include flex-order(1); }    
+        figure:nth-of-type(2){ @include flex-order(2); }
+        figure:nth-of-type(3){ @include flex-order(4); }
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1300px) {
+
+    #toc-home{ 
+        padding-top: $baseline*4; 
+        .toc-home-partie{
+            .fig-part:nth-of-type(2){ display: block; }
+            .fig-part:nth-of-type(3){ display: block; }
+        }
+
+        .link-part{ width: calc(100%*(3/9)); }
+
+        figure{ width: calc(100%*(2/9)); }
+
+    }
+
+    .toc-home-partie {
+        .link-part{ 
+            @include flex-order(2); 
+            margin-right: $grid-home-gap;
+        }
+        figure:nth-of-type(1){ 
+            @include flex-order(1); 
+            margin-right: $grid-home-gap;
+        }    
+        figure:nth-of-type(2){ 
+            @include flex-order(3); 
+            margin-right: $grid-home-gap;
+        }
+        figure:nth-of-type(3){ @include flex-order(4); }
+    }
+
+}
+
+    
+
+
+
+
+
+
+
+
+

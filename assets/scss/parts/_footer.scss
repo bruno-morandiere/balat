@@ -1,0 +1,106 @@
+
+#footer{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: $baseline*6 $margin-desktop;
+    padding-bottom: $baseline*8;
+
+    @media screen and (min-width: 780px){ display: flex; }
+
+    @media screen and (max-width: 700px){
+        padding: $baseline*4 $margin-phone;
+        padding-bottom: $baseline*8;
+    }
+
+
+    #description{
+        min-width: 280px!important;
+        margin-right: $margin-desktop;
+        margin-bottom: $baseline;
+        h1{
+            @include bellaza-24();
+            @media screen and (max-width: 700px){ @include bellaza-18(); }
+            text-transform: uppercase;
+            }
+            h2, h3{ 
+                @include sserif-18();
+                @media screen and (max-width: 700px){ @include sserif-14(); }
+        }
+            h2{ margin: $baseline 0 ; }
+    }
+
+    #details{
+        @include sserif-18();
+        @media screen and (max-width: 700px){ @include sserif-14(); }
+        padding-top: 2px;
+        a{ 
+            color: $beige-fonce; 
+            &:hover{ color: $beige-hover; }
+        }
+        @media screen and (min-width: 1100px){ 
+            display: flex; 
+            #liens-footer{ margin-left: $margin-desktop; }
+        }
+
+    }
+
+
+    #citation-footer, #licence{ margin-bottom: $baseline; }
+    #licence{ margin-top: $baseline; }
+
+    #citation-footer{ max-width: 480px; }
+
+    @media screen and (max-width: 700px){ 
+        #description, #licence{ margin-bottom: $baseline*2; }
+     }
+    
+}
+
+
+
+
+
+
+/* Pages de type notices */
+
+
+.body-notice #footer{
+    border-top: 1px solid $beige-border;
+    @media screen and (max-width: 1320px){ display: block; }
+
+    @media screen and (min-width: 900px){
+        margin-left: calc(50vw - #{$margin-notice-desktop}*2); 
+        #details{ display: block; }
+        #liens-footer{ margin-left: 0!important; }
+    }
+
+}
+
+
+
+/* Pages statiques */
+.page-statique #footer{
+    border-top: 1px solid $beige-border;
+}
+
+
+@media print{
+
+    #footer{
+        padding: 0;
+        padding-top: $baseline;
+        margin-top: $baseline*3;
+        #description, #liens-footer { display: none; }
+        #citation-footer{ max-width: 100%; }
+
+        p {
+            font-size: 12px!important;
+            line-height: 18px!important;
+        }
+
+        #citation-footer { margin-bottom: 6px; }
+        #licence { margin-top: 0px; }
+
+    }
+  
+}

@@ -1,0 +1,160 @@
+
+#nav-catalogue{
+  position: fixed;
+  top: 0px;
+  transition: left 0.5s;
+  height: 100vh;
+  overflow: scroll;
+  
+  background-color: $background-site;
+  z-index: 100;
+  padding: 0 $margin-desktop/2;
+
+  h1{ cursor: pointer; }
+
+  ul{
+    @include sserif-18()
+    margin-bottom: $baseline*5;
+  }
+
+  .li-nav-chapter{
+
+    cursor: pointer;
+
+    .title-partie{
+      
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      
+    }
+
+    a, span{ display: block; }
+    
+   
+    border-bottom: 1px solid $text-color-very-light;
+    padding: $baseline*2 0px;
+    &:first-of-type{ border-top: 1px solid $text-color-very-light; }
+    &:hover{
+      a{ color: currentColor;}
+      background-color: $beige;
+    }
+  }
+
+  .li-nav-aside{
+    cursor: pointer;
+    padding-bottom: $baseline*0.5;
+    font-weight: 400;
+  }
+
+  #link-bilio { padding-top: $baseline*2; }
+
+
+
+  .li-nav-sschap{
+    text-transform: initial;
+    padding: 10px $margin-desktop/2;
+    li{
+      padding-top: 10px;
+    }
+  }/* .li-nav-sschap */
+
+  .li-nav-detail{
+    padding-top: 15px;
+  }
+
+
+
+
+
+  label{
+    width: 100%;
+    height: $height-section-navigation;
+    @include flex;
+    @include align-items(center);
+    @include justify-content(flex-end);
+    cursor: pointer; 
+    svg{
+      width: 25px;
+      height: 25px;
+      fill: currentColor;
+      stroke-width: 3;
+    }
+    &:hover svg{ fill: $beige-hover; }
+  }
+
+
+}/* #nav-catalogue */
+
+#open-menu:checked ~ #nav-catalogue{
+  left: 0;
+}
+
+
+@include for-size(phone) {
+
+  #nav-catalogue{
+    position: fixed;
+    top: 0px;
+    left: -100vw;
+    width: 100vw;
+    border-bottom: 1px solid $text-color-very-light;
+    h1{
+      @include sserif-18();
+      font-weight: 500;
+      max-width: 250px;
+      margin-bottom: $baseline*0.5;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    h2{
+      @include sserif-14();
+      margin-bottom: $baseline*1.5;
+    }
+
+    .li-nav-chapter{
+      .title-partie{ 
+        @include sserif-14-uppercase(); 
+        padding-bottom: $baseline*0.5;
+      }
+      .subtitle-partie{ @include sserif-14(); }
+    }
+  }
+
+}
+
+
+@include for-size(desktop) {
+
+  #nav-catalogue{
+    position: fixed;
+    top: 0px;
+    left: -420px;
+    width: 400px;
+    box-shadow: $shadow;
+    border-right: 1px solid $text-color-very-light;
+
+    h1{
+      @include sserif-24();
+      font-weight: 500;
+      max-width: 300px;
+      margin-bottom: $baseline*0.5;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    h2{
+      @include sserif-18();
+      margin-bottom: $baseline*3;
+    }
+
+    .li-nav-chapter{
+      .title-partie{ 
+        @include sserif-18-uppercase(); 
+        padding-bottom: $baseline*0.5;
+      }
+      .subtitle-partie{ @include sserif-18(); }
+    }
+
+  }
+}

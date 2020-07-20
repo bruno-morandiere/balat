@@ -1,0 +1,150 @@
+---
+layout: microtypo
+---
+<!DOCTYPE html>
+{% assign images = page.images | split:","  %}
+{% include head.html %}
+<body class="body-notice">
+{% include header.html %}
+		<main id="main-notice">
+			<header>
+
+					<p class="partie-notice">
+						<a href="{{ site.url }}/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
+							
+							<span class="title-partie">{% if page.partie == 1 %}Les scellés{% endif %}{% if page.partie == 2 %}Les empreintes{% endif %}{% if page.partie == 3 %}L'art grec revisité{% endif %}{% if page.partie == 4 %}L'antiquité tardive{% endif %}</span>
+						</a>
+					</p>
+
+				<h1>{{ page.title }}</h1>
+
+			</header>
+			<div id="hack-phone"></div>
+			{% if page.partie == 2 %}
+			<section id="section-images" aria-label="Section contenant les images de la sculpture" data-nbr-img="{{images.size}}" data-current-img="1">
+				<input type="radio" id="radio-360viewer" name="action-notice" value="360viewer" hidden>
+				<input type="radio" id="radio-diapo" name="action-notice" value="diapo" hidden>
+				<input type="radio" id="radio-zoom" name="action-notice" hidden value="zoom">
+				<input type="radio" id="radio-grid" name="action-notice" hidden value="grid" checked>
+				<div id="all-buttons">
+					<div class="button-group" id="buttons-slider-choice">
+						<button id="button-viewer360" aria-label="Vue 360° (cliquer sur l'image et bouger)" onclick="display360('/images/{{ page.id_notice }}-',8)">{% include icons/360-degree.svg %}</button>
+						<button id="button-diapo" aria-label="Diaporama" onclick="displayDiapo('/images/{{ page.id_notice }}-',8)">{% include icons/slideshow.svg %}</button>
+					</div>
+
+					<div class="button-group" id="buttons-panzoom">
+						<button class="zoom-in" aria-label="Zoomer" onclick="toggleZoom()">{% include icons/plus.svg %}</button>
+						<button class="zoom-out" aria-label="Dézoomer">{% include icons/moins.svg %}</button>
+						<button class="reset" aria-label="Reset Zoom" onclick="resetRadio()">{% include icons/reset.svg %}</button>
+					</div>
+					<div class="button-group">
+						<a id="download-image" data-path="/images/{{ page.id_notice }}" href="/images/{{ page.id_notice }}.jpg" download><button id="button-download-all-images" aria-label="Télécharger l'image affichée">{% include icons/download.svg %}</button></a>
+					</div>
+				</div>
+				<div id="threesixty" class="parent images-id">
+						<div id="zoom-container" class="panzoom-parent">
+							<div id="spinner">
+									<span>0%</span>
+							</div>
+							<div id="all_images" class="panzoom"></div>
+						</div>
+						<nav id="diaporama_nav">
+							<ul></ul>
+							<button id="diapo-prev" onclick="diapoButton('prev')"><span>←</span></button>
+							<button id="diapo-next" onclick="diapoButton('next')"><span>→</span></button>
+						</nav>
+				</div>
+
+				<div id="images-grid">
+						{% if page.vues == 1 %}<figure id="only-one"><img src="/images/{{ page.id_notice }}.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 2 %}<figure id="figure-1"><img src="/images/{{ page.id_notice }}_1.jpg" alt="{{ page.title }}"></figure>
+						<figure id="figure-2"><img src="/images/{{ page.id_notice }}-2.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 3 %}<figure id="figure-3"><img src="/images/{{ page.id_notice }}_3.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 4 %}<figure id="figure-4"><img src="/images/{{ page.id_notice }}_4.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 5 %}<figure id="figure-5"><img src="/images/{{ page.id_notice }}_5.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 6 %}<figure id="figure-6"><img src="/images/{{ page.id_notice }}_6.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 7 %}<figure id="figure-7"><img src="/images/{{ page.id_notice }}_7.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						{% if page.vues >= 8 %}<figure id="figure-8"><img src="/images/{{ page.id_notice }}_8.jpg" alt="{{ page.title }}"></figure>{% endif %}
+				</div>
+			</section>
+			{% endif %}
+			<section class="content-notice">
+        <dl>
+          	{% if page.donnees_biographiques1 == null %}{% else %}<div><dt>Données biographiques</dt><dd>{{ page.donnees_biographiques1 }}{% if page.donnees_biographiques2 == null %}{% else %}<br>{{ page.donnees_biographiques2 }}{% endif %}</dd></div>{% endif %}
+			{% if page.date_creation == null %}{% else %}<div><dt>Date de création</dt><dd>{{ page.date_creation }}{% endif %}</dd></div>
+			{% if page.type_oeuvre == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_oeuvre }}</dd></div>{% endif %}
+         
+          	{% if page.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_sceau }}</dd></div>{% endif %}
+   
+         	{% if page.niveau == null %}{% else %}<div><dt>Niveau</dt><dd>{{ page.niveau }}</dd></div>{% endif %}
+
+          	{% if page.texte_sceau == null %}{% else %}<div><dt>Texte</dt><dd>{{ page.texte_sceau }}</dd></div>{% endif %}
+      		{% if page.traduction_sceau == null %}{% else %}<div><dt>Traduction</dt><dd>{{ page.traduction_sceau }}</dd></div>{% endif %}
+        	{% if page.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ page.motif }}</dd></div>{% endif %}
+     		{% if page.roi == null %}{% else %}<div><dt>Roi</dt><dd>{{ page.roi }}</dd></div>{% endif %}
+         	{% if page.dimensions_sceau == null %}{% else %}<div><dt>Dimensions</dt><dd>{{ page.dimensions_sceau }}</dd></div>{% endif %}
+			
+
+
+			{% if page.nature_empreinte == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_empreinte }}</dd></div>{% endif %}
+			{% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
+
+        	{% if page.remarque == null %}{% else %}<div><dt>Remarques</dt><dd>{{ page.remarque }}</dd></div>{% endif %}
+
+ 			{% if page.emp_SEC_nom_secteur == null %}{% else %}<div><dt>Localisation</dt><dd>{{ page.emp_SEC_nom_secteur }}</dd></div>{% endif %}
+ 			{% if page.emp_US_us_nom == null %}{% else %}<div><dt>US</dt><dd>{{ page.emp_US_us_nom }}</dd></div>{% endif %}
+
+
+	</dl>
+	<ul id="informations">
+				<li aria-label="Nombre d'images liées à la notice">{% if images.size == 1 %}1 image{% else %}{{images.size}} images{% endif %}</li>
+				<li aria-label="Pour citer cette notice"><a class="link-citer" href="#citation">Citer</a></li>
+		</ul>
+	</section>
+		<section class="content-notice">
+        <dl>
+        	{% for sceau in page.sceaux %}
+        	<h3><a href = "/partie-01-les-scelles/sceau{{ sceau.id_sceau }}">Sceau n°{{ sceau.id_sceau }}</h3></a>
+			  
+          	{% if sceau.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ sceau.type_sceau }}</dd></div>{% endif %}
+         	{% if sceau.niveau == null %}{% else %}<div><dt>Niveau</dt><dd>{{ sceau.niveau }}</dd></div>{% endif %}
+
+          	{% if sceau.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ sceau.motif }}</dd></div>{% endif %}
+     		{% if sceau.roi == null %}{% else %}<div><dt>Roi</dt><dd>{{ sceau.roi }}</dd></div>{% endif %}
+         	{% if sceau.dimensions_sceau == null %}{% else %}<div><dt>Dimensions</dt><dd>{{ sceau.dimensions_sceau }}</dd></div>{% endif %}
+			
+
+  			{% endfor %}
+
+
+
+			
+
+		</dl>
+		
+
+			{{ content }}	
+				
+				<div id="citation">
+					<h1>Pour citer cette notice</h1>
+					<p>{% if page.author %}<span class="caps">{{ page.author_id }}</span>{% else %}<span class="caps">{{ site.author.name_id }}</span>{% endif %}, "{{ page.title }}", dans <em>{{ site.title_complet }}</em>, {{ site.place }}, {{ site.date }}, en ligne &lt;{{ site.url }}/ark:/87276/{{ page.id_ark }}&gt;.</p>
+				</div>
+			</section>
+
+		</main>
+{% include footer.html %}
+
+<script src="/assets/js/notices.js"></script>
+<script>
+	window.onload = function(){
+		commmon();
+		imageComparaison();
+		citation();
+		//panzoomLoad(5);
+		var arr = [];
+		{% for image in images %}
+			arr.push("/images/{{ image }}");
+		{% endfor %}
+		noticesImages(arr);
+	}
+</script>

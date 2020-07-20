@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Belleza';
+    src: url('Belleza-Regular.eot');
+    src: url('Belleza-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Belleza-Regular.woff2') format('woff2'),
+        url('Belleza-Regular.woff') format('woff'),
+        url('Belleza-Regular.ttf') format('truetype'),
+        url('Belleza-Regular.svg#Belleza-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

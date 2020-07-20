@@ -1,0 +1,125 @@
+/* Map (page title of part 1) */
+
+
+#section-plan-legende, 
+#section-plan, 
+#titre-p4 { 
+    color: black;
+    break-before: page;
+}
+
+.content-titre { position: relative; }
+
+#plan-legende{
+    position: relative;
+    z-index: 99;
+    left: 260px;
+    top: 340px;
+}
+
+
+#plan-cut{
+    position: absolute;
+    top: calc(var(--pagedjs-margin-left) - var(--pagedjs-margin-top));
+    width: 340px;
+    right: calc(var(--pagedjs-margin-right)*-1);
+    height: calc(var(--pagedjs-pagebox-height) - var(--pagedjs-margin-bottom) - var(--pagedjs-margin-left)*2);
+    overflow: hidden;
+    background-color: white;
+}
+
+#plan-cut img{
+    height: 115%;
+    position: relative;
+    left: 106px;
+    top: -46px;
+}
+
+
+#plan-figure {
+    position: relative;
+    top: calc(var(--pagedjs-margin-top)*-1 + var(--pagedjs-margin-right));
+    left: calc(var(--pagedjs-margin-left)*-1);
+    width: calc(var(--pagedjs-pagebox-width) - var(--pagedjs-margin-right));
+    height: calc(var(--pagedjs-pagebox-height) - var(--pagedjs-margin-bottom) - var(--pagedjs-margin-right)*2);
+    overflow: hidden;
+    background-color: white;
+}
+
+#plan-figure #plan-container { 
+    width: 100%;
+    height: 100%;
+}
+
+#plan-figure #plan-container img { 
+    height: 115%;
+    position: relative;
+    left: -235px;
+    top: -46px;
+}
+
+
+#section-plan-legende h1 {
+    display: none;
+}
+
+#section-plan-legende h2{
+    font-family: var(--font);
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    text-transform: uppercase;
+    letter-spacing: 0.01px;
+    padding-bottom: var(--baseline-text);
+    padding-top: calc(var(--baseline-text)*2);
+}
+
+ 
+#section-plan-legende h2 span{
+    text-transform: initial;
+    display: block;
+} 
+
+#section-plan-legende li,
+#section-plan-legende p {
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+}
+
+#legende-lieux { counter-reset: counterLeg; }
+#legende-lieux li{ counter-increment: counterLeg; }
+
+#legende-lieux li::before { 
+    content: counter(counterLeg);
+    display: inline-block;
+    width: 8mm;
+    color: #000;
+}
+
+#legende-sculpture {
+    padding-top: var(--baseline-text);
+}
+
+#legende-sculpture svg {
+    width: 4mm;
+    margin-right: 4mm;
+    border: 1px solid #000;
+}
+
+
+#legende-etats li{
+    margin-left: 8mm;
+}
+#legende-etats li::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 4mm;
+    height: 5px;
+    left: 0;
+    margin-top: 5px;
+}
+
+#legend-etat-1::before { border-top: 2px solid #000; }
+#legend-etat-2::before { border-top: 2px dotted #000; }
+#legend-etat-3::before { border-top: 2px solid var(--color); }
+#legend-etat-4::before { border-top: 2px dotted var(--color); }

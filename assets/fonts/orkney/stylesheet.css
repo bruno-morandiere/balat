@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Light.eot ');
+    src: url('Orkney_Light.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Light.woff2') format('woff2'),
+        url('Orkney_Light.woff') format('woff'),
+        url('Orkney_Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Light_Italic.eot ');
+    src: url('Orkney_Light_Italic.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Light_Italic.woff2') format('woff2'),
+        url('Orkney_Light_Italic.woff') format('woff'),
+        url('Orkney_Light_Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Regular.eot ');
+    src: url('Orkney_Regular.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Regular.woff2') format('woff2'),
+        url('Orkney_Regular.woff') format('woff'),
+        url('Orkney_Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Regular_Italic.eot ');
+    src: url('Orkney_Regular_Italic.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Regular_Italic.woff2') format('woff2'),
+        url('Orkney_Regular_Italic.woff') format('woff'),
+        url('Orkney_Regular_Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Medium.eot ');
+    src: url('Orkney_Medium.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Medium.woff2') format('woff2'),
+        url('Orkney_Medium.woff') format('woff'),
+        url('Orkney_Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Medium_Italic.eot ');
+    src: url('Orkney_Medium_Italic.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Medium_Italic.woff2') format('woff2'),
+        url('Orkney_Medium_Italic.woff') format('woff'),
+        url('Orkney_Medium_Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Bold.eot ');
+    src: url('Orkney_Bold.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Bold.woff2') format('woff2'),
+        url('Orkney_Bold.woff') format('woff'),
+        url('Orkney_Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orkney';
+    src: url('Orkney_Bold_Italic.eot ');
+    src: url('Orkney_Bold_Italic.eot?#iefix') format('embedded-opentype'),
+        url('Orkney_Bold_Italic.woff2') format('woff2'),
+        url('Orkney_Bold_Italic.woff') format('woff'),
+        url('Orkney_Bold_Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

@@ -1,0 +1,91 @@
+/* REFS BIBLIO -------------------------------------------------------- */
+
+
+/* Calls and marks for notes */
+
+.ref-fn, .mark-fn {
+    font-weight: 500;
+    color: var(--color);
+}
+
+.ref-fn{
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+    line-height: 0;
+}
+
+.ref-fn-notice, .mark-fn-notice {
+    font-size: var(--font-size-note);
+    color: var(--color);
+}
+
+
+.mark-fn, .mark-fn-notice {
+    line-height: var(--baseline-note);
+    display: block;
+    position: absolute;
+    left: -2.5mm;
+}
+
+.mark-fn::after{ content: ". "; }
+
+
+/* Endnotes list */
+
+
+.refs-biblio ul{
+    columns: 2;
+    column-gap: 6mm;
+    column-fill: auto!important;
+    padding-top: 5px;
+}
+
+
+.refs-biblio ul[data-split-from]{ 
+    padding-top: 5px!important; 
+}
+
+[data-page-number="34"] .refs-biblio ul,
+[data-page-number="136"] .refs-biblio ul{
+    columns: 1;
+    width: 50%;
+    padding-right: 3mm;
+}
+
+#refs-biblio-02 ul{
+    columns: 1;
+    width: calc((100% - 6mm)/2);
+}
+
+.refs-biblio ul li{
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    padding-bottom: var(--baseline-note);
+    position: relative;
+    padding-left: 2.5mm;
+}
+
+
+.refs-biblio ul li a{ display: none;}
+
+
+#refs-biblio-01 li,
+#refs-biblio-03 li{
+    break-inside: avoid; 
+}
+
+#part1-fn64{ break-before: page; }
+
+
+#part3-fn16 { margin-top: -12px; }
+#part4-fn11{ margin-top: -12px; }
+
+.small-caps{
+    font-variant: small-caps;
+    font-weight: 500;
+    letter-spacing: 0.02px;
+}
+
+
+

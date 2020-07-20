@@ -1,0 +1,225 @@
+---
+layout: microtypo
+---
+<!DOCTYPE html>
+{% include head.html %}
+<body id="body-partie-{{ page.partie_numero }}">
+	{% include header.html %}
+	<main id="main-partie">
+		  
+		{% if page.partie == 1 %}
+		<div id="tab-content">
+		<table id="table_sceau" class="display" style="width:100%">
+        <thead>
+                 <thead>
+            <tr>
+                <th>Sceau n°</th>
+                <th>Niveau</th>             
+                <th>Type de sceau</th>
+                <th>Motif</th>
+                <th>Roi</th>
+                <th>Remarque</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                 <th>Sceau n°</th>
+                <th>Niveau</th>             
+                <th>Type de sceau</th>
+                <th>Motif</th>
+                <th>Roi</th>
+                <th>Remarque</th>
+            </tr>
+        </tfoot>
+       
+    </table>
+
+   </div>
+   
+ 		
+    {% endif %}
+		
+		{% if page.partie == 2 %}
+		<div id="tab-content">
+		<table id="table_empreinte" class="display" style="width:100%">
+        <thead>
+                 <thead>
+            <tr>
+                <th>Empreinte n°</th>
+                <th>Nature du marquage</th>             
+                <th>Type(s) de marque(s) conservée(s)</th>
+                <th>Localisation</th>
+                <th>US</th>
+                <th>Remarque</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                <th>Empreinte n°</th>
+                <th>Nature du marquage</th>             
+                <th>Type(s) de marque(s) conservée(s)</th>
+                <th>Localisation</th>
+                <th>US</th>
+                <th>Remarque</th>
+            </tr>
+        </tfoot>
+       
+    </table>
+
+   </div>
+   
+ 		
+    {% endif %}
+    
+ 
+	</main>
+	<script>
+		window.onload = function(){
+		commmon();
+		$(document).ready(function() {
+			{% if page.partie == 1 %}
+			$.getJSON('sceaux.json', function(data) {         
+    
+     var table = $('#table_sceau').DataTable({
+     "data": data.sceaux,
+      "columns": [
+            { "data": "id_sceau" },
+            { "data": "niveau" },
+            { "data": "type_sceau" },
+            { "data": "motif" },
+            { "data": "roi" },
+            { "data": "remarque" }
+          
+        ],
+         language: {
+			        processing:     "Traitement en cours...",
+			        search:         "Rechercher&nbsp;:",
+			        lengthMenu:    "Afficher _MENU_ &eacute;l&eacute;ments",
+			        info:           "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+			        infoEmpty:      "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+			        infoFiltered:   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+			        infoPostFix:    "",
+			        loadingRecords: "Chargement en cours...",
+			        zeroRecords:    "Aucun &eacute;l&eacute;ment &agrave; afficher",
+			        emptyTable:     "Aucune donnée disponible dans le tableau",
+			        paginate: {
+			            first:      "Premier",
+			            previous:   "Pr&eacute;c&eacute;dent",
+			            next:       "Suivant",
+			            last:       "Dernier"
+			        },
+			        aria: {
+			            sortAscending:  ": activer pour trier la colonne par ordre croissant",
+			            sortDescending: ": activer pour trier la colonne par ordre décroissant"
+			        }
+			        }
+			        
+		
+    });
+    $('#table_sceau tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        window.open("sceau"+data.id_sceau,"_self");
+    } );
+    $('#table_sceau tfoot th').each( function () {
+			var title = $(this).text();
+			$(this).html( '<input type="text" placeholder="Recherche '+title+'" />' );
+		} );
+			// Apply the search
+		table.columns().every( function () {
+			var that = this;
+
+			$( 'input', this.footer() ).on( 'keyup change', function () {
+				if ( that.search() !== this.value ) {
+					that
+						.search( this.value )
+						.draw();
+				}
+			} );
+		} );
+		
+});});
+
+ {% endif %}	
+		{% if page.partie == 2 %}
+			$.getJSON('empreintes.json', function(data) {         
+    
+     var table = $('#table_empreinte').DataTable({
+     "data": data.empreintes,
+      "columns": [
+            { "data": "n_Inv_IFAO" },
+            { "data": "nature_empreinte" },
+            { "data": "type_empreinte" },
+            { "data": "emp_SEC_nom_secteur" },
+            { "data": "emp_US_us_nom" },
+            { "data": "remarque" }
+          
+        ],
+         language: {
+			        processing:     "Traitement en cours...",
+			        search:         "Rechercher&nbsp;:",
+			        lengthMenu:    "Afficher _MENU_ &eacute;l&eacute;ments",
+			        info:           "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+			        infoEmpty:      "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+			        infoFiltered:   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+			        infoPostFix:    "",
+			        loadingRecords: "Chargement en cours...",
+			        zeroRecords:    "Aucun &eacute;l&eacute;ment &agrave; afficher",
+			        emptyTable:     "Aucune donnée disponible dans le tableau",
+			        paginate: {
+			            first:      "Premier",
+			            previous:   "Pr&eacute;c&eacute;dent",
+			            next:       "Suivant",
+			            last:       "Dernier"
+			        },
+			        aria: {
+			            sortAscending:  ": activer pour trier la colonne par ordre croissant",
+			            sortDescending: ": activer pour trier la colonne par ordre décroissant"
+			        }
+			        }
+			        
+		
+    });
+    $('#table_empreinte tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        window.open("empreinte"+data.n_Inv_IFAO,"_self");
+    } );
+    $('#table_empreinte tfoot th').each( function () {
+			var title = $(this).text();
+			$(this).html( '<input type="text" placeholder="Recherche '+title+'" />' );
+		} );
+			// Apply the search
+		table.columns().every( function () {
+			var that = this;
+
+			$( 'input', this.footer() ).on( 'keyup change', function () {
+				if ( that.search() !== this.value ) {
+					that
+						.search( this.value )
+						.draw();
+				}
+			} );
+		} );
+		
+});});
+
+ {% endif %}
+
+			let w = document.body.clientWidth;
+			if(w < 700){
+				document.getElementById("nav-partie-fixe").style.display = "none";
+			}
+			window.addEventListener('scroll', function(e) {
+				document.getElementById("nav-partie-fixe").style.display = "flex";
+			});
+			
+			/* référence bibliographique */
+			imageComparaison();
+			citation();
+		
+		function toggleZoom(){ }; /* hack */
+ 
+};
+	</script>
+	{% include footer.html %}

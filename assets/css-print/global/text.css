@@ -1,0 +1,139 @@
+
+/* TEXT PARTS / hgroup -----------------------------------------------------------  */
+
+.partie-texte hgroup{
+    margin-bottom: calc(var(--baseline-text)*7);
+}
+
+.partie-texte hgroup .num-partie{
+    position: absolute;
+    left: -26mm;
+}
+
+.partie-texte hgroup h1{
+    font-size: var(--font-size-upp);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative; 
+    top: 1px;
+}
+
+.partie-texte hgroup h2{
+    font-size: var(--font-size);
+    font-weight: 400;
+}
+
+
+
+/* TEXT PARTS / text ----------------------------------------------------------------  */
+
+.partie-texte hgroup { color: var(--color) }
+
+.partie-texte p{ 
+    text-indent: var(--alinea); 
+    widows: 3;
+    orphans: 3;
+    word-spacing: 0.02ch;
+}
+
+.partie-texte h3{ 
+    font-size: var(--font-size-upp);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: var(--alinea);
+    letter-spacing: 1px;
+    padding-top: var(--baseline-text);
+    padding-bottom: var(--baseline-text);
+    position: relative;
+    top: 10px;
+    break-after: avoid; 
+}
+
+.partie-texte h4{ 
+    font-size: var(--font-size);
+    font-weight: 400;
+    padding-left: var(--alinea);
+    padding-top: calc(var(--baseline-text)*1);
+    padding-bottom: 0;
+    position: relative;
+    top: -5px;
+    font-style: italic;
+    break-after: avoid;
+}
+
+.partie-texte hgroup + p,
+.partie-texte h3 + p,
+.partie-texte h4 + p{ text-indent: 0; }
+
+.signature,
+#conclusion-partie-1 {
+    margin-top: var(--baseline-text);
+}
+
+.citation, .sidenote { display: none; }
+
+
+#la-découverte-les-fouilles { padding-top: 0!important;}
+#les-marbres-des-pyrénées { 
+    break-before: page;
+    padding-top: 0!important;
+}
+
+
+/* NOTICES PARTS / TEXT ---------------------------------------------------------- */
+
+
+.notice .num-notice{
+    font-weight: 600;
+    color: var(--color);
+}
+
+.notice h1{
+    font-size: var(--font-size);
+    line-height: var(--baseline-text);
+    margin-bottom: calc(var(--baseline-text)*8);
+    font-weight: 400;
+}
+
+.notice .notice-content{
+    margin-top: var(--baseline-text);
+}
+
+.notice .notice-content p { 
+    text-indent: var(--alinea); 
+    widows: 2;
+    orphans: 2;
+}
+
+.notice .notice-content p:first-of-type { text-indent: 0; }
+
+.partie-texte p,
+.refs-biblio li,
+.notice .notice-content p, 
+#a-propos p{
+    word-spacing: 0.02ch;
+}
+.notice .date, .notice .type, .notice .materiaux, .notice .dimensions { color: var(--color); }
+
+
+#notice-ra57 h1,
+#notice-ra34b h1{
+    margin-bottom: calc(var(--baseline-text)*0.5);
+}
+    
+#notice-ra57 .bio,
+#notice-ra34b .bio{
+    margin-bottom: calc(var(--baseline-text)*5);
+    font-size: var(--font-size-note);
+    line-height: var(--baseline-note);
+    padding-bottom: 3px;
+    color: black;
+}
+
+/* specific, delete line break */
+.notice .bio .print, .notice .date .print, .notice .type .print, .notice .materiaux .print, .notice .dimensions .print{ display: none; }
+
+
+
+

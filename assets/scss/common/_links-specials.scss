@@ -1,0 +1,91 @@
+.comparaison, .link-notice {
+    text-decoration:none;
+    position:relative;
+    color: $beige-fonce!important;
+    svg{
+        height: 18px;
+        padding-left: 6px;
+        padding-right: 3px;
+        stroke: $beige-fonce;
+        fill: $beige-fonce;
+        position: relative; 
+        top: 2px;
+    }
+
+}
+
+.link-notice svg { height: 16px; }
+ 
+
+ 
+.img-comparaison {
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color: $beige-fonce;
+  background: white; 
+  width: calc(50vw - #{$margin-desktop*2});
+  left: calc(50vw + #{$margin-desktop/2});
+  @media screen and (max-width: 900px){ 
+    width: 70vw; 
+    left: 15vw;
+  }
+  @media screen and (max-width: 600px){ 
+    width: calc(100vw - #{$margin-phone*3}); 
+    left: $margin-phone*1.5;
+  }
+  position:fixed;
+  top: $height-section-navigation + $margin-desktop/2;
+  // left:0;
+  z-index:1000; 
+  border:1px solid $beige-fonce;
+  overflow:hidden;
+  padding:8px;
+  white-space: normal;
+  padding: $baseline*2.5;
+  padding-top: $baseline*3.5;
+  cursor: default; 
+    img{
+        width: 100%;
+        max-height: 450px;
+        object-fit: contain;
+        display: block;
+    }
+    .caption{
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      @include labeur-phone;
+      white-space: normal;
+      text-align: left;
+      padding-top: $baseline*1.5;
+      a { color: $text-color; }
+      a:hover { color: $beige-hover; }
+    }
+
+   button{
+     cursor: pointer; 
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     background-color: transparent;
+     svg{  height: 16px; }
+   }
+
+}
+ 
+ 
+.link-notice:hover{ text-decoration: underline; }
+
+.comparaison:hover{
+  text-decoration: underline;
+  // .img-comparaison{ display:block!important; }
+}
+
+
+.open-comp { display: block!important; }
+
+// .open + .img-comparaison { display: block!important; }
+// .close + .img-comparaison { display: block!important; }
+

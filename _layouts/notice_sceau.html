@@ -1,0 +1,109 @@
+---
+layout: microtypo
+---
+<!DOCTYPE html>
+{% assign images = page.images | split:","  %}
+{% assign empreintes = page.empreinte | split:","  %}
+{% include head.html %}
+<body >
+{% include header.html %}
+		<main id="main-notice-seal">
+			<header>
+
+					<p class="partie-notice">
+						<a href="{{ site.url }}/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
+							
+							<span class="title-partie">{% if page.partie == 1 %}Les scellés{% endif %}{% if page.partie == 2 %}Les empreintes{% endif %}{% if page.partie == 3 %}L'art grec revisité{% endif %}{% if page.partie == 4 %}L'antiquité tardive{% endif %}</span>
+						</a>
+					</p>
+
+				<h1>{{ page.title }}</h1>
+
+			</header>
+			<div id="hack-phone"></div>
+			
+
+			<section id="content-notice-left" class="content-notice" >
+        <dl>
+       
+          	{% if page.donnees_biographiques1 == null %}{% else %}<div><dt>Données biographiques</dt><dd>{{ page.donnees_biographiques1 }}{% if page.donnees_biographiques2 == null %}{% else %}<br>{{ page.donnees_biographiques2 }}{% endif %}</dd></div>{% endif %}
+			{% if page.date_creation == null %}{% else %}<div><dt>Date de création</dt><dd>{{ page.date_creation }}{% endif %}</dd></div>
+			{% if page.type_oeuvre == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_oeuvre }}</dd></div>{% endif %}
+         
+          	{% if page.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_sceau }}</dd></div>{% endif %}
+   
+         	{% if page.niveau == null %}{% else %}<div><dt>Niveau</dt><dd>{{ page.niveau }}</dd></div>{% endif %}
+
+          	{% if page.texte_sceau == null %}{% else %}<div><dt>Texte</dt><dd>{{ page.texte_sceau }}</dd></div>{% endif %}
+      		{% if page.traduction_sceau == null %}{% else %}<div><dt>Traduction</dt><dd>{{ page.traduction_sceau }}</dd></div>{% endif %}
+        	{% if page.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ page.motif }}</dd></div>{% endif %}
+     		{% if page.roi == null %}{% else %}<div><dt>Roi</dt><dd>{{ page.roi }}</dd></div>{% endif %}
+         	{% if page.dimensions_sceau == null %}{% else %}<div><dt>Dimensions</dt><dd>{{ page.dimensions_sceau }}</dd></div>{% endif %}
+			
+
+
+			{% if page.nature_empreinte == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_empreinte }}</dd></div>{% endif %}
+			{% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
+
+        	{% if page.remarque == null %}{% else %}<div><dt>Remarques</dt><dd>{{ page.remarque }}</dd></div>{% endif %}
+
+ 			{% if page.emp_SEC_nom_secteur == null %}{% else %}<div><dt>Localisation</dt><dd>{{ page.emp_SEC_nom_secteur }}</dd></div>{% endif %}
+ 			{% if page.emp_US_us_nom == null %}{% else %}<div><dt>US</dt><dd>{{ page.emp_US_us_nom }}</dd></div>{% endif %}
+
+			{% if empreintes.size < 10 %}
+			<div><dt>Empreinte{% if empreintes.size > 1 %}s{% endif %}</dt><dd>
+				{% for empreinte in empreintes %}
+					<a href = "/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a> &nbsp;
+				{% endfor %}
+				</dd></div>
+			{% endif %}
+
+				{{ content }}
+				
+				
+  		
+		</dl>
+			
+			</section>
+			
+			<section id="content-notice-left" class="content-notice">
+			{% if empreintes.size >= 10 %}
+        <dl>
+        	
+        	<h3>Empreintes</h3>
+			  
+          	{% for empreinte in empreintes %}
+			<a href = "/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a>, &nbsp;
+			{% endfor %}
+
+
+
+			
+
+		</dl>
+		
+			{% endif %}
+				
+				<div id="citation">
+					<h1>Pour citer cette notice</h1>
+					<p>{% if page.author %}<span class="caps">{{ page.author_id }}</span>{% else %}<span class="caps">{{ site.author.name_id }}</span>{% endif %}, "{{ page.title }}", dans <em>{{ site.title_complet }}</em>, {{ site.place }}, {{ site.date }}, en ligne &lt;{{ site.url }}/ark:/87276/{{ page.id_ark }}&gt;.</p>
+				</div>
+			</section>
+
+		</main>
+{% include footer.html %}
+
+<script src="/assets/js/notices.js"></script>
+<script>
+	window.onload = function(){
+		commmon();
+		imageComparaison();
+		citation();
+		panzoomLoad(5);
+		var arr = [];
+		{% for image in images %}
+			arr.push("/images/{{ image }}");
+		{% endfor %}
+		noticesImages(arr);
+	}
+</script>

@@ -1,0 +1,186 @@
+@media print{
+
+    @page {
+        size: A4;
+        margin: 20mm 20mm;
+    }
+
+    * { color: black; }
+
+    #main-header, #link-notices, #sommaire-part, #nav-partie-fixe, 
+    #toggle-chirigan, #map-chiragan, #plan-chiragan, .relecture,
+    .ref-biblio-call,.ref-biblio-elem { display: none!important; }
+
+  
+
+    #main-partie header{
+        width: 100%;
+        // background-color: red;
+        figure{ 
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50mm; 
+            img{ width:100%;}
+        }
+        hgroup{
+            margin-left: 55mm;
+            width: calc(100% - 55mm);
+            min-height: 70mm;
+            h1{ 
+                @include bellaza-32(); 
+                small{
+                    @include sserif-14();
+                    line-height: 26px; 
+                    margin-top: $baseline*3;  
+                    margin-bottom: $baseline*3;
+                }
+            }
+            h2{ 
+                @include bellaza-24();
+                padding-top: $baseline*0.5; 
+                padding-bottom: $baseline*2; 
+            }
+
+        }
+    }
+
+
+    #main-content{
+        counter-reset: countCallRef;
+        color: black!important;
+
+       
+            p, li{ @include labeur-print(); }
+            p{ margin-bottom: $p-line-height-print*0.5; }
+    
+            h3{
+                line-height: $p-line-height-print!important;
+                padding-top:  $p-line-height-print*1.5!important;
+                margin-bottom: $p-line-height-print*0.5!important;
+            }
+    
+            h4{
+                @include labeur-print();
+                font-style: italic;
+                padding-top:  $p-line-height-desktop*1.5!important;
+                margin-bottom: $p-line-height-desktop*0.5!important;
+            }
+    
+            .link-notice, .comparaison{
+                color: black!important;
+                span { display: none; }
+            }
+        
+       
+        #refs-biblio-print{
+            counter-reset: countRef;
+            li{
+                counter-increment: countRef;
+                margin-bottom: $p-line-height-print*0.5;
+                &::before{
+                    content: counter(countRef) ". ";
+                }
+            }
+        }
+        
+        .ref-biblio{
+            color: black;
+            counter-increment: countCallRef;
+            &::after{ 
+                content: "[" counter(countCallRef) "]";
+                font-size: 0.85em;
+                position: relative;
+                top: -3px;
+            }
+        }
+
+    }
+
+    #refs-biblio-print::before{ content: "Références bibliographiques"; }
+
+    #citation h1, #refs-biblio-print::before, #bibliographie h1 {
+        display: block;
+        @include labeur-print();
+        line-height: $p-line-height-print;
+        margin-bottom: $p-line-height-print*0.5;
+        text-decoration: underline;
+    }
+
+    #refs-biblio-print li::before{ content: "[" counter(countRef) "]. "!important; }
+    
+
+    #citation{
+        margin-top: $p-line-height-print*2;
+        margin-bottom: $p-line-height-print*2;
+    }
+
+    #liste-notices{
+        .title-liste-notices{
+            @include bellaza-24();
+            margin-top: $baseline*6;
+            padding-top: $baseline*2;
+            padding-bottom: $baseline*2;
+            text-align: center;
+            border-top: 1px solid black;
+            text-transform: uppercase;
+            small { display: none; }
+        }
+
+        h2{ 
+            @include sserif-14-uppercase(); 
+            margin-top: $baseline*2!important;
+            margin-bottom: $baseline*2;
+            break-after: avoid;
+            margin-top: $baseline*5;
+        }
+
+        .notice{
+            position: relative;
+            width: 30mm;
+            margin-bottom: 5mm;
+            margin-right: 3mm;
+            display: inline-block;
+            padding-left: 23mm;
+            width: 50mm;
+            min-height: 26mm;
+            vertical-align: top;
+            a { position: relative; }
+
+            .num-inventaire { 
+                font-family: $font-sserif;
+                font-weight: 400;
+                font-size: 9px;
+                line-height: 18px;
+                margin-bottom: $baseline*0.25;
+            }
+        
+            .num-inventaire::before { content: "[ "; }
+            .num-inventaire::after { content: " ]";}
+            .num-inventaire::before, .num-inventaire::after{
+                position: relative; 
+                top: -3px;
+                
+            }
+            figure { 
+                position: absolute;
+                left: -23mm;
+                width: 20mm; 
+                height: 26mm;
+                overflow: hidden;
+                img { 
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            h1 { 
+                font-family: $font-sserif;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+
+}

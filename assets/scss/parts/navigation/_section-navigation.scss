@@ -1,0 +1,100 @@
+
+#section-navigation{
+  width: 100vw;
+  position: fixed;
+  overflow: visible;
+  top: 0;
+  left: 0;
+  height: $height-section-navigation;
+  background-color: $beige;
+  z-index: 99;
+  @include flex;
+  @include justify-content(space-between);
+  @include align-items(center);
+  border-bottom: 1px solid currentColor;
+
+  #nav-chemin{
+
+    ul{
+      margin-left: $height-section-navigation*1.5;
+      @include sserif-18();
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: calc(100vw - 450px - #{$height-section-navigation});
+      li{
+        display: inline-block;
+        white-space: nowrap;
+        &:after{ 
+          content: "▶";
+          font-size: 12px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }  
+        &:last-of-type{ font-weight: 500;}
+        &:last-of-type:after{ content: none;}
+      }
+    }/* ul*/
+
+  }/* #nav-chemin */
+
+  #nav-parties{
+
+    ul{
+      @include sserif-18();
+      height: 100%;
+      white-space: nowrap;
+      li{
+        // color: $beige-fonce;
+        display: inline-flex;
+        @include justify-content(space-between);
+        @include align-items(center);
+        height: 100%;
+        border-left: 1px solid currentColor;
+        padding: 0 20px;
+        &:first-of-type span:last-of-type{ padding-left: 5px;}
+        &:last-of-type span:first-of-type{ padding-right: 5px;}
+        
+      }
+    }
+
+  }/* #parties */
+}/* #section-navigation */
+
+
+
+#label-open-menu{
+  position: fixed;
+  z-index: 100;
+  width: $height-section-navigation;
+  height: $height-section-navigation;
+  border-right: 1px solid currentColor;
+  @include flex;
+  @include justify-content(center);
+  @include align-items(center)
+  cursor: pointer;
+  svg{ width: 25px;}
+  &:hover svg{ fill: $beige-hover;; }
+}
+
+input#open-menu, input#close-menu{ display: none;}
+
+
+@include for-size(max-pad) {
+  #nav-chemin ul{ max-width: calc(100vw - 170px - #{$height-section-navigation})!important; }
+  #nav-parties .nav-partie{ display: none!important; }  
+}
+
+
+@include for-size(phone) {
+
+  #nav-chemin ul, #nav-parties .nav-partie{ display: none!important; }  
+  // #section-images, #content-notice{ display: none!important; }
+
+  #main-header{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
+  }
+}

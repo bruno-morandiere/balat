@@ -1,0 +1,75 @@
+@media print {
+
+    * { color: black; background-color: transparent!important; }
+    .icon-scroll{ display: none; }
+
+    #home{ background-color: white; }
+    #header-catalogue{
+       height: auto;
+       margin-bottom: $baseline*5;
+       border-bottom: none;
+        figure { display: none; }
+        hgroup{
+            padding-top: $baseline*6;
+            h1{
+                font-size: 40px;
+                line-height: 46px;
+                margin-bottom: $baseline*1.5;
+            }
+            h2{ margin-bottom: $baseline*0.75; }
+        }
+
+        .collection{ 
+            max-width: 240px!important;
+            top: 0px;
+            right: 0px;
+        }
+    }
+
+   
+    #toc-home { margin-bottom: 0;}
+
+    #toc-home .toc-home-partie{
+
+        padding: 3mm 0;
+        border-bottom: 1px solid #444;
+        break-inside: avoid;
+
+        &:first-of-type{ border-top: 1px solid #444; }
+
+        .fig-part { 
+            width: 30mm;
+            display: none;
+            &:first-of-type { display: block; }
+        }
+
+        .link-part{  
+
+            width: calc(100% - 30mm); 
+            padding-left: 6mm;
+            order: 2;
+
+            h1{
+                @include bellaza();
+                font-size: 32px;
+                line-height: 32px;
+                text-transform: uppercase;
+                margin-bottom: $baseline;
+                max-width: 500px;
+                small{
+                    @include sserif-18();
+                    line-height: 32px;  
+                }
+            }
+            h2{
+                @include bellaza();
+                font-size: 24px;
+                line-height: 24px;
+            }
+
+        }
+    }
+
+
+
+}

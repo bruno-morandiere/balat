@@ -1,0 +1,121 @@
+---
+traduction_sceau : 
+typeObjet : Sceau
+texte_sceau : 
+sce_ies_emp_ies_SCE_id_sceau : 0003
+sce_ies_emp_ies_SCE_id_sceau : 0016
+sce_ies_emp_ies_SCE_id_sceau : 0020
+sce_ies_emp_ies_SCE_id_sceau : 0078
+sce_ies_emp_ies_SCE_id_sceau : 0089
+sce_ies_emp_ies_SCE_id_sceau : 0099
+sce_ies_emp_ies_SCE_id_sceau : 0104
+sce_ies_emp_ies_SCE_id_sceau : 0109
+sce_ies_emp_ies_SCE_id_sceau : 0116
+sce_ies_emp_ies_SCE_id_sceau : 0142
+sce_ies_emp_ies_SCE_id_sceau : 0025
+sce_ies_emp_ies_SCE_id_sceau : 0077
+niveau : non royal
+roi : 
+sce_ies_EMP_n_Inv_IFAO : 8128
+sce_ies_EMP_n_Inv_IFAO : 8148
+sce_ies_EMP_n_Inv_IFAO : 8178
+sce_ies_EMP_n_Inv_IFAO : 8356
+sce_ies_EMP_n_Inv_IFAO : 8420a
+sce_ies_EMP_n_Inv_IFAO : 8420b
+sce_ies_EMP_n_Inv_IFAO : 8420c
+sce_ies_EMP_n_Inv_IFAO : 8420d
+sce_ies_EMP_n_Inv_IFAO : 8459a
+sce_ies_EMP_n_Inv_IFAO : 8459b
+sce_ies_EMP_n_Inv_IFAO : 8459c
+sce_ies_EMP_n_Inv_IFAO : 8459d
+sce_ies_EMP_n_Inv_IFAO : 8459e
+sce_ies_EMP_n_Inv_IFAO : 8459f
+sce_ies_EMP_n_Inv_IFAO : 8459g
+sce_ies_EMP_n_Inv_IFAO : 8459h
+sce_ies_EMP_n_Inv_IFAO : 8459i
+sce_ies_EMP_n_Inv_IFAO : 8459j
+sce_ies_EMP_n_Inv_IFAO : 8459k
+sce_ies_EMP_n_Inv_IFAO : 8459l
+sce_ies_EMP_n_Inv_IFAO : 8223
+sce_ies_EMP_n_Inv_IFAO : 8224
+sce_ies_EMP_n_Inv_IFAO : 8298
+sce_ies_EMP_n_Inv_IFAO : 8299
+sce_ies_EMP_n_Inv_IFAO : 8300
+sce_ies_EMP_n_Inv_IFAO : 8302
+sce_ies_EMP_n_Inv_IFAO : 8303
+sce_ies_EMP_n_Inv_IFAO : 8334
+sce_ies_EMP_n_Inv_IFAO : 8352
+sce_ies_EMP_n_Inv_IFAO : 8426k
+sce_ies_EMP_n_Inv_IFAO : 8440
+sce_ies_EMP_n_Inv_IFAO : 8464
+sce_ies_EMP_n_Inv_IFAO : 8465a
+sce_ies_EMP_n_Inv_IFAO : 8465b
+sce_ies_EMP_n_Inv_IFAO : 8465c
+sce_ies_EMP_n_Inv_IFAO : 8468a
+sce_ies_EMP_n_Inv_IFAO : 8468b
+sce_ies_EMP_n_Inv_IFAO : 8468c
+sce_ies_EMP_n_Inv_IFAO : 8468d
+sce_ies_EMP_n_Inv_IFAO : 8473
+sce_ies_EMP_n_Inv_IFAO : 8490
+sce_ies_EMP_n_Inv_IFAO : 8577a
+sce_ies_EMP_n_Inv_IFAO : 8577b
+sce_ies_EMP_n_Inv_IFAO : 8578
+id_sceau : 0020
+sce_ies_emp_NOT_nom_note : N8128
+sce_ies_emp_NOT_nom_note : N8178
+sce_ies_emp_NOT_nom_note : N8490
+dimensions_sceau : 
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8128
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8148
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8178
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8356
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8420a
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8420b
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8420c
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8420d
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459a
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459b
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459c
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459d
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459e
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459f
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459g
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459h
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459i
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459j
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459k
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8459l
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8223
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8224
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8298
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8299
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8300
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8302
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8303
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8334
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8352
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8426k
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8440
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8464
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465a
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465b
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465c
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8468a
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8468b
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8468c
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8468d
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8473
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8490
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8577a
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8577b
+sce_ies_emp_ies_EMP_n_Inv_IFAO : 8578
+motif : 2 acrobates avec un chien
+type_sceau : sceau estampille (empreinte)
+remarque : = 6139 &#58; 2 acrobates au chien
+title: sceau n°0020
+empreinte: "8128","8148","8178","8356","8420a","8420b","8420c","8420d","8459a","8459b","8459c","8459d","8459e","8459f","8459g","8459h","8459i","8459j","8459k","8459l","8223","8224","8298","8299","8300","8302","8303","8334","8352","8426k","8440","8464","8465a","8465b","8465c","8468a","8468b","8468c","8468d","8473","8490","8577a","8577b","8578"
+id_notice: 0020
+layout: notice_sceau
+type: sceau
+partie: 1
+---

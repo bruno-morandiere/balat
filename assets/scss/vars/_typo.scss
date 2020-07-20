@@ -1,0 +1,142 @@
+$font-identity: 'Belleza';
+// $font-sserif: 'Lato';
+$font-sserif: 'Orkney';
+
+// $font-labeur: 'Crimson Text';
+$font-labeur: 'Orkney', helvetica, sans-serif;
+$baseline: 12px;
+
+$p-font-size-desktop: 22px;
+$p-line-height-desktop: $baseline*2.5;
+
+$p-font-size-phone: 17px;
+$p-line-height-phone: $baseline*2;
+
+$p-font-size-print: 15px;
+$p-line-height-print: $baseline*2;
+
+body{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+@mixin figcaption{
+    font-family: $font-sserif; 
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+// BELLAZA -------------------------------------------------- //
+
+@mixin bellaza(){
+    font-family: $font-identity; 
+    font-weight: 200;
+}
+
+@mixin bellaza-18(){
+    font-family: $font-identity; 
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+@mixin bellaza-24(){
+    font-family: $font-identity; 
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+@mixin bellaza-32(){
+    font-family: $font-identity; 
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+@mixin bellaza-48(){
+    font-family: $font-identity; 
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+
+
+
+
+
+// ORKNEY -------------------------------------------------- //
+
+@mixin sserif-14(){
+    font-family: $font-sserif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: initial;
+    letter-spacing: 0px;
+}
+
+
+@mixin sserif-14-uppercase(){
+    font-family: $font-labeur;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+@mixin sserif-18(){
+    font-family: $font-sserif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: initial;
+    letter-spacing: 0px;
+}
+
+
+@mixin sserif-18-uppercase(){
+    font-family: $font-labeur;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+@mixin sserif-24(){
+    font-family: $font-sserif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+@mixin labeur-dektop(){
+    font-family: $font-labeur;
+    font-weight: 400;
+    font-size: $p-font-size-desktop;
+    line-height: $p-line-height-desktop;
+}
+
+@mixin labeur-phone(){
+    font-family: $font-labeur;
+    font-weight: 400;
+    font-size: $p-font-size-phone;
+    line-height: $p-line-height-phone;
+}
+
+
+
+@mixin labeur-print(){
+    font-family: $font-labeur;
+    font-weight: 400;
+    font-size: $p-font-size-print;
+    line-height: $p-line-height-print;
+}

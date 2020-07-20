@@ -1,0 +1,122 @@
+@media screen {
+    #content-notice {
+
+
+       
+
+        @media screen and (max-width: 900px){
+            margin-top: $baseline*10;
+            margin-left: $margin-desktop;
+            margin-right: $margin-desktop;
+            margin-bottom: $baseline*6;
+        }
+
+        @media screen and (max-width: 700px){
+            margin-left: $margin-phone;
+            margin-right: $margin-phone;
+        }
+        
+        @media screen and (min-width: 900px){
+                margin-left: 50vw;
+                margin-right: $margin-notice-desktop * 2;
+                margin-bottom: $baseline*8;
+                max-width: 880px;
+        }
+    
+
+        dl {
+         
+
+            div {
+                border-top: 1px solid $beige-border;
+                padding-top: $p-line-height-desktop * 0.5;
+                padding-bottom: $p-line-height-desktop * 0.25;
+                &:last-of-type{ border-bottom: 1px solid $beige-border; }
+        
+            }
+
+            dt, dd {
+                display: inline-block;
+                vertical-align: top;
+                @media screen and (max-width: 900px){ @include sserif-18; }
+                @media screen and (min-width: 900px){ @include sserif-14; }
+                @media screen and (min-width: 1025px){ @include sserif-18; }
+
+            }
+
+            dt {
+                color: $text-color;
+                opacity: 0.7;
+                width: 35%;
+            }
+
+            dd {
+                padding-left: 10px;
+                width: 65%;
+            }
+
+        } /* dl */
+
+        #informations {
+            @media screen and (max-width: 700px){ margin-bottom: $baseline*2; }
+            @media screen and (min-width: 700px){ margin-bottom: $baseline*4; }
+            margin-top: $baseline*1;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            li{
+                display: inline-block;
+                a{color: $beige-fonce;}
+                margin-bottom: none;
+                @include sserif-14;
+                &:not(:last-of-type){
+                    border-right: 1px solid $beige-border;
+                    margin-right: 20px;
+                    padding-right: 22px;
+                }
+               
+            }
+           
+        } 
+
+        p, li, h3, h4{
+            @media screen and (max-width: 700px){ 
+                @include labeur-phone;
+                margin-bottom: $baseline * 2;
+            }
+            
+            @media screen and (min-width: 700px){ 
+                @include labeur-dektop;
+                margin-bottom: $baseline * 2;
+            }
+            
+            @media screen and (min-width: 900px){
+                @include labeur-phone; 
+                margin-bottom: $baseline * 2; 
+            }
+            
+            @media screen and (min-width: 1025px){
+                @include labeur-dektop; 
+                margin-bottom: $baseline * 2.5;
+            }
+        }
+
+        @media screen and (min-width: 1300px){ 
+            p{ text-align: justify; }
+        }
+
+        h3, h4{
+            font-style: italic;
+            padding-top:  $p-line-height-desktop*1.5;
+            // margin-bottom: $p-line-height-desktop*1;
+        }
+        
+
+       
+
+
+
+    }
+}
+
+

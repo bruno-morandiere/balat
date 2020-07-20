@@ -1,0 +1,26 @@
+@import 'common';
+
+@import 'parts/figcaption';
+@import 'parts/static-pages';
+@import 'parts/footer';
+
+@import 'parts/home/header';
+@import 'parts/home/scroll-icon';
+@import 'parts/home/grid-toc';
+@import 'parts/home/home-print';
+
+@import 'parts/navigation/section-navigation';
+@import 'parts/navigation/nav-catalogue';
+
+
+@import 'parts/parties/header';
+@import 'parts/parties/main-content';
+@import 'parts/parties/liste-notices';
+@import 'parts/parties/map-plan';
+@import 'parts/parties/parties-print';
+@import 'parts/parties/refBiblio';
+
+@import 'parts/notice/header-notice';
+@import 'parts/notice/section-images';
+@import 'parts/notice/content-notice';
+@import 'parts/notice/notice-print';
