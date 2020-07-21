@@ -2,8 +2,8 @@
 title: Les scellés de Balat-‘Ayn ’Asil 
 title_complet: "Les scellés de Balat-‘Ayn ’Asil"
 tagline:
-url: https://bruno-morandiere.github.io/balat
-baseurl: https://bruno-morandiere.github.io/balat/
+url: https://villachiragan.saintraymond.toulouse.fr
+baseurl: 
 
 collection_catalogues: Les ressources numériques de l'IFAO
 
@@ -16,18 +16,12 @@ author:
   twitter: "@msr_tlse"
 place: Le Caire
 
-keywords: ""
+keywords: "Chiragan, Musée Saint-Raymond, Martres-Tolosane, Toulouse, archéologie, sculpture antique"
 
 locale: fr_FR
 encoding: UTF-8
 
 date: 2020
-
-
-
-
-
-
 
 
 
@@ -77,8 +71,8 @@ microtypo:
   median: true
 
 # Dépôt
-repo_url: https://gitlab.com/musee-saint-raymond/villa-chiragan
-repo_branch: master
+repo_url: https://github.com/bruno-morandiere/balat
+repo_branch: gh-pages
 
 svg:
   optimize: true
