@@ -35,7 +35,6 @@ timezone: Europe/Paris
 
 plugins:
   - jekyll-sitemap
-  - jekyll-scholar
   - jekyll-microtypo
   - jekyll-redirect-from
 
