@@ -29,7 +29,7 @@ layout: microtypo
 				<div id="all-buttons">
 					<div class="button-group" id="buttons-slider-choice">
 						<button id="button-viewer360" aria-label="Vue 360° (cliquer sur l'image et bouger)" onclick="display360('/images/{{ page.id_notice }}-',8)">{% include icons/360-degree.svg %}</button>
-						<button id="button-diapo" aria-label="Diaporama" onclick="displayDiapo('/images/{{ page.id_notice }}-',8)">{% include icons/slideshow.svg %}</button>
+						<button id="button-diapo" aria-label="Diaporama" onclick="displayDiapo('/balat/images/{{ page.id_notice }}-',8)">{% include icons/slideshow.svg %}</button>
 					</div>
 
 					<div class="button-group" id="buttons-panzoom">
@@ -38,7 +38,7 @@ layout: microtypo
 						<button class="reset" aria-label="Reset Zoom" onclick="resetRadio()">{% include icons/reset.svg %}</button>
 					</div>
 					<div class="button-group">
-						<a id="download-image" data-path="/images/{{ page.id_notice }}" href="/images/{{ page.id_notice }}.jpg" download><button id="button-download-all-images" aria-label="Télécharger l'image affichée">{% include icons/download.svg %}</button></a>
+						<a id="download-image" data-path="/balat/images/{{ page.id_notice }}" href="/balat/images/{{ page.id_notice }}.jpg" download><button id="button-download-all-images" aria-label="Télécharger l'image affichée">{% include icons/download.svg %}</button></a>
 					</div>
 				</div>
 				<div id="threesixty" class="parent images-id">
@@ -58,7 +58,7 @@ layout: microtypo
 				<div id="images-grid">
 						{% if page.vues == 1 %}<figure id="only-one"><img src="/images/{{ page.id_notice }}.jpg" alt="{{ page.title }}"></figure>{% endif %}
 						{% if page.vues >= 2 %}<figure id="figure-1"><img src="/images/{{ page.id_notice }}_1.jpg" alt="{{ page.title }}"></figure>
-						<figure id="figure-2"><img src="/images/{{ page.id_notice }}-2.jpg" alt="{{ page.title }}"></figure>{% endif %}
+						<figure id="figure-2"><img src="/balat/images/{{ page.id_notice }}-2.jpg" alt="{{ page.title }}"></figure>{% endif %}
 						{% if page.vues >= 3 %}<figure id="figure-3"><img src="/images/{{ page.id_notice }}_3.jpg" alt="{{ page.title }}"></figure>{% endif %}
 						{% if page.vues >= 4 %}<figure id="figure-4"><img src="/images/{{ page.id_notice }}_4.jpg" alt="{{ page.title }}"></figure>{% endif %}
 						{% if page.vues >= 5 %}<figure id="figure-5"><img src="/images/{{ page.id_notice }}_5.jpg" alt="{{ page.title }}"></figure>{% endif %}
@@ -104,7 +104,7 @@ layout: microtypo
 		<section class="content-notice">
         <dl>
         	{% for sceau in page.sceaux %}
-        	<h3><a href = "/partie-01-les-scelles/sceau{{ sceau.id_sceau }}">Sceau n°{{ sceau.id_sceau }}</h3></a>
+        	<h3><a href = "/balat/partie-01-les-scelles/sceau{{ sceau.id_sceau }}">Sceau n°{{ sceau.id_sceau }}</h3></a>
 			  
           	{% if sceau.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ sceau.type_sceau }}</dd></div>{% endif %}
          	{% if sceau.niveau == null %}{% else %}<div><dt>Niveau</dt><dd>{{ sceau.niveau }}</dd></div>{% endif %}
@@ -134,7 +134,7 @@ layout: microtypo
 		</main>
 {% include footer.html %}
 
-<script src="/assets/js/notices.js"></script>
+<script src="/balat/assets/js/notices.js"></script>
 <script>
 	window.onload = function(){
 		commmon();
@@ -143,7 +143,7 @@ layout: microtypo
 		//panzoomLoad(5);
 		var arr = [];
 		{% for image in images %}
-			arr.push("/images/{{ image }}");
+			arr.push("/balat/images/{{ image }}");
 		{% endfor %}
 		noticesImages(arr);
 	}

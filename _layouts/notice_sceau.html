@@ -53,7 +53,7 @@ layout: microtypo
 			{% if empreintes.size < 10 %}
 			<div><dt>Empreinte{% if empreintes.size > 1 %}s{% endif %}</dt><dd>
 				{% for empreinte in empreintes %}
-					<a href = "/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a> &nbsp;
+					<a href = "/balat/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a> &nbsp;
 				{% endfor %}
 				</dd></div>
 			{% endif %}
@@ -73,7 +73,7 @@ layout: microtypo
         	<h3>Empreintes</h3>
 			  
           	{% for empreinte in empreintes %}
-			<a href = "/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a>, &nbsp;
+			<a href = "/balat/partie-02-les-empreintes/empreinte{{ empreinte }}">{{ empreinte }}</a>, &nbsp;
 			{% endfor %}
 
 
@@ -93,7 +93,7 @@ layout: microtypo
 		</main>
 {% include footer.html %}
 
-<script src="/assets/js/notices.js"></script>
+<script src="/balat/assets/js/notices.js"></script>
 <script>
 	window.onload = function(){
 		commmon();
@@ -102,7 +102,7 @@ layout: microtypo
 		panzoomLoad(5);
 		var arr = [];
 		{% for image in images %}
-			arr.push("/images/{{ image }}");
+			arr.push("/balat/images/{{ image }}");
 		{% endfor %}
 		noticesImages(arr);
 	}

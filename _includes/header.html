@@ -36,10 +36,10 @@
           </span></li>
         {% else %}
       
-        {% if page.partie == 1 %}<li><span><a href="/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les scellés</a></span></li>{% endif %}
-          {% if page.partie == 2 %}<li><span><a href="/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les empreintes</a></span></li>{% endif %}
-          {% if page.partie == 3 %}<li><span><a href="/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 3</a></span></li>{% endif %}
-          {% if page.partie == 4 %}<li><span><a href="/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 4</a></span></li>{% endif %}
+        {% if page.partie == 1 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les scellés</a></span></li>{% endif %}
+          {% if page.partie == 2 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les empreintes</a></span></li>{% endif %}
+          {% if page.partie == 3 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 3</a></span></li>{% endif %}
+          {% if page.partie == 4 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 4</a></span></li>{% endif %}
 	{% endif %}
 
 
@@ -50,16 +50,16 @@
        
         {% if page.type == "empreinte" and page.partie == 2 %}<ul>{% assign  document = site.contenus | sort: "order" | where:"type","empreinte" | where:"partie","2" %}{% for links in document %}{% if links.id_notice == page.id_notice %}{% unless forloop.first %}{% assign prevurl = prev.url %}
           {% assign prevtitle = prev.title %}{% endunless %}{% unless forloop.last %}{% assign next = document[forloop.index] %}{% assign nexturl = next.url %}{% assign nexttitle = next.title %}{% endunless %}{% endif %}{% assign prev = links %}{% endfor %}{% if prevurl or nexturl %}
-  <li>{% if prevurl %}<a href="{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
-  <li>{% if nexturl %}<a href="{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
+  <li>{% if prevurl %}<a href="/balat{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
+  <li>{% if nexturl %}<a href="/balat{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
         </ul>{% endif %}{% if page.type == "notice" and page.partie == 3 %}<ul>{% assign  document = site.contenus | sort: "order" | where:"type","notice" | where:"partie","3" %}{% for links in document %}{% if links.id_notice == page.id_notice %}{% unless forloop.first %}{% assign prevurl = prev.url %}
           {% assign prevtitle = prev.title %}{% endunless %}{% unless forloop.last %}{% assign next = document[forloop.index] %}{% assign nexturl = next.url %}{% assign nexttitle = next.title %}{% endunless %}{% endif %}{% assign prev = links %}{% endfor %}{% if prevurl or nexturl %}
-  <li>{% if prevurl %}<a href="{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
-  <li>{% if nexturl %}<a href="{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
+  <li>{% if prevurl %}<a href="/balat{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
+  <li>{% if nexturl %}<a href="/balat{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
         </ul>{% endif %}{% if page.type == "notice" and page.partie == 4 %}<ul>{% assign  document = site.contenus | sort: "order" | where:"type","notice" | where:"partie","4" %}{% for links in document %}{% if links.id_notice == page.id_notice %}{% unless forloop.first %}{% assign prevurl = prev.url %}
           {% assign prevtitle = prev.title %}{% endunless %}{% unless forloop.last %}{% assign next = document[forloop.index] %}{% assign nexturl = next.url %}{% assign nexttitle = next.title %}{% endunless %}{% endif %}{% assign prev = links %}{% endfor %}{% if prevurl or nexturl %}
-  <li>{% if prevurl %}<a href="{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
-  <li>{% if nexturl %}<a href="{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
+  <li>{% if prevurl %}<a href="/balat{{prevurl}}"><span>←</span><span class="nav-partie"> Notice précédente</span></a>{% endif %}</li>
+  <li>{% if nexturl %}<a href="/balat{{nexturl}}"><span class="nav-partie">Notice suivante </span><span>→</a>{% endif %}</li>{% endif %}
         </ul>{% endif %}
       </nav>
     </section>
