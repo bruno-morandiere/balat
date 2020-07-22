@@ -5,9 +5,9 @@ niveau : "non royal"
 sce_ies_EMP_n_Inv_IFAO : "8536"
 id_sceau : "0062"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8536"
-motif : "|
+motif : |
  <p>lézard, animaux</p>
- <p><p>"
+ <p><p>
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0062
 empreinte: "8536"

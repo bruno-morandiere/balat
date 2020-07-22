@@ -8,9 +8,9 @@ sce_ies_EMP_n_Inv_IFAO : "8314"
 id_sceau : "0121"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8296"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8314"
-motif : "|
+motif : |
  <p>animaux tracés en contour : lièvre, lion ; lézard, croix.</p>
- <p><p>"
+ <p><p>
 type_sceau : "cylindre (empreinte)"
 remarque : "cp 3477 ds Balat VI, p. 418, mais pas identique."
 title: sceau n°0121

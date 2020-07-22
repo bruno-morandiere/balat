@@ -19,9 +19,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8455d"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8455e"
 motif : "labyrinthe géométrique "à pointes""
 type_sceau : "sceau estampille (empreinte)"
-remarque : "|
+remarque : |
  <p>= 8348</p>
- <p>= ? 8347<p>"
+ <p>= ? 8347<p>
 title: sceau n°0086
 empreinte: "8343,8348,8455a,8455b,8455c,8455d,8455e"
 id_notice: 0086

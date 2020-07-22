@@ -18,9 +18,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466a"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466b"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466c"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466d"
-motif : "|
+motif : |
  <p>entrelacs et piliers ḏd</p>
- <p><p>"
+ <p><p>
 type_sceau : "sceau estampille (empreinte)"
 title: sceau n°0045
 empreinte: "8310,8424,8466a,8466b,8466c,8466d"

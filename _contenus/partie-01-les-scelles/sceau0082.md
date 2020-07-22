@@ -5,9 +5,9 @@ niveau : "non royal"
 sce_ies_EMP_n_Inv_IFAO : "9107"
 id_sceau : "0082"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "9107"
-motif : "|
+motif : |
  <p>spirale</p>
- <p><p>"
+ <p><p>
 type_sceau : "sceau estampille (empreinte)"
 title: sceau n°0082
 empreinte: "9107"

@@ -5,9 +5,9 @@ niveau : "non royal"
 sce_ies_EMP_n_Inv_IFAO : "8353"
 id_sceau : "0093"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8353"
-motif : "|
+motif : |
  <p>entrelacs et piliers ḏd, animaux</p>
- <p><p>"
+ <p><p>
 type_sceau : "sceau estampille (empreinte)"
 remarque : "est. inconnue"
 title: sceau n°0093

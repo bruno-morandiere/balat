@@ -5,9 +5,9 @@ niveau : "indéterminé"
 sce_ies_EMP_n_Inv_IFAO : "9091"
 id_sceau : "0098"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "9091"
-motif : "|
+motif : |
  <p>en colonnes, indéterminé</p>
- <p><p>"
+ <p><p>
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0098
 empreinte: "9091"

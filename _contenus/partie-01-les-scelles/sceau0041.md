@@ -13,9 +13,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8230"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8325"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8450"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8525"
-motif : "|
+motif : |
  <p>cartouche, texte hiéroglyphique en colonnes.</p>
- <p><p>"
+ <p><p>
 type_sceau : "cylindre (empreinte)"
 remarque : "Probablement Pépy II."
 title: sceau n°0041

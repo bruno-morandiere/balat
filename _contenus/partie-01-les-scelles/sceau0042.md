@@ -9,9 +9,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8235"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8246"
 motif : "symboles hiéroglyphiques"
 type_sceau : "cylindre (empreinte)"
-remarque : "|
+remarque : |
  <p>2001 = 8246</p>
- <p>Cp.  0060, 0109.<p>"
+ <p>Cp.  0060, 0109.<p>
 title: sceau n°0042
 empreinte: "8235,8246"
 id_notice: 0042

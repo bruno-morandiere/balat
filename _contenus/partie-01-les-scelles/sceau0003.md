@@ -1,15 +1,15 @@
 ---
-traduction_sceau : "|
+traduction_sceau : |
  <p>L'Horus Aimé-[des-deux-terres Pépy] ; </p>
  <p>Le sous-directeur (des attachés) du palais, aimé de son maître.</p>
  <p>Le roi de Haute et Basse Égypte Pépy, qu’il vive à jamais.</p>
- <p>Le sous-directeur de la maison des 10/des 10 de la Maison ?, qui fait ce que son maître loue.<p>"
+ <p>Le sous-directeur de la maison des 10/des 10 de la Maison ?, qui fait ce que son maître loue.<p>
 typeObjet : "Sceau"
-texte_sceau : "|
+texte_sceau : |
  <p>Ḥr mry[-t3wy Ppy]</p>
  <p>jmy-ḫt pr-ʿȝ mrr(w) nb.f</p>
  <p>nswt-bjty Ppy ʿnḫ(w) ḏt</p>
- <p>jmy-ḫt pr-mḏw ? jrr ḥsst [nb.f]<p>"
+ <p>jmy-ḫt pr-mḏw ? jrr ḥsst [nb.f]<p>
 sce_ies_emp_ies_SCE_id_sceau : "0003"
 sce_ies_emp_ies_SCE_id_sceau : "0004"
 sce_ies_emp_ies_SCE_id_sceau : "0020"
@@ -292,10 +292,10 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8475zg"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "9088b"
 motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
 type_sceau : "cylindre (empreinte)"
-remarque : "|
+remarque : |
  <p>= 8120, 8170, 8178 (+ note), 8190, 8192-3, 8202, 8213, 8221-2, 8225-6, 8231, 8238, 8244, 8257, 8263, 8265, 8267, 8269, 8191, 8422 (+ note), 8426, 8470, 8540</p>
  <p></p>
- <p>= 8128 (Contrescellement double : estampilles 6139 (2 acrobates au chien) et 8462 (chiens, chats, lézards)<p>"
+ <p>= 8128 (Contrescellement double : estampilles 6139 (2 acrobates au chien) et 8462 (chiens, chats, lézards)<p>
 title: sceau n°0003
 empreinte: "8118,8120,8128,8145,8170,8178,8190,8192,8193,8202,8213,8221,8222,8225,8226,8231,8238,8244,8248,8257,8260,8263,8265,8267,8269,8291,8360,8422,8426a,8426b,8426c,8426e,8426f,8426g,8426h,8426i,8426j,8426l,8470b,8525,8540,8166,8223,8224,8262,8303,8426k,8468a,8468b,8468c,8468d,8469a,8469b,8578,8579,9082,9088a,9089,8227,8470a,8470c,8470e,8470f,8470g,8470h,8470i,8470j,8470k,8470l,8470m,8470n,8470p,8470q,8470r,8470t,8470u,8470w,8470x,8470y,8470z,8470za,8470zb,8470zc,8470zd,8470ze,8470zf,8470zg,8470zh,8470zi,8470zj,8470zk,8470zl,8470zm,8470zn,8470zo,8470zp,8470zq,8470zr,8470zs,8470zt,8470zu,8470zv,8470zw,8470zx,8470zz,8470zza,8470zzb,8470zzd,8470zze,8470zzg,8470zzh,8470zzj,8470zzk,8470zzl,8470zzm,8470zzn,8470zzo,8470zzp,8470zzq,8470zzr,8470zzi,8470zzc,8470d,8470o,8470s,8470v,8470zy,8470zzf,8475zg,9088b"
 id_notice: 0003

@@ -62,9 +62,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8465b"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8465c"
 motif : "floral "
 type_sceau : "sceau estampille (empreinte)"
-remarque : "|
+remarque : |
  <p>= 6200</p>
- <p>associé à 6139<p>"
+ <p>associé à 6139<p>
 title: sceau n°0089
 empreinte: "8342,8349,8360,8361,8431a,8431b,8431c,8458a,8458b,8458c,8458d,8458e,8458f,8458g,8458h,8458i,8458j,8458k,8458l,8458m,8458n,8458o,8166,8352,8465a,8465b,8465c"
 id_notice: 0089

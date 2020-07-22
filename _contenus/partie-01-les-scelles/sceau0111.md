@@ -7,9 +7,9 @@ roi : "Pépy II"
 sce_ies_EMP_n_Inv_IFAO : "8610"
 id_sceau : "0111"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8610"
-motif : "|
+motif : |
  <p>cartouche royal Nfr-kȝ-R‘ , épithètes eulogiques</p>
- <p><p>"
+ <p><p>
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0111
 empreinte: "8610"

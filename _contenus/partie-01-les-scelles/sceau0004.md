@@ -1,21 +1,21 @@
 ---
-traduction_sceau : "|
+traduction_sceau : |
  <p>L’Horus Aimé-des-Deux terres, roi de Haute et Basse Égypte Pépy, aimé de Kherty.</p>
  <p>Le scribe de phylè d’Hathor dans la mrt de Pépy qui est dans sa ville de pyramide.</p>
  <p>L’Horus Aimé des deux terres, roi de Haute et Basse Égypte Pépy aimé de Saq de Setjoui</p>
  <p>L’inspecteur des scribes des mrt de recensement des personnes,</p>
  <p>L’inspecteur des scribes des mrt, secrétaire, </p>
  <p>L’inspecteur des scribes des mrt de la répartition du recensement des personnes, qui fait appliquer les jugements, </p>
- <p>Le contrôleur des scribes des mrt, secrétaire, qui exécute les ordres de son maître.<p>"
+ <p>Le contrôleur des scribes des mrt, secrétaire, qui exécute les ordres de son maître.<p>
 typeObjet : "Sceau"
-texte_sceau : "|
+texte_sceau : |
  <p>Ḥr Mry-t3wy Ppy nswt-bjty Ppy mry H̱rty</p>
  <p>zš n zȝ Ḥwt-Ḥr m mrt Ppy ḥryt-jb njwt-mr.s</p>
  <p>Ḥr Mry-t3wy Ppy nswt-bjty Ppy mry Sȝq n Sṯwy</p>
  <p>sḥḏ zš(w) mrt n ṯnwt rmṯ</p>
  <p>sḥḏ zš(w) mrt ḥry-sštȝ</p>
  <p>sḥḏ zš(w) mrt n wpt nt ṯnwt rmṯ smȝʿ (n) wḏʿ mdw</p>
- <p>[sḥḏ ?] zš(w) mrt ḥry-sštȝ jrr wḏt nb.f<p>"
+ <p>[sḥḏ ?] zš(w) mrt ḥry-sštȝ jrr wḏt nb.f<p>
 sce_ies_emp_ies_SCE_id_sceau : "0003"
 sce_ies_emp_ies_SCE_id_sceau : "0004"
 sce_ies_emp_ies_SCE_id_sceau : "0047"
@@ -253,9 +253,9 @@ sce_ies_emp_NOT_nom_note : "N8608"
 sce_ies_emp_NOT_nom_note : "N8484"
 sce_ies_emp_NOT_nom_note : "N8596"
 sce_ies_emp_NOT_nom_note : "N8609"
-sce_ies_emp_NOT_nom_note : "|
+sce_ies_emp_NOT_nom_note : |
  <p>N8476zui</p>
- <p><p>"
+ <p><p>
 sce_ies_emp_NOT_nom_note : "N8354"
 sce_ies_emp_NOT_nom_note : "N8545"
 sce_ies_emp_NOT_nom_note : "N8476i"

@@ -29,9 +29,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8445"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8232"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8337"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8451"
-motif : "|
+motif : |
  <p>divers animaux par paires</p>
- <p>(faucons/abeilles/lézards/chiens)<p>"
+ <p>(faucons/abeilles/lézards/chiens)<p>
 type_sceau : "cylindre (empreinte)"
 remarque : "associé à estampille 6137 : labyrinthe"
 title: sceau n°0008

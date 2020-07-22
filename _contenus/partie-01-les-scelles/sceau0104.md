@@ -9,9 +9,9 @@ sce_ies_EMP_n_Inv_IFAO : "8299"
 id_sceau : "0104"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8366"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8299"
-motif : "|
+motif : |
  <p>lézard à queue écailleuse</p>
- <p><p>"
+ <p><p>
 type_sceau : "sceau estampille (empreinte)"
 remarque : "différent de 0043"
 title: sceau n°0104
