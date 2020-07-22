@@ -41,7 +41,7 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8474c"
 motif : "2 animaux de Seth, 2 lézards, 2 chats"
 type_sceau : "sceau estampille (empreinte)"
 title: sceau n°0142
-empreinte: "8128","8462a","8462b","8462c","8462d","8462e","8302","8463a","8463b","8464","8472a","8472b","8474a","8474b","8474c"
+empreinte: "8128,8462a,8462b,8462c,8462d,8462e,8302,8463a,8463b,8464,8472a,8472b,8474a,8474b,8474c"
 id_notice: 0142
 layout: notice_sceau
 type: sceau

@@ -13,7 +13,7 @@ remarque : "|
  <p>2001 = 8246</p>
  <p>Cp.  0060, 0109.<p>"
 title: sceau n°0042
-empreinte: "8235","8246"
+empreinte: "8235,8246"
 id_notice: 0042
 layout: notice_sceau
 type: sceau

@@ -63,7 +63,7 @@ motif : "petit labyrinthe ovale, "style nouille""
 type_sceau : "estampille (empreinte)"
 remarque : "= 6137 = 8345"
 title: sceau n°0084
-empreinte: "8127","8130","8131","8132","8151","8154","8339","8345","8363","8493","8502","8165","8232","8337","8354","8451","8454","8477","8478","8453a","8453b"
+empreinte: "8127,8130,8131,8132,8151,8154,8339,8345,8363,8493,8502,8165,8232,8337,8354,8451,8454,8477,8478,8453a,8453b"
 id_notice: 0084
 layout: notice_sceau
 type: sceau

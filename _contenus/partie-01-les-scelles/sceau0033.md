@@ -13,7 +13,7 @@ motif : "course royale avec Apis, serekh, épithète jrr wḏt"
 type_sceau : "cylindre (empreinte)"
 remarque : "associé à un autre cylindre à colonnes ? ou un autre fragment du même ?"
 title: sceau n°0033
-empreinte: "8168","8277"
+empreinte: "8168,8277"
 id_notice: 0033
 layout: notice_sceau
 type: sceau

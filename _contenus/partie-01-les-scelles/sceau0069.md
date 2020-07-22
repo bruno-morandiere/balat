@@ -27,7 +27,7 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8454"
 motif : "3 hommes tête-bêche ("nains sauteurs"),…"
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0069
-empreinte: "8131","8313","8316","8321","8435b","8522","8546a","8546c","8454"
+empreinte: "8131,8313,8316,8321,8435b,8522,8546a,8546c,8454"
 id_notice: 0069
 layout: notice_sceau
 type: sceau

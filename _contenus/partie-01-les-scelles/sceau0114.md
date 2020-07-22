@@ -64,7 +64,7 @@ remarque : "|
  <p>= ? 8251</p>
  <p>Cp. 0047 au même titre, 8467g.<p>"
 title: sceau n°0114
-empreinte: "8425","8467a","8467b","8467c","8467d","8467e","8467f","8467h","8467i","8467j","8467k","8467l","8424","8466a","8466b","8466c","8466d"
+empreinte: "8425,8467a,8467b,8467c,8467d,8467e,8467f,8467h,8467i,8467j,8467k,8467l,8424,8466a,8466b,8466c,8466d"
 id_notice: 0114
 layout: notice_sceau
 type: sceau

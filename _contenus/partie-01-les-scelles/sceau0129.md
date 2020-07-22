@@ -34,7 +34,7 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8310"
 motif : "homme tenant un crocodile?, lézard, abeille, lion ou chien assis, oiseaux affrontés, hippopotame, capriné, …"
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0129
-empreinte: "8436a","8436b","8436c","8436d","8446a","8446b","8506a","8506b","8506c","8506d","8507a","8537","8310"
+empreinte: "8436a,8436b,8436c,8436d,8446a,8446b,8506a,8506b,8506c,8506d,8507a,8537,8310"
 id_notice: 0129
 layout: notice_sceau
 type: sceau

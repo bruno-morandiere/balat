@@ -19,7 +19,7 @@ motif : "|
 type_sceau : "cylindre (empreinte)"
 remarque : "Probablement Pépy II."
 title: sceau n°0041
-empreinte: "8230","8325","8450","8525"
+empreinte: "8230,8325,8450,8525"
 id_notice: 0041
 layout: notice_sceau
 type: sceau

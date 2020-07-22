@@ -14,7 +14,7 @@ motif : "|
 type_sceau : "cylindre (empreinte)"
 remarque : "cp 3477 ds Balat VI, p. 418, mais pas identique."
 title: sceau n°0121
-empreinte: "8296","8314"
+empreinte: "8296,8314"
 id_notice: 0121
 layout: notice_sceau
 type: sceau

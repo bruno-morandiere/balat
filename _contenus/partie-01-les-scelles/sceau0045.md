@@ -23,7 +23,7 @@ motif : "|
  <p><p>"
 type_sceau : "sceau estampille (empreinte)"
 title: sceau n°0045
-empreinte: "8310","8424","8466a","8466b","8466c","8466d"
+empreinte: "8310,8424,8466a,8466b,8466c,8466d"
 id_notice: 0045
 layout: notice_sceau
 type: sceau

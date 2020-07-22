@@ -48,7 +48,7 @@ motif : "un acrobate avec 2 chiens"
 type_sceau : "sceau estampille (empreinte)"
 remarque : "= 6135 : acrobate aux 2 chiens"
 title: sceau n°0021
-empreinte: "8145","8149","8344","8351","8432a","8432b","8461a","8461c","8461d","8461e","8461f","8461g","8262","8461b","8469a","8469b","9082","9088a"
+empreinte: "8145,8149,8344,8351,8432a,8432b,8461a,8461c,8461d,8461e,8461f,8461g,8262,8461b,8469a,8469b,9082,9088a"
 id_notice: 0021
 layout: notice_sceau
 type: sceau

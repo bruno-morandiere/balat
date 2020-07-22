@@ -15,7 +15,7 @@ motif : "|
 type_sceau : "sceau estampille (empreinte)"
 remarque : "différent de 0043"
 title: sceau n°0104
-empreinte: "8366","8299"
+empreinte: "8366,8299"
 id_notice: 0104
 layout: notice_sceau
 type: sceau

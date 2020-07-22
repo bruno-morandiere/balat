@@ -13,9 +13,9 @@ sce_ies_emp_ies_EMP_n_Inv_IFAO : "8320"
 sce_ies_emp_ies_EMP_n_Inv_IFAO : "8421"
 motif : "canidé assis et lézards "
 type_sceau : "cylindre (empreinte)"
-remarque : "associé à estampille 6137 : labyrinthe  cf. Balat VI"
+remarque : "associé à estampille 6137 : labyrinthe ; cf. Balat VI"
 title: sceau n°0010
-empreinte: "8132","8320","8421"
+empreinte: "8132,8320,8421"
 id_notice: 0010
 layout: notice_sceau
 type: sceau

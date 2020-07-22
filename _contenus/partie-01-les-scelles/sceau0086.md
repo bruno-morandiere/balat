@@ -23,7 +23,7 @@ remarque : "|
  <p>= 8348</p>
  <p>= ? 8347<p>"
 title: sceau n°0086
-empreinte: "8343","8348","8455a","8455b","8455c","8455d","8455e"
+empreinte: "8343,8348,8455a,8455b,8455c,8455d,8455e"
 id_notice: 0086
 layout: notice_sceau
 type: sceau

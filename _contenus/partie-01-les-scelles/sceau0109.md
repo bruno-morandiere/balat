@@ -18,7 +18,7 @@ remarque : "|
  <p>Cp. 0042, 0060.</p>
  <p><p>"
 title: sceau n°0109
-empreinte: "8439","9109","8440"
+empreinte: "8439,9109,8440"
 id_notice: 0109
 layout: notice_sceau
 type: sceau

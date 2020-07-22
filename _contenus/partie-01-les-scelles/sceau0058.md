@@ -6,7 +6,7 @@ motif : "indéterminé"
 type_sceau : "cylindre (empreinte)"
 remarque : "nouveau ?"
 title: sceau n°0058
-empreinte: 
+empreinte: ""
 id_notice: 0058
 layout: notice_sceau
 type: sceau

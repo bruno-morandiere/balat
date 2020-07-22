@@ -20,7 +20,7 @@ motif : "texte hiéroglyphique en colonnes, šps-nswt"
 type_sceau : "cylindre (empreinte)"
 remarque : "différent du sceau 0114, connu presque au complet, mais texte identique ?"
 title: sceau n°0047
-empreinte: "8169","8251","8467g","9087","8608"
+empreinte: "8169,8251,8467g,9087,8608"
 id_notice: 0047
 layout: notice_sceau
 type: sceau

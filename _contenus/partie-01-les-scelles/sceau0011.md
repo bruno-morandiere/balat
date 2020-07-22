@@ -29,7 +29,7 @@ motif : "homme à plumes attaqué par un lion, arbre, abeille, lion couchant,…
 type_sceau : "cylindre (empreinte)"
 remarque : "=6747 de 1999"
 title: sceau n°0011
-empreinte: "8134","8312","8435a","8435b","8435c","8435d","8435e","8435f","8514","8441"
+empreinte: "8134,8312,8435a,8435b,8435c,8435d,8435e,8435f,8514,8441"
 id_notice: 0011
 layout: notice_sceau
 type: sceau
