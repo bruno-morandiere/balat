@@ -5,30 +5,30 @@
       <nav id="nav-catalogue" >
         <input type="radio" id="close-menu" name="toggle-menu" value="close" checked>
         <label for="close-menu" id="label-close-menu">{% include icons/close.svg %}</label>
-      <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+      <h1><a href="{{ site.url }}/balat/">{{ site.title }}</a></h1>
   
       <ul>
         {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}<li class="li-nav-chapter {% if page.partie == 1 %}current{% endif %}">
-          <a href="{{ site.url }}/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
+          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
         </li>{% endif %}{% endfor %}
         {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}<li class="li-nav-chapter {% if page.partie == 2 %}current{% endif %}">
-          <a href="{{ site.url }}/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
+          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
         </li>{% endif %}{% endfor %}
         {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}<li class="li-nav-chapter {% if page.partie == 3 %}current{% endif %}">
-          <a href="{{ site.url }}/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
+          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
         </li>{% endif %}{% endfor %}
         {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}<li class="li-nav-chapter {% if page.partie == 4 %}current{% endif %}">
-          <a href="{{ site.url }}/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
+          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
         </li>{% endif %}{% endfor %}
-        <li class="li-nav-aside {% if page.def == "bibliographie" %}current{% endif %}" id="link-bilio"><a href="{{ site.url }}/bibliographie"><span class="title-partie">Bibliographie</span></a></li>
-        <li class="li-nav-aside {% if page.def == "a_propos" %}current{% endif %}"><a href="{{ site.url }}/a-propos"><span class="title-partie">À propos</span></a></li>
-        <li class="li-nav-aside {% if page.def == "mentions_legales" %}current{% endif %}"><a href="{{ site.url }}/mentions-legales"><span class="title-partie">Mentions légales</span></a></li>
-        <li class="li-nav-aside {% if page.def == "contact" %}current{% endif %}"><a href="{{ site.url }}/contact"><span class="title-partie">Contact</span></a></li>
+        <li class="li-nav-aside {% if page.def == "bibliographie" %}current{% endif %}" id="link-bilio"><a href="{{ site.url }}/balat/bibliographie"><span class="title-partie">Bibliographie</span></a></li>
+        <li class="li-nav-aside {% if page.def == "a_propos" %}current{% endif %}"><a href="{{ site.url }}/balat/a-propos"><span class="title-partie">À propos</span></a></li>
+        <li class="li-nav-aside {% if page.def == "mentions_legales" %}current{% endif %}"><a href="{{ site.url }}/balat/mentions-legales"><span class="title-partie">Mentions légales</span></a></li>
+        <li class="li-nav-aside {% if page.def == "contact" %}current{% endif %}"><a href="{{ site.url }}/balat/contact"><span class="title-partie">Contact</span></a></li>
       </ul>
     </nav>
       <nav id="nav-chemin">
         <ul>
-          <li><span><a href="{{ site.url }}">⌂ Accueil</a></span></li>
+          <li><span><a href="{{ site.url }}/balat/">⌂ Accueil</a></span></li>
          {% if page.type == "partie" %}
          <li><span>
            {{page.title}}
