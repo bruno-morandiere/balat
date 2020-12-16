@@ -1,51 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "privé"
 n_Inv_IFAO : "8343"
-emp_ies_SCE_niveau : "privé"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3436"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3005"
-emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "86"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "86"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0086"
+scl_iss_SCE_motif : "labyrinthe géométrique "à pointes""
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8343_3005_08_3436.jpg"
-emp_ies_SCE_id_sceau : "0086"
-emp_ies_SCE_motif : "labyrinthe géométrique "à pointes""
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0086
-    niveau : privé
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8343
-    sce_ies_EMP_n_Inv_IFAO : 8348
-    sce_ies_EMP_n_Inv_IFAO : 8455a
-    sce_ies_EMP_n_Inv_IFAO : 8455b
-    sce_ies_EMP_n_Inv_IFAO : 8455c
-    sce_ies_EMP_n_Inv_IFAO : 8455d
-    sce_ies_EMP_n_Inv_IFAO : 8455e
-    id_sceau : "0086"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8343
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8348
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8455a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8455b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8455c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8455d
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8455e
-    motif : labyrinthe géométrique "à pointes"
-    type_sceau : sceau estampille (empreinte)
-    remarque : |
-     <p>= 8348</p>
-     <p>= ? 8347<p>
-
 
 title: empreinte n°8343
-images: 8343_3005_08_3436.jpg
+images: 
 id_notice: 8343
 layout: notice
 type: empreinte

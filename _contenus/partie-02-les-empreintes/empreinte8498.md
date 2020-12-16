@@ -1,21 +1,22 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8498"
+nature_scelle : "scellé seulement inscrit"
 typeObjet : "Empreinte"
-type_empreinte : "note"
+scl_PHO_no_photo_IFAO : "NU_2009_3383"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3032"
-emp_SEC_nom_secteur : "palais, magasin sud"
-nature_empreinte : "scellé seulement inscrit"
+scl_NOT_nom_note : "N8498"
+fid_loc : "1"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "[…] nt? jmȝḫ […]"
-emp_PHO_nomFichier : "8498.jpg"
-emp_NOT_traduction : "[...] de la pension/du pensionné [...]"
-emp_NOT_nom_note : "N8498"
+scl_NOT_transcription : "[…] nt? jmȝḫ […]"
+type_scelle : "note"
+scl_NOT_traduction : "[...] de la pension/du pensionné [...]"
 sceaux :
 
 title: empreinte n°8498
-images: 8498.jpg
+images: 
 id_notice: 8498
 layout: notice
 type: empreinte

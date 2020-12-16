@@ -1,63 +1,26 @@
 ---
-emp_US_us_nom : "4181"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal ?"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "9109"
-emp_ies_SCE_niveau : "royal ?"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique avec note hiératique"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3144"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "109"
-emp_IES_fid_sceau : "7"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "109"
+scl_ISS_fid_sceau : "7"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0007"
+scl_iss_SCE_id_sceau : "0109"
+scl_iss_SCE_motif : "indéterminé"
+scl_iss_SCE_motif : "groupes et symboles hiéroglyphiques"
+scl_US_us_nom : "4181"
 fid_US : "4"
-emp_ies_SCE_id_sceau : "0007"
-emp_ies_SCE_id_sceau : "0109"
-emp_ies_SCE_motif : "indéterminé"
-emp_ies_SCE_motif : "groupes et symboles hiéroglyphiques"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique avec note hiératique"
 remarque : "note réduite à un trait, peut-être le numéral 1."
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0007
-    sce_ies_emp_ies_SCE_id_sceau : 0109
-    niveau : royal ?
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 9109
-    id_sceau : "0007"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9109
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0007
-    sce_ies_emp_ies_SCE_id_sceau : 0020
-    sce_ies_emp_ies_SCE_id_sceau : 0109
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8439
-    sce_ies_EMP_n_Inv_IFAO : 9109
-    sce_ies_EMP_n_Inv_IFAO : 8440
-    id_sceau : "0109"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8439
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9109
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8440
-    motif : groupes et symboles hiéroglyphiques
-    type_sceau : cylindre (empreinte)
-    remarque : |
-     <p>Des séquences graphiques suivies : ḏȝḏȝt, rḫt, ḥry-jb mais qui ne forment pas d'énoncés continus.</p>
-     <p>Cp. 0042, 0060.</p>
-     <p><p>
-
 
 title: empreinte n°9109
 images: 

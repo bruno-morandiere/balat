@@ -1,14 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8513"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0158"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0158"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8513"
+sce_iss_SCL_n_Inv_IFAO : "8513"
 id_sceau : "0158"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8513"
-motif : "indéterminé"
+motif : "lièvres affrontés, …"
 type_sceau : "cylindre (empreinte)"
+remarque : "Parallèle des lièvres affrontés : Balat V/2, p. 110, fig. 113, n° 5505."
 title: sceau n°0158
-empreinte: "8513"
+empreinte: ""
 id_notice: 0158
 layout: notice_sceau
 type: sceau

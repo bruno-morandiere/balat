@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8146"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0018"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0018"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8146"
+sce_iss_SCL_n_Inv_IFAO : "8146"
 id_sceau : "0018"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8146"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "estampille"
 title: sceau n°0018
-empreinte: "8146"
+empreinte: ""
 id_notice: 0018
 layout: notice_sceau
 type: sceau

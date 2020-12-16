@@ -1,15 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8543"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0004"
+sce_iss_scl_iss_SCE_id_sceau : "0068"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0004"
-sce_ies_emp_ies_SCE_id_sceau : "0068"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8543"
+sce_iss_SCL_n_Inv_IFAO : "8543"
 id_sceau : "0068"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8543"
-motif : "canidé marchant ?"
-type_sceau : "cylindre (empreinte)"
+motif : |
+ <p>en lignes : canidé marchant, lézards,…</p>
+ <p><p>
+type_sceau : "cylindre"
+remarque : "cp. 0010."
 title: sceau n°0068
-empreinte: "8543"
+empreinte: ""
 id_notice: 0068
 layout: notice_sceau
 type: sceau

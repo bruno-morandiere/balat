@@ -1,16 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8164"
+categorie : "non royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0031"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0031"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8164"
+sce_iss_SCL_n_Inv_IFAO : "8164"
 id_sceau : "0031"
-sce_ies_emp_NOT_nom_note : "N8164"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8164"
-motif : "animal ?"
-type_sceau : "cylindre (empreinte)"
-remarque : "associé à une note"
+motif : "en colonnes : abeille…"
+type_sceau : "cylindre"
+sce_iss_scl_NOT_nom_note : "N8164"
 title: sceau n°0031
-empreinte: "8164"
+empreinte: ""
 id_notice: 0031
 layout: notice_sceau
 type: sceau

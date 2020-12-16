@@ -1,18 +1,19 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8258"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "contrescellement simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3334"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3003"
-emp_SEC_nom_secteur : "palais, magasin sud"
-nature_empreinte : "empreinte de sceau sur scellé"
+fid_loc : "1"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8258_3003_08_3334.jpg"
+type_scelle : "contrescellement simple"
 sceaux :
 
 title: empreinte n°8258
-images: 8258_3003_08_3334.jpg
+images: 
 id_notice: 8258
 layout: notice
 type: empreinte

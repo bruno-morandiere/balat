@@ -1,15 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8510"
+categorie : "royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0155"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0155"
-niveau : "indéterminé"
-roi : "Pépy"
-sce_ies_EMP_n_Inv_IFAO : "8510"
+sce_iss_SCL_n_Inv_IFAO : "8510"
 id_sceau : "0155"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8510"
-motif : "indéterminé"
+motif : "texte hiéroglyphique ?"
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0155
-empreinte: "8510"
+empreinte: ""
 id_notice: 0155
 layout: notice_sceau
 type: sceau

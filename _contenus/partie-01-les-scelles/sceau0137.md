@@ -1,16 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8453a"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0084"
+sce_iss_scl_iss_SCE_id_sceau : "0137"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0084"
-sce_ies_emp_ies_SCE_id_sceau : "0137"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8453a"
+sce_iss_SCL_n_Inv_IFAO : "8453a"
 id_sceau : "0137"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8453a"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
-remarque : "avec estampille 84."
+type_sceau : "cylindre"
 title: sceau n°0137
-empreinte: "8453a"
+empreinte: ""
 id_notice: 0137
 layout: notice_sceau
 type: sceau

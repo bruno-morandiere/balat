@@ -1,42 +1,31 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8266"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique avec note hiératique"
+scl_PHO_no_photo_IFAO : "NU_2008_3342"
+scl_PHO_no_photo_IFAO : "NU_2008_3343"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3003"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "54"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0054"
+scl_ISS_fid_sceau : "0166"
+scl_NOT_nom_note : "N8266"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0054"
+scl_iss_SCE_motif : "titulature royale : cartouche"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "ȝbd 1 š[mw] s[w…]"
-emp_PHO_nomFichier : "8266_3003_08_3342.jpg"
-emp_PHO_nomFichier : "8266_3003_08_3343.jpg"
-emp_NOT_traduction : "1er mois de la saison-chémou, j[our ...]"
-emp_ies_SCE_id_sceau : "0054"
-emp_ies_SCE_motif : "titulature royale avec cartouche"
-emp_NOT_nom_note : "N8266"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_NOT_transcription : "ȝbd 1 š[mw] s[w…]"
+type_scelle : "contrescellement double avec note hiératique"
+scl_iss_SCE_roi : "indéterminé"
+remarque : "La note oblitère le second cylindre. On distingue aussi un fragment du pourtour d'une estampille ronde détruite."
+scl_NOT_traduction : "1er mois de la saison-chémou, j[our ...]"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : [nswt] bjty […]
-    sce_ies_emp_ies_SCE_id_sceau : 0054
-    niveau : royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8266
-    id_sceau : "0054"
-    sce_ies_emp_NOT_nom_note : N8266
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8266
-    motif : titulature royale avec cartouche
-    type_sceau : cylindre (empreinte)
-    remarque : plus probablement Pépy II, étant donné le style de la gravure.
-
 
 title: empreinte n°8266
-images: 8266_3003_08_3342.jpg,8266_3003_08_3343.jpg
+images: 
 id_notice: 8266
 layout: notice
 type: empreinte

@@ -8,63 +8,62 @@ traduction_sceau : |
  <p>Le roi de Haute et Basse Égypte, le fils de Rê Pépy, aimé de Khnoum.</p>
  <p>Le noble du roi, ami de la Maison, qui garde [son ?] dieu [...].</p>
  <p>Le roi de Haute et Basse Égypte Pépy, aimé d’Horus jmy-šnwt.<p>
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8180"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8425"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467a"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467b"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467c"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467d"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467e"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467f"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467h"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467i"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467j"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467k"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8467l"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8424"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8466a"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8466b"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8466c"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8466d"
+categorie : "royal"
+sce_iss_scl_iss_SCE_id_sceau : "0045"
+sce_iss_scl_iss_SCE_id_sceau : "0114"
 typeObjet : "Sceau"
 texte_sceau : |
  <p>Ḥr mry-t3wy Ppy [...]</p>
  <p>šps-nswt ḥry-sštȝ n ḫtmt ?-nṯr</p>
- <p>šps-nswt smr-pr jrr wḏ[t ...]nb.f ?]</p>
+ <p>šps-nswt smr-pr jrr wḏ[t nb.f ?]</p>
  <p>Ḥr mry-t3wy dj.f ʿnḫ nb</p>
  <p>šps-nswt smr-pr jrr ḥsst.f nb(t)</p>
  <p>nswt-bjty zȝ Rʿ Ppy mry H̱nmw</p>
  <p>šps-nswt smr-pr stp-zȝ nṯr [.f  ?...]</p>
  <p>nswt-bjty Ppy mry Ḥr jmy-šnwt<p>
-sce_ies_emp_ies_SCE_id_sceau : "0045"
-sce_ies_emp_ies_SCE_id_sceau : "0114"
-niveau : "royal"
-roi : "Pépy Ier"
-sce_ies_EMP_n_Inv_IFAO : "8425"
-sce_ies_EMP_n_Inv_IFAO : "8467a"
-sce_ies_EMP_n_Inv_IFAO : "8467b"
-sce_ies_EMP_n_Inv_IFAO : "8467c"
-sce_ies_EMP_n_Inv_IFAO : "8467d"
-sce_ies_EMP_n_Inv_IFAO : "8467e"
-sce_ies_EMP_n_Inv_IFAO : "8467f"
-sce_ies_EMP_n_Inv_IFAO : "8467h"
-sce_ies_EMP_n_Inv_IFAO : "8467i"
-sce_ies_EMP_n_Inv_IFAO : "8467j"
-sce_ies_EMP_n_Inv_IFAO : "8467k"
-sce_ies_EMP_n_Inv_IFAO : "8467l"
-sce_ies_EMP_n_Inv_IFAO : "8424"
-sce_ies_EMP_n_Inv_IFAO : "8466a"
-sce_ies_EMP_n_Inv_IFAO : "8466b"
-sce_ies_EMP_n_Inv_IFAO : "8466c"
-sce_ies_EMP_n_Inv_IFAO : "8466d"
+roi : "Pépy I"
+sce_iss_SCL_n_Inv_IFAO : "8180"
+sce_iss_SCL_n_Inv_IFAO : "8425"
+sce_iss_SCL_n_Inv_IFAO : "8467a"
+sce_iss_SCL_n_Inv_IFAO : "8467b"
+sce_iss_SCL_n_Inv_IFAO : "8467c"
+sce_iss_SCL_n_Inv_IFAO : "8467d"
+sce_iss_SCL_n_Inv_IFAO : "8467e"
+sce_iss_SCL_n_Inv_IFAO : "8467f"
+sce_iss_SCL_n_Inv_IFAO : "8467h"
+sce_iss_SCL_n_Inv_IFAO : "8467i"
+sce_iss_SCL_n_Inv_IFAO : "8467j"
+sce_iss_SCL_n_Inv_IFAO : "8467k"
+sce_iss_SCL_n_Inv_IFAO : "8467l"
+sce_iss_SCL_n_Inv_IFAO : "8424"
+sce_iss_SCL_n_Inv_IFAO : "8466a"
+sce_iss_SCL_n_Inv_IFAO : "8466b"
+sce_iss_SCL_n_Inv_IFAO : "8466c"
+sce_iss_SCL_n_Inv_IFAO : "8466d"
 id_sceau : "0114"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8425"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467a"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467b"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467c"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467d"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467e"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467f"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467h"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467i"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467j"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467k"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8467l"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8424"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466a"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466b"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466c"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8466d"
-motif : "texte hiéroglyphique : šps-nswt"
-type_sceau : "cylindre (empreinte)"
-remarque : |
- <p>= 8425, 8466, 8467, 8578, 9087</p>
- <p>= ? 8251</p>
- <p>Cp. 0047 au même titre, 8467g.<p>
+motif : "texte hiéroglyphique : protocole royal et titre šps-nswt."
+type_sceau : "cylindre"
+remarque : "Cp. 0047, 0035, 0027 au même titre šps-nswt."
 title: sceau n°0114
-empreinte: "8425,8467a,8467b,8467c,8467d,8467e,8467f,8467h,8467i,8467j,8467k,8467l,8424,8466a,8466b,8466c,8466d"
+empreinte: ""
 id_notice: 0114
 layout: notice_sceau
 type: sceau

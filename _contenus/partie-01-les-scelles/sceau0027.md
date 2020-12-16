@@ -1,18 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "9087"
+categorie : "royal"
+sce_iss_scl_iss_SCE_id_sceau : "0027"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0026"
-sce_ies_emp_ies_SCE_id_sceau : "0027"
-niveau : "royal"
-roi : "Pépy"
-sce_ies_EMP_n_Inv_IFAO : "8155"
+texte_sceau : |
+ <p>šps-nswt sm...</p>
+ <p>nswt [bjty]...<p>
+sce_iss_SCL_n_Inv_IFAO : "9087"
 id_sceau : "0027"
-sce_ies_emp_NOT_nom_note : "N8155"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8155"
-motif : "bas d'un serekh"
-type_sceau : "cylindre (empreinte)"
-remarque : "associé à une note et au cylindre 0026"
+motif : "texte hiéroglyphique : protocole royal et titre šps-nswt"
+type_sceau : "cylindre"
+remarque : "La disposition, les dimensions et le texte semblent proches de 0035 et 0041, mais le ductus est différent. Il pourrait néanmoins s'agir du même sceau."
 title: sceau n°0027
-empreinte: "8155"
+empreinte: ""
 id_notice: 0027
 layout: notice_sceau
 type: sceau

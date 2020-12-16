@@ -1,42 +1,28 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8499"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple avec note"
+scl_PHO_no_photo_IFAO : "NU_2009_3384"
+scl_PHO_no_photo_IFAO : "NU_2009_3385"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3032"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "149"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "149"
+scl_NOT_nom_note : "N8499"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0149"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "bjt ?"
-emp_PHO_nomFichier : "8499_1.jpg"
-emp_PHO_nomFichier : "8499_2.jpg"
-emp_NOT_traduction : "miel ?"
-emp_ies_SCE_id_sceau : "0149"
-emp_ies_SCE_motif : "indéterminé"
-emp_NOT_nom_note : "N8499"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_NOT_transcription : "bjt "
+type_scelle : "simple avec note"
+scl_NOT_traduction : "miel "
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0149
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8499
-    id_sceau : "0149"
-    sce_ies_emp_NOT_nom_note : N8499
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8499
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8499
-images: 8499_1.jpg,8499_2.jpg
+images: 
 id_notice: 8499
 layout: notice
 type: empreinte

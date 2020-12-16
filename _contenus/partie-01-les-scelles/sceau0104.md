@@ -1,21 +1,22 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8366"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8299"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0020"
+sce_iss_scl_iss_SCE_id_sceau : "0099"
+sce_iss_scl_iss_SCE_id_sceau : "0104"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0020"
-sce_ies_emp_ies_SCE_id_sceau : "0099"
-sce_ies_emp_ies_SCE_id_sceau : "0104"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8366"
-sce_ies_EMP_n_Inv_IFAO : "8299"
+sce_iss_SCL_n_Inv_IFAO : "8366"
+sce_iss_SCL_n_Inv_IFAO : "8299"
 id_sceau : "0104"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8366"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8299"
-motif : |
- <p>lézard à queue écailleuse</p>
+dimensions_sceau : "diamètre 2,8 cm"
+motif : "ronde de lézards (?) à queue et dos épineux ou écailleux, …"
+type_sceau : "estampille"
+remarque : |
+ <p>cp. 0043 pour le motif.</p>
  <p><p>
-type_sceau : "sceau estampille (empreinte)"
-remarque : "différent de 0043"
 title: sceau n°0104
-empreinte: "8366,8299"
+empreinte: ""
 id_notice: 0104
 layout: notice_sceau
 type: sceau

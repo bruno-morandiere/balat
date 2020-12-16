@@ -1,43 +1,34 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8168"
-emp_ies_SCE_roi : "indéterminé"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "contrescellement simple ?"
+scl_PHO_no_photo_IFAO : "NU_2008_3214"
+scl_PHO_no_photo_IFAO : "NU_2008_3215"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3002"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "33"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "33"
+scl_ISS_fid_sceau : "0013"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0033"
+scl_iss_SCE_id_sceau : "0013"
+scl_iss_SCE_motif : "texte hiéroglyphique en colonnes : titulature royale et épithètes de fonctionnaire."
+scl_iss_SCE_motif : "|
+ <p>en colonnes, indéterminé</p>
+ <p><p>"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8168_3002_08_3214.jpg"
-emp_PHO_nomFichier : "8168_3002_08_3215.jpg"
-emp_ies_SCE_id_sceau : "0033"
-emp_ies_SCE_motif : "course royale avec Apis, serekh, épithète jrr wḏt"
-remarque : "un cylindre royal, peut-être contrescellé par un second cylindre "
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "contrescellement simple ?"
+scl_iss_SCE_roi : "Pépy I ?"
+remarque : "un cylindre royal, contrescellé par un second cylindre."
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0033
-    niveau : royal
-    roi : indéterminé
-    sce_ies_EMP_n_Inv_IFAO : 8168
-    sce_ies_EMP_n_Inv_IFAO : 8277
-    id_sceau : "0033"
-    sce_ies_emp_NOT_nom_note : N8277
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8168
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8277
-    motif : course royale avec Apis, serekh, épithète jrr wḏt
-    type_sceau : cylindre (empreinte)
-    remarque : associé à un autre cylindre à colonnes ? ou un autre fragment du même ?
-
 
 title: empreinte n°8168
-images: 8168_3002_08_3214.jpg,8168_3002_08_3215.jpg
+images: 
 id_notice: 8168
 layout: notice
 type: empreinte

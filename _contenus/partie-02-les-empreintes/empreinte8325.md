@@ -1,50 +1,32 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8325"
-emp_ies_SCE_roi : "Néferkarê"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3415"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3004"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "41"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "41"
+scl_ISS_fid_sceau : "0003"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0003"
+scl_iss_SCE_id_sceau : "0041"
+scl_iss_SCE_motif : "texte hiéroglyphique : protocole royal et titre jmy-ḫt pr-‘ȝ"
+scl_iss_SCE_motif : "texte hiéroglyphique : protocole royal et titre šps-nswt"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8325_3004_08_3415.jpg"
-emp_ies_SCE_id_sceau : "0041"
-emp_ies_SCE_motif : "|
- <p>cartouche, texte hiéroglyphique en colonnes.</p>
- <p><p>"
-remarque : "= 8230, 8450."
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "contrescellement simple"
+scl_iss_SCE_roi : "Pépy I"
+scl_iss_SCE_roi : "Néferkarê (Pépy II)"
+remarque : "association des deux mêmes sceaux sur le scellé 8525."
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0003
-    sce_ies_emp_ies_SCE_id_sceau : 0041
-    niveau : royal
-    roi : Néferkarê
-    sce_ies_EMP_n_Inv_IFAO : 8230
-    sce_ies_EMP_n_Inv_IFAO : 8325
-    sce_ies_EMP_n_Inv_IFAO : 8450
-    sce_ies_EMP_n_Inv_IFAO : 8525
-    id_sceau : "0041"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8230
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8325
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8450
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8525
-    motif : |
-     <p>cartouche, texte hiéroglyphique en colonnes.</p>
-     <p><p>
-    type_sceau : cylindre (empreinte)
-    remarque : Probablement Pépy II.
-
 
 title: empreinte n°8325
-images: 8325_3004_08_3415.jpg
+images: 
 id_notice: 8325
 layout: notice
 type: empreinte

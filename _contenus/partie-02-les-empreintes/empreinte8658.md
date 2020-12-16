@@ -1,39 +1,26 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8658"
-emp_ies_SCE_roi : "indéterminé"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple avec note ?"
+scl_PHO_no_photo_IFAO : "NU_2009_3509"
+scl_PHO_no_photo_IFAO : "NU_2009_3510"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3031 ?"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "13"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0005"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0005"
+scl_iss_SCE_motif : "texte hiéroglyphique en colonnes : titulature royale et épithètes de fonctionnaire."
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8658_1.jpg"
-emp_PHO_nomFichier : "8658_2.jpg"
-emp_ies_SCE_id_sceau : "0013"
-emp_ies_SCE_motif : "texte hiéroglyphique en colonnes : stp-zȝ"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple avec note ?"
+scl_iss_SCE_roi : "Pépy I"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0013
-    niveau : royal
-    roi : indéterminé
-    sce_ies_EMP_n_Inv_IFAO : 8658
-    id_sceau : "0013"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8658
-    motif : texte hiéroglyphique en colonnes &#58; stp-zȝ
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8658
-images: 8658_1.jpg,8658_2.jpg
+images: 
 id_notice: 8658
 layout: notice
 type: empreinte

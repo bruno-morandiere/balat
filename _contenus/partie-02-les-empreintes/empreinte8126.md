@@ -1,41 +1,27 @@
 ---
-emp_US_us_nom : "2632"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8126"
-emp_ies_SCE_roi : "Pépy"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique"
+scl_PHO_no_photo_IFAO : "NU_2008_3143"
+scl_PHO_no_photo_IFAO : "NU_2008_3144"
+scl_PHO_no_photo_IFAO : "NU_2008_3145"
 n_Inv_CSA : "3000"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "5"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "5"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0005"
+scl_iss_SCE_motif : "texte hiéroglyphique en colonnes : titulature royale et épithètes de fonctionnaire."
+scl_US_us_nom : "2632"
 fid_US : "2"
-emp_PHO_nomFichier : "8126_1.jpg"
-emp_PHO_nomFichier : "8126_2.jpg"
-emp_PHO_nomFichier : "8126_3.jpg"
-emp_ies_SCE_id_sceau : "0005"
-emp_ies_SCE_motif : "texte hiéroglyphique : cartouche, mention des rḫyt"
-remarque : "deux traits de calame."
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique"
+scl_iss_SCE_roi : "Pépy I"
+remarque : "deux points gravés au calame."
 sceaux :
-  - traduction_sceau : ...ḥwt nb rḫyt
-    typeObjet : Sceau
-    texte_sceau : cartouche &#58; Ppy
-    sce_ies_emp_ies_SCE_id_sceau : 0005
-    niveau : royal
-    roi : Pépy
-    sce_ies_EMP_n_Inv_IFAO : 8126
-    id_sceau : "0005"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8126
-    motif : texte hiéroglyphique &#58; cartouche, mention des rḫyt
-    type_sceau : cylindre (empreinte)
-    remarque : cp. Jones 1961 &#58; ḥm-nṯr nbwy rḫyt
-
 
 title: empreinte n°8126
-images: 8126_1.jpg,8126_2.jpg,8126_3.jpg
+images: 
 id_notice: 8126
 layout: notice
 type: empreinte

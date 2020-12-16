@@ -1,39 +1,26 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8515"
-emp_ies_SCE_niveau : "non royal ?"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3407"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3031?"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "165"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0134"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0134"
+scl_iss_SCE_motif : "titulature royale : serekh et cartouche"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8515.jpg"
-emp_ies_SCE_id_sceau : "0165"
-emp_ies_SCE_motif : "gémétrique : quadrillage"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
+scl_iss_SCE_roi : "Pépy II"
+remarque : "Une note à l'encre ?"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0165
-    niveau : non royal ?
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8515
-    id_sceau : "0165"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8515
-    motif : gémétrique &#58; quadrillage
-    type_sceau : cylindre (empreinte)
-    remarque : |
-     <p>cp. le bas du serekh de 8716. Sans doute seulement une petite portion d'un cylindre.</p>
-     <p>Une note à l'encre ?<p>
-
 
 title: empreinte n°8515
-images: 8515.jpg
+images: 
 id_notice: 8515
 layout: notice
 type: empreinte

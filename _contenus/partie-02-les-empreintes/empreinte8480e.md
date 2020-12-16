@@ -1,33 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8480e"
+nature_scelle : "scellé seulement inscrit"
 typeObjet : "Empreinte"
-type_empreinte : "note hiératique seule"
-emp_SEC_nom_secteur : "palais, magasin sud"
-nature_empreinte : "scellé seulement inscrit"
+scl_PHO_no_photo_IFAO : "nu_2009_02843"
+scl_PHO_no_photo_IFAO : "nu_2009_02844"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
+scl_NOT_nom_note : "N8480e"
+fid_loc : "1"
+scl_PIE_Nom_piece : "entrée du magasin"
+scl_US_us_nom : "2635"
+fid_pie : "826"
 fid_US : "3"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_PHO_nomFichier : "8480e_1.jpg"
-emp_PHO_nomFichier : "8480e_2.jpg"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_nom_note : "N8480a"
-emp_NOT_nom_note : "N8480b"
-emp_NOT_nom_note : "N8480c"
-emp_NOT_nom_note : "N8480d"
-emp_NOT_nom_note : "N8480e"
+scl_NOT_transcription : "bjt"
+type_scelle : "note hiératique seule"
+scl_NOT_traduction : "miel"
 sceaux :
 
 title: empreinte n°8480e
-images: 8480e_1.jpg,8480e_2.jpg
+images: 
 id_notice: 8480e
 layout: notice
 type: empreinte

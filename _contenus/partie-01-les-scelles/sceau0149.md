@@ -1,15 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8499"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0149"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0149"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8499"
+sce_iss_SCL_n_Inv_IFAO : "8499"
 id_sceau : "0149"
-sce_ies_emp_NOT_nom_note : "N8499"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8499"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
+sce_iss_scl_NOT_nom_note : "N8499"
 title: sceau n°0149
-empreinte: "8499"
+empreinte: ""
 id_notice: 0149
 layout: notice_sceau
 type: sceau

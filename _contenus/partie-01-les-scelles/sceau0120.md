@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "9084"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0120"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0120"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "9084"
+sce_iss_SCL_n_Inv_IFAO : "9084"
 id_sceau : "0120"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "9084"
-motif : "grand lézars, animaux, ..."
-type_sceau : "cylindre (empreinte)"
+motif : "grands lézards, scorpion, animaux, ..."
+type_sceau : "cylindre"
 title: sceau n°0120
-empreinte: "9084"
+empreinte: ""
 id_notice: 0120
 layout: notice_sceau
 type: sceau

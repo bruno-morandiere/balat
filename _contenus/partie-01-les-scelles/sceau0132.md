@@ -1,17 +1,17 @@
 ---
 traduction_sceau : "Le roi de Haute et de Basse Égypte Méryrê"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8449"
+categorie : "royal"
+sce_iss_scl_iss_SCE_id_sceau : "0132"
 typeObjet : "Sceau"
-texte_sceau : "nswt-bjty Mry-Rʿ"
-sce_ies_emp_ies_SCE_id_sceau : "0132"
-niveau : "royal"
-roi : "Pépy Ier"
-sce_ies_EMP_n_Inv_IFAO : "8449"
+texte_sceau : "nswt-bjty Mr[y]-Rʿ"
+roi : "Pépy I"
+sce_iss_SCL_n_Inv_IFAO : "8449"
 id_sceau : "0132"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8449"
-motif : "titulature royale nswt-bjty Mry-Rʿ"
-type_sceau : "cylindre (empreinte)"
+motif : "titulature royale, cartouche vertical."
+type_sceau : "cylindre"
 title: sceau n°0132
-empreinte: "8449"
+empreinte: ""
 id_notice: 0132
 layout: notice_sceau
 type: sceau

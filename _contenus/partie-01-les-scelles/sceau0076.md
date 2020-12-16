@@ -1,16 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8323"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0073"
+sce_iss_scl_iss_SCE_id_sceau : "0076"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0073"
-sce_ies_emp_ies_SCE_id_sceau : "0076"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8323"
+sce_iss_SCL_n_Inv_IFAO : "8323"
 id_sceau : "0076"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8323"
-motif : "scorpions"
-type_sceau : "cylindre (empreinte)"
-remarque : "inconnu"
+motif : "deux scorpions,…"
+type_sceau : "cylindre"
 title: sceau n°0076
-empreinte: "8323"
+empreinte: ""
 id_notice: 0076
 layout: notice_sceau
 type: sceau

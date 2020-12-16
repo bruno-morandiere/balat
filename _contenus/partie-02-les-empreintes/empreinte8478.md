@@ -1,116 +1,32 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8478"
-emp_ies_SCE_niveau : "non royal"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "contrescellement simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3354"
+scl_PHO_no_photo_IFAO : "NU_2009_3355"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3038"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_ies_SCE_type_sceau : "estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "52"
-emp_IES_fid_sceau : "84"
-nature_empreinte : "empreinte de sceau sur scellé"
-fid_US : "3"
-emp_PHO_nomFichier : "8478_1.jpg"
-emp_PHO_nomFichier : "8478_2.jpg"
-emp_ies_SCE_id_sceau : "0052"
-emp_ies_SCE_id_sceau : "0084"
-emp_ies_SCE_motif : "|
+scl_ISS_fid_sceau : "52"
+scl_ISS_fid_sceau : "84"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0052"
+scl_iss_SCE_id_sceau : "0084"
+scl_iss_SCE_motif : "|
  <p>indéterminé</p>
  <p><p>"
-emp_ies_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_iss_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_US_us_nom : "2635"
+fid_US : "3"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "contrescellement simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0052
-    sce_ies_emp_ies_SCE_id_sceau : 0084
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8478
-    id_sceau : "0052"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8478
-    motif : |
-     <p>indéterminé</p>
-     <p><p>
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0004
-    sce_ies_emp_ies_SCE_id_sceau : 0008
-    sce_ies_emp_ies_SCE_id_sceau : 0010
-    sce_ies_emp_ies_SCE_id_sceau : 0022
-    sce_ies_emp_ies_SCE_id_sceau : 0052
-    sce_ies_emp_ies_SCE_id_sceau : 0069
-    sce_ies_emp_ies_SCE_id_sceau : 0074
-    sce_ies_emp_ies_SCE_id_sceau : 0084
-    sce_ies_emp_ies_SCE_id_sceau : 0137
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8127
-    sce_ies_EMP_n_Inv_IFAO : 8130
-    sce_ies_EMP_n_Inv_IFAO : 8131
-    sce_ies_EMP_n_Inv_IFAO : 8132
-    sce_ies_EMP_n_Inv_IFAO : 8151
-    sce_ies_EMP_n_Inv_IFAO : 8154
-    sce_ies_EMP_n_Inv_IFAO : 8339
-    sce_ies_EMP_n_Inv_IFAO : 8345
-    sce_ies_EMP_n_Inv_IFAO : 8363
-    sce_ies_EMP_n_Inv_IFAO : 8493
-    sce_ies_EMP_n_Inv_IFAO : 8502
-    sce_ies_EMP_n_Inv_IFAO : 8165
-    sce_ies_EMP_n_Inv_IFAO : 8232
-    sce_ies_EMP_n_Inv_IFAO : 8337
-    sce_ies_EMP_n_Inv_IFAO : 8354
-    sce_ies_EMP_n_Inv_IFAO : 8451
-    sce_ies_EMP_n_Inv_IFAO : 8454
-    sce_ies_EMP_n_Inv_IFAO : 8477
-    sce_ies_EMP_n_Inv_IFAO : 8478
-    sce_ies_EMP_n_Inv_IFAO : 8453a
-    sce_ies_EMP_n_Inv_IFAO : 8453b
-    id_sceau : "0084"
-    sce_ies_emp_NOT_nom_note : N8151
-    sce_ies_emp_NOT_nom_note : N8154
-    sce_ies_emp_NOT_nom_note : N8493
-    sce_ies_emp_NOT_nom_note : N8502
-    sce_ies_emp_NOT_nom_note : N8165
-    sce_ies_emp_NOT_nom_note : N8354
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8127
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8130
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8131
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8132
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8151
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8154
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8339
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8345
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8363
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8493
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8502
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8165
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8232
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8337
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8354
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8451
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8454
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8477
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8478
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8453a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8453b
-    motif : petit labyrinthe ovale, "style nouille"
-    type_sceau : estampille (empreinte)
-    remarque : = 6137 = 8345
-
 
 title: empreinte n°8478
-images: 8478_1.jpg,8478_2.jpg
+images: 
 id_notice: 8478
 layout: notice
 type: empreinte

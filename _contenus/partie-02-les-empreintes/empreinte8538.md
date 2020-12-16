@@ -1,37 +1,26 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8538"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3430"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3033"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "0167"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0008"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0008"
+scl_iss_SCE_motif : "|
+ <p>divers animaux par paires</p>
+ <p>(faucons/abeilles/lézards/chiens)<p>"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8538.jpg"
-emp_ies_SCE_id_sceau : "0167"
-emp_ies_SCE_motif : "oiseau?, …"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0167
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8538
-    id_sceau : "0167"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8538
-    motif : oiseau?, …
-    type_sceau : cylindre (empreinte)
-    remarque : peut-être 0008. A vérifier.
-
 
 title: empreinte n°8538
-images: 8538.jpg
+images: 
 id_notice: 8538
 layout: notice
 type: empreinte

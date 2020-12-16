@@ -1,49 +1,27 @@
 ---
-emp_US_us_nom : "4200, porte S"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "9087"
-emp_ies_SCE_roi : "Pépy II ?"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "nu_2015_00455"
+scl_PHO_no_photo_IFAO : "nu_2015_00456"
+scl_us_PHA_PhasedOccupation : "Phase 1"
 n_Inv_CSA : "3143"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "47"
-nature_empreinte : "empreinte de sceau sur scellé"
-fid_US : "10"
-emp_PHO_nomFichier : "9087_1.jpg"
-emp_PHO_nomFichier : "9087_2.jpg"
-emp_ies_SCE_id_sceau : "0047"
-emp_ies_SCE_motif : "texte hiéroglyphique en colonnes, šps-nswt"
+scl_ISS_fid_sceau : "0027"
+fid_loc : "1"
+scl_PIE_Nom_piece : "porte hall-vestibule"
+scl_iss_SCE_id_sceau : "0027"
+scl_iss_SCE_motif : "texte hiéroglyphique : protocole royal et titre šps-nswt"
+scl_US_us_nom : "4200 sud"
+fid_pie : "831"
+fid_US : "34"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0004
-    sce_ies_emp_ies_SCE_id_sceau : 0047
-    niveau : royal
-    roi : Pépy II ?
-    sce_ies_EMP_n_Inv_IFAO : 8169
-    sce_ies_EMP_n_Inv_IFAO : 8251
-    sce_ies_EMP_n_Inv_IFAO : 8467g
-    sce_ies_EMP_n_Inv_IFAO : 9087
-    sce_ies_EMP_n_Inv_IFAO : 8608
-    id_sceau : "0047"
-    sce_ies_emp_NOT_nom_note : N8608
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8169
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8251
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8467g
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9087
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8608
-    motif : texte hiéroglyphique en colonnes, šps-nswt
-    type_sceau : cylindre (empreinte)
-    remarque : différent du sceau 0114, connu presque au complet, mais texte identique ?
-
 
 title: empreinte n°9087
-images: 9087_1.jpg,9087_2.jpg
+images: 
 id_notice: 9087
 layout: notice
 type: empreinte

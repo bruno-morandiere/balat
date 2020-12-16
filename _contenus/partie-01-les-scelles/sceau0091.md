@@ -1,15 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8282"
+categorie : "royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0084"
+sce_iss_scl_iss_SCE_id_sceau : "0091"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0091"
-niveau : "royal"
 roi : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8282"
+sce_iss_SCL_n_Inv_IFAO : "8282"
 id_sceau : "0091"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8282"
-motif : "texte hiéroglyphique"
-type_sceau : "cylindre (empreinte)"
+motif : |
+ <p>texte hiéroglyphique ?</p>
+ <p><p>
+type_sceau : "cylindre"
 title: sceau n°0091
-empreinte: "8282"
+empreinte: ""
 id_notice: 0091
 layout: notice_sceau
 type: sceau

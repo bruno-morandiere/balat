@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8552"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0148"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0148"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8552"
+sce_iss_SCL_n_Inv_IFAO : "8552"
 id_sceau : "0148"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8552"
-motif : "animaux"
-type_sceau : "cylindre (empreinte)"
+motif : "indéterminé"
+type_sceau : "cylindre"
 title: sceau n°0148
-empreinte: "8552"
+empreinte: ""
 id_notice: 0148
 layout: notice_sceau
 type: sceau

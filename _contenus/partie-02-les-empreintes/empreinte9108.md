@@ -1,37 +1,24 @@
 ---
-emp_US_us_nom : "4181"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "9108"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2015_00519"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3144"
-emp_ies_SCE_type_sceau : "estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "105"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "105"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0105"
+scl_iss_SCE_motif : "cercle divisé en quartiers ?"
+scl_US_us_nom : "4181"
 fid_US : "4"
-emp_PHO_nomFichier : "9108.jpg"
-emp_ies_SCE_id_sceau : "0105"
-emp_ies_SCE_motif : "cercle divisé en quartiers"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0105
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 9108
-    id_sceau : "0105"
-    dimensions_sceau : diamètre 1,1 cm
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9108
-    motif : cercle divisé en quartiers
-    type_sceau : estampille (empreinte)
-    remarque : 
-
 
 title: empreinte n°9108
-images: 9108.jpg
+images: 
 id_notice: 9108
 layout: notice
 type: empreinte

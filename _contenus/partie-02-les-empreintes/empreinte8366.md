@@ -1,45 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8366"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3461"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3005"
-emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "104"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "104"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0104"
+scl_iss_SCE_motif : "ronde de lézards (?) à queue et dos épineux ou écailleux, …"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8366_3005_08_3461.jpg"
-emp_ies_SCE_id_sceau : "0104"
-emp_ies_SCE_motif : "|
- <p>lézard à queue écailleuse</p>
- <p><p>"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0020
-    sce_ies_emp_ies_SCE_id_sceau : 0099
-    sce_ies_emp_ies_SCE_id_sceau : 0104
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8366
-    sce_ies_EMP_n_Inv_IFAO : 8299
-    id_sceau : "0104"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8366
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8299
-    motif : |
-     <p>lézard à queue écailleuse</p>
-     <p><p>
-    type_sceau : sceau estampille (empreinte)
-    remarque : différent de 0043
-
 
 title: empreinte n°8366
-images: 8366_3005_08_3461.jpg
+images: 
 id_notice: 8366
 layout: notice
 type: empreinte

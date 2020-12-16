@@ -1,42 +1,28 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "indéterminé"
 n_Inv_IFAO : "8159"
-emp_ies_SCE_niveau : "indéterminé"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique avec note hiératique"
+scl_PHO_no_photo_IFAO : "NU_2008_3197"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3001"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "29"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "29"
+scl_NOT_nom_note : "N8159"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0029"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "ȝbd 4 [š]mw? sw 10 [+x …]"
-emp_PHO_nomFichier : "8159_3001_08_3197.jpg"
-emp_NOT_traduction : "4e mois de la saison-chémou?, jour 10 [+x…]"
-emp_ies_SCE_id_sceau : "0029"
-emp_ies_SCE_motif : "indéterminé"
-emp_NOT_nom_note : "N8159"
+scl_iss_SCE_type_sceau : "cylindre "
+scl_NOT_transcription : "ȝbd 4 [š]mw? sw 10 [+x …]"
+type_scelle : "sceau unique avec note hiératique"
 remarque : "fragments d'étoffe "
+scl_NOT_traduction : "4e mois de la saison-chémou?, jour 20 [+x…]"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0029
-    niveau : indéterminé
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8159
-    id_sceau : "0029"
-    sce_ies_emp_NOT_nom_note : N8159
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8159
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : associé à une note datée
-
 
 title: empreinte n°8159
-images: 8159_3001_08_3197.jpg
+images: 
 id_notice: 8159
 layout: notice
 type: empreinte

@@ -1,37 +1,23 @@
 ---
-emp_US_us_nom : "2632"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8147"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique ?"
+scl_PHO_no_photo_IFAO : "NU_2008_3182"
 n_Inv_CSA : "3000"
-emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "19"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "19"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0019"
+scl_iss_SCE_motif : "boucles disposées selon les quartiers d'un cercle"
+scl_US_us_nom : "2632"
 fid_US : "2"
-emp_PHO_nomFichier : "8147_3000_08_3182.jpg"
-emp_ies_SCE_id_sceau : "0019"
-emp_ies_SCE_motif : "boucles disposées selon les quartiers d'un cercle"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "sceau unique ?"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0019
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8147
-    id_sceau : "0019"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8147
-    motif : boucles disposées selon les quartiers d'un cercle
-    type_sceau : sceau estampille (empreinte)
-    remarque : 
-
 
 title: empreinte n°8147
-images: 8147_3000_08_3182.jpg
+images: 
 id_notice: 8147
 layout: notice
 type: empreinte

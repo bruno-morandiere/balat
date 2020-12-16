@@ -1,34 +1,23 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8480d"
+nature_scelle : "scellé seulement inscrit"
 typeObjet : "Empreinte"
-type_empreinte : "note"
+scl_PHO_no_photo_IFAO : "NU_2009_3361"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3032"
-emp_SEC_nom_secteur : "palais, magasin sud"
-nature_empreinte : "scellé seulement inscrit"
+scl_NOT_nom_note : "N8480d"
+fid_loc : "1"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_NOT_transcription : "bjt"
-emp_PHO_nomFichier : "8480d.jpg"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_traduction : "miel"
-emp_NOT_nom_note : "N8480a"
-emp_NOT_nom_note : "N8480b"
-emp_NOT_nom_note : "N8480c"
-emp_NOT_nom_note : "N8480d"
-emp_NOT_nom_note : "N8480e"
+scl_NOT_transcription : "bjt"
+type_scelle : "note"
 remarque : "abeille tracée avec un ongle, sur bouchon de vase à col."
+scl_NOT_traduction : "miel"
 sceaux :
 
 title: empreinte n°8480d
-images: 8480d.jpg
+images: 
 id_notice: 8480d
 layout: notice
 type: empreinte

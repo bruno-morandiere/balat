@@ -1,16 +1,17 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8256"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0028"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0028"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8158"
+sce_iss_SCL_n_Inv_IFAO : "8256"
 id_sceau : "0028"
-sce_ies_emp_NOT_nom_note : "N8158"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8158"
-motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
-remarque : "associé à une date"
+motif : |
+ <p>singe debout, croissant lunaire ?,…</p>
+ <p><p>
+type_sceau : "cylindre"
+remarque : "cp. 0016 pour le style, le format et le motif."
 title: sceau n°0028
-empreinte: "8158"
+empreinte: ""
 id_notice: 0028
 layout: notice_sceau
 type: sceau

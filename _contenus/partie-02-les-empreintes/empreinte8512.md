@@ -1,37 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8512"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3403"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3031?"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "157"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0069"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0069"
+scl_iss_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8512.jpg"
-emp_ies_SCE_id_sceau : "0157"
-emp_ies_SCE_motif : "animaux ?"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0157
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8512
-    id_sceau : "0157"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8512
-    motif : animaux ?
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8512
-images: 8512.jpg
+images: 
 id_notice: 8512
 layout: notice
 type: empreinte

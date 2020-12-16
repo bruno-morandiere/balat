@@ -1,33 +1,20 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8442"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "?"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "125"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "125"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0125"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_ies_SCE_id_sceau : "0125"
-emp_ies_SCE_motif : "indéterminé"
-remarque : "Scellé sur papyrus."
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
+remarque : "sur papyrus, non photographié."
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0125
-    niveau : 
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8442
-    id_sceau : "0125"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8442
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : Scellé sur papyrus
-
 
 title: empreinte n°8442
 images: 

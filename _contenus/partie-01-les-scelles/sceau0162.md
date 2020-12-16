@@ -1,14 +1,16 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8517"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0162"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0162"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8517"
+sce_iss_SCL_n_Inv_IFAO : "8517"
 id_sceau : "0162"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8517"
-motif : "en colonnes, symboles hiéroglyphiques."
-type_sceau : "cylindre (empreinte)"
+motif : |
+ <p>en colonnes : symboles hiéroglyphiques</p>
+ <p><p>
+type_sceau : "cylindre"
 title: sceau n°0162
-empreinte: "8517"
+empreinte: ""
 id_notice: 0162
 layout: notice_sceau
 type: sceau

@@ -1,14 +1,16 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8667"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0143"
+sce_iss_scl_iss_SCE_id_sceau : "0036"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0143"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8667"
+sce_iss_SCL_n_Inv_IFAO : "8667"
 id_sceau : "0143"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8667"
-motif : "lézard, bord échelle"
-type_sceau : "cylindre (empreinte)"
+motif : "motifs en ligne bordée d'une échelle : lézard, ..."
+type_sceau : "cylindre"
+remarque : "quelques tracés en faible relief du sceau à spirales 0036 affleurent sous le sceau 00143."
 title: sceau n°0143
-empreinte: "8667"
+empreinte: ""
 id_notice: 0143
 layout: notice_sceau
 type: sceau

@@ -1,38 +1,33 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8273"
-emp_ies_SCE_niveau : "royal ?"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique ?"
+scl_PHO_no_photo_IFAO : "NU_2008_3352"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3003"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "59"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "59"
+scl_ISS_fid_sceau : "0004"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0004"
+scl_iss_SCE_id_sceau : "0059"
+scl_iss_SCE_motif : "texte hiéroglyphique : protocole royal et divers titres de scribe dans la mrt de Pépy"
+scl_iss_SCE_motif : "|
+ <p>texte hiéroglyphique : serekh</p>
+ <p><p>"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8273_3003_08_3352.jpg"
-emp_ies_SCE_id_sceau : "0059"
-emp_ies_SCE_motif : "texte hiéroglyphique ?"
-remarque : "Cp. le sceau 0004."
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique ?"
+scl_iss_SCE_roi : "Pépy I"
+remarque : "Cp. le sceau 0004"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0059
-    niveau : royal ?
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8273
-    id_sceau : "0059"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8273
-    motif : texte hiéroglyphique ?
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8273
-images: 8273_3003_08_3352.jpg
+images: 
 id_notice: 8273
 layout: notice
 type: empreinte

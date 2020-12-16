@@ -1,14 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8328"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0080"
+sce_iss_scl_iss_SCE_id_sceau : "0157"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0080"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8328"
+sce_iss_SCL_n_Inv_IFAO : "8328"
 id_sceau : "0080"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8328"
 motif : "animal ?"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
 title: sceau n°0080
-empreinte: "8328"
+empreinte: ""
 id_notice: 0080
 layout: notice_sceau
 type: sceau

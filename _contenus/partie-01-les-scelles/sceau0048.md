@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8252"
+categorie : "non royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0048"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0048"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8252"
+sce_iss_SCL_n_Inv_IFAO : "8252"
 id_sceau : "0048"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8252"
-motif : "Indéterminé"
-type_sceau : "cylindre (empreinte)"
+motif : "indéterminé"
+type_sceau : "cylindre "
 title: sceau n°0048
-empreinte: "8252"
+empreinte: ""
 id_notice: 0048
 layout: notice_sceau
 type: sceau

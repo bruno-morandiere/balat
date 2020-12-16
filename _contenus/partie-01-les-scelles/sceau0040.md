@@ -1,15 +1,18 @@
 ---
+traduction_sceau : "L'aimé des deux terres Pé[py...]"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8228"
+categorie : "royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0040"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0040"
-niveau : "royal "
+texte_sceau : "Mry-tȝwy P[pj]j "
 roi : "Pépy I"
-sce_ies_EMP_n_Inv_IFAO : "8228"
+sce_iss_SCL_n_Inv_IFAO : "8228"
 id_sceau : "0040"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8228"
-motif : "Texte royal : Mry-tȝwy P[pj]j"
-type_sceau : "cylindre (empreinte)"
+motif : "texte royal "
+type_sceau : "cylindre"
+remarque : "aucune trace de serekh ni cartouche, pas de trait de séparation des colonnes, signes de grand module."
 title: sceau n°0040
-empreinte: "8228"
+empreinte: ""
 id_notice: 0040
 layout: notice_sceau
 type: sceau

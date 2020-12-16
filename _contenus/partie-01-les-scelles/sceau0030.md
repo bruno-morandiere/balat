@@ -1,16 +1,16 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8160"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0030"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0030"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8160"
+sce_iss_SCL_n_Inv_IFAO : "8160"
 id_sceau : "0030"
-sce_ies_emp_NOT_nom_note : "N8160"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8160"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
 remarque : "associé à une note datée"
+sce_iss_scl_NOT_nom_note : "N8160"
 title: sceau n°0030
-empreinte: "8160"
+empreinte: ""
 id_notice: 0030
 layout: notice_sceau
 type: sceau

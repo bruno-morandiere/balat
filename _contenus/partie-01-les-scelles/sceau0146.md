@@ -1,15 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8535"
+categorie : "royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0146"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0004"
-sce_ies_emp_ies_SCE_id_sceau : "0146"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "9086"
+sce_iss_SCL_n_Inv_IFAO : "8535"
 id_sceau : "0146"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "9086"
-motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+motif : "texte hiéroglyphique : […] wḥȝt, sans doute répété sur deux lignes"
+type_sceau : "cylindre"
+remarque : "peut-être le titre ḥqȝ wḥȝt"
 title: sceau n°0146
-empreinte: "9086"
+empreinte: ""
 id_notice: 0146
 layout: notice_sceau
 type: sceau

@@ -1,24 +1,19 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8476zun"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3329"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3028"
-emp_SEC_nom_secteur : "palais, magasin sud"
-nature_empreinte : "empreinte de sceau sur scellé"
+fid_loc : "1"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "[...] sw [...] ?"
-emp_PHO_nomFichier : "8476zun.jpg"
-emp_NOT_traduction : "[...] jour [...] ?"
-emp_NOT_nom_note : "|
- <p>N8476zui</p>
- <p><p>"
-emp_NOT_nom_note : "N8476i"
+type_scelle : "simple"
 sceaux :
 
 title: empreinte n°8476zun
-images: 8476zun.jpg
+images: 
 id_notice: 8476zun
 layout: notice
 type: empreinte

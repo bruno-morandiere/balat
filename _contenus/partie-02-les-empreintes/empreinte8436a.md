@@ -1,64 +1,25 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8436a"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_2931"
+scl_PHO_no_photo_IFAO : "NU_2009_02932"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3038"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "129"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "129"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0129"
+scl_iss_SCE_motif : "oiseaux affrontés ; singe flûtiste, homme tenant un crocodile ?, hippopotame, capriné, lézard ; crocodiles tête-bêche, lion, insecte,abeille ; homme sautant?, animal couché..."
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8436a_1.jpg"
-emp_PHO_nomFichier : "8436a_2.jpg"
-emp_ies_SCE_id_sceau : "0129"
-emp_ies_SCE_motif : "homme tenant un crocodile?, lézard, abeille, lion ou chien assis, oiseaux affrontés, hippopotame, capriné, …"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0039
-    sce_ies_emp_ies_SCE_id_sceau : 0045
-    sce_ies_emp_ies_SCE_id_sceau : 0129
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8436a
-    sce_ies_EMP_n_Inv_IFAO : 8436b
-    sce_ies_EMP_n_Inv_IFAO : 8436c
-    sce_ies_EMP_n_Inv_IFAO : 8436d
-    sce_ies_EMP_n_Inv_IFAO : 8446a
-    sce_ies_EMP_n_Inv_IFAO : 8446b
-    sce_ies_EMP_n_Inv_IFAO : 8506a
-    sce_ies_EMP_n_Inv_IFAO : 8506b
-    sce_ies_EMP_n_Inv_IFAO : 8506c
-    sce_ies_EMP_n_Inv_IFAO : 8506d
-    sce_ies_EMP_n_Inv_IFAO : 8507a
-    sce_ies_EMP_n_Inv_IFAO : 8537
-    sce_ies_EMP_n_Inv_IFAO : 8310
-    id_sceau : "0129"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8436a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8436b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8436c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8436d
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8446a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8446b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8506a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8506b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8506c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8506d
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8507a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8537
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8310
-    motif : homme tenant un crocodile?, lézard, abeille, lion ou chien assis, oiseaux affrontés, hippopotame, capriné, …
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8436a
-images: 8436a_1.jpg,8436a_2.jpg
+images: 
 id_notice: 8436a
 layout: notice
 type: empreinte

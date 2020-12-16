@@ -1,15 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8509"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0154"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0154"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8509"
+sce_iss_SCL_n_Inv_IFAO : "8509"
 id_sceau : "0154"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8509"
-motif : "indéterminé. "
+motif : "animaux ? technique proche de 0121."
 type_sceau : "cylindre (empreinte)"
-remarque : "Tracé de contours : cp. 0121. Le même sceau ?"
+remarque : "tracé de contours : cp. 0121 sur 8296. Le même sceau ? "
 title: sceau n°0154
-empreinte: "8509"
+empreinte: ""
 id_notice: 0154
 layout: notice_sceau
 type: sceau

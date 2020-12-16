@@ -1,19 +1,19 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8155"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0004"
+sce_iss_scl_iss_SCE_id_sceau : "0026"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0026"
-sce_ies_emp_ies_SCE_id_sceau : "0027"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8155"
+sce_iss_SCL_n_Inv_IFAO : "8155"
 id_sceau : "0026"
-sce_ies_emp_NOT_nom_note : "N8155"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8155"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
 remarque : |
  <p>constrescelle un sceau royal</p>
  <p>associé à une note (date ?)<p>
+sce_iss_scl_NOT_nom_note : "N8155"
 title: sceau n°0026
-empreinte: "8155"
+empreinte: ""
 id_notice: 0026
 layout: notice_sceau
 type: sceau

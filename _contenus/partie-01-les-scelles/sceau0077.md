@@ -1,17 +1,17 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8490"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0020"
+sce_iss_scl_iss_SCE_id_sceau : "0077"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0020"
-sce_ies_emp_ies_SCE_id_sceau : "0077"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8490"
+sce_iss_SCL_n_Inv_IFAO : "8490"
 id_sceau : "0077"
-sce_ies_emp_NOT_nom_note : "N8490"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8490"
 motif : "indéterminé"
 type_sceau : "cylindre"
-remarque : "motif oblitéré par la note. A revoir."
+remarque : "motif oblitéré par la note. "
+sce_iss_scl_NOT_nom_note : "N8490"
 title: sceau n°0077
-empreinte: "8490"
+empreinte: ""
 id_notice: 0077
 layout: notice_sceau
 type: sceau

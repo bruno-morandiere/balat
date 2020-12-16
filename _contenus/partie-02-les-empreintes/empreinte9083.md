@@ -1,37 +1,22 @@
 ---
-emp_US_us_nom : "4200,01"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "9083"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2015_00516"
 n_Inv_CSA : "3143"
-emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "138"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "138"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0138"
+scl_iss_SCE_motif : "insecte ?"
 fid_US : "6"
-emp_PHO_nomFichier : "9083.jpg"
-emp_ies_SCE_id_sceau : "0138"
-emp_ies_SCE_motif : "insecte ?"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0138
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 9083
-    id_sceau : "0138"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9083
-    motif : insecte ?
-    type_sceau : sceau estampille (empreinte)
-    remarque : 
-
 
 title: empreinte n°9083
-images: 9083.jpg
+images: 
 id_notice: 9083
 layout: notice
 type: empreinte

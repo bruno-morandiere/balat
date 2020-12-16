@@ -1,19 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8358"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8369"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0096"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0096"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8358"
-sce_ies_EMP_n_Inv_IFAO : "8369"
-sce_ies_EMP_n_Inv_IFAO : "8452"
+sce_iss_SCL_n_Inv_IFAO : "8358"
+sce_iss_SCL_n_Inv_IFAO : "8369"
 id_sceau : "0096"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8358"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8369"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8452"
+dimensions_sceau : "diamètre 2,2 cm"
 motif : "labyrinthe géométrique"
-type_sceau : "sceau estampille (empreinte)"
-remarque : "≠ 6137"
+type_sceau : "estampille"
+remarque : "cp. 0067."
 title: sceau n°0096
-empreinte: "8358,8369,8452"
+empreinte: ""
 id_notice: 0096
 layout: notice_sceau
 type: sceau

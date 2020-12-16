@@ -1,37 +1,29 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8328"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique ?"
+scl_PHO_no_photo_IFAO : "NU_2008_3418"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3004"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "80"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "80"
+scl_ISS_fid_sceau : "0157"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0080"
+scl_iss_SCE_id_sceau : "0157"
+scl_iss_SCE_motif : "animal ?"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8328_3004_08_3418.jpg"
-emp_ies_SCE_id_sceau : "0080"
-emp_ies_SCE_motif : "animal ?"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "contrescellement simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0080
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8328
-    id_sceau : "0080"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8328
-    motif : animal ?
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8328
-images: 8328_3004_08_3418.jpg
+images: 
 id_notice: 8328
 layout: notice
 type: empreinte

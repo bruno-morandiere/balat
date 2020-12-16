@@ -1,36 +1,23 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
 n_Inv_IFAO : "8524"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3416"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3033"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "169"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0153"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0153"
+scl_iss_SCE_motif : "en colonnes séparées par une échelle"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8524.jpg"
-emp_ies_SCE_id_sceau : "0169"
-emp_ies_SCE_motif : "en colonnes, bord échelle"
+scl_iss_SCE_type_sceau : "cylindre (empreinte)"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0169
-    niveau : 
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8524
-    id_sceau : "0169"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8524
-    motif : en colonnes, bord échelle
-    type_sceau : cylindre (empreinte)
-    remarque : peut-être 2 sceaux différents ? A vérifier.
-
 
 title: empreinte n°8524
-images: 8524.jpg
+images: 
 id_notice: 8524
 layout: notice
 type: empreinte

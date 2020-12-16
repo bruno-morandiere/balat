@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8576"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0147"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0147"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8576"
+sce_iss_SCL_n_Inv_IFAO : "8576"
 id_sceau : "0147"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8576"
-motif : "en colonnes, bord échelle. Animaux ?"
-type_sceau : "cylindre (empreinte)"
+motif : "en colonnes séparées par des échelles : abeille, singe,ibex ou mouflon ?"
+type_sceau : "cylindre"
 title: sceau n°0147
-empreinte: "8576"
+empreinte: ""
 id_notice: 0147
 layout: notice_sceau
 type: sceau

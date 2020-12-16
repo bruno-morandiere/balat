@@ -1,16 +1,17 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8335"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0083"
+sce_iss_scl_iss_SCE_id_sceau : "0127"
+sce_iss_scl_iss_SCE_id_sceau : "0152"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0083"
-sce_ies_emp_ies_SCE_id_sceau : "0127"
-sce_ies_emp_ies_SCE_id_sceau : "0152"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8335"
+sce_iss_SCL_n_Inv_IFAO : "8335"
 id_sceau : "0127"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8335"
-motif : "insecte ?"
-type_sceau : "estampille (empreinte)"
+motif : "scarabée fortement stylisé"
+type_sceau : "estampille"
+remarque : "dessin complexe, et déformé à droite du fait d'une pression irrégulière. "
 title: sceau n°0127
-empreinte: "8335"
+empreinte: ""
 id_notice: 0127
 layout: notice_sceau
 type: sceau

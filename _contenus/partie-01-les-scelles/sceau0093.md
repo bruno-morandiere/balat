@@ -1,17 +1,16 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8353"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0093"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0093"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8353"
+sce_iss_SCL_n_Inv_IFAO : "8353"
 id_sceau : "0093"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8353"
 motif : |
- <p>entrelacs et piliers ḏd, animaux</p>
+ <p>entrelacs et piliers ḏd, lézard, …</p>
  <p><p>
-type_sceau : "sceau estampille (empreinte)"
-remarque : "est. inconnue"
+type_sceau : "estampille"
 title: sceau n°0093
-empreinte: "8353"
+empreinte: ""
 id_notice: 0093
 layout: notice_sceau
 type: sceau

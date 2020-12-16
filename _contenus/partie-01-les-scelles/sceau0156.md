@@ -1,16 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8511"
+categorie : "royal ?"
+sce_iss_scl_iss_SCE_id_sceau : "0156"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0156"
-niveau : "royal"
-sce_ies_EMP_n_Inv_IFAO : "8511"
-sce_ies_EMP_n_Inv_IFAO : "8535"
+sce_iss_SCL_n_Inv_IFAO : "8511"
 id_sceau : "0156"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8511"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8535"
-motif : "texte hiéroglyphique : […] wḥȝt"
+motif : "texte hiéroglyphique : jmȝḫy ?, [w]ḥȝt, ... "
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0156
-empreinte: "8511,8535"
+empreinte: ""
 id_notice: 0156
 layout: notice_sceau
 type: sceau

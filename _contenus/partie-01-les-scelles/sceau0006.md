@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546b"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0006"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0006"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8546b"
+sce_iss_SCL_n_Inv_IFAO : "8546b"
 id_sceau : "0006"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8546b"
-motif : "Indéterminé"
-type_sceau : "cylindre (empreinte)"
+motif : "indéterminé"
+type_sceau : "cylindre"
 title: sceau n°0006
-empreinte: "8546b"
+empreinte: ""
 id_notice: 0006
 layout: notice_sceau
 type: sceau

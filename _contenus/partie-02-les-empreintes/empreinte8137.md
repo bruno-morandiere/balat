@@ -1,37 +1,23 @@
 ---
-emp_US_us_nom : "2632"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8137"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique"
+scl_PHO_no_photo_IFAO : "NU_2008_3169"
 n_Inv_CSA : "3000"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "14"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "14"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0014"
+scl_iss_SCE_motif : "ligne de zigzags, échelle…"
+scl_US_us_nom : "2632"
 fid_US : "2"
-emp_PHO_nomFichier : "8137_3000_08_3169.jpg"
-emp_ies_SCE_id_sceau : "0014"
-emp_ies_SCE_motif : "Ligne de zigzags, bord échelle…"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique avec note hiératique ?"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0014
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8137
-    id_sceau : "0014"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8137
-    motif : Ligne de zigzags, bord échelle…
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8137
-images: 8137_3000_08_3169.jpg
+images: 
 id_notice: 8137
 layout: notice
 type: empreinte

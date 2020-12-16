@@ -1,15 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8539"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0139"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0139"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8679"
+sce_iss_SCL_n_Inv_IFAO : "8539"
 id_sceau : "0139"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8679"
-motif : "animaux ?"
-type_sceau : "cylindre (empreinte)"
-remarque : "peut-être identique à 0129 ?"
+motif : "indéterminé"
+type_sceau : "cylindre"
 title: sceau n°0139
-empreinte: "8679"
+empreinte: ""
 id_notice: 0139
 layout: notice_sceau
 type: sceau

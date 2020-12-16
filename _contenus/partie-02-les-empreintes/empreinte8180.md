@@ -1,38 +1,25 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8180"
-emp_ies_SCE_roi : "Pépy"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique avec note hiératique ?"
+scl_PHO_no_photo_IFAO : "NU_2008_3236"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3002"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "36"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0114"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0114"
+scl_iss_SCE_motif : "texte hiéroglyphique : protocole royal et titre šps-nswt."
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8180_3002_08_3236.jpg"
-emp_ies_SCE_id_sceau : "0036"
-emp_ies_SCE_motif : "texte hiéroglyphique en colonnes : cartouches royaux Pépy"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique avec note hiératique ?"
+scl_iss_SCE_roi : "Pépy I"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : sm ?
-    sce_ies_emp_ies_SCE_id_sceau : 0036
-    niveau : royal
-    roi : Pépy
-    sce_ies_EMP_n_Inv_IFAO : 8180
-    id_sceau : "0036"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8180
-    motif : texte hiéroglyphique en colonnes &#58; cartouches royaux Pépy
-    type_sceau : cylindre (empreinte)
-    remarque : nouveau ?
-
 
 title: empreinte n°8180
-images: 8180_3002_08_3236.jpg
+images: 
 id_notice: 8180
 layout: notice
 type: empreinte

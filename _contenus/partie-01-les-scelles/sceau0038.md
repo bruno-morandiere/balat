@@ -1,15 +1,16 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8209"
+categorie : "royal "
+sce_iss_scl_iss_SCE_id_sceau : "0038"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0038"
-niveau : "royal "
-roi : "Pépy I ?"
-sce_ies_EMP_n_Inv_IFAO : "8209"
+texte_sceau : "bas de serekh [Mry]-tȝ[wy] et bord de cartouche."
+roi : "Pépy I "
+sce_iss_SCL_n_Inv_IFAO : "8209"
 id_sceau : "0038"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8209"
-motif : "bas de serekh […] tȝwy et bord de cartouche"
-type_sceau : "cylindre (empreinte)"
+motif : "titulature royale : serekh et cartouche"
+type_sceau : "cylindre"
 title: sceau n°0038
-empreinte: "8209"
+empreinte: ""
 id_notice: 0038
 layout: notice_sceau
 type: sceau

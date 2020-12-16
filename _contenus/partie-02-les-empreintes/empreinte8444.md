@@ -1,65 +1,26 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8444"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_2944"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3038"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "8"
-nature_empreinte : "empreinte de sceau sur scellé"
-fid_US : "3"
-emp_PHO_nomFichier : "8444.jpg"
-emp_ies_SCE_id_sceau : "0008"
-emp_ies_SCE_motif : "|
+scl_ISS_fid_sceau : "8"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0008"
+scl_iss_SCE_motif : "|
  <p>divers animaux par paires</p>
  <p>(faucons/abeilles/lézards/chiens)<p>"
+scl_US_us_nom : "2635"
+fid_US : "3"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0008
-    sce_ies_emp_ies_SCE_id_sceau : 0084
-    sce_ies_emp_ies_SCE_id_sceau : 0121
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8130
-    sce_ies_EMP_n_Inv_IFAO : 8136
-    sce_ies_EMP_n_Inv_IFAO : 8173
-    sce_ies_EMP_n_Inv_IFAO : 8218
-    sce_ies_EMP_n_Inv_IFAO : 8296
-    sce_ies_EMP_n_Inv_IFAO : 8314
-    sce_ies_EMP_n_Inv_IFAO : 8443
-    sce_ies_EMP_n_Inv_IFAO : 8444
-    sce_ies_EMP_n_Inv_IFAO : 8445
-    sce_ies_EMP_n_Inv_IFAO : 8232
-    sce_ies_EMP_n_Inv_IFAO : 8337
-    sce_ies_EMP_n_Inv_IFAO : 8451
-    id_sceau : "0008"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8130
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8136
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8173
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8218
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8296
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8314
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8443
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8444
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8445
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8232
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8337
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8451
-    motif : |
-     <p>divers animaux par paires</p>
-     <p>(faucons/abeilles/lézards/chiens)<p>
-    type_sceau : cylindre (empreinte)
-    remarque : associé à estampille 6137 &#58; labyrinthe
-
 
 title: empreinte n°8444
-images: 8444.jpg
+images: 
 id_notice: 8444
 layout: notice
 type: empreinte

@@ -1,41 +1,27 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "indéterminé"
 n_Inv_IFAO : "8494"
-emp_ies_SCE_niveau : "indéterminé"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple avec note"
+scl_PHO_no_photo_IFAO : "NU_2009_3375"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3032"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "101"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "101"
+scl_NOT_nom_note : "N8494"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0101"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "[...] sw 13+x [...] šd[t? …]"
-emp_PHO_nomFichier : "8494.jpg"
-emp_NOT_traduction : "[…] jour 13+x, prélever […]"
-emp_ies_SCE_id_sceau : "0101"
-emp_ies_SCE_motif : "indéterminé"
-emp_NOT_nom_note : "N8494"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_NOT_transcription : "[...] sw 13+x [...] šd[t? …]"
+type_scelle : "simple avec note"
+scl_NOT_traduction : "[…] jour 13+x, prélever […]"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0101
-    niveau : indéterminé
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8494
-    id_sceau : "0101"
-    sce_ies_emp_NOT_nom_note : N8494
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8494
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8494
-images: 8494.jpg
+images: 
 id_notice: 8494
 layout: notice
 type: empreinte

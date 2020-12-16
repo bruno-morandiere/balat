@@ -1,17 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8542"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8667"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0143"
+sce_iss_scl_iss_SCE_id_sceau : "0036"
 typeObjet : "Sceau"
-texte_sceau : "sm ?"
-sce_ies_emp_ies_SCE_id_sceau : "0036"
-niveau : "royal"
-roi : "Pépy"
-sce_ies_EMP_n_Inv_IFAO : "8180"
+sce_iss_SCL_n_Inv_IFAO : "8542"
+sce_iss_SCL_n_Inv_IFAO : "8667"
 id_sceau : "0036"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8180"
-motif : "texte hiéroglyphique en colonnes : cartouches royaux Pépy"
-type_sceau : "cylindre (empreinte)"
-remarque : "nouveau ?"
+dimensions_sceau : "diamètre 2,5 cm"
+motif : "spirales disposées dans un cercle"
+type_sceau : "estampille"
 title: sceau n°0036
-empreinte: "8180"
+empreinte: ""
 id_notice: 0036
 layout: notice_sceau
 type: sceau

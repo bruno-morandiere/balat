@@ -1,38 +1,25 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal "
 n_Inv_IFAO : "8209"
-emp_ies_SCE_roi : "Pépy I ?"
-emp_ies_SCE_niveau : "royal "
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique"
+scl_PHO_no_photo_IFAO : "NU_2008_3280"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3002"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "38"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "38"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0038"
+scl_iss_SCE_motif : "titulature royale : serekh et cartouche"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8209_3002_08_3280.jpg"
-emp_ies_SCE_id_sceau : "0038"
-emp_ies_SCE_motif : "bas de serekh […] tȝwy et bord de cartouche"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "sceau unique"
+scl_iss_SCE_roi : "Pépy I "
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0038
-    niveau : royal 
-    roi : Pépy I ?
-    sce_ies_EMP_n_Inv_IFAO : 8209
-    id_sceau : "0038"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8209
-    motif : bas de serekh […] tȝwy et bord de cartouche
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8209
-images: 8209_3002_08_3280.jpg
+images: 
 id_notice: 8209
 layout: notice
 type: empreinte

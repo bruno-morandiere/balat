@@ -1,45 +1,29 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "royal"
 n_Inv_IFAO : "8277"
-emp_ies_SCE_roi : "indéterminé"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique avec note hiératique"
+scl_PHO_no_photo_IFAO : "NU_2008_3356"
+scl_PHO_no_photo_IFAO : "NU_2008_3357"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3003"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "0033"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "0033"
+scl_NOT_nom_note : "N8277"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0033"
+scl_iss_SCE_motif : "texte hiéroglyphique en colonnes : titulature royale et épithètes de fonctionnaire."
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_NOT_transcription : "[...] sw [...] "
-emp_PHO_nomFichier : "8277_3003_08_3356.jpg"
-emp_PHO_nomFichier : "8277_3003_08_3357.jpg"
-emp_NOT_traduction : "[...] jour [...]"
-emp_ies_SCE_id_sceau : "0033"
-emp_ies_SCE_motif : "course royale avec Apis, serekh, épithète jrr wḏt"
-emp_NOT_nom_note : "N8277"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_NOT_transcription : "[...] sw [...] "
+type_scelle : "sceau unique avec note hiératique"
+scl_iss_SCE_roi : "Pépy I ?"
+scl_NOT_traduction : "[...] jour [...]"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0033
-    niveau : royal
-    roi : indéterminé
-    sce_ies_EMP_n_Inv_IFAO : 8168
-    sce_ies_EMP_n_Inv_IFAO : 8277
-    id_sceau : "0033"
-    sce_ies_emp_NOT_nom_note : N8277
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8168
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8277
-    motif : course royale avec Apis, serekh, épithète jrr wḏt
-    type_sceau : cylindre (empreinte)
-    remarque : associé à un autre cylindre à colonnes ? ou un autre fragment du même ?
-
 
 title: empreinte n°8277
-images: 8277_3003_08_3356.jpg,8277_3003_08_3357.jpg
+images: 
 id_notice: 8277
 layout: notice
 type: empreinte

@@ -1,40 +1,25 @@
 ---
-emp_US_us_nom : "2632"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "indéterminé"
 n_Inv_IFAO : "8423"
-emp_ies_SCE_niveau : "indéterminé"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple avec note"
-emp_ies_SCE_type_sceau : "cylindre"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "128"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_PHO_no_photo_IFAO : "NU_2009_2851"
+scl_ISS_fid_sceau : "128"
+scl_NOT_nom_note : "N8423"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0128"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2632"
 fid_US : "2"
-emp_NOT_transcription : "[ȝbd] 3 [ȝ]ḫt ? sw 3+x […]"
-emp_PHO_nomFichier : "8423.jpg"
-emp_NOT_traduction : "3e mois de la saison-akhet ?, jour 3+x […]"
-emp_ies_SCE_id_sceau : "0128"
-emp_ies_SCE_motif : "indéterminé"
-emp_NOT_nom_note : "N8423"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_NOT_transcription : "[ȝbd] 3 [ȝ]ḫt ? sw 3+x […]"
+type_scelle : "simple avec note"
+scl_NOT_traduction : "3e mois de la saison-akhet ?, jour 3+x […]"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0128
-    niveau : indéterminé
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8423
-    id_sceau : "0128"
-    sce_ies_emp_NOT_nom_note : N8423
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8423
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-
 
 title: empreinte n°8423
-images: 8423.jpg
+images: 
 id_notice: 8423
 layout: notice
 type: empreinte

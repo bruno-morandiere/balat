@@ -1,57 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8435a"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_02899"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3033"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "11"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "11"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0011"
+scl_iss_SCE_motif : "homme à plumes attaqué par un lion, arbre, abeille, lion couchant, lièvre…"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8435a.jpg"
-emp_ies_SCE_id_sceau : "0011"
-emp_ies_SCE_motif : "homme à plumes attaqué par un lion, arbre, abeille, lion couchant,…"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0011
-    sce_ies_emp_ies_SCE_id_sceau : 0069
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8134
-    sce_ies_EMP_n_Inv_IFAO : 8312
-    sce_ies_EMP_n_Inv_IFAO : 8435a
-    sce_ies_EMP_n_Inv_IFAO : 8435b
-    sce_ies_EMP_n_Inv_IFAO : 8435c
-    sce_ies_EMP_n_Inv_IFAO : 8435d
-    sce_ies_EMP_n_Inv_IFAO : 8435e
-    sce_ies_EMP_n_Inv_IFAO : 8435f
-    sce_ies_EMP_n_Inv_IFAO : 8514
-    sce_ies_EMP_n_Inv_IFAO : 8441
-    id_sceau : "0011"
-    sce_ies_emp_NOT_nom_note : N8441
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8134
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8312
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435d
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435e
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435f
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8514
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8441
-    motif : homme à plumes attaqué par un lion, arbre, abeille, lion couchant,…
-    type_sceau : cylindre (empreinte)
-    remarque : =6747 de 1999
-
 
 title: empreinte n°8435a
-images: 8435a.jpg
+images: 
 id_notice: 8435a
 layout: notice
 type: empreinte

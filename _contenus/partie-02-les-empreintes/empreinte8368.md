@@ -1,37 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8368"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3463"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3005"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "106"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "106"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0106"
+scl_iss_SCE_motif : "en colonnes séparées par des échelles : poisson ?"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8368_3005_08_3463.jpg"
-emp_ies_SCE_id_sceau : "0106"
-emp_ies_SCE_motif : "en colonnes, bord échelle"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0106
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8368
-    id_sceau : "0106"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8368
-    motif : en colonnes, bord échelle
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8368
-images: 8368_3005_08_3463.jpg
+images: 
 id_notice: 8368
 layout: notice
 type: empreinte

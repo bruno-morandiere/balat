@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8505"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0150"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0150"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8505"
+sce_iss_SCL_n_Inv_IFAO : "8505"
 id_sceau : "0150"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8505"
 motif : "en colonnes"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
 title: sceau n°0150
-empreinte: "8505"
+empreinte: ""
 id_notice: 0150
 layout: notice_sceau
 type: sceau

@@ -1,37 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8516"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_3408"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3031?"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "161"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "161"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0161"
+scl_iss_SCE_motif : "en colonnes ; lion couchant, oiseau ?"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8516.jpg"
-emp_ies_SCE_id_sceau : "0161"
-emp_ies_SCE_motif : "en colonnes ; lion couchant, oiseau ?"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0161
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8516
-    id_sceau : "0161"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8516
-    motif : en colonnes ; lion couchant, oiseau ?
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8516
-images: 8516.jpg
+images: 
 id_notice: 8516
 layout: notice
 type: empreinte

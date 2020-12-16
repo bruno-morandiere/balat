@@ -1,37 +1,26 @@
 ---
-emp_US_us_nom : "4200, porte S sol"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "9093"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2015_00461"
+scl_us_PHA_PhasedOccupation : "Phase 1"
 n_Inv_CSA : "3143"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "97"
-nature_empreinte : "empreinte de sceau sur scellé"
-fid_US : "11"
-emp_PHO_nomFichier : "9093.jpg"
-emp_ies_SCE_id_sceau : "0097"
-emp_ies_SCE_motif : "indéterminé"
+scl_ISS_fid_sceau : "97"
+fid_loc : "1"
+scl_PIE_Nom_piece : "porte hall-vestibule"
+scl_iss_SCE_id_sceau : "0097"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "4200 sud"
+fid_pie : "831"
+fid_US : "34"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0097
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 9093
-    id_sceau : "0097"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 9093
-    motif : indéterminé
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°9093
-images: 9093.jpg
+images: 
 id_notice: 9093
 layout: notice
 type: empreinte

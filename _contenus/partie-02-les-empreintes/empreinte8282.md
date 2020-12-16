@@ -1,38 +1,32 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "royal ?"
 n_Inv_IFAO : "8282"
-emp_ies_SCE_roi : "indéterminé"
-emp_ies_SCE_niveau : "royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "sceau unique"
+scl_PHO_no_photo_IFAO : "NU_2008_3362"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3003"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "91"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "91"
+scl_ISS_fid_sceau : "0084"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0084"
+scl_iss_SCE_id_sceau : "0091"
+scl_iss_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_iss_SCE_motif : "|
+ <p>texte hiéroglyphique ?</p>
+ <p><p>"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8282_3003_08_3362.jpg"
-emp_ies_SCE_id_sceau : "0091"
-emp_ies_SCE_motif : "texte hiéroglyphique"
+scl_iss_SCE_type_sceau : "estampille"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "contrescellement simple"
+scl_iss_SCE_roi : "indéterminé"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0091
-    niveau : royal
-    roi : indéterminé
-    sce_ies_EMP_n_Inv_IFAO : 8282
-    id_sceau : "0091"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8282
-    motif : texte hiéroglyphique
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8282
-images: 8282_3003_08_3362.jpg
+images: 
 id_notice: 8282
 layout: notice
 type: empreinte

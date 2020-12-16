@@ -1,14 +1,18 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8273"
+categorie : "royal"
+sce_iss_scl_iss_SCE_id_sceau : "0004"
+sce_iss_scl_iss_SCE_id_sceau : "0059"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0059"
-niveau : "royal ?"
-sce_ies_EMP_n_Inv_IFAO : "8273"
+texte_sceau : "[... P]py ?"
+sce_iss_SCL_n_Inv_IFAO : "8273"
 id_sceau : "0059"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8273"
-motif : "texte hiéroglyphique ?"
-type_sceau : "cylindre (empreinte)"
+motif : |
+ <p>texte hiéroglyphique : serekh</p>
+ <p><p>
+type_sceau : "cylindre"
 title: sceau n°0059
-empreinte: "8273"
+empreinte: ""
 id_notice: 0059
 layout: notice_sceau
 type: sceau

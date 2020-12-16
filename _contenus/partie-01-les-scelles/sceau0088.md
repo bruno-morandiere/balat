@@ -1,14 +1,15 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8347"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0088"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0088"
-niveau : "non royal"
-sce_ies_EMP_n_Inv_IFAO : "8347"
+sce_iss_SCL_n_Inv_IFAO : "8347"
 id_sceau : "0088"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8347"
-motif : "labyrinthe "
-type_sceau : "sceau estampille (empreinte)"
+dimensions_sceau : "diamètre 2,6 cm"
+motif : "labyrinthe ?"
+type_sceau : "estampille"
 title: sceau n°0088
-empreinte: "8347"
+empreinte: ""
 id_notice: 0088
 layout: notice_sceau
 type: sceau

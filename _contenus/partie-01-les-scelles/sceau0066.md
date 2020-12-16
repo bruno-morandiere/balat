@@ -1,14 +1,14 @@
 ---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8289"
+categorie : "indéterminé"
+sce_iss_scl_iss_SCE_id_sceau : "0066"
 typeObjet : "Sceau"
-sce_ies_emp_ies_SCE_id_sceau : "0066"
-niveau : "indéterminé"
-sce_ies_EMP_n_Inv_IFAO : "8289"
+sce_iss_SCL_n_Inv_IFAO : "8289"
 id_sceau : "0066"
-sce_ies_emp_ies_EMP_n_Inv_IFAO : "8289"
 motif : "indéterminé"
-type_sceau : "cylindre (empreinte)"
+type_sceau : "cylindre"
 title: sceau n°0066
-empreinte: "8289"
+empreinte: ""
 id_notice: 0066
 layout: notice_sceau
 type: sceau

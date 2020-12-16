@@ -1,94 +1,24 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8458h"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2009_2976"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3036"
-emp_ies_SCE_type_sceau : "sceau estampille (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "89"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "89"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0089"
+scl_iss_SCE_motif : "floral "
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8458h.jpg"
-emp_ies_SCE_id_sceau : "0089"
-emp_ies_SCE_motif : "floral "
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0003
-    sce_ies_emp_ies_SCE_id_sceau : 0020
-    sce_ies_emp_ies_SCE_id_sceau : 0089
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8342
-    sce_ies_EMP_n_Inv_IFAO : 8349
-    sce_ies_EMP_n_Inv_IFAO : 8360
-    sce_ies_EMP_n_Inv_IFAO : 8361
-    sce_ies_EMP_n_Inv_IFAO : 8431a
-    sce_ies_EMP_n_Inv_IFAO : 8431b
-    sce_ies_EMP_n_Inv_IFAO : 8431c
-    sce_ies_EMP_n_Inv_IFAO : 8458a
-    sce_ies_EMP_n_Inv_IFAO : 8458b
-    sce_ies_EMP_n_Inv_IFAO : 8458c
-    sce_ies_EMP_n_Inv_IFAO : 8458d
-    sce_ies_EMP_n_Inv_IFAO : 8458e
-    sce_ies_EMP_n_Inv_IFAO : 8458f
-    sce_ies_EMP_n_Inv_IFAO : 8458g
-    sce_ies_EMP_n_Inv_IFAO : 8458h
-    sce_ies_EMP_n_Inv_IFAO : 8458i
-    sce_ies_EMP_n_Inv_IFAO : 8458j
-    sce_ies_EMP_n_Inv_IFAO : 8458k
-    sce_ies_EMP_n_Inv_IFAO : 8458l
-    sce_ies_EMP_n_Inv_IFAO : 8458m
-    sce_ies_EMP_n_Inv_IFAO : 8458n
-    sce_ies_EMP_n_Inv_IFAO : 8458o
-    sce_ies_EMP_n_Inv_IFAO : 8166
-    sce_ies_EMP_n_Inv_IFAO : 8352
-    sce_ies_EMP_n_Inv_IFAO : 8465a
-    sce_ies_EMP_n_Inv_IFAO : 8465b
-    sce_ies_EMP_n_Inv_IFAO : 8465c
-    id_sceau : "0089"
-    sce_ies_emp_NOT_nom_note : N8166
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8342
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8349
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8360
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8361
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8431a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8431b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8431c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458d
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458e
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458f
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458g
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458h
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458i
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458j
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458k
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458l
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458m
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458n
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8458o
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8166
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8352
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8465c
-    motif : floral 
-    type_sceau : sceau estampille (empreinte)
-    remarque : |
-     <p>= 6200</p>
-     <p>associé à 6139<p>
-
 
 title: empreinte n°8458h
-images: 8458h.jpg
+images: 
 id_notice: 8458h
 layout: notice
 type: empreinte

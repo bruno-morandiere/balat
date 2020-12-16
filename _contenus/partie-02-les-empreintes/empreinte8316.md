@@ -1,76 +1,29 @@
 ---
-emp_US_us_nom : "2635"
-fid_sec : "1"
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
 n_Inv_IFAO : "8316"
-emp_ies_SCE_niveau : "non royal"
-emp_ies_SCE_niveau : "non royal"
+nature_scelle : "empreinte de sceau sur scellé"
 typeObjet : "Empreinte"
-type_empreinte : "simple"
+scl_PHO_no_photo_IFAO : "NU_2008_3404"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
 n_Inv_CSA : "3004"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_ies_SCE_type_sceau : "cylindre (empreinte)"
-emp_SEC_nom_secteur : "palais, magasin sud"
-emp_IES_fid_sceau : "69"
-emp_IES_fid_sceau : "0034"
-nature_empreinte : "empreinte de sceau sur scellé"
+scl_ISS_fid_sceau : "69"
+scl_ISS_fid_sceau : "0034"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0069"
+scl_iss_SCE_id_sceau : "0034"
+scl_iss_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+scl_iss_SCE_motif : "géométrique : lignes en triangle"
+scl_US_us_nom : "2635"
 fid_US : "3"
-emp_PHO_nomFichier : "8316_3004_08_3404.jpg"
-emp_ies_SCE_id_sceau : "0069"
-emp_ies_SCE_id_sceau : "0034"
-emp_ies_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"),…"
-emp_ies_SCE_motif : "géométrique : lignes, triangle"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre ?"
+type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0011
-    sce_ies_emp_ies_SCE_id_sceau : 0069
-    sce_ies_emp_ies_SCE_id_sceau : 0084
-    sce_ies_emp_ies_SCE_id_sceau : 0034
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8131
-    sce_ies_EMP_n_Inv_IFAO : 8313
-    sce_ies_EMP_n_Inv_IFAO : 8316
-    sce_ies_EMP_n_Inv_IFAO : 8321
-    sce_ies_EMP_n_Inv_IFAO : 8435b
-    sce_ies_EMP_n_Inv_IFAO : 8522
-    sce_ies_EMP_n_Inv_IFAO : 8546a
-    sce_ies_EMP_n_Inv_IFAO : 8546c
-    sce_ies_EMP_n_Inv_IFAO : 8454
-    id_sceau : "0069"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8131
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8313
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8316
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8321
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8435b
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8522
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8546a
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8546c
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8454
-    motif : 3 hommes tête-bêche ("nains sauteurs"),…
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
-  - traduction_sceau : 
-    typeObjet : Sceau
-    texte_sceau : 
-    sce_ies_emp_ies_SCE_id_sceau : 0069
-    sce_ies_emp_ies_SCE_id_sceau : 0034
-    niveau : non royal
-    roi : 
-    sce_ies_EMP_n_Inv_IFAO : 8316
-    id_sceau : "0034"
-    dimensions_sceau : 
-    sce_ies_emp_ies_EMP_n_Inv_IFAO : 8316
-    motif : géométrique &#58; lignes, triangle
-    type_sceau : cylindre (empreinte)
-    remarque : 
-
 
 title: empreinte n°8316
-images: 8316_3004_08_3404.jpg
+images: 
 id_notice: 8316
 layout: notice
 type: empreinte
