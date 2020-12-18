@@ -1,0 +1,181 @@
+---
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
+n_Inv_IFAO : "8130"
+nature_scelle : "empreinte de sceau sur scellé"
+typeObjet : "Empreinte"
+scl_PHO_no_photo_IFAO : "NU_2008_3155"
+scl_PHO_no_photo_IFAO : "NU_2008_3156"
+scl_PHO_no_photo_IFAO : "NU_2008_3157"
+n_Inv_CSA : "3000"
+scl_ISS_fid_sceau : "8"
+scl_ISS_fid_sceau : "0010"
+scl_ISS_fid_sceau : "0084"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0008"
+scl_iss_SCE_id_sceau : "0010"
+scl_iss_SCE_id_sceau : "0084"
+scl_iss_SCE_motif : "|
+ <p>divers animaux par paires</p>
+ <p>(faucons/abeilles/lézards/chiens)<p>"
+scl_iss_SCE_motif : "canidé assis et lézards "
+scl_iss_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_US_us_nom : "2632"
+fid_US : "2"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "contrescellement simple"
+remarque : "Estampille effacée délibérément.  Peu de traces du cylindre 10."
+sceaux :
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8136
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8173
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8218
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8296
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8314
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8443
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8444
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8445
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8538
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8451
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0008
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0074
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    sce_iss_scl_iss_SCE_id_sceau : 0121
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_SCL_n_Inv_IFAO : 8136
+    sce_iss_SCL_n_Inv_IFAO : 8173
+    sce_iss_SCL_n_Inv_IFAO : 8218
+    sce_iss_SCL_n_Inv_IFAO : 8296
+    sce_iss_SCL_n_Inv_IFAO : 8314
+    sce_iss_SCL_n_Inv_IFAO : 8443
+    sce_iss_SCL_n_Inv_IFAO : 8444
+    sce_iss_SCL_n_Inv_IFAO : 8445
+    sce_iss_SCL_n_Inv_IFAO : 8538
+    sce_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_SCL_n_Inv_IFAO : 8451
+    id_sceau : "0008"
+    dimensions_sceau : 
+    motif : |
+     <p>divers animaux par paires</p>
+     <p>(faucons/abeilles/lézards/chiens)<p>
+    type_sceau : cylindre
+    remarque : 
+
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8320
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8421
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8508
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8520
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0008
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0069
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_SCL_n_Inv_IFAO : 8320
+    sce_iss_SCL_n_Inv_IFAO : 8421
+    sce_iss_SCL_n_Inv_IFAO : 8508
+    sce_iss_SCL_n_Inv_IFAO : 8520
+    id_sceau : "0010"
+    dimensions_sceau : 
+    motif : canidé assis et lézards 
+    type_sceau : cylindre
+    remarque : cf. Balat VI
+
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8127
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8151
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8154
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8282
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8339
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8345
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8363
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8493
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8502
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8165
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8354
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8451
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8454
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8477
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8478
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453b
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0004
+    sce_iss_scl_iss_SCE_id_sceau : 0008
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0022
+    sce_iss_scl_iss_SCE_id_sceau : 0052
+    sce_iss_scl_iss_SCE_id_sceau : 0069
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    sce_iss_scl_iss_SCE_id_sceau : 0091
+    sce_iss_scl_iss_SCE_id_sceau : 0137
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8127
+    sce_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_SCL_n_Inv_IFAO : 8151
+    sce_iss_SCL_n_Inv_IFAO : 8154
+    sce_iss_SCL_n_Inv_IFAO : 8282
+    sce_iss_SCL_n_Inv_IFAO : 8339
+    sce_iss_SCL_n_Inv_IFAO : 8345
+    sce_iss_SCL_n_Inv_IFAO : 8363
+    sce_iss_SCL_n_Inv_IFAO : 8493
+    sce_iss_SCL_n_Inv_IFAO : 8502
+    sce_iss_SCL_n_Inv_IFAO : 8165
+    sce_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_SCL_n_Inv_IFAO : 8354
+    sce_iss_SCL_n_Inv_IFAO : 8451
+    sce_iss_SCL_n_Inv_IFAO : 8454
+    sce_iss_SCL_n_Inv_IFAO : 8477
+    sce_iss_SCL_n_Inv_IFAO : 8478
+    sce_iss_SCL_n_Inv_IFAO : 8453a
+    sce_iss_SCL_n_Inv_IFAO : 8453b
+    id_sceau : "0084"
+    dimensions_sceau : 
+    motif : petit labyrinthe ovale, "style nouille"
+    type_sceau : estampille
+    remarque : 
+    sce_iss_scl_NOT_nom_note : N8151
+    sce_iss_scl_NOT_nom_note : N8154
+    sce_iss_scl_NOT_nom_note : N8493
+    sce_iss_scl_NOT_nom_note : N8502
+    sce_iss_scl_NOT_nom_note : N8165
+    sce_iss_scl_NOT_nom_note : N8354
+
+
+title: Scellé n°8130
+images: 8130_3000_08_3155.jpg,8130_3000_08_3156.jpg,8130_3000_08_3157.jpg
+id_notice: 8130
+layout: notice
+type: scelles
+partie: 1
+---

@@ -1,31 +1,15 @@
   <header id="main-header">
-    <section id="section-navigation">
-      <input type="radio" id="open-menu" name="toggle-menu" value="open">
-      <label id="label-open-menu" for="open-menu">{% include icons/menu.svg %}</label>
-      <nav id="nav-catalogue" >
-        <input type="radio" id="close-menu" name="toggle-menu" value="close" checked>
-        <label for="close-menu" id="label-close-menu">{% include icons/close.svg %}</label>
-      <h1><a href="{{ site.url }}/balat/">{{ site.title }}</a></h1>
+      <hgroup>
+            <h1>{{ site.title }}</h1>
+        </hgroup>
+
+        <figure><img src="/balat/images/partie-0{{page.partie}}.jpg"> </figure>
+
   
-      <ul>
-        {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}<li class="li-nav-chapter {% if page.partie == 1 %}current{% endif %}">
-          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
-        </li>{% endif %}{% endfor %}
-        {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}<li class="li-nav-chapter {% if page.partie == 2 %}current{% endif %}">
-          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
-        </li>{% endif %}{% endfor %}
-        {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}<li class="li-nav-chapter {% if page.partie == 3 %}current{% endif %}">
-          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
-        </li>{% endif %}{% endfor %}
-        {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}<li class="li-nav-chapter {% if page.partie == 4 %}current{% endif %}">
-          <a href="{{ site.url }}/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.partie_numero }}. {{ contenus.title }}</span><span class="subtitle-partie">{{ contenus.sous_titre }}</span></a>
-        </li>{% endif %}{% endfor %}
-        <li class="li-nav-aside {% if page.def == "bibliographie" %}current{% endif %}" id="link-bilio"><a href="{{ site.url }}/balat/bibliographie"><span class="title-partie">Bibliographie</span></a></li>
-        <li class="li-nav-aside {% if page.def == "a_propos" %}current{% endif %}"><a href="{{ site.url }}/balat/a-propos"><span class="title-partie">À propos</span></a></li>
-        <li class="li-nav-aside {% if page.def == "mentions_legales" %}current{% endif %}"><a href="{{ site.url }}/balat/mentions-legales"><span class="title-partie">Mentions légales</span></a></li>
-        <li class="li-nav-aside {% if page.def == "contact" %}current{% endif %}"><a href="{{ site.url }}/balat/contact"><span class="title-partie">Contact</span></a></li>
-      </ul>
-    </nav>
+      
+    <section id="section-navigation">
+      
+         
       <nav id="nav-chemin">
         <ul>
           <li><span><a href="{{ site.url }}/balat/">⌂ Accueil</a></span></li>
@@ -34,16 +18,23 @@
            {{page.title}}
          
           </span></li>
-        {% else %}
-      
-        {% if page.partie == 1 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les scellés</a></span></li>{% endif %}
-          {% if page.partie == 2 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}">Les empreintes</a></span></li>{% endif %}
-          {% if page.partie == 3 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 3</a></span></li>{% endif %}
-          {% if page.partie == 4 %}<li><span><a href="/balat/{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}">Partie 4</a></span></li>{% endif %}
-	{% endif %}
+
+            
+	   {% endif %}
+            {% if page.layout == "notice" %}
+   
+                   {% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}<li class="li-nav-chapter {% if page.partie == 1 %}current{% endif %}">
+          <a href="/balat/{{ contenus.slug }}"><span class="title-partie">{{ contenus.title }}</span></a>
+        </li>{% endif %}{% endfor %}
+
+         
+             
+         <li><span>{{ page.title }}</span></li>{% endif %}{% if page.type == "statique" %}<li><span>{{ page.title }}</span></li>
+        {% endif %}
+       
 
 
-         {% if page.type == "empreinte" %}<li><span>{{ page.title }}</span></li>{% endif %}{% if page.type == "statique" %}<li><span>{{ page.title }}</span></li>{% endif %}
+        
         </ul>
       </nav>
       <nav id="nav-parties">

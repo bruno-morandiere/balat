@@ -38,7 +38,7 @@ function noticesImages(images){
         if(window.innerWidth > 900 && nbrImg == "8"){
             document.getElementById('buttons-slider-choice').style.display = "flex";  
         }else{
-            displayDiapo(nameImg, nbrImg);
+           // displayDiapo(nameImg, nbrImg);
             document.getElementById('buttons-slider-choice').style.display = "none";
         }
     });

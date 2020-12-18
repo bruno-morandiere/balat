@@ -1,7 +1,7 @@
 function commmon(){
-    document.getElementById('label-open-menu').addEventListener("click", fixedPositionAdd);
+    /*document.getElementById('label-open-menu').addEventListener("click", fixedPositionAdd);
     document.getElementById('label-close-menu').addEventListener("click", fixedPositionRemove);
-
+*/
     function fixedPositionAdd(){
         let w = document.body.clientWidth;
         if(w < 700){

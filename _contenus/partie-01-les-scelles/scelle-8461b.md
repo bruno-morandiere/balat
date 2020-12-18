@@ -1,0 +1,99 @@
+---
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "indéterminé"
+n_Inv_IFAO : "8461b"
+nature_scelle : "empreinte de sceau sur scellé"
+typeObjet : "Empreinte"
+scl_PHO_no_photo_IFAO : "NU_2009_3023"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
+n_Inv_CSA : "3038"
+scl_ISS_fid_sceau : "21"
+scl_ISS_fid_sceau : "44"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0021"
+scl_iss_SCE_id_sceau : "0044"
+scl_iss_SCE_motif : "un acrobate avec deux chiens"
+scl_iss_SCE_motif : "indéterminé"
+scl_US_us_nom : "2635"
+fid_US : "3"
+scl_iss_SCE_type_sceau : "estampille"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "contrescellement simple"
+remarque : "traces de cylindre"
+sceaux :
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8145
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8149
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8344
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8351
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8432a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8432b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461d
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461e
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461f
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461g
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8262
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8469a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8469b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9082
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9088a
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0003
+    sce_iss_scl_iss_SCE_id_sceau : 0021
+    sce_iss_scl_iss_SCE_id_sceau : 0044
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8145
+    sce_iss_SCL_n_Inv_IFAO : 8149
+    sce_iss_SCL_n_Inv_IFAO : 8344
+    sce_iss_SCL_n_Inv_IFAO : 8351
+    sce_iss_SCL_n_Inv_IFAO : 8432a
+    sce_iss_SCL_n_Inv_IFAO : 8432b
+    sce_iss_SCL_n_Inv_IFAO : 8461a
+    sce_iss_SCL_n_Inv_IFAO : 8461c
+    sce_iss_SCL_n_Inv_IFAO : 8461d
+    sce_iss_SCL_n_Inv_IFAO : 8461e
+    sce_iss_SCL_n_Inv_IFAO : 8461f
+    sce_iss_SCL_n_Inv_IFAO : 8461g
+    sce_iss_SCL_n_Inv_IFAO : 8262
+    sce_iss_SCL_n_Inv_IFAO : 8461b
+    sce_iss_SCL_n_Inv_IFAO : 8469a
+    sce_iss_SCL_n_Inv_IFAO : 8469b
+    sce_iss_SCL_n_Inv_IFAO : 9082
+    sce_iss_SCL_n_Inv_IFAO : 9088a
+    id_sceau : "0021"
+    dimensions_sceau : 
+    motif : un acrobate avec deux chiens
+    type_sceau : estampille
+    remarque : 
+    sce_iss_scl_NOT_nom_note : N9088a
+    sce_iss_scl_NOT_nom_note : N9082
+
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8461b
+    categorie : indéterminé
+    sce_iss_scl_iss_SCE_id_sceau : 0021
+    sce_iss_scl_iss_SCE_id_sceau : 0044
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8461b
+    id_sceau : "0044"
+    dimensions_sceau : 
+    motif : indéterminé
+    type_sceau : cylindre
+    remarque : associé au sceau 21.
+
+
+title: Scellé n°8461b
+images: 8461b.jpg
+id_notice: 8461b
+layout: notice
+type: scelles
+partie: 1
+---

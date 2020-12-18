@@ -1,0 +1,175 @@
+---
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
+scl_iss_SCE_categorie : "non royal"
+n_Inv_IFAO : "8132"
+nature_scelle : "empreinte de sceau sur scellé"
+typeObjet : "Empreinte"
+scl_PHO_no_photo_IFAO : "NU_2008_3160"
+scl_PHO_no_photo_IFAO : "NU_2008_3161"
+scl_PHO_no_photo_IFAO : "NU_2008_3162"
+n_Inv_CSA : "3000"
+scl_ISS_fid_sceau : "10"
+scl_ISS_fid_sceau : "84"
+scl_ISS_fid_sceau : "0069"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0010"
+scl_iss_SCE_id_sceau : "0069"
+scl_iss_SCE_id_sceau : "0084"
+scl_iss_SCE_motif : "canidé assis et lézards "
+scl_iss_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+scl_iss_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_US_us_nom : "2632"
+fid_US : "2"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "cylindre"
+scl_iss_SCE_type_sceau : "estampille"
+type_scelle : "contrescellement double ? avec note hiératique "
+sceaux :
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8320
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8421
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8508
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8520
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0008
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0069
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_SCL_n_Inv_IFAO : 8320
+    sce_iss_SCL_n_Inv_IFAO : 8421
+    sce_iss_SCL_n_Inv_IFAO : 8508
+    sce_iss_SCL_n_Inv_IFAO : 8520
+    id_sceau : "0010"
+    dimensions_sceau : 
+    motif : canidé assis et lézards 
+    type_sceau : cylindre
+    remarque : cf. Balat VI
+
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8158
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8313
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8316
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8321
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8435b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8512
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8522
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8546a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8546c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8454
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0011
+    sce_iss_scl_iss_SCE_id_sceau : 0069
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    sce_iss_scl_iss_SCE_id_sceau : 0034
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_SCL_n_Inv_IFAO : 8158
+    sce_iss_SCL_n_Inv_IFAO : 8313
+    sce_iss_SCL_n_Inv_IFAO : 8316
+    sce_iss_SCL_n_Inv_IFAO : 8321
+    sce_iss_SCL_n_Inv_IFAO : 8435b
+    sce_iss_SCL_n_Inv_IFAO : 8512
+    sce_iss_SCL_n_Inv_IFAO : 8522
+    sce_iss_SCL_n_Inv_IFAO : 8546a
+    sce_iss_SCL_n_Inv_IFAO : 8546c
+    sce_iss_SCL_n_Inv_IFAO : 8454
+    id_sceau : "0069"
+    dimensions_sceau : 
+    motif : 3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…
+    type_sceau : cylindre
+    remarque : 
+    sce_iss_scl_NOT_nom_note : N8158
+
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8127
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8151
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8154
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8282
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8339
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8345
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8363
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8493
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8502
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8165
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8354
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8451
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8454
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8477
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8478
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453b
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0004
+    sce_iss_scl_iss_SCE_id_sceau : 0008
+    sce_iss_scl_iss_SCE_id_sceau : 0010
+    sce_iss_scl_iss_SCE_id_sceau : 0022
+    sce_iss_scl_iss_SCE_id_sceau : 0052
+    sce_iss_scl_iss_SCE_id_sceau : 0069
+    sce_iss_scl_iss_SCE_id_sceau : 0084
+    sce_iss_scl_iss_SCE_id_sceau : 0091
+    sce_iss_scl_iss_SCE_id_sceau : 0137
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8127
+    sce_iss_SCL_n_Inv_IFAO : 8130
+    sce_iss_SCL_n_Inv_IFAO : 8131
+    sce_iss_SCL_n_Inv_IFAO : 8132
+    sce_iss_SCL_n_Inv_IFAO : 8151
+    sce_iss_SCL_n_Inv_IFAO : 8154
+    sce_iss_SCL_n_Inv_IFAO : 8282
+    sce_iss_SCL_n_Inv_IFAO : 8339
+    sce_iss_SCL_n_Inv_IFAO : 8345
+    sce_iss_SCL_n_Inv_IFAO : 8363
+    sce_iss_SCL_n_Inv_IFAO : 8493
+    sce_iss_SCL_n_Inv_IFAO : 8502
+    sce_iss_SCL_n_Inv_IFAO : 8165
+    sce_iss_SCL_n_Inv_IFAO : 8232
+    sce_iss_SCL_n_Inv_IFAO : 8337
+    sce_iss_SCL_n_Inv_IFAO : 8354
+    sce_iss_SCL_n_Inv_IFAO : 8451
+    sce_iss_SCL_n_Inv_IFAO : 8454
+    sce_iss_SCL_n_Inv_IFAO : 8477
+    sce_iss_SCL_n_Inv_IFAO : 8478
+    sce_iss_SCL_n_Inv_IFAO : 8453a
+    sce_iss_SCL_n_Inv_IFAO : 8453b
+    id_sceau : "0084"
+    dimensions_sceau : 
+    motif : petit labyrinthe ovale, "style nouille"
+    type_sceau : estampille
+    remarque : 
+    sce_iss_scl_NOT_nom_note : N8151
+    sce_iss_scl_NOT_nom_note : N8154
+    sce_iss_scl_NOT_nom_note : N8493
+    sce_iss_scl_NOT_nom_note : N8502
+    sce_iss_scl_NOT_nom_note : N8165
+    sce_iss_scl_NOT_nom_note : N8354
+
+
+title: Scellé n°8132
+images: 8132_3000_08_3160.jpg,8132_3000_08_3161.jpg,8132_3000_08_3162.jpg
+id_notice: 8132
+layout: notice
+type: scelles
+partie: 1
+---

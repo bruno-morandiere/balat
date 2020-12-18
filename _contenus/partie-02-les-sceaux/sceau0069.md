@@ -1,0 +1,43 @@
+---
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8131"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8132"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8158"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8313"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8316"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8321"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8435b"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8512"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8522"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546a"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546c"
+sce_iss_scl_iss_SCL_n_Inv_IFAO : "8454"
+categorie : "non royal"
+sce_iss_scl_iss_SCE_id_sceau : "0010"
+sce_iss_scl_iss_SCE_id_sceau : "0011"
+sce_iss_scl_iss_SCE_id_sceau : "0069"
+sce_iss_scl_iss_SCE_id_sceau : "0084"
+sce_iss_scl_iss_SCE_id_sceau : "0034"
+typeObjet : "Sceau"
+sce_iss_SCL_n_Inv_IFAO : "8131"
+sce_iss_SCL_n_Inv_IFAO : "8132"
+sce_iss_SCL_n_Inv_IFAO : "8158"
+sce_iss_SCL_n_Inv_IFAO : "8313"
+sce_iss_SCL_n_Inv_IFAO : "8316"
+sce_iss_SCL_n_Inv_IFAO : "8321"
+sce_iss_SCL_n_Inv_IFAO : "8435b"
+sce_iss_SCL_n_Inv_IFAO : "8512"
+sce_iss_SCL_n_Inv_IFAO : "8522"
+sce_iss_SCL_n_Inv_IFAO : "8546a"
+sce_iss_SCL_n_Inv_IFAO : "8546c"
+sce_iss_SCL_n_Inv_IFAO : "8454"
+id_sceau : "0069"
+motif : "3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+type_sceau : "cylindre"
+sce_iss_scl_NOT_nom_note : "N8158"
+title: sceau n°0069
+scelles: "8131","8132","8158","8313","8316","8321","8435b","8512","8522","8546a","8546c","8454"
+id_notice: 0069
+layout: notice_sceau
+type: sceau
+partie: 1
+---

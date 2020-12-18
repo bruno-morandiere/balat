@@ -39,7 +39,7 @@ function threesixtyFunction(images) {
 			endFrame = 0,
 			// We keep track of the loaded images by increasing every time a new image is added to the image slider
 			loadedImages = 0,
-
+            nbrImg = 1,
 			// Caching DOM element references
 			$document = $(document),
 			$container = $('#threesixty'),

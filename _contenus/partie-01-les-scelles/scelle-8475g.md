@@ -1,0 +1,302 @@
+---
+scl_LOC_localisation : "palais, magasins sud"
+scl_iss_SCE_categorie : "non royal"
+n_Inv_IFAO : "8475g"
+nature_scelle : "empreinte de sceau sur scellé"
+typeObjet : "Empreinte"
+scl_PHO_no_photo_IFAO : "NU_2009_03250"
+scl_us_PHA_PhasedOccupation : "Phase 1, dernier état (incendié)."
+n_Inv_CSA : "3031"
+scl_ISS_fid_sceau : "16"
+fid_loc : "1"
+scl_iss_SCE_id_sceau : "0016"
+scl_iss_SCE_motif : "symboles hiéroglyphiques, silhouettes humaines, crocodiles tête-bêche, singes par paires, vautours, insectes, acrobate..."
+scl_US_us_nom : "2635"
+fid_US : "3"
+scl_iss_SCE_type_sceau : "cylindre"
+type_scelle : "simple"
+sceaux :
+  - traduction_sceau : 
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8139
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8140
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8141
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8142
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8143
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8144
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8150
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8258
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8295
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8297
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8301
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8304
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8305
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8306
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8307
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8308
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8309
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8311
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8317
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8318
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8319
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8324
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8326
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8329
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8330
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8332
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8333
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8359
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8428a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8428b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429d
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429e
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429f
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429g
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429h
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429i
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429j
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429k
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8429l
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8438a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8495
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8544
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8298
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8300
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8302
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8427a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8427b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8464
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471d
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471e
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471f
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471h
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471i
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471j
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471k
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471l
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471m
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8472a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8472b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8473
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8474a
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8474b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8474c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8548
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9078
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9080
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8471g
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475b
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475c
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475d
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475e
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475f
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475g
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475h
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475i
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475l
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475m
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475n
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475o
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475p
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475q
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475r
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475s
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475t
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475u
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475v
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475w
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475x
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475y
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475z
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475za
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zb
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zc
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zd
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475ze
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zf
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zh
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zi
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zj
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zk
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zl
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zm
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zo
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zn
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zp
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zq
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zr
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zs
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zt
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zu
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zv
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zw
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zx
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zz
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zza
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zzb
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zzc
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zzd
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zze
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475zzf
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475j
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8475k
+    categorie : non royal
+    sce_iss_scl_iss_SCE_id_sceau : 0016
+    sce_iss_scl_iss_SCE_id_sceau : 0020
+    sce_iss_scl_iss_SCE_id_sceau : 0083
+    sce_iss_scl_iss_SCE_id_sceau : 0123
+    sce_iss_scl_iss_SCE_id_sceau : 0142
+    typeObjet : Sceau
+    texte_sceau : 
+    roi : 
+    sce_iss_SCL_n_Inv_IFAO : 8139
+    sce_iss_SCL_n_Inv_IFAO : 8140
+    sce_iss_SCL_n_Inv_IFAO : 8141
+    sce_iss_SCL_n_Inv_IFAO : 8142
+    sce_iss_SCL_n_Inv_IFAO : 8143
+    sce_iss_SCL_n_Inv_IFAO : 8144
+    sce_iss_SCL_n_Inv_IFAO : 8150
+    sce_iss_SCL_n_Inv_IFAO : 8258
+    sce_iss_SCL_n_Inv_IFAO : 8295
+    sce_iss_SCL_n_Inv_IFAO : 8297
+    sce_iss_SCL_n_Inv_IFAO : 8301
+    sce_iss_SCL_n_Inv_IFAO : 8304
+    sce_iss_SCL_n_Inv_IFAO : 8305
+    sce_iss_SCL_n_Inv_IFAO : 8306
+    sce_iss_SCL_n_Inv_IFAO : 8307
+    sce_iss_SCL_n_Inv_IFAO : 8308
+    sce_iss_SCL_n_Inv_IFAO : 8309
+    sce_iss_SCL_n_Inv_IFAO : 8311
+    sce_iss_SCL_n_Inv_IFAO : 8317
+    sce_iss_SCL_n_Inv_IFAO : 8318
+    sce_iss_SCL_n_Inv_IFAO : 8319
+    sce_iss_SCL_n_Inv_IFAO : 8324
+    sce_iss_SCL_n_Inv_IFAO : 8326
+    sce_iss_SCL_n_Inv_IFAO : 8329
+    sce_iss_SCL_n_Inv_IFAO : 8330
+    sce_iss_SCL_n_Inv_IFAO : 8332
+    sce_iss_SCL_n_Inv_IFAO : 8333
+    sce_iss_SCL_n_Inv_IFAO : 8359
+    sce_iss_SCL_n_Inv_IFAO : 8428a
+    sce_iss_SCL_n_Inv_IFAO : 8428b
+    sce_iss_SCL_n_Inv_IFAO : 8429a
+    sce_iss_SCL_n_Inv_IFAO : 8429b
+    sce_iss_SCL_n_Inv_IFAO : 8429c
+    sce_iss_SCL_n_Inv_IFAO : 8429d
+    sce_iss_SCL_n_Inv_IFAO : 8429e
+    sce_iss_SCL_n_Inv_IFAO : 8429f
+    sce_iss_SCL_n_Inv_IFAO : 8429g
+    sce_iss_SCL_n_Inv_IFAO : 8429h
+    sce_iss_SCL_n_Inv_IFAO : 8429i
+    sce_iss_SCL_n_Inv_IFAO : 8429j
+    sce_iss_SCL_n_Inv_IFAO : 8429k
+    sce_iss_SCL_n_Inv_IFAO : 8429l
+    sce_iss_SCL_n_Inv_IFAO : 8438a
+    sce_iss_SCL_n_Inv_IFAO : 8475a
+    sce_iss_SCL_n_Inv_IFAO : 8495
+    sce_iss_SCL_n_Inv_IFAO : 8544
+    sce_iss_SCL_n_Inv_IFAO : 8298
+    sce_iss_SCL_n_Inv_IFAO : 8300
+    sce_iss_SCL_n_Inv_IFAO : 8302
+    sce_iss_SCL_n_Inv_IFAO : 8427a
+    sce_iss_SCL_n_Inv_IFAO : 8427b
+    sce_iss_SCL_n_Inv_IFAO : 8464
+    sce_iss_SCL_n_Inv_IFAO : 8471a
+    sce_iss_SCL_n_Inv_IFAO : 8471b
+    sce_iss_SCL_n_Inv_IFAO : 8471c
+    sce_iss_SCL_n_Inv_IFAO : 8471d
+    sce_iss_SCL_n_Inv_IFAO : 8471e
+    sce_iss_SCL_n_Inv_IFAO : 8471f
+    sce_iss_SCL_n_Inv_IFAO : 8471h
+    sce_iss_SCL_n_Inv_IFAO : 8471i
+    sce_iss_SCL_n_Inv_IFAO : 8471j
+    sce_iss_SCL_n_Inv_IFAO : 8471k
+    sce_iss_SCL_n_Inv_IFAO : 8471l
+    sce_iss_SCL_n_Inv_IFAO : 8471m
+    sce_iss_SCL_n_Inv_IFAO : 8472a
+    sce_iss_SCL_n_Inv_IFAO : 8472b
+    sce_iss_SCL_n_Inv_IFAO : 8473
+    sce_iss_SCL_n_Inv_IFAO : 8474a
+    sce_iss_SCL_n_Inv_IFAO : 8474b
+    sce_iss_SCL_n_Inv_IFAO : 8474c
+    sce_iss_SCL_n_Inv_IFAO : 8548
+    sce_iss_SCL_n_Inv_IFAO : 9078
+    sce_iss_SCL_n_Inv_IFAO : 9080
+    sce_iss_SCL_n_Inv_IFAO : 8471g
+    sce_iss_SCL_n_Inv_IFAO : 8475b
+    sce_iss_SCL_n_Inv_IFAO : 8475c
+    sce_iss_SCL_n_Inv_IFAO : 8475d
+    sce_iss_SCL_n_Inv_IFAO : 8475e
+    sce_iss_SCL_n_Inv_IFAO : 8475f
+    sce_iss_SCL_n_Inv_IFAO : 8475g
+    sce_iss_SCL_n_Inv_IFAO : 8475h
+    sce_iss_SCL_n_Inv_IFAO : 8475i
+    sce_iss_SCL_n_Inv_IFAO : 8475l
+    sce_iss_SCL_n_Inv_IFAO : 8475m
+    sce_iss_SCL_n_Inv_IFAO : 8475n
+    sce_iss_SCL_n_Inv_IFAO : 8475o
+    sce_iss_SCL_n_Inv_IFAO : 8475p
+    sce_iss_SCL_n_Inv_IFAO : 8475q
+    sce_iss_SCL_n_Inv_IFAO : 8475r
+    sce_iss_SCL_n_Inv_IFAO : 8475s
+    sce_iss_SCL_n_Inv_IFAO : 8475t
+    sce_iss_SCL_n_Inv_IFAO : 8475u
+    sce_iss_SCL_n_Inv_IFAO : 8475v
+    sce_iss_SCL_n_Inv_IFAO : 8475w
+    sce_iss_SCL_n_Inv_IFAO : 8475x
+    sce_iss_SCL_n_Inv_IFAO : 8475y
+    sce_iss_SCL_n_Inv_IFAO : 8475z
+    sce_iss_SCL_n_Inv_IFAO : 8475za
+    sce_iss_SCL_n_Inv_IFAO : 8475zb
+    sce_iss_SCL_n_Inv_IFAO : 8475zc
+    sce_iss_SCL_n_Inv_IFAO : 8475zd
+    sce_iss_SCL_n_Inv_IFAO : 8475ze
+    sce_iss_SCL_n_Inv_IFAO : 8475zf
+    sce_iss_SCL_n_Inv_IFAO : 8475zh
+    sce_iss_SCL_n_Inv_IFAO : 8475zi
+    sce_iss_SCL_n_Inv_IFAO : 8475zj
+    sce_iss_SCL_n_Inv_IFAO : 8475zk
+    sce_iss_SCL_n_Inv_IFAO : 8475zl
+    sce_iss_SCL_n_Inv_IFAO : 8475zm
+    sce_iss_SCL_n_Inv_IFAO : 8475zo
+    sce_iss_SCL_n_Inv_IFAO : 8475zn
+    sce_iss_SCL_n_Inv_IFAO : 8475zp
+    sce_iss_SCL_n_Inv_IFAO : 8475zq
+    sce_iss_SCL_n_Inv_IFAO : 8475zr
+    sce_iss_SCL_n_Inv_IFAO : 8475zs
+    sce_iss_SCL_n_Inv_IFAO : 8475zt
+    sce_iss_SCL_n_Inv_IFAO : 8475zu
+    sce_iss_SCL_n_Inv_IFAO : 8475zv
+    sce_iss_SCL_n_Inv_IFAO : 8475zw
+    sce_iss_SCL_n_Inv_IFAO : 8475zx
+    sce_iss_SCL_n_Inv_IFAO : 8475zz
+    sce_iss_SCL_n_Inv_IFAO : 8475zza
+    sce_iss_SCL_n_Inv_IFAO : 8475zzb
+    sce_iss_SCL_n_Inv_IFAO : 8475zzc
+    sce_iss_SCL_n_Inv_IFAO : 8475zzd
+    sce_iss_SCL_n_Inv_IFAO : 8475zze
+    sce_iss_SCL_n_Inv_IFAO : 8475zzf
+    sce_iss_SCL_n_Inv_IFAO : 8475j
+    sce_iss_SCL_n_Inv_IFAO : 8475k
+    id_sceau : "0016"
+    dimensions_sceau : 
+    motif : symboles hiéroglyphiques, silhouettes humaines, crocodiles tête-bêche, singes par paires, vautours, insectes, acrobate...
+    type_sceau : cylindre
+    remarque :  
+    sce_iss_scl_NOT_nom_note : N8140
+    sce_iss_scl_NOT_nom_note : N8495
+
+
+title: Scellé n°8475g
+images: 8475g.jpg
+id_notice: 8475g
+layout: notice
+type: scelles
+partie: 1
+---
