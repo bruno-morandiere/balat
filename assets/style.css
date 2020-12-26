@@ -765,6 +765,17 @@ font-size: 18px;
     width: 100%;
     bottom: 0;
 }
+
+.intro-footer #footer {
+    position: unset;
+    clear: both;
+    margin: 0 auto;
+    color: white;
+    background: #4c4c4c;
+       width: calc(100% + 100px);
+    margin-left: -50px;
+   
+}
 #footer #liens-footer {
     font-family: "Orkney";
    
