@@ -33,9 +33,11 @@ remarque : |
  <p>Cp. Wiese 197: lion assis, sa patte sur la tête d'un homme assis. Au-dessous, un acrobate faisant la roue ?<p>
 sce_iss_scl_NOT_nom_note : "N8441"
 title: sceau n°0011
-scelles: "8134","8312","8435a","8435b","8435c","8435d","8435e","8435f","8514","8519","8441"
+scelles: "8134,8312,8435a,8435b,8435c,8435d,8435e,8435f,8514,8519,8441"
+notes: "N8441"
+contrescellement: "0011,0069"
 id_notice: 0011
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -18,21 +18,21 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8353
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0093
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8353
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8353"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0093"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8353"
     id_sceau : "0093"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>entrelacs et piliers ḏd, lézard, …</p>
-     <p><p>
-    type_sceau : estampille
-    remarque : 
+     <p><p>"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8353

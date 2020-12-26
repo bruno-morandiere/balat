@@ -11,8 +11,10 @@ type_sceau : "cylindre"
 remarque : "Les deux lignes verticales suggèrent un serekh et un sceau de chancellerie royale, mais les signes sont de grand module. "
 title: sceau n°0151
 scelles: "8547"
+notes: ""
+contrescellement: "0151"
 id_notice: 0151
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

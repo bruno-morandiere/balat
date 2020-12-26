@@ -12,9 +12,11 @@ motif : |
  <p><p>
 type_sceau : "estampille"
 title: sceau n°0082
-scelles: "9106","9107"
+scelles: "9106,9107"
+notes: ""
+contrescellement: "0082"
 id_notice: 0082
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

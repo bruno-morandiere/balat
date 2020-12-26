@@ -14,19 +14,19 @@ scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 remarque : "pas de photo ni dessin."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8678
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0140
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8678
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8678"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0140"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8678"
     id_sceau : "0140"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8678

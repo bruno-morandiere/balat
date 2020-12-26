@@ -16,19 +16,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 remarque : "pas de photo."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8505
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0150
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8505
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8505"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0150"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8505"
     id_sceau : "0150"
-    dimensions_sceau : 
-    motif : en colonnes
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "en colonnes"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8505

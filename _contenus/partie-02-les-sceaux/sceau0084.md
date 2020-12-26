@@ -55,7 +55,7 @@ sce_iss_SCL_n_Inv_IFAO : "8478"
 sce_iss_SCL_n_Inv_IFAO : "8453a"
 sce_iss_SCL_n_Inv_IFAO : "8453b"
 id_sceau : "0084"
-motif : "petit labyrinthe ovale, "style nouille""
+motif : "petit labyrinthe ovale, &quot;style nouille&quot;"
 type_sceau : "estampille"
 sce_iss_scl_NOT_nom_note : "N8151"
 sce_iss_scl_NOT_nom_note : "N8154"
@@ -64,9 +64,11 @@ sce_iss_scl_NOT_nom_note : "N8502"
 sce_iss_scl_NOT_nom_note : "N8165"
 sce_iss_scl_NOT_nom_note : "N8354"
 title: sceau n°0084
-scelles: "8127","8130","8131","8132","8151","8154","8282","8339","8345","8363","8493","8502","8165","8232","8337","8354","8451","8454","8477","8478","8453a","8453b"
+scelles: "8127,8130,8131,8132,8151,8154,8282,8339,8345,8363,8493,8502,8165,8232,8337,8354,8451,8454,8477,8478,8453a,8453b"
+notes: "N8151,N8154,N8493,N8502,N8165,N8354"
+contrescellement: "0004,0008,0010,0022,0052,0069,0084,0091,0137"
 id_notice: 0084
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

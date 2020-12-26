@@ -18,19 +18,19 @@ fid_US : "34"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9093
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0097
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 9093
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9093"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0097"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "9093"
     id_sceau : "0097"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°9093

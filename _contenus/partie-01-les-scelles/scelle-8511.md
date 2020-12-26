@@ -19,19 +19,19 @@ remarque : "|
  <p></p>
  <p><p>"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8511
-    categorie : royal ?
-    sce_iss_scl_iss_SCE_id_sceau : 0156
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8511
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8511"
+    categorie : "royal ?"
+    sce_iss_scl_iss_SCE_id_sceau : "0156"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8511"
     id_sceau : "0156"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique &#58; jmȝḫy ?, [w]ḥȝt, ... 
-    type_sceau : cylindre (empreinte)
-    remarque : 
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique &#58; jmȝḫy ?, [w]ḥȝt, ... "
+    type_sceau : "cylindre (empreinte)"
+    remarque : ""
 
 
 title: Scellé n°8511

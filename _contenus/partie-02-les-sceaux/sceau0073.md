@@ -10,8 +10,10 @@ motif : "quadrupède, plan d'eau ?,..."
 type_sceau : "cylindre"
 title: sceau n°0073
 scelles: "8323"
+notes: ""
+contrescellement: "0073,0076"
 id_notice: 0073
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

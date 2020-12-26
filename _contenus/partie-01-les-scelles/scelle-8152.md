@@ -18,20 +18,20 @@ scl_NOT_transcription : "ȝbd 2 šmw sw […]"
 type_scelle : "sceau unique avec note hiératique"
 scl_NOT_traduction : "2e mois de la saison-chémou, jour […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8152
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0023
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8152
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8152"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0023"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8152"
     id_sceau : "0023"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : associé à une note datée
-    sce_iss_scl_NOT_nom_note : N8152
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : "associé à une note datée"
+    sce_iss_scl_NOT_nom_note : "N8152"
 
 
 title: Scellé n°8152

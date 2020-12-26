@@ -10,8 +10,10 @@ type_sceau : "cylindre"
 sce_iss_scl_NOT_nom_note : "N8494"
 title: sceau n°0101
 scelles: "8494"
+notes: "N8494"
+contrescellement: "0101"
 id_notice: 0101
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

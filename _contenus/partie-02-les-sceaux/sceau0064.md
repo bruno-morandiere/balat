@@ -9,8 +9,10 @@ motif : "indéterminé"
 type_sceau : "cylindre"
 title: sceau n°0064
 scelles: "8286"
+notes: ""
+contrescellement: "0064"
 id_notice: 0064
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

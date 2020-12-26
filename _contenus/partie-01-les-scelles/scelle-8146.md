@@ -16,19 +16,19 @@ scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "sceau unique"
 remarque : "Traces d'étoffe"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8146
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0018
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8146
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8146"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0018"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8146"
     id_sceau : "0018"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8146

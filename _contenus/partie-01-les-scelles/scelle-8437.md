@@ -16,19 +16,19 @@ scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 remarque : "sur papyrus, non photographié."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8437
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0122
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8437
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8437"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0122"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8437"
     id_sceau : "0122"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8437

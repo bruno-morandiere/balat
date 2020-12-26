@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 scl_iss_SCE_roi : "Pépy II ?"
 sceaux :
-  - traduction_sceau : Néferkarê
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8521
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0133
-    typeObjet : Sceau
-    texte_sceau : Nfr-kȝ-Rʿ 
-    roi : Pépy II ?
-    sce_iss_SCL_n_Inv_IFAO : 8521
+  - traduction_sceau : "Néferkarê"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8521"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0133"
+    typeObjet : "Sceau"
+    texte_sceau : "Nfr-kȝ-Rʿ "
+    roi : "Pépy II ?"
+    sce_iss_SCL_n_Inv_IFAO : "8521"
     id_sceau : "0133"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique &#58; cartouche royal Nfr-kȝ[-R‘]
-    type_sceau : cylindre
-    remarque : cartouche royal, probablement Pépy II. Cp. 0054, 0111, 0130.
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique &#58; cartouche royal Nfr-kȝ[-R‘]"
+    type_sceau : "cylindre"
+    remarque : "cartouche royal, probablement Pépy II. Cp. 0054, 0111, 0130."
 
 
 title: Scellé n°8521

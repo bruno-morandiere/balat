@@ -9,8 +9,10 @@ motif : "en colonnes séparées par des échelles : abeille, singe,ibex ou moufl
 type_sceau : "cylindre"
 title: sceau n°0147
 scelles: "8576"
+notes: ""
+contrescellement: "0147"
 id_notice: 0147
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

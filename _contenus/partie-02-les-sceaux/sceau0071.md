@@ -9,8 +9,10 @@ motif : "lézard ?…"
 type_sceau : "cylindre"
 title: sceau n°0071
 scelles: "8315"
+notes: ""
+contrescellement: "0071"
 id_notice: 0071
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

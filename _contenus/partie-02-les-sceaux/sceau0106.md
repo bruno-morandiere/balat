@@ -9,8 +9,10 @@ motif : "en colonnes séparées par des échelles : poisson ?"
 type_sceau : "cylindre"
 title: sceau n°0106
 scelles: "8368"
+notes: ""
+contrescellement: "0106"
 id_notice: 0106
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

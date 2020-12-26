@@ -9,8 +9,10 @@ motif : "effacé, bord denté"
 type_sceau : "estampille"
 title: sceau n°0124
 scelles: "8438b"
+notes: ""
+contrescellement: "0124"
 id_notice: 0124
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

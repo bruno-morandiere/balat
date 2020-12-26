@@ -19,20 +19,20 @@ scl_NOT_transcription : "[...] sw 13+x [...] šd[t? …]"
 type_scelle : "simple avec note"
 scl_NOT_traduction : "[…] jour 13+x, prélever […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8494
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0101
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8494
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8494"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0101"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8494"
     id_sceau : "0101"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8494
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8494"
 
 
 title: Scellé n°8494

@@ -21,8 +21,10 @@ type_sceau : "cylindre"
 remarque : "proche de 0027, 0041. Pour le titre d'Horus d'or de Pépy II, cp. 0130."
 title: sceau n°0035
 scelles: "8467g"
+notes: ""
+contrescellement: "0035"
 id_notice: 0035
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

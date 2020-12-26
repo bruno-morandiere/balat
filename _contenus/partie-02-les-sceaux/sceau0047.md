@@ -14,8 +14,10 @@ type_sceau : "cylindre"
 remarque : "Le sceau a été fortement oblitéré par l'empreinte du sceau 0004. Reste de cartouche dans la colonne gauche."
 title: sceau n°0047
 scelles: "8169"
+notes: ""
+contrescellement: "0004,0047"
 id_notice: 0047
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -10,8 +10,10 @@ motif : "animal ?"
 type_sceau : "cylindre"
 title: sceau n°0080
 scelles: "8328"
+notes: ""
+contrescellement: "0080,0157"
 id_notice: 0080
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

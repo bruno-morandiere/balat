@@ -19,23 +19,23 @@ fid_US : "4"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9106
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9107
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0082
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 9106
-    sce_iss_SCL_n_Inv_IFAO : 9107
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9106"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9107"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0082"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "9106"
+    sce_iss_SCL_n_Inv_IFAO : "9107"
     id_sceau : "0082"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>spirale</p>
-     <p><p>
-    type_sceau : estampille
-    remarque : 
+     <p><p>"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°9106

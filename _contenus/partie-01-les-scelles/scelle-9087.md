@@ -19,21 +19,21 @@ fid_US : "34"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9087
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0027
-    typeObjet : Sceau
-    texte_sceau : |
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9087"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0027"
+    typeObjet : "Sceau"
+    texte_sceau : "|
      <p>šps-nswt sm...</p>
-     <p>nswt [bjty]...<p>
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 9087
+     <p>nswt [bjty]...<p>"
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "9087"
     id_sceau : "0027"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique &#58; protocole royal et titre šps-nswt
-    type_sceau : cylindre
-    remarque : La disposition, les dimensions et le texte semblent proches de 0035 et 0041, mais le ductus est différent. Il pourrait néanmoins s'agir du même sceau.
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique &#58; protocole royal et titre šps-nswt"
+    type_sceau : "cylindre"
+    remarque : "La disposition, les dimensions et le texte semblent proches de 0035 et 0041, mais le ductus est différent. Il pourrait néanmoins s'agir du même sceau."
 
 
 title: Scellé n°9087

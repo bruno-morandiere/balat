@@ -18,24 +18,24 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8336
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8523
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0083
-    sce_iss_scl_iss_SCE_id_sceau : 0043
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8336
-    sce_iss_SCL_n_Inv_IFAO : 8523
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8336"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8523"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0083"
+    sce_iss_scl_iss_SCE_id_sceau : "0043"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8336"
+    sce_iss_SCL_n_Inv_IFAO : "8523"
     id_sceau : "0043"
-    dimensions_sceau : diam.rest. 2,8 cm
-    motif : |
+    dimensions_sceau : "diam.rest. 2,8 cm"
+    motif : "|
      <p>lézard à queue épineuse face à un autre animal, peut-être identique</p>
-     <p><p>
-    type_sceau : estampille
-    remarque : cp. 0104 pour le motif.
+     <p><p>"
+    type_sceau : "estampille"
+    remarque : "cp. 0104 pour le motif."
 
 
 title: Scellé n°8523

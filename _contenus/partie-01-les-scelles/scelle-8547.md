@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8547
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0151
-    typeObjet : Sceau
-    texte_sceau : stp ?
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8547
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8547"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0151"
+    typeObjet : "Sceau"
+    texte_sceau : "stp ?"
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8547"
     id_sceau : "0151"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique en colonnes ?
-    type_sceau : cylindre
-    remarque : Les deux lignes verticales suggèrent un serekh et un sceau de chancellerie royale, mais les signes sont de grand module. 
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique en colonnes ?"
+    type_sceau : "cylindre"
+    remarque : "Les deux lignes verticales suggèrent un serekh et un sceau de chancellerie royale, mais les signes sont de grand module. "
 
 
 title: Scellé n°8547

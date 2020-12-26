@@ -10,8 +10,10 @@ motif : "labyrinthe ?"
 type_sceau : "estampille"
 title: sceau n°0088
 scelles: "8347"
+notes: ""
+contrescellement: "0088"
 id_notice: 0088
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

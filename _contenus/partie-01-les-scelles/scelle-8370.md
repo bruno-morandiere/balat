@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8370
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0108
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8370
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8370"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0108"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8370"
     id_sceau : "0108"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8370

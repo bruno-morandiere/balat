@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 remarque : "empreinte en creux réalisée par un token, selon une pratique assez rare dans le palais."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8081
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0002
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8081
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8081"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0002"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8081"
     id_sceau : "0002"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : Le style épais et la technique de gravure sont bien différents des autres estampilles de la collection, de même que la forte stylisation du motif. 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : "Le style épais et la technique de gravure sont bien différents des autres estampilles de la collection, de même que la forte stylisation du motif. "
 
 
 title: Scellé n°8081

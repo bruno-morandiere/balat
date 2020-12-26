@@ -16,9 +16,11 @@ remarque : |
  <p>cp. 0043 pour le motif.</p>
  <p><p>
 title: sceau n°0104
-scelles: "8366","8299"
+scelles: "8366,8299"
+notes: ""
+contrescellement: "0020,0099,0104"
 id_notice: 0104
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

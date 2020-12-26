@@ -38,9 +38,11 @@ id_sceau : "0129"
 motif : "oiseaux affrontés ; singe flûtiste, homme tenant un crocodile ?, hippopotame, capriné, lézard ; crocodiles tête-bêche, lion, insecte,abeille ; homme sautant?, animal couché..."
 type_sceau : "cylindre"
 title: sceau n°0129
-scelles: "8436a","8436b","8436c","8436d","8446a","8446b","8506a","8506b","8506c","8506d","8507a","8507b","8537","8679","8310"
+scelles: "8436a,8436b,8436c,8436d,8446a,8446b,8506a,8506b,8506c,8506d,8507a,8507b,8537,8679,8310"
+notes: ""
+contrescellement: "0039,0045,0129"
 id_notice: 0129
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

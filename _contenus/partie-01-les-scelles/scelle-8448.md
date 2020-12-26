@@ -17,21 +17,21 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 scl_iss_SCE_roi : "indéterminé"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8448
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0131
-    typeObjet : Sceau
-    texte_sceau : |
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8448"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0131"
+    typeObjet : "Sceau"
+    texte_sceau : "|
      <p>bas de serekh</p>
-     <p>épithète mrr nb/nṯr[.f?]<p>
-    roi : indéterminé
-    sce_iss_SCL_n_Inv_IFAO : 8448
+     <p>épithète mrr nb/nṯr[.f?]<p>"
+    roi : "indéterminé"
+    sce_iss_SCL_n_Inv_IFAO : "8448"
     id_sceau : "0131"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique en colonnes &#58; titulature royale et épithètes de fonctionnaire.
-    type_sceau : cylindre
-    remarque : Le dernier signe est incomplet et peu distinct. Nb  est plus probable que nṯr.
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique en colonnes &#58; titulature royale et épithètes de fonctionnaire."
+    type_sceau : "cylindre"
+    remarque : "Le dernier signe est incomplet et peu distinct. Nb  est plus probable que nṯr."
 
 
 title: Scellé n°8448

@@ -17,22 +17,22 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 remarque : "différent de 8550, sceau 0164."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8327
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8550
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0079
-    sce_iss_scl_iss_SCE_id_sceau : 0083
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8327
-    sce_iss_SCL_n_Inv_IFAO : 8550
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8327"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8550"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0079"
+    sce_iss_scl_iss_SCE_id_sceau : "0083"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8327"
+    sce_iss_SCL_n_Inv_IFAO : "8550"
     id_sceau : "0079"
-    dimensions_sceau : 
-    motif : quadrupède marchant, signe d'eau, …
-    type_sceau : cylindre
-    remarque : différent de 0164.
+    dimensions_sceau : ""
+    motif : "quadrupède marchant, signe d'eau, …"
+    type_sceau : "cylindre"
+    remarque : "différent de 0164."
 
 
 title: Scellé n°8327

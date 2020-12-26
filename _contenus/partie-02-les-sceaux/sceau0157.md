@@ -11,8 +11,10 @@ motif : "indéterminé"
 type_sceau : "estampille"
 title: sceau n°0157
 scelles: "8328"
+notes: ""
+contrescellement: "0080,0157"
 id_notice: 0157
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

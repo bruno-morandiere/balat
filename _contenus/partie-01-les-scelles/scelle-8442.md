@@ -15,19 +15,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 remarque : "sur papyrus, non photographié."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8442
-    categorie : 
-    sce_iss_scl_iss_SCE_id_sceau : 0125
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8442
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8442"
+    categorie : ""
+    sce_iss_scl_iss_SCE_id_sceau : "0125"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8442"
     id_sceau : "0125"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : scellé sur papyrus
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : "scellé sur papyrus"
 
 
 title: Scellé n°8442

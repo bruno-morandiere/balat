@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre ?"
 type_scelle : "simple avec note ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8526
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0135
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8526
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8526"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0135"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8526"
     id_sceau : "0135"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre ?
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre ?"
+    remarque : ""
 
 
 title: Scellé n°8526

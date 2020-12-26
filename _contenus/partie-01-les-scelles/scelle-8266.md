@@ -23,20 +23,20 @@ scl_iss_SCE_roi : "indéterminé"
 remarque : "La note oblitère le second cylindre. On distingue aussi un fragment du pourtour d'une estampille ronde détruite."
 scl_NOT_traduction : "1er mois de la saison-chémou, j[our ...]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8266
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0054
-    typeObjet : Sceau
-    texte_sceau : [...] bjty [...]-R‘
-    roi : indéterminé
-    sce_iss_SCL_n_Inv_IFAO : 8266
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8266"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0054"
+    typeObjet : "Sceau"
+    texte_sceau : "[...] bjty [...]-R‘"
+    roi : "indéterminé"
+    sce_iss_SCL_n_Inv_IFAO : "8266"
     id_sceau : "0054"
-    dimensions_sceau : 
-    motif : titulature royale &#58; cartouche
-    type_sceau : cylindre
-    remarque : L'un des deux Pépy, dans un style de gravure assez différent des types connus, voisin du sceau 0111, donc probablement Pépy II.
-    sce_iss_scl_NOT_nom_note : N8266
+    dimensions_sceau : ""
+    motif : "titulature royale &#58; cartouche"
+    type_sceau : "cylindre"
+    remarque : "L'un des deux Pépy, dans un style de gravure assez différent des types connus, voisin du sceau 0111, donc probablement Pépy II."
+    sce_iss_scl_NOT_nom_note : "N8266"
 
 
 title: Scellé n°8266

@@ -10,8 +10,10 @@ motif : "indéterminé"
 type_sceau : "cylindre"
 title: sceau n°0025
 scelles: "8577b"
+notes: ""
+contrescellement: "0020,0025"
 id_notice: 0025
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

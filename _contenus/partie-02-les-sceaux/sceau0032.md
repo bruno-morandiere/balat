@@ -11,8 +11,10 @@ remarque : "cp. 0109."
 sce_iss_scl_NOT_nom_note : "N8167"
 title: sceau n°0032
 scelles: "8167"
+notes: "N8167"
+contrescellement: "0032"
 id_notice: 0032
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

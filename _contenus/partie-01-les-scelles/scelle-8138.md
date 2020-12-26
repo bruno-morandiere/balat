@@ -18,21 +18,21 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 remarque : "Fortement brûlé."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8138
-    categorie : privé
-    sce_iss_scl_iss_SCE_id_sceau : 0015
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8138
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8138"
+    categorie : "privé"
+    sce_iss_scl_iss_SCE_id_sceau : "0015"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8138"
     id_sceau : "0015"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>en colonnes séparées par une échelle ?</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : 
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8138

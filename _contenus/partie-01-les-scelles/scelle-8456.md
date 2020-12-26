@@ -10,27 +10,27 @@ n_Inv_CSA : "3038"
 scl_ISS_fid_sceau : "136"
 fid_loc : "1"
 scl_iss_SCE_id_sceau : "0136"
-scl_iss_SCE_motif : "gros labyrinthe "style nouille""
+scl_iss_SCE_motif : "gros labyrinthe &quot;style nouille&quot;"
 scl_US_us_nom : "2635"
 fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8456
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8457
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0136
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8456
-    sce_iss_SCL_n_Inv_IFAO : 8457
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8456"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8457"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0136"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8456"
+    sce_iss_SCL_n_Inv_IFAO : "8457"
     id_sceau : "0136"
-    dimensions_sceau : 
-    motif : gros labyrinthe "style nouille"
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "gros labyrinthe &quot;style nouille&quot;"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8456

@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 remarque : "2"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8546b
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0006
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8546b
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546b"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0006"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8546b"
     id_sceau : "0006"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8546b

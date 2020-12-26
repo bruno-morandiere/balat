@@ -10,7 +10,7 @@ layout: microtypo
 			<header>
 
 					<p class="partie-notice">
-						<a href="{{ site.url }}/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
+						<a href="/balat/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
 							
 							<span class="title-partie">{% if page.partie == 1 %}Les scellés{% endif %}{% if page.partie == 2 %}Les sceaux{% endif %}</span>
 						</a>
@@ -92,7 +92,7 @@ layout: microtypo
 
 
 			{% if page.nature_scelle == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_scelle }}</dd></div>{% endif %}
-			{% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
+			 {% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
 
         	{% if page.remarque == null %}{% else %}<div><dt>Remarques</dt><dd>{{ page.remarque }}</dd></div>{% endif %}
 
@@ -104,17 +104,20 @@ layout: microtypo
             
 			{% if  page.sceaux.size < 10 %}
                                
-			<div><dt>Sceau {% if page.sceaux.size > 1 %}x{% endif %}</dt><dd>
+			<div><dt>Sceau{% if page.sceaux.size > 1 %}x{% endif %}</dt><dd>
 				{% for sceau in page.sceaux %}
-					<a href = "/balat/partie-02-les-sceaux/sceau{{ sceau.id_sceau }}">{{ sceau.id_sceau }}</a> &nbsp;
+					<a href = "/balat/partie-02-les-sceaux/sceau{{ sceau.id_sceau }}"><span class="info_sceau">{{ sceau.id_sceau }}<br/>{{ sceau.type_sceau }}<br/>{{ sceau.categorie }}<br/>
+           </span><span class="img_sceau"> <img src="/balat/dessins/{{ sceau.id_sceau }}.jpg" class="current-image" onerror="this.style.display='none'"></span>
+            </a> <br/>
+            
+           
 				{% endfor %}
 				</dd></div>
 			{% endif %}
 
 				{{ content }}
 				
-				
-  		
+
 		</dl>
 			
 			</section>

@@ -15,19 +15,19 @@ fid_US : "2"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique avec note hiératique ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8137
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0014
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8137
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8137"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0014"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8137"
     id_sceau : "0014"
-    dimensions_sceau : 
-    motif : ligne de zigzags, échelle…
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "ligne de zigzags, échelle…"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8137

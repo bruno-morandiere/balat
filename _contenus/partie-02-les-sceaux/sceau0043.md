@@ -15,9 +15,11 @@ motif : |
 type_sceau : "estampille"
 remarque : "cp. 0104 pour le motif."
 title: sceau n°0043
-scelles: "8336","8523"
+scelles: "8336,8523"
+notes: ""
+contrescellement: "0083,0043"
 id_notice: 0043
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

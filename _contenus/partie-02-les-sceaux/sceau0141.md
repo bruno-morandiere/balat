@@ -9,8 +9,10 @@ motif : "lézard, personnage courant ou sautant"
 type_sceau : "cylindre"
 title: sceau n°0141
 scelles: "8677"
+notes: ""
+contrescellement: "0141"
 id_notice: 0141
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 remarque : "restes de tissu"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8530
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0107
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8530
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8530"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0107"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8530"
     id_sceau : "0107"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8530

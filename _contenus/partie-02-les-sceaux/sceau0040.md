@@ -13,8 +13,10 @@ type_sceau : "cylindre"
 remarque : "aucune trace de serekh ni cartouche, pas de trait de séparation des colonnes, signes de grand module."
 title: sceau n°0040
 scelles: "8228"
+notes: ""
+contrescellement: "0040"
 id_notice: 0040
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

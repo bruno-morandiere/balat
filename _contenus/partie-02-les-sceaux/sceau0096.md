@@ -12,9 +12,11 @@ motif : "labyrinthe géométrique"
 type_sceau : "estampille"
 remarque : "cp. 0067."
 title: sceau n°0096
-scelles: "8358","8369"
+scelles: "8358,8369"
+notes: ""
+contrescellement: "0096"
 id_notice: 0096
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

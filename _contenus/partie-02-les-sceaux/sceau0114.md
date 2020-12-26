@@ -63,9 +63,11 @@ motif : "texte hiéroglyphique : protocole royal et titre šps-nswt."
 type_sceau : "cylindre"
 remarque : "Cp. 0047, 0035, 0027 au même titre šps-nswt."
 title: sceau n°0114
-scelles: "8180","8425","8467a","8467b","8467c","8467d","8467e","8467f","8467h","8467i","8467j","8467k","8467l","8424","8466a","8466b","8466c","8466d"
+scelles: "8180,8425,8467a,8467b,8467c,8467d,8467e,8467f,8467h,8467i,8467j,8467k,8467l,8424,8466a,8466b,8466c,8466d"
+notes: ""
+contrescellement: "0045,0114"
 id_notice: 0114
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

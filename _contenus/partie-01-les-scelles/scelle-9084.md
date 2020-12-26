@@ -16,19 +16,19 @@ fid_US : "9"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9084
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0120
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 9084
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9084"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0120"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "9084"
     id_sceau : "0120"
-    dimensions_sceau : 
-    motif : grands lézards, scorpion, animaux, ...
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "grands lézards, scorpion, animaux, ..."
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°9084

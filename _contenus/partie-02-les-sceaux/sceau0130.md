@@ -13,8 +13,10 @@ type_sceau : "cylindre"
 remarque : "style proche de 0054 et 0111. Les tracés fragmentaires de la colonne de droite font-ils partie du même sceau ?"
 title: sceau n°0130
 scelles: "8447"
+notes: ""
+contrescellement: "0130"
 id_notice: 0130
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

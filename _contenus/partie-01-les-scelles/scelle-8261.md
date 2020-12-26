@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique avec note hiératique"
 remarque : "On distingue les restes de tracés à l'encre."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8261
-    categorie : non royal ?
-    sce_iss_scl_iss_SCE_id_sceau : 0053
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8261
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8261"
+    categorie : "non royal ?"
+    sce_iss_scl_iss_SCE_id_sceau : "0053"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8261"
     id_sceau : "0053"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8261

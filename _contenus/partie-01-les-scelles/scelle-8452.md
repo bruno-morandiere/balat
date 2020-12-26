@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple avec note"
 remarque : "traces de signes sur les bords"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8452
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0067
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8452
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8452"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0067"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8452"
     id_sceau : "0067"
-    dimensions_sceau : 
-    motif : labyrinthe géométrique. 
-    type_sceau : estampille
-    remarque : cp. 0096. Également sur scellé 1112 du sondage nord.
+    dimensions_sceau : ""
+    motif : "labyrinthe géométrique. "
+    type_sceau : "estampille"
+    remarque : "cp. 0096. Également sur scellé 1112 du sondage nord."
 
 
 title: Scellé n°8452

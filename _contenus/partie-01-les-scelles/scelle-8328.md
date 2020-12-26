@@ -21,35 +21,35 @@ scl_iss_SCE_type_sceau : "cylindre"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "contrescellement simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8328
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0080
-    sce_iss_scl_iss_SCE_id_sceau : 0157
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8328
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8328"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0080"
+    sce_iss_scl_iss_SCE_id_sceau : "0157"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8328"
     id_sceau : "0080"
-    dimensions_sceau : 
-    motif : animal ?
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "animal ?"
+    type_sceau : "cylindre"
+    remarque : ""
 
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8328
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0080
-    sce_iss_scl_iss_SCE_id_sceau : 0157
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8328
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8328"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0080"
+    sce_iss_scl_iss_SCE_id_sceau : "0157"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8328"
     id_sceau : "0157"
-    dimensions_sceau : diamètre 2,4 cm
-    motif : indéterminé
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : "diamètre 2,4 cm"
+    motif : "indéterminé"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8328

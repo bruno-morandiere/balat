@@ -13,8 +13,10 @@ type_sceau : "cylindre"
 remarque : "La disposition, les dimensions et le texte semblent proches de 0035 et 0041, mais le ductus est différent. Il pourrait néanmoins s'agir du même sceau."
 title: sceau n°0027
 scelles: "9087"
+notes: ""
+contrescellement: "0027"
 id_notice: 0027
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 remarque : "traces d'une note ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8255
-    categorie : royal ?
-    sce_iss_scl_iss_SCE_id_sceau : 0050
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8255
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8255"
+    categorie : "royal ?"
+    sce_iss_scl_iss_SCE_id_sceau : "0050"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8255"
     id_sceau : "0050"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique ?
-    type_sceau : cylindre
-    remarque : peut-être les titres šps-nswt sm et le bord d'un cartouche à gauche.
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique ?"
+    type_sceau : "cylindre"
+    remarque : "peut-être les titres šps-nswt sm et le bord d'un cartouche à gauche."
 
 
 title: Scellé n°8255

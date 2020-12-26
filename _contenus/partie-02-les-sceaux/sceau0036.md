@@ -12,9 +12,11 @@ dimensions_sceau : "diamètre 2,5 cm"
 motif : "spirales disposées dans un cercle"
 type_sceau : "estampille"
 title: sceau n°0036
-scelles: "8542","8667"
+scelles: "8542,8667"
+notes: ""
+contrescellement: "0143,0036"
 id_notice: 0036
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -82,7 +82,7 @@
             <h1>Les scellés de&#160;Balat-‘Ayn ’Asil</h1>
         </hgroup>
 
-        <figure><img src="/balat/images/partie-00.jpg"> </figure>
+        <figure><img src="/balat/images/partie-03.jpg"> </figure>
 
   
       
@@ -91,25 +91,41 @@
          
       <nav id="nav-chemin">
         <ul>
-          <li><span><a href="http://localhost:4000/balat/">⌂ Accueil</a></span></li>
+            <li>
+                  <span>
+                      <a href="http://localhost:4000/balat/">⌂ Accueil</a>
+                  </span>
+            </li>
          
-         <li><span>
-           Les notes hiératiques
-         
-          </span></li>
+             <li>
+                 <span>
+                    Les notes hiératiques
 
-            
-	   
-            
-       
-
+                </span>
+            </li>
 
         
-        </ul>
+        
+            
+            
+        
+            
+                    
+            
+        
+         </ul>
       </nav>
       <nav id="nav-parties">
        
         
+          
+         
+                  
+          
+           
+          
+          
+   
       </nav>
     </section>
   </header>
@@ -117,11 +133,7 @@
 	<main id="main-partie">
 		
         <div id="content">		
-            <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Découvert en&#160;1971 par Ahmed Fakhry, le site archéologique proche du village moderne de&#160;Balat a&#160;été fouillé par l’IFAO à&#160;partir de&#160;1977. Il se&#160;compose de&#160;la&#160;ville d’‘Ayn ’Asil, résidence des gouverneurs du début de&#160;la&#160;6ᵉ à&#160;la 11ᵉ dynastie (soit environ entre 2350 et&#160;2000 av. J.-C.), et&#160;de sa nécropole, Qila' al-Dabba. Les vestiges urbains couvrent une surface globale de&#160;800 m N-S x 500 m E-W. La ville s'est développée du nord vers le sud, au sein de&#160;deux enceintes palatiales. Le palais sud (plan 1), fouillé extensivement, comprend dans sa partie nord les&#160;appartements des gouverneurs et&#160;de leur entourage, le siège de&#160;l'administration centrale, des chapelles dédiées au culte mémorial des gouverneurs (hout-ka) et&#160;leurs dépendances. Au sud voisinaient magasins, ateliers et&#160;logements de&#160;service. Pillé puis incendié autour de&#160;2200 le palais est ensuite partiellement restauré et&#160;continue à&#160;fonctionner au moins jusqu’à&#160;la 11e dynastie. 
-Le site est unique par ses&#160;archives sur argile, la&#160;plupart trouvées in situ dans les&#160;deux enceintes palatiales de&#160;la&#160;ville. Elles consistent principalement en&#160;collections de&#160;scellés portant des empreintes de&#160;sceaux et&#160;de brèves notes inscrites au stylet en&#160;cursive hiératique. S'y ajoutent des documents de&#160;gestion inscrits sur des tablettes d'argile, support d'écriture très peu utilisé en&#160;Égypte. 
-La collection de&#160;scellés publiée ici provient des magasins sud (plan 2, photo). Conservée près de&#160;la&#160;porte de&#160;ces magasins au moment du grand incendie, elle a&#160;été trouvée en&#160;place. La totalité de&#160;ces empreintes appartiennent donc au dernier état de&#160;la&#160;phase 1 de&#160;l'occupation du palais.
-</code></pre></div></div>
-
+            <p>Dans la&#160;table Notes se&#160;trouve le fac-simile, réalisé en&#160;principe directement sur l’objet, des textes hiératiques identifiés. L’identifiant des notes se&#160;compose de&#160;N+n° d’inventaire du scellé. 70&nbsp;notes ont été relevées et&#160;presque toutes dessinées, mais beaucoup d’autres scellés conservent de&#160;petits fragments de&#160;signes et&#160;la proportion de&#160;scellés inscrits devait être bien plus élevée que ce&#160;nombre. 34&nbsp;des notes lues, donc près de&#160;la&#160;moitié, sont des dates permettant de&#160;situer dans le temps une opération (de retrait, dans les&#160;cas identifiés) effectuée sur les&#160;produits conservés dans les&#160;magasins, et&#160;de suivre l’état des stocks.</p>
 
         </div>
 		
@@ -130,6 +142,36 @@ La collection de&#160;scellés publiée ici provient des magasins sud (plan 2, p
 		
     
  
+        
+		<div id="tab-content">
+		<table id="table_notes" class="display" style="width:100%">
+        <thead>
+                 <thead>
+            <tr>
+                <th>N° Note</th>
+                <th>Transcription</th>
+                <th>Traduction</th>             
+                <th>commentaire</th>
+
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                 <th>N° Note</th>
+                <th>Transcription</th>
+                <th>Traduction</th>             
+                <th>commentaire</th>
+              
+            </tr>
+        </tfoot>
+       
+    </table>
+
+   </div>
+   
+ 		
+    
 	</main>
 	<script>
 		window.onload = function(){
@@ -143,6 +185,72 @@ La collection de&#160;scellés publiée ici provient des magasins sud (plan 2, p
              
              
              
+    
+$.getJSON('notes.json', function(data) {         
+    
+     var table = $('#table_notes').DataTable({
+     "data": data.notes,
+      "columns": [
+            { "data": "nom_note" },
+            { "data": "transcription" },
+            { "data": "traduction" },
+            { "data": "commentaire" }
+          
+          
+        ],
+         language: {
+			        processing:     "Traitement en&#160;cours...",
+			        search:         "Rechercher&nbsp;:",
+			        lengthMenu:    "Afficher _MENU_ &eacute;l&eacute;ments",
+			        info:           "Affichage de&#160;l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+			        infoEmpty:      "Affichage de&#160;l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+			        infoFiltered:   "(filtr&eacute; de&#160;_MAX_ &eacute;l&eacute;ments au total)",
+			        infoPostFix:    "",
+			        loadingRecords: "Chargement en&#160;cours...",
+			        zeroRecords:    "Aucun &eacute;l&eacute;ment &agrave; afficher",
+			        emptyTable:     "Aucune donnée disponible dans le tableau",
+			        paginate: {
+			            first:      "Premier",
+			            previous:   "Pr&eacute;c&eacute;dent",
+			            next:       "Suivant",
+			            last:       "Dernier"
+			        },
+			        aria: {
+			            sortAscending:  ": activer pour trier la&#160;colonne par ordre croissant",
+			            sortDescending: ": activer pour trier la&#160;colonne par ordre décroissant"
+			        }
+			        }
+			        
+		
+    });
+    $('#table_notes tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        window.open("note-"+data.nom_note,"_self");
+    } );
+    $('#table_notes tfoot th').each( function () {
+			var title = $(this).text();
+			$(this).html( '<input type="text" placeholder="Recherche '+title+'" />' );
+		} );
+			// Apply the search
+		table.columns().every( function () {
+			var that = this;
+
+			$( 'input', this.footer() ).on( 'keyup change', function () {
+				if ( that.search() !== this.value ) {
+					that
+						.search( this.value )
+						.draw();
+				}
+			} );
+		} );
+		
+});
+
+            
+                    
+            
+            
+            
              
         });//document).ready
 
@@ -164,7 +272,13 @@ La collection de&#160;scellés publiée ici provient des magasins sud (plan 2, p
 
 	</script>
 	<footer id="footer">
-  
+    <div id="description">
+        <p><a href="https://www.ifao.egnet.net/"><img src="/balat/images/Logo-IFAO.png"/></a></p>
+        
+         <p><a href="https://www.hisoma.mom.fr/"><img src="/balat/images/Logo_HiSoMA_Blanc.png"/></a></p>
+         <p><a href="https://www.univ-lyon2.fr/"><img src="/balat/images/Logo_Lyon2_Blanc.png"/></a></p>
+         <p><a href="https://www.universite-lyon.fr/"><img src="/balat/images/Logo_UDL_blanc.png"/></a></p>
+    </div>
 
     <div id="liens-footer">
       <p><a href="/balat/en-savoir-plus">Pour en&#160;savoir plus…</a></p>

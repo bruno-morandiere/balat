@@ -9,8 +9,10 @@ motif : "en colonnes : signe d'eau, traits obliques…"
 type_sceau : "cylindre"
 title: sceau n°0049
 scelles: "8253"
+notes: ""
+contrescellement: "0049"
 id_notice: 0049
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

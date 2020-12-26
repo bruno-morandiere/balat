@@ -19,37 +19,37 @@ scl_iss_SCE_type_sceau : "cylindre"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "contrescellement simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8667
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0143
-    sce_iss_scl_iss_SCE_id_sceau : 0036
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8667
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8667"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0143"
+    sce_iss_scl_iss_SCE_id_sceau : "0036"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8667"
     id_sceau : "0143"
-    dimensions_sceau : 
-    motif : motifs en ligne bordée d'une échelle &#58; lézard, ...
-    type_sceau : cylindre
-    remarque : quelques tracés en faible relief du sceau à spirales 0036 affleurent sous le sceau 00143.
+    dimensions_sceau : ""
+    motif : "motifs en ligne bordée d'une échelle &#58; lézard, ..."
+    type_sceau : "cylindre"
+    remarque : "quelques tracés en faible relief du sceau à spirales 0036 affleurent sous le sceau 00143."
 
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8542
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8667
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0143
-    sce_iss_scl_iss_SCE_id_sceau : 0036
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8542
-    sce_iss_SCL_n_Inv_IFAO : 8667
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8542"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8667"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0143"
+    sce_iss_scl_iss_SCE_id_sceau : "0036"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8542"
+    sce_iss_SCL_n_Inv_IFAO : "8667"
     id_sceau : "0036"
-    dimensions_sceau : diamètre 2,5 cm
-    motif : spirales disposées dans un cercle
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : "diamètre 2,5 cm"
+    motif : "spirales disposées dans un cercle"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8667

@@ -9,8 +9,10 @@ type_sceau : "cylindre"
 remarque : "scellé sur papyrus"
 title: sceau n°0125
 scelles: "8442"
+notes: ""
+contrescellement: "0125"
 id_notice: 0125
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

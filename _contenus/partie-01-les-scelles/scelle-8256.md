@@ -18,21 +18,21 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8256
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0028
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8256
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8256"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0028"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8256"
     id_sceau : "0028"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>singe debout, croissant lunaire ?,…</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : cp. 0016 pour le style, le format et le motif.
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : "cp. 0016 pour le style, le format et le motif."
 
 
 title: Scellé n°8256

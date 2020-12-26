@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8535
-    categorie : royal ?
-    sce_iss_scl_iss_SCE_id_sceau : 0146
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8535
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8535"
+    categorie : "royal ?"
+    sce_iss_scl_iss_SCE_id_sceau : "0146"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8535"
     id_sceau : "0146"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique &#58; […] wḥȝt, sans doute répété sur deux lignes
-    type_sceau : cylindre
-    remarque : peut-être le titre ḥqȝ wḥȝt
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique &#58; […] wḥȝt, sans doute répété sur deux lignes"
+    type_sceau : "cylindre"
+    remarque : "peut-être le titre ḥqȝ wḥȝt"
 
 
 title: Scellé n°8535

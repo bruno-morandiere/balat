@@ -15,8 +15,10 @@ type_sceau : "cylindre"
 remarque : "orientation différente de la houe dans le serekh par rapport aux autres sceaux de Pépy I : cp. 055, peut-être le même sceau. À côté du serekh, probablement la déesse Hathor trônant."
 title: sceau n°0057
 scelles: "8271"
+notes: ""
+contrescellement: "0057"
 id_notice: 0057
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

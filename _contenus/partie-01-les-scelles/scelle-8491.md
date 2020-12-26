@@ -20,20 +20,20 @@ scl_NOT_transcription : "ȝbd 3 pr[t] sw […] šdt […]"
 type_scelle : "simple avec note"
 scl_NOT_traduction : "3e ? mois de la saison-péret, jour […] prélever […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8491
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0037
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8491
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8491"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0037"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8491"
     id_sceau : "0037"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8491
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8491"
 
 
 title: Scellé n°8491

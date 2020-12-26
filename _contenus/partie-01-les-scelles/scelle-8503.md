@@ -18,20 +18,20 @@ scl_iss_SCE_type_sceau : "cylindre"
 scl_NOT_transcription : "?"
 type_scelle : "simple avec note"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8503
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0102
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8503
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8503"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0102"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8503"
     id_sceau : "0102"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8503
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8503"
 
 
 title: Scellé n°8503

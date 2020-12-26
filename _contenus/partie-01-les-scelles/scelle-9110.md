@@ -18,19 +18,19 @@ fid_US : "4"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9110
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0160
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 9110
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9110"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0160"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "9110"
     id_sceau : "0160"
-    dimensions_sceau : 
-    motif : géométrique ?
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "géométrique ?"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°9110

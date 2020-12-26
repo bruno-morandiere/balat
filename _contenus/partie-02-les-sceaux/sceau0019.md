@@ -9,8 +9,10 @@ motif : "boucles disposées selon les quartiers d'un cercle"
 type_sceau : "estampille"
 title: sceau n°0019
 scelles: "8147"
+notes: ""
+contrescellement: "0019"
 id_notice: 0019
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

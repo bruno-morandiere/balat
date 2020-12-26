@@ -17,32 +17,32 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8320
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8421
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8508
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8520
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0008
-    sce_iss_scl_iss_SCE_id_sceau : 0010
-    sce_iss_scl_iss_SCE_id_sceau : 0069
-    sce_iss_scl_iss_SCE_id_sceau : 0084
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8130
-    sce_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_SCL_n_Inv_IFAO : 8320
-    sce_iss_SCL_n_Inv_IFAO : 8421
-    sce_iss_SCL_n_Inv_IFAO : 8508
-    sce_iss_SCL_n_Inv_IFAO : 8520
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8130"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8320"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8421"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8508"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8520"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0008"
+    sce_iss_scl_iss_SCE_id_sceau : "0010"
+    sce_iss_scl_iss_SCE_id_sceau : "0069"
+    sce_iss_scl_iss_SCE_id_sceau : "0084"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8130"
+    sce_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_SCL_n_Inv_IFAO : "8320"
+    sce_iss_SCL_n_Inv_IFAO : "8421"
+    sce_iss_SCL_n_Inv_IFAO : "8508"
+    sce_iss_SCL_n_Inv_IFAO : "8520"
     id_sceau : "0010"
-    dimensions_sceau : 
-    motif : canidé assis et lézards 
-    type_sceau : cylindre
-    remarque : cf. Balat VI
+    dimensions_sceau : ""
+    motif : "canidé assis et lézards "
+    type_sceau : "cylindre"
+    remarque : "cf. Balat VI"
 
 
 title: Scellé n°8320

@@ -12,8 +12,10 @@ remarque : "associé à 6137 : labyrinthe et à une note datée"
 sce_iss_scl_NOT_nom_note : "N8151"
 title: sceau n°0022
 scelles: "8151"
+notes: "N8151"
+contrescellement: "0022,0084"
 id_notice: 0022
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

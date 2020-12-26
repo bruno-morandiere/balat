@@ -10,8 +10,10 @@ type_sceau : "estampille"
 remarque : "cp. 0096. Également sur scellé 1112 du sondage nord."
 title: sceau n°0067
 scelles: "8452"
+notes: ""
+contrescellement: "0067"
 id_notice: 0067
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -16,19 +16,19 @@ fid_US : "26"
 scl_iss_SCE_type_sceau : "cylindre ?"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8080
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0001
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8080
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8080"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0001"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8080"
     id_sceau : "0001"
-    dimensions_sceau : 
-    motif : 2 couples d'animaux affrontés, tête-bêche de part et d'autre d'une ligne horizontale &#58; 2 oiseaux, le cou ployé et les ailes étendues, et probablement deux faucons autour d'un signe ‘nḫ
-    type_sceau : cylindre ?
-    remarque : les deux motifs sont bien connus sur des estampilles du palais et de la nécropole. Étant donné les dimensions, il doit plutôt s'agir d'un cylindre.
+    dimensions_sceau : ""
+    motif : "2 couples d'animaux affrontés, tête-bêche de part et d'autre d'une ligne horizontale &#58; 2 oiseaux, le cou ployé et les ailes étendues, et probablement deux faucons autour d'un signe ‘nḫ"
+    type_sceau : "cylindre ?"
+    remarque : "les deux motifs sont bien connus sur des estampilles du palais et de la nécropole. Étant donné les dimensions, il doit plutôt s'agir d'un cylindre."
 
 
 title: Scellé n°8080

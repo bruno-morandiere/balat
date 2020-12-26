@@ -15,19 +15,19 @@ fid_US : "2"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "sceau unique ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8147
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0019
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8147
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8147"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0019"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8147"
     id_sceau : "0019"
-    dimensions_sceau : 
-    motif : boucles disposées selon les quartiers d'un cercle
-    type_sceau : estampille
-    remarque : 
+    dimensions_sceau : ""
+    motif : "boucles disposées selon les quartiers d'un cercle"
+    type_sceau : "estampille"
+    remarque : ""
 
 
 title: Scellé n°8147

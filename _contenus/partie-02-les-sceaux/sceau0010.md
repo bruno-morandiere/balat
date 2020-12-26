@@ -22,9 +22,11 @@ motif : "canidé assis et lézards "
 type_sceau : "cylindre"
 remarque : "cf. Balat VI"
 title: sceau n°0010
-scelles: "8130","8132","8320","8421","8508","8520"
+scelles: "8130,8132,8320,8421,8508,8520"
+notes: ""
+contrescellement: "0008,0010,0069,0084"
 id_notice: 0010
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

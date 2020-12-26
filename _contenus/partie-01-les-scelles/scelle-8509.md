@@ -18,19 +18,19 @@ scl_iss_SCE_type_sceau : "cylindre (empreinte)"
 type_scelle : "contrescellement simple"
 remarque : "l'estampille n'a pas imprimé l'argile, seul son pourtour circulaire est visible."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8509
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0154
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8509
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8509"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0154"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8509"
     id_sceau : "0154"
-    dimensions_sceau : 
-    motif : animaux ? technique proche de 0121.
-    type_sceau : cylindre (empreinte)
-    remarque : tracé de contours &#58; cp. 0121 sur 8296. Le même sceau ? 
+    dimensions_sceau : ""
+    motif : "animaux ? technique proche de 0121."
+    type_sceau : "cylindre (empreinte)"
+    remarque : "tracé de contours &#58; cp. 0121 sur 8296. Le même sceau ? "
 
 
 title: Scellé n°8509

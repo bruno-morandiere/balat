@@ -18,22 +18,22 @@ type_scelle : "simple"
 scl_iss_SCE_roi : "Pépy II"
 remarque : "Une note à l'encre ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8515
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8716
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0004
-    sce_iss_scl_iss_SCE_id_sceau : 0134
-    typeObjet : Sceau
-    texte_sceau : [Nṯrj-]ḫ‘w […][Nfr-kȝ-]R‘ ‘nḫ [ḏt]
-    roi : Pépy II
-    sce_iss_SCL_n_Inv_IFAO : 8515
-    sce_iss_SCL_n_Inv_IFAO : 8716
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8515"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8716"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0004"
+    sce_iss_scl_iss_SCE_id_sceau : "0134"
+    typeObjet : "Sceau"
+    texte_sceau : "[Nṯrj-]ḫ‘w […][Nfr-kȝ-]R‘ ‘nḫ [ḏt]"
+    roi : "Pépy II"
+    sce_iss_SCL_n_Inv_IFAO : "8515"
+    sce_iss_SCL_n_Inv_IFAO : "8716"
     id_sceau : "0134"
-    dimensions_sceau : 
-    motif : titulature royale &#58; serekh et cartouche
-    type_sceau : cylindre
-    remarque : cartouche horizontal écrit de gauche à droite. Le bas du serekh, très court, rejoint la bordure "échelle" du sceau, un motif qui apparaît sur plusieurs sceaux de Pépy II &#58; Kaplony, MonAeg IIIB, pl. 113, 4 & 9; pl. 114, 12.
+    dimensions_sceau : ""
+    motif : "titulature royale &#58; serekh et cartouche"
+    type_sceau : "cylindre"
+    remarque : "cartouche horizontal écrit de gauche à droite. Le bas du serekh, très court, rejoint la bordure &quot;échelle&quot; du sceau, un motif qui apparaît sur plusieurs sceaux de Pépy II &#58; Kaplony, MonAeg IIIB, pl. 113, 4 & 9; pl. 114, 12."
 
 
 title: Scellé n°8515

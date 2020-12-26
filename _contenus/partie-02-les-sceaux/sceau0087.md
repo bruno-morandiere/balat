@@ -14,8 +14,10 @@ motif : "titulature royale : serekh et cartouche"
 type_sceau : "cylindre"
 title: sceau n°0087
 scelles: "8205"
+notes: ""
+contrescellement: "0087"
 id_notice: 0087
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

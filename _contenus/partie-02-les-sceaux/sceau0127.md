@@ -12,8 +12,10 @@ type_sceau : "estampille"
 remarque : "dessin complexe, et déformé à droite du fait d'une pression irrégulière. "
 title: sceau n°0127
 scelles: "8335"
+notes: ""
+contrescellement: "0083,0127,0152"
 id_notice: 0127
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

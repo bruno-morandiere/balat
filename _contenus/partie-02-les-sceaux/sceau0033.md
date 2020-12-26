@@ -24,9 +24,11 @@ type_sceau : "cylindre"
 remarque : "Le motif est petit et effacé, la couronne du roi et sa main droite sont peu visibles. Le fragment  présenté à droite est d'un style tout à fait différent et correspond au sceau 0013. Il pourrait néanmoins avoir été imprimé par le même sceau. "
 sce_iss_scl_NOT_nom_note : "N8277"
 title: sceau n°0033
-scelles: "8168","8277"
+scelles: "8168,8277"
+notes: "N8277"
+contrescellement: "0033,0013"
 id_notice: 0033
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

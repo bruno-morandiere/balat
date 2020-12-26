@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 scl_iss_SCE_roi : "Pépy I "
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8209
-    categorie : royal 
-    sce_iss_scl_iss_SCE_id_sceau : 0038
-    typeObjet : Sceau
-    texte_sceau : bas de serekh [Mry]-tȝ[wy] et bord de cartouche.
-    roi : Pépy I 
-    sce_iss_SCL_n_Inv_IFAO : 8209
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8209"
+    categorie : "royal "
+    sce_iss_scl_iss_SCE_id_sceau : "0038"
+    typeObjet : "Sceau"
+    texte_sceau : "bas de serekh [Mry]-tȝ[wy] et bord de cartouche."
+    roi : "Pépy I "
+    sce_iss_SCL_n_Inv_IFAO : "8209"
     id_sceau : "0038"
-    dimensions_sceau : 
-    motif : titulature royale &#58; serekh et cartouche
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "titulature royale &#58; serekh et cartouche"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8209

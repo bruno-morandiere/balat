@@ -10,8 +10,10 @@ motif : "deux signes ankh, …"
 type_sceau : "cylindre"
 title: sceau n°0081
 scelles: "9085"
+notes: ""
+contrescellement: "0004,0081"
 id_notice: 0081
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

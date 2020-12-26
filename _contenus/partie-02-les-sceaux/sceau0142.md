@@ -41,9 +41,11 @@ motif : "2 animaux de Seth, 2 lézards, 2 chats"
 type_sceau : "estampille"
 sce_iss_scl_NOT_nom_note : "N8128"
 title: sceau n°0142
-scelles: "8128","8462a","8462b","8462c","8462d","8462e","8302","8463a","8463b","8464","8472a","8472b","8474a","8474b","8474c"
+scelles: "8128,8462a,8462b,8462c,8462d,8462e,8302,8463a,8463b,8464,8472a,8472b,8474a,8474b,8474c"
+notes: "N8128"
+contrescellement: "0003,0016,0020,0083,0142"
 id_notice: 0142
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

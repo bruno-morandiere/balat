@@ -9,8 +9,10 @@ motif : "en colonnes ; lion couchant, oiseau ?"
 type_sceau : "cylindre"
 title: sceau n°0161
 scelles: "8516"
+notes: ""
+contrescellement: "0161"
 id_notice: 0161
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

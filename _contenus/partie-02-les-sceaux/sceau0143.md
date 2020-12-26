@@ -11,8 +11,10 @@ type_sceau : "cylindre"
 remarque : "quelques tracés en faible relief du sceau à spirales 0036 affleurent sous le sceau 00143."
 title: sceau n°0143
 scelles: "8667"
+notes: ""
+contrescellement: "0143,0036"
 id_notice: 0143
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

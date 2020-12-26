@@ -18,30 +18,30 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique avec note hiératique"
 remarque : "Un trait de calame"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8129
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8439
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 9109
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8440
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0007
-    sce_iss_scl_iss_SCE_id_sceau : 0020
-    sce_iss_scl_iss_SCE_id_sceau : 0109
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8129
-    sce_iss_SCL_n_Inv_IFAO : 8439
-    sce_iss_SCL_n_Inv_IFAO : 9109
-    sce_iss_SCL_n_Inv_IFAO : 8440
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8129"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8439"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "9109"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8440"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0007"
+    sce_iss_scl_iss_SCE_id_sceau : "0020"
+    sce_iss_scl_iss_SCE_id_sceau : "0109"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8129"
+    sce_iss_SCL_n_Inv_IFAO : "8439"
+    sce_iss_SCL_n_Inv_IFAO : "9109"
+    sce_iss_SCL_n_Inv_IFAO : "8440"
     id_sceau : "0109"
-    dimensions_sceau : 
-    motif : groupes et symboles hiéroglyphiques
-    type_sceau : cylindre
-    remarque : |
+    dimensions_sceau : ""
+    motif : "groupes et symboles hiéroglyphiques"
+    type_sceau : "cylindre"
+    remarque : "|
      <p>Des séquences graphiques suivies : ḏȝḏȝt, rḫt, ḥry-jb mais qui ne forment pas d'énoncés continus.</p>
      <p>Cp. 0042.</p>
-     <p><p>
+     <p><p>"
 
 
 title: Scellé n°8129

@@ -20,20 +20,20 @@ scl_NOT_transcription : "bjt "
 type_scelle : "simple avec note"
 scl_NOT_traduction : "miel "
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8499
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0149
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8499
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8499"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0149"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8499"
     id_sceau : "0149"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8499
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8499"
 
 
 title: Scellé n°8499

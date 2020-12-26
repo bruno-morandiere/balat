@@ -26,48 +26,48 @@ type_scelle : "contrescellement simple ?"
 scl_iss_SCE_roi : "Pépy I ?"
 remarque : "un cylindre royal, contrescellé par un second cylindre."
 sceaux :
-  - traduction_sceau : |
+  - traduction_sceau : "|
      <p>[...] Pépy </p>
      <p>[...] des khentyou-ché qui exécute toujours les ordres </p>
      <p>serekh avec vignette de la course royale avec Apis</p>
-     <p>[...] le supérieur [des secrets ?...]<p>
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8168
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8277
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0033
-    sce_iss_scl_iss_SCE_id_sceau : 0013
-    typeObjet : Sceau
-    texte_sceau : |
+     <p>[...] le supérieur [des secrets ?...]<p>"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8168"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8277"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0033"
+    sce_iss_scl_iss_SCE_id_sceau : "0013"
+    typeObjet : "Sceau"
+    texte_sceau : "|
      <p>[...] Ppy </p>
      <p>[...ḫn]ty-š jrr wḏt r' [nb]</p>
      <p>serekh avec vignette de la course royale avec Apis</p>
-     <p>[...] ḥr[y-sštȝ ?...]<p>
-    roi : Pépy I ?
-    sce_iss_SCL_n_Inv_IFAO : 8168
-    sce_iss_SCL_n_Inv_IFAO : 8277
+     <p>[...] ḥr[y-sštȝ ?...]<p>"
+    roi : "Pépy I ?"
+    sce_iss_SCL_n_Inv_IFAO : "8168"
+    sce_iss_SCL_n_Inv_IFAO : "8277"
     id_sceau : "0033"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique en colonnes &#58; titulature royale et épithètes de fonctionnaire.
-    type_sceau : cylindre
-    remarque : Le motif est petit et effacé, la couronne du roi et sa main droite sont peu visibles. Le fragment  présenté à droite est d'un style tout à fait différent et correspond au sceau 0013. Il pourrait néanmoins avoir été imprimé par le même sceau. 
-    sce_iss_scl_NOT_nom_note : N8277
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique en colonnes &#58; titulature royale et épithètes de fonctionnaire."
+    type_sceau : "cylindre"
+    remarque : "Le motif est petit et effacé, la couronne du roi et sa main droite sont peu visibles. Le fragment  présenté à droite est d'un style tout à fait différent et correspond au sceau 0013. Il pourrait néanmoins avoir été imprimé par le même sceau. "
+    sce_iss_scl_NOT_nom_note : "N8277"
 
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8168
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0033
-    sce_iss_scl_iss_SCE_id_sceau : 0013
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8168
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8168"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0033"
+    sce_iss_scl_iss_SCE_id_sceau : "0013"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8168"
     id_sceau : "0013"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>en colonnes, indéterminé</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : 
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8168

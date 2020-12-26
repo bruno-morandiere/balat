@@ -20,20 +20,20 @@ type_scelle : "sceau unique avec note hiératique"
 remarque : "fragments et traces d'étoffe "
 scl_NOT_traduction : "[xe mois] de la saison-akhet, jour 3 +x[…]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8160
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0030
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8160
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8160"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0030"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8160"
     id_sceau : "0030"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : associé à une note datée
-    sce_iss_scl_NOT_nom_note : N8160
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : "associé à une note datée"
+    sce_iss_scl_NOT_nom_note : "N8160"
 
 
 title: Scellé n°8160

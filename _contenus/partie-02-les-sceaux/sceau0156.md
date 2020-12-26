@@ -9,8 +9,10 @@ motif : "texte hiéroglyphique : jmȝḫy ?, [w]ḥȝt, ... "
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0156
 scelles: "8511"
+notes: ""
+contrescellement: "0156"
 id_notice: 0156
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

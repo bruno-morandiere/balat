@@ -21,22 +21,22 @@ scl_NOT_transcription : "[…] n? Wp-wȝwt-jj ?"
 type_scelle : "simple avec note"
 scl_NOT_traduction : "[…] pour/d'Oupouaout-ii ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8504
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0103
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8504
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8504"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0103"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8504"
     id_sceau : "0103"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>indéterminé</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8504
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8504"
 
 
 title: Scellé n°8504

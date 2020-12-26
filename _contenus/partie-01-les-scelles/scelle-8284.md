@@ -17,19 +17,19 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique avec note hiératique"
 remarque : "reste de note : un trait."
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8284
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0063
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8284
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8284"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0063"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8284"
     id_sceau : "0063"
-    dimensions_sceau : 
-    motif : animal ?
-    type_sceau : cylindre
-    remarque : associé à un reste de note
+    dimensions_sceau : ""
+    motif : "animal ?"
+    type_sceau : "cylindre"
+    remarque : "associé à un reste de note"
 
 
 title: Scellé n°8284

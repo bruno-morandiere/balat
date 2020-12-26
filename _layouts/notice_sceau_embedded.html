@@ -1,0 +1,36 @@
+---
+layout: microtypo
+---
+
+
+		<section class="content-notice">
+        <dl>
+          	{% if page.donnees_biographiques1 == null %}{% else %}<div><dt>Données biographiques</dt><dd>{{ page.donnees_biographiques1 }}{% if page.donnees_biographiques2 == null %}{% else %}<br>{{ page.donnees_biographiques2 }}{% endif %}</dd></div>{% endif %}
+			{% if page.date_creation == null %}{% else %}<div><dt>Date de création</dt><dd>{{ page.date_creation }}{% endif %}</dd></div>
+			{% if page.type_oeuvre == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_oeuvre }}</dd></div>{% endif %}
+         
+          	{% if page.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_sceau }}</dd></div>{% endif %}
+   
+         	{% if page.categorie == null %}{% else %}<div><dt>Catégorie</dt><dd>{{ page.categorie }}</dd></div>{% endif %}
+
+          	{% if page.texte_sceau == null %}{% else %}<div><dt>Texte</dt><dd>{{ page.texte_sceau }}</dd></div>{% endif %}
+      		{% if page.traduction_sceau == null %}{% else %}<div><dt>Traduction</dt><dd>{{ page.traduction_sceau }}</dd></div>{% endif %}
+        	{% if page.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ page.motif }}</dd></div>{% endif %}
+     		{% if page.roi == null %}{% else %}<div><dt>Roi</dt><dd>{{ page.roi }}</dd></div>{% endif %}
+         	{% if page.dimensions_sceau == null %}{% else %}<div><dt>Dimensions</dt><dd>{{ page.dimensions_sceau }}</dd></div>{% endif %}
+			
+
+
+			{% if page.nature_empreinte == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_empreinte }}</dd></div>{% endif %}
+			{% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
+
+        	{% if page.remarque == null %}{% else %}<div><dt>Remarques</dt><dd>{{ page.remarque }}</dd></div>{% endif %}
+
+ 			{% if page.emp_SEC_nom_secteur == null %}{% else %}<div><dt>Localisation</dt><dd>{{ page.emp_SEC_nom_secteur }}</dd></div>{% endif %}
+ 			{% if page.emp_US_us_nom == null %}{% else %}<div><dt>US</dt><dd>{{ page.emp_US_us_nom }}</dd></div>{% endif %}
+
+
+	</dl>
+
+	</section>
+	

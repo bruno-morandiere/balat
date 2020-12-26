@@ -14,8 +14,10 @@ remarque : |
  <p>cp. sceau 0154.<p>
 title: sceau n°0074
 scelles: "8314"
+notes: ""
+contrescellement: "0008,0074"
 id_notice: 0074
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

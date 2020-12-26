@@ -3,7 +3,9 @@ layout: microtypo
 ---
 <!DOCTYPE html>
 {% assign images = page.images | split:","  %}
-{% assign empreintes = page.empreinte | split:","  %}
+{% assign scelles = page.scelles | split:","  %}
+{% assign contrescellements = page.contrescellement | split:","  %}
+{% assign notes = page.notes | split:","  %}
 {% include head.html %}
 <body >
 {% include header.html %}
@@ -11,9 +13,9 @@ layout: microtypo
 			<header>
 
 					<p class="partie-notice">
-						<a href="{{ site.url }}/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
+						<a href="/balat/{% if page.partie == 1 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 1 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 2 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 2 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 3 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 3 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}{% if page.partie == 4 %}{% for contenus in site.contenus %}{% if contenus.type == "partie" and contenus.partie_numero == 4 %}{{ contenus.slug }}{% endif %}{% endfor %}{% endif %}">
 							
-								<span class="title-partie">{% if page.partie == 1 %}Les scellés{% endif %}{% if page.partie == 2 %}Les sceaux{% endif %}</span>
+						<span class="title-partie">{% if page.partie == 1 %}Les scellés{% endif %}{% if page.partie == 2 %}Les sceaux{% endif %}</span>
 						</a>
 					</p>
 
@@ -49,48 +51,79 @@ layout: microtypo
  			{% if page.emp_SEC_nom_secteur == null %}{% else %}<div><dt>Localisation</dt><dd>{{ page.emp_SEC_nom_secteur }}</dd></div>{% endif %}
  			{% if page.emp_US_us_nom == null %}{% else %}<div><dt>US</dt><dd>{{ page.emp_US_us_nom }}</dd></div>{% endif %}
 
-
-	</dl>
-
-	</section>
-		<section class="content-notice">
-        <dl>
-            <dt>Scellé{% if page.scelles.size > 1 %}s{% endif %}</dt><dd>
-        	{% for scelle in page.scelles %}
+{% if scelles.size > 0 %}
+            <div><dt>Scellé{% if scelles.size > 1 %}s{% endif %}</dt><dd>
+        	{% for scelle in scelles %}
             
-        	<a href = "/balat/partie-01-les-scelles/scelle-{{ scelle }}">{{ scelle }}</a>
+        	<a href = "/balat/partie-01-les-scelles/scelle-{{ scelle }}">{{ scelle }}</a>&nbsp;-&nbsp;
 			
   			{% endfor %}
 
-</dd>
-
-			
-
-		</dl>
-		
-
-			{{ content }}	
-				
-	
-			</section>
+                </dd></div>
+             {% endif%}
             
+            {% if contrescellements.size > 0 %}
+           <div><dt>Contrescellement{% if contrescellements.size > 1 %}s{% endif %}</dt><dd>
+        	{% for contrescellement in contrescellements %}
+            
+        	<a href = "/balat/partie-02-les-sceaux/sceau{{ contrescellement }}">{{ contrescellement }}</a>&nbsp;-&nbsp;
 			
+  			{% endfor %}
+
+</dd>  </div>
+             {% endif%}
+            {% if notes.size > 0 %}
+            <div><dt>Note{% if notes.size > 1 %}s{% endif %}</dt><dd>
+        	{% for note in notes %}
+            
+        	<a href = "/balat/partie-03-les-notes-hieratiques/note-{{ note }}">{{ note }}</a>&nbsp;-&nbsp;
 			
+  			{% endfor %}
+
+</dd></div>
+            {% endif%}
+
+			
+	</dl>
+
+	</section>
+		
+			
+			<section id="section-images" aria-label="Section contenant les images de la sculpture" data-nbr-img="{{images.size}}" data-current-img="1">
+				<input type="radio" id="radio-360viewer" name="action-notice" value="360viewer" hidden>
+				<input type="radio" id="radio-diapo" name="action-notice" value="diapo" hidden>
+				<input type="radio" id="radio-zoom" name="action-notice" hidden value="zoom">
+				<input type="radio" id="radio-grid" name="action-notice" hidden value="grid" checked>
+				<div id="all-buttons">
+					<div class="button-group" id="buttons-slider-choice">
+						<button id="button-viewer360" aria-label="Vue 360° (cliquer sur l'image et bouger)" onclick="display360('/images/{{ page.id_notice }}-',8)">{% include icons/360-degree.svg %}</button>
+						<button id="button-diapo" aria-label="Diaporama" onclick="displayDiapo('/balat/images/{{ page.id_notice }}-',8)">{% include icons/slideshow.svg %}</button>
+					</div>
+
+					<div class="button-group" id="buttons-panzoom">
+						<button class="zoom-in" aria-label="Zoomer" onclick="toggleZoom()">{% include icons/plus.svg %}</button>
+						<button class="zoom-out" aria-label="Dézoomer">{% include icons/moins.svg %}</button>
+						<button class="reset" aria-label="Reset Zoom" onclick="resetRadio()">{% include icons/reset.svg %}</button>
+					</div>
+					<div class="button-group">
+						<a id="download-image" data-path="/balat/images/{{ page.id_notice }}" href="/balat/images/{{ page.id_notice }}.jpg" download><button id="button-download-all-images" aria-label="Télécharger l'image affichée">{% include icons/download.svg %}</button></a>
+					</div>
+				</div>
+				<div id="threesixty" class="parent images-id">
+						<div id="zoom-container" class="panzoom-parent">
+							<div id="spinner">
+									<span>0%</span>
+							</div>
+							<div id="all_images" class="panzoom">
+                            <div><img src="/balat/dessins/{{ page.id_sceau }}.jpg" class="current-image" srcset="" sizes="" data-num-img="1" onerror="this.style.display='none'"></div>
+                            </div>
+						</div>					
+				</div>
+
+				
+			</section>
 
 		</main>
 {% include footer.html %}
 
-<script src="/balat/assets/js/notices.js"></script>
-<script>
-	window.onload = function(){
-		commmon();
-		imageComparaison();
-		citation();
-		panzoomLoad(5);
-		var arr = [];
-		{% for image in images %}
-			arr.push("/balat/images/{{ image }}");
-		{% endfor %}
-		noticesImages(arr);
-	}
-</script>
+

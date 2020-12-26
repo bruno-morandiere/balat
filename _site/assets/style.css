@@ -97,7 +97,7 @@ element.style {
 #page-content {
     max-width: 1450px;
     margin: 0 auto;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -221,8 +221,13 @@ font-size: 30px;
     margin: 0 auto;
     color: white;
     background: #4c4c4c;
-    width: 100%;
-    /*bottom: 0;*/
+    /*width: 100%;
+    bottom: 0;*/
+    
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
 }
 #footer #liens-footer {
     font-family: "Orkney";
@@ -232,7 +237,7 @@ font-size: 30px;
     text-transform: initial;
     letter-spacing: 0px;
     padding-top: 2px;
-    float: right;
+   /* float: right;*/
     padding-right: 60px;
 }
 #footer #liens-footer a {
@@ -545,7 +550,7 @@ a:hover {
 header {
     font-family: "Orkney";
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #4c4c4c;
     position: relative;
     top: 0;
@@ -557,8 +562,8 @@ header h1 {
     font-weight: 200;
     text-transform: uppercase;
     z-index: 90;
-    font-size: calc(30px + 1vw);
-    line-height: calc(30px + 1vw);
+font-size: calc(25px + 1vw);
+    line-height: calc(25px + 1vw);
     padding-top: -10vh;
    
 }
@@ -568,8 +573,8 @@ header h2 {
     font-weight: 400;
     z-index: 90;
     
-    font-size: calc(10px + 1vw);
-    line-height: calc(10px + 1vw);
+    font-size: calc(9px + 1vw);
+    line-height: calc(9px + 1vw);
 }
     #header h3 {
    
@@ -607,7 +612,7 @@ z-index: 90;
 }
 figure img {
     width: 40%; 
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     object-position: top center;
 }
@@ -615,7 +620,17 @@ figure img {
 element.style {
 }
 
-
+#home-content {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #fff;
+    color: #45463c;
+    font-size: 18px;
+}
 #page-content {
     max-width: 1450px;
     margin: 0 auto;
@@ -628,7 +643,7 @@ element.style {
     font-size: 18px;
 }
 
-#page-content #left-part {
+#home-content #left-part {
     width: 30%;
     float: left;
 }
@@ -639,8 +654,10 @@ element.style {
     position: relative;
 }
 #left-part .left-part-item figure {
-   
+    margin-inline-end: 0px;
     order: 1;
+    width: 14vw;
+    /* margin-block-start: 0em; */
 }
 
 #left-part .left-part-item figure img {
@@ -706,7 +723,7 @@ border-radius: 5px;
    /* height: 100%;*/
      font-family: "Orkney";
     font-weight: 200;
-font-size: 30px;
+font-size: 18px;
     line-height: 30px;
     text-transform: uppercase;
     margin-bottom: 12px;
@@ -717,46 +734,55 @@ font-size: 30px;
 #left-part .left-part-item .link-part h2 {
     font-family: "Orkney";
     font-weight: 200;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
 }
 
 
-#page-content #right-part {
-    padding-left: calc(30% + 50px);
+#home-content #right-part {
+    padding-left: calc(30% + 100px);
 }
 
-#page-content .content #apropos-texte{
+#home-content .content #apropos-texte{
     display: inline-block;
     vertical-align: top;
     width: 100%;
     text-align: justify;
 }
-#page-content .content p {
-     font-family: helvetica, sans-serif;
+#home-content .content p {
+   font-family: 'Orkney',helvetica, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 
 #footer {
-    /*position: fixed;*/
+    position: fixed;
+    clear: both;
     margin: 0 auto;
     color: white;
     background: #4c4c4c;
     width: 100%;
-    /*bottom: 0;*/
+    bottom: 0;
 }
 #footer #liens-footer {
     font-family: "Orkney";
-    font-size: 18px;
-    line-height: 22px;
+   
     font-weight: 400;
     text-transform: initial;
     letter-spacing: 0px;
     padding-top: 2px;
-    float: right;
+   /* float: right;*/
     padding-right: 60px;
+    
+    font-size: 12px;
+    float: right;
+    line-height: 15px;
+   
+}
+#footer #liens-footer p {
+     margin-block-start: 0em;
+    margin-block-end: 0.5em;
 }
 #footer #liens-footer a {
     color: #8F8F8A;
@@ -833,7 +859,7 @@ font-size: 30px;
 #section-navigation #nav-chemin ul {
    
     font-family: "Orkney";
-    font-size: 18px;
+    font-size: 14px;
     
     font-weight: 400;
     text-transform: initial;
@@ -882,9 +908,9 @@ font-size: 30px;
     padding-bottom: 60px;
 }
 #content p {
-    font-family: helvetica, sans-serif;
+    font-family: "Orkney",helvetica, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     
     color: #4c4c4c;
@@ -895,7 +921,7 @@ font-size: 30px;
 }
 
 #main-partie table.dataTable, table.dataTable th, table.dataTable td {
-    font-family: helvetica, sans-serif;
+    font-family: "Orkney",helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #4c4c4c;
@@ -912,6 +938,7 @@ font-size: 30px;
     font-family: "Orkney";
      color: #4c4c4c;
     padding-top: 200px;
+    height: 100%;
 }
 
 #main-notice header {
@@ -945,7 +972,7 @@ font-size: 30px;
 #main-notice header h1 {
     font-family: "Belleza";
     font-weight: 200;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 48px;
     margin-bottom: 72px;
         text-transform: uppercase;
@@ -975,6 +1002,11 @@ font-size: 30px;
     margin-bottom: 96px;*/
     max-width: 880px;
     color: #45463c;
+    margin-bottom:70px;
+}
+
+.content-notice dl img{
+    width: 100%;
 }
 
 .content-notice dl div {
@@ -988,7 +1020,7 @@ font-size: 30px;
     opacity: 0.7;
     width: 28%;
     ont-family: "Orkney";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     text-transform: initial;
@@ -999,9 +1031,9 @@ font-size: 30px;
 
 .content-notice dl dd {
     padding-left: 10px;
-    width: 65%;
+    width: 55%;
     font-family: "Orkney";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     text-transform: initial;
@@ -1061,7 +1093,7 @@ font-size: 30px;
 #diaporama #zoom-container {
     width: 100%;
     border-bottom: solid 1px #DEDED7;
-    height: calc(100% - 180px);
+    height: calc(100%);
     overflow: hidden;
 }
 
@@ -1430,7 +1462,7 @@ font-size: 30px;
     position: fixed;
     /*width: calc(50vw - 30px*2);*/
      width: calc( 50% - 60px);
-    height: calc(66vh - 60px);
+    height: calc(50vh - 60px);
     top: 180px;
     right: 0;
     /*bottom: 128px;*/
@@ -1441,7 +1473,10 @@ font-size: 30px;
     #diaporama #zoom-container {
       width: 100%;
       border-bottom: solid 1px #676765;
-      height: calc(100% - 180px); }
+     /* height: calc(100% - 180px); */
+    
+    
+    }
       #diaporama #zoom-container img {
         height: 100%; }
     #diaporama #diaporama_nav {
@@ -1565,4 +1600,58 @@ section-images #diaporama #diaporama_nav {
     width: 100%;
     height: 180px;
 }
+}
+#section-navigation #nav-parties ul {
+    font-family: "Orkney";
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: initial;
+    letter-spacing: 0px;
+    height: 100%;
+    white-space: nowrap;
+}
+
+#section-navigation #nav-parties ul li {
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+    border-left: 1px solid currentColor;
+    padding: 0 20px;
+    color:darkgray;
+}
+.info_sceau{
+    
+    width: 30%;
+    float: left;
+margin-bottom: 10px;
+}
+
+.img_sceau{
+    width: 58%;
+    float: left;
+    /* min-height: 260px; */
+    border: 1px solid #DEDED7;
+    margin-bottom: 10px;
+}
+
+#description p{
+      margin-block-start: 0em;
+    margin-top: 5px;
+    float: left;
+    margin-left: 50px;
+}
+
+#description p img {
+    max-height: 30px;
+   
 }

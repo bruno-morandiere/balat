@@ -16,21 +16,21 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8358
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8369
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0096
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8358
-    sce_iss_SCL_n_Inv_IFAO : 8369
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8358"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8369"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0096"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8358"
+    sce_iss_SCL_n_Inv_IFAO : "8369"
     id_sceau : "0096"
-    dimensions_sceau : diamètre 2,2 cm
-    motif : labyrinthe géométrique
-    type_sceau : estampille
-    remarque : cp. 0067.
+    dimensions_sceau : "diamètre 2,2 cm"
+    motif : "labyrinthe géométrique"
+    type_sceau : "estampille"
+    remarque : "cp. 0067."
 
 
 title: Scellé n°8358

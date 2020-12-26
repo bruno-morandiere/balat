@@ -10,8 +10,10 @@ type_sceau : "cylindre (empreinte)"
 remarque : "Parallèle des lièvres affrontés : Balat V/2, p. 110, fig. 113, n° 5505."
 title: sceau n°0158
 scelles: "8513"
+notes: ""
+contrescellement: "0158"
 id_notice: 0158
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

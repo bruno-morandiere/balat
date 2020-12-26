@@ -11,8 +11,10 @@ remarque : "associé à une note datée"
 sce_iss_scl_NOT_nom_note : "N8153"
 title: sceau n°0024
 scelles: "8153"
+notes: "N8153"
+contrescellement: "0024"
 id_notice: 0024
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

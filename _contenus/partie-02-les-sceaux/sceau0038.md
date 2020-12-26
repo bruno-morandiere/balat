@@ -11,8 +11,10 @@ motif : "titulature royale : serekh et cartouche"
 type_sceau : "cylindre"
 title: sceau n°0038
 scelles: "8209"
+notes: ""
+contrescellement: "0038"
 id_notice: 0038
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

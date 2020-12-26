@@ -9,8 +9,10 @@ motif : "texte hiéroglyphique ?"
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0155
 scelles: "8510"
+notes: ""
+contrescellement: "0155"
 id_notice: 0155
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

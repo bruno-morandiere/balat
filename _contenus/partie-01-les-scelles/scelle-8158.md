@@ -13,7 +13,7 @@ scl_NOT_nom_note : "N8158"
 fid_loc : "1"
 scl_PIE_Nom_piece : "vestibule"
 scl_iss_SCE_id_sceau : "0069"
-scl_iss_SCE_motif : "3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+scl_iss_SCE_motif : "3 hommes tête-bêche (&quot;nains sauteurs&quot;), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
 scl_US_us_nom : "2635"
 fid_pie : "825"
 fid_US : "3"
@@ -23,46 +23,46 @@ type_scelle : "sceau unique avec note hiératique ?"
 remarque : "fragments et traces d'étoffe "
 scl_NOT_traduction : "[xe mois] de la saison-chémou, jour 23+x […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8131
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8158
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8313
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8316
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8321
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8435b
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8512
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8522
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8546a
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8546c
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8454
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0010
-    sce_iss_scl_iss_SCE_id_sceau : 0011
-    sce_iss_scl_iss_SCE_id_sceau : 0069
-    sce_iss_scl_iss_SCE_id_sceau : 0084
-    sce_iss_scl_iss_SCE_id_sceau : 0034
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8131
-    sce_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_SCL_n_Inv_IFAO : 8158
-    sce_iss_SCL_n_Inv_IFAO : 8313
-    sce_iss_SCL_n_Inv_IFAO : 8316
-    sce_iss_SCL_n_Inv_IFAO : 8321
-    sce_iss_SCL_n_Inv_IFAO : 8435b
-    sce_iss_SCL_n_Inv_IFAO : 8512
-    sce_iss_SCL_n_Inv_IFAO : 8522
-    sce_iss_SCL_n_Inv_IFAO : 8546a
-    sce_iss_SCL_n_Inv_IFAO : 8546c
-    sce_iss_SCL_n_Inv_IFAO : 8454
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8131"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8158"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8313"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8316"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8321"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8435b"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8512"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8522"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546a"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8546c"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8454"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0010"
+    sce_iss_scl_iss_SCE_id_sceau : "0011"
+    sce_iss_scl_iss_SCE_id_sceau : "0069"
+    sce_iss_scl_iss_SCE_id_sceau : "0084"
+    sce_iss_scl_iss_SCE_id_sceau : "0034"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8131"
+    sce_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_SCL_n_Inv_IFAO : "8158"
+    sce_iss_SCL_n_Inv_IFAO : "8313"
+    sce_iss_SCL_n_Inv_IFAO : "8316"
+    sce_iss_SCL_n_Inv_IFAO : "8321"
+    sce_iss_SCL_n_Inv_IFAO : "8435b"
+    sce_iss_SCL_n_Inv_IFAO : "8512"
+    sce_iss_SCL_n_Inv_IFAO : "8522"
+    sce_iss_SCL_n_Inv_IFAO : "8546a"
+    sce_iss_SCL_n_Inv_IFAO : "8546c"
+    sce_iss_SCL_n_Inv_IFAO : "8454"
     id_sceau : "0069"
-    dimensions_sceau : 
-    motif : 3 hommes tête-bêche ("nains sauteurs"), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8158
+    dimensions_sceau : ""
+    motif : "3 hommes tête-bêche (&quot;nains sauteurs&quot;), lézard, insecte, symbole bat, singe, gazelle ou faon couché,…"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8158"
 
 
 title: Scellé n°8158

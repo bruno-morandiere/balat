@@ -9,8 +9,10 @@ motif : "en colonnes ?"
 type_sceau : "cylindre"
 title: sceau n°0056
 scelles: "8270"
+notes: ""
+contrescellement: "0056"
 id_notice: 0056
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

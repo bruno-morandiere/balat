@@ -20,9 +20,11 @@ remarque : |
  <p>Cp. 0042.</p>
  <p><p>
 title: sceau n°0109
-scelles: "8129","8439","9109","8440"
+scelles: "8129,8439,9109,8440"
+notes: ""
+contrescellement: "0007,0020,0109"
 id_notice: 0109
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -17,20 +17,20 @@ scl_NOT_transcription : "[ȝbd] 3 [ȝ]ḫt ? sw 3+x […]"
 type_scelle : "simple avec note"
 scl_NOT_traduction : "3e mois de la saison-akhet ?, jour 3+x […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8423
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0128
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8423
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8423"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0128"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8423"
     id_sceau : "0128"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8423
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8423"
 
 
 title: Scellé n°8423

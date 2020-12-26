@@ -19,20 +19,20 @@ type_scelle : "sceau unique avec note hiératique"
 remarque : "Fragments d'étoffe attachés au revers du scellé."
 scl_NOT_traduction : "[…] jour 1? […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8153
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0024
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8153
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8153"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0024"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8153"
     id_sceau : "0024"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : associé à une note datée
-    sce_iss_scl_NOT_nom_note : N8153
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : "associé à une note datée"
+    sce_iss_scl_NOT_nom_note : "N8153"
 
 
 title: Scellé n°8153

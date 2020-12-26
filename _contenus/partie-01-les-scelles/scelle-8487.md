@@ -19,20 +19,20 @@ scl_NOT_transcription : "[…] šmw ? sw 26+x"
 type_scelle : "simple avec note"
 scl_NOT_traduction : "[xe mois] de la saison-chémou?, jour 26+x"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8487
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0145
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8487
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8487"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0145"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8487"
     id_sceau : "0145"
-    dimensions_sceau : diamètre restitué &#58; 3 cm
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8487
+    dimensions_sceau : "diamètre restitué &#58; 3 cm"
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8487"
 
 
 title: Scellé n°8487

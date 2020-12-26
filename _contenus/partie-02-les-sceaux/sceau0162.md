@@ -11,8 +11,10 @@ motif : |
 type_sceau : "cylindre"
 title: sceau n°0162
 scelles: "8517"
+notes: ""
+contrescellement: "0162"
 id_notice: 0162
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

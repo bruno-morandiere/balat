@@ -10,8 +10,10 @@ motif : "deux scorpions,…"
 type_sceau : "cylindre"
 title: sceau n°0076
 scelles: "8323"
+notes: ""
+contrescellement: "0073,0076"
 id_notice: 0076
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

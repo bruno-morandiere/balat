@@ -11,8 +11,10 @@ motif : "indéterminé"
 type_sceau : "cylindre"
 title: sceau n°0039
 scelles: "8310"
+notes: ""
+contrescellement: "0039,0045,0129"
 id_notice: 0039
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

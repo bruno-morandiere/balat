@@ -27,9 +27,11 @@ motif : "texte hiéroglyphique en colonnes : titulature royale et épithètes de
 type_sceau : "cylindre"
 remarque : "Le texte de ce sceau est original à plusieurs égards, de même que sa disposition. "
 title: sceau n°0005
-scelles: "8126","8658"
+scelles: "8126,8658"
+notes: ""
+contrescellement: "0005"
 id_notice: 0005
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

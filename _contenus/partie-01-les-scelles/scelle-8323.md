@@ -22,35 +22,35 @@ scl_iss_SCE_type_sceau : "cylindre"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "contrescellement simple ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8323
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0073
-    sce_iss_scl_iss_SCE_id_sceau : 0076
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8323
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8323"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0073"
+    sce_iss_scl_iss_SCE_id_sceau : "0076"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8323"
     id_sceau : "0073"
-    dimensions_sceau : 
-    motif : quadrupède, plan d'eau ?,...
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "quadrupède, plan d'eau ?,..."
+    type_sceau : "cylindre"
+    remarque : ""
 
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8323
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0073
-    sce_iss_scl_iss_SCE_id_sceau : 0076
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8323
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8323"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0073"
+    sce_iss_scl_iss_SCE_id_sceau : "0076"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8323"
     id_sceau : "0076"
-    dimensions_sceau : 
-    motif : deux scorpions,…
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "deux scorpions,…"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8323

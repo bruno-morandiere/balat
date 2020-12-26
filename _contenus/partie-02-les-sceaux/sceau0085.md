@@ -12,8 +12,10 @@ type_sceau : "cylindre"
 remarque : "différent de 0035 et 0114. Le signe supérieur, après le t, est indistinct. Dans les autres sceaux au même titre, šps-nswt est toujours le premier mot de la colonne."
 title: sceau n°0085
 scelles: "8251"
+notes: ""
+contrescellement: "0085"
 id_notice: 0085
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

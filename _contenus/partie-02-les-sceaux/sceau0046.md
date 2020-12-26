@@ -9,8 +9,10 @@ motif : "en colonnes séparées par une échelle"
 type_sceau : "cylindre"
 title: sceau n°0046
 scelles: "8243"
+notes: ""
+contrescellement: "0046"
 id_notice: 0046
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

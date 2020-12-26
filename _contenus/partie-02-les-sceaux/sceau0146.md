@@ -10,8 +10,10 @@ type_sceau : "cylindre"
 remarque : "peut-être le titre ḥqȝ wḥȝt"
 title: sceau n°0146
 scelles: "8535"
+notes: ""
+contrescellement: "0146"
 id_notice: 0146
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

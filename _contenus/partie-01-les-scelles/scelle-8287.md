@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique ?"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8287
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0065
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8287
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8287"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0065"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8287"
     id_sceau : "0065"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8287

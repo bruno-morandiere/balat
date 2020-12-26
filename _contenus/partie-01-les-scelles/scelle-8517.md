@@ -18,21 +18,21 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8517
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0162
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8517
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8517"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0162"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8517"
     id_sceau : "0162"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>en colonnes : symboles hiéroglyphiques</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : 
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8517

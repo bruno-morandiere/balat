@@ -9,8 +9,10 @@ motif : "animal ?"
 type_sceau : "cylindre"
 title: sceau n°0072
 scelles: "8551"
+notes: ""
+contrescellement: "0072"
 id_notice: 0072
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

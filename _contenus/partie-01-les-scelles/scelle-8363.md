@@ -10,81 +10,81 @@ n_Inv_CSA : "3005"
 scl_ISS_fid_sceau : "84"
 fid_loc : "1"
 scl_iss_SCE_id_sceau : "0084"
-scl_iss_SCE_motif : "petit labyrinthe ovale, "style nouille""
+scl_iss_SCE_motif : "petit labyrinthe ovale, &quot;style nouille&quot;"
 scl_US_us_nom : "2635"
 fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8127
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8130
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8131
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8151
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8154
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8282
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8339
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8345
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8363
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8493
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8502
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8165
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8232
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8337
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8354
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8451
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8454
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8477
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8478
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453a
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8453b
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0004
-    sce_iss_scl_iss_SCE_id_sceau : 0008
-    sce_iss_scl_iss_SCE_id_sceau : 0010
-    sce_iss_scl_iss_SCE_id_sceau : 0022
-    sce_iss_scl_iss_SCE_id_sceau : 0052
-    sce_iss_scl_iss_SCE_id_sceau : 0069
-    sce_iss_scl_iss_SCE_id_sceau : 0084
-    sce_iss_scl_iss_SCE_id_sceau : 0091
-    sce_iss_scl_iss_SCE_id_sceau : 0137
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8127
-    sce_iss_SCL_n_Inv_IFAO : 8130
-    sce_iss_SCL_n_Inv_IFAO : 8131
-    sce_iss_SCL_n_Inv_IFAO : 8132
-    sce_iss_SCL_n_Inv_IFAO : 8151
-    sce_iss_SCL_n_Inv_IFAO : 8154
-    sce_iss_SCL_n_Inv_IFAO : 8282
-    sce_iss_SCL_n_Inv_IFAO : 8339
-    sce_iss_SCL_n_Inv_IFAO : 8345
-    sce_iss_SCL_n_Inv_IFAO : 8363
-    sce_iss_SCL_n_Inv_IFAO : 8493
-    sce_iss_SCL_n_Inv_IFAO : 8502
-    sce_iss_SCL_n_Inv_IFAO : 8165
-    sce_iss_SCL_n_Inv_IFAO : 8232
-    sce_iss_SCL_n_Inv_IFAO : 8337
-    sce_iss_SCL_n_Inv_IFAO : 8354
-    sce_iss_SCL_n_Inv_IFAO : 8451
-    sce_iss_SCL_n_Inv_IFAO : 8454
-    sce_iss_SCL_n_Inv_IFAO : 8477
-    sce_iss_SCL_n_Inv_IFAO : 8478
-    sce_iss_SCL_n_Inv_IFAO : 8453a
-    sce_iss_SCL_n_Inv_IFAO : 8453b
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8127"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8130"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8131"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8151"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8154"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8282"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8339"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8345"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8363"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8493"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8502"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8165"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8232"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8337"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8354"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8451"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8454"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8477"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8478"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8453a"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8453b"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0004"
+    sce_iss_scl_iss_SCE_id_sceau : "0008"
+    sce_iss_scl_iss_SCE_id_sceau : "0010"
+    sce_iss_scl_iss_SCE_id_sceau : "0022"
+    sce_iss_scl_iss_SCE_id_sceau : "0052"
+    sce_iss_scl_iss_SCE_id_sceau : "0069"
+    sce_iss_scl_iss_SCE_id_sceau : "0084"
+    sce_iss_scl_iss_SCE_id_sceau : "0091"
+    sce_iss_scl_iss_SCE_id_sceau : "0137"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8127"
+    sce_iss_SCL_n_Inv_IFAO : "8130"
+    sce_iss_SCL_n_Inv_IFAO : "8131"
+    sce_iss_SCL_n_Inv_IFAO : "8132"
+    sce_iss_SCL_n_Inv_IFAO : "8151"
+    sce_iss_SCL_n_Inv_IFAO : "8154"
+    sce_iss_SCL_n_Inv_IFAO : "8282"
+    sce_iss_SCL_n_Inv_IFAO : "8339"
+    sce_iss_SCL_n_Inv_IFAO : "8345"
+    sce_iss_SCL_n_Inv_IFAO : "8363"
+    sce_iss_SCL_n_Inv_IFAO : "8493"
+    sce_iss_SCL_n_Inv_IFAO : "8502"
+    sce_iss_SCL_n_Inv_IFAO : "8165"
+    sce_iss_SCL_n_Inv_IFAO : "8232"
+    sce_iss_SCL_n_Inv_IFAO : "8337"
+    sce_iss_SCL_n_Inv_IFAO : "8354"
+    sce_iss_SCL_n_Inv_IFAO : "8451"
+    sce_iss_SCL_n_Inv_IFAO : "8454"
+    sce_iss_SCL_n_Inv_IFAO : "8477"
+    sce_iss_SCL_n_Inv_IFAO : "8478"
+    sce_iss_SCL_n_Inv_IFAO : "8453a"
+    sce_iss_SCL_n_Inv_IFAO : "8453b"
     id_sceau : "0084"
-    dimensions_sceau : 
-    motif : petit labyrinthe ovale, "style nouille"
-    type_sceau : estampille
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8151
-    sce_iss_scl_NOT_nom_note : N8154
-    sce_iss_scl_NOT_nom_note : N8493
-    sce_iss_scl_NOT_nom_note : N8502
-    sce_iss_scl_NOT_nom_note : N8165
-    sce_iss_scl_NOT_nom_note : N8354
+    dimensions_sceau : ""
+    motif : "petit labyrinthe ovale, &quot;style nouille&quot;"
+    type_sceau : "estampille"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8151"
+    sce_iss_scl_NOT_nom_note : "N8154"
+    sce_iss_scl_NOT_nom_note : "N8493"
+    sce_iss_scl_NOT_nom_note : "N8502"
+    sce_iss_scl_NOT_nom_note : "N8165"
+    sce_iss_scl_NOT_nom_note : "N8354"
 
 
 title: Scellé n°8363

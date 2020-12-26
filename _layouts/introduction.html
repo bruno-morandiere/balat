@@ -1,0 +1,24 @@
+---
+layout: microtypo
+---
+<!DOCTYPE html>
+{% include head.html %}
+<body id="body-partie-{{ page.partie_numero }}">
+	{% include header.html %}
+	<main id="main-partie">
+		
+        <div id="content">		
+            {{ content }}
+        </div>
+		
+         <div class="plan">	
+             <img src="/balat/images/{{ page.plan1 }}" onerror="this.style.display='none'">
+        </div>
+		
+        <div class="plan">	
+             <img src="/balat/images/{{ page.plan2 }}" onerror="this.style.display='none'">
+        </div>
+		
+	</main>
+	
+    {% include footer.html %}

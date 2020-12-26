@@ -8,8 +8,10 @@ motif : "en colonnes séparées par une échelle"
 type_sceau : "cylindre (empreinte)"
 title: sceau n°0153
 scelles: "8524"
+notes: ""
+contrescellement: "0153"
 id_notice: 0153
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

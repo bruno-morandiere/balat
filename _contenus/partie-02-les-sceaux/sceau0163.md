@@ -9,8 +9,10 @@ motif : "trois lézards (?) accolés, abeille ?…"
 type_sceau : "cylindre"
 title: sceau n°0163
 scelles: "8518"
+notes: ""
+contrescellement: "0163"
 id_notice: 0163
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -19,21 +19,21 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "simple"
 scl_iss_SCE_roi : "Pépy II"
 sceaux :
-  - traduction_sceau : Néferkarê, qu'il vive éternellement !
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8610
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0111
-    typeObjet : Sceau
-    texte_sceau : […] Nfr-kȝ-R‘ (cartouche) ‘nḫ(w) ḏt 
-    roi : Pépy II
-    sce_iss_SCL_n_Inv_IFAO : 8610
+  - traduction_sceau : "Néferkarê, qu'il vive éternellement !"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8610"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0111"
+    typeObjet : "Sceau"
+    texte_sceau : "[…] Nfr-kȝ-R‘ (cartouche) ‘nḫ(w) ḏt "
+    roi : "Pépy II"
+    sce_iss_SCL_n_Inv_IFAO : "8610"
     id_sceau : "0111"
-    dimensions_sceau : 
-    motif : |
+    dimensions_sceau : ""
+    motif : "|
      <p>cartouche royal Nfr-kȝ-R‘ , épithète eulogique</p>
-     <p><p>
-    type_sceau : cylindre
-    remarque : Le style rappelle le sceau 0054.
+     <p><p>"
+    type_sceau : "cylindre"
+    remarque : "Le style rappelle le sceau 0054."
 
 
 title: Scellé n°8610

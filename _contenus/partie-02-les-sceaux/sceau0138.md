@@ -9,8 +9,10 @@ motif : "insecte ?"
 type_sceau : "estampille"
 title: sceau n°0138
 scelles: "9083"
+notes: ""
+contrescellement: "0138"
 id_notice: 0138
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

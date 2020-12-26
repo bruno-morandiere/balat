@@ -9,8 +9,10 @@ motif : "indéterminé"
 type_sceau : "estampille"
 title: sceau n°0018
 scelles: "8146"
+notes: ""
+contrescellement: "0018"
 id_notice: 0018
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

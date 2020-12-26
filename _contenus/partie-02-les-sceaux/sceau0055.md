@@ -20,8 +20,10 @@ remarque : |
  <p><p>
 title: sceau n°0055
 scelles: "8268"
+notes: ""
+contrescellement: "0004,0055"
 id_notice: 0055
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

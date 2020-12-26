@@ -18,19 +18,19 @@ type_scelle : "simple"
 scl_iss_SCE_roi : "Pépy II"
 remarque : "Les attestations du nom d'Horus d'or sḫm de Pépy II sont rares."
 sceaux :
-  - traduction_sceau : L'Horus d'or puissant, le fils de Rê Pépy
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8447
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0130
-    typeObjet : Sceau
-    texte_sceau : Ḥr nbw sḫm sȝ R‘ Pp[y]
-    roi : Pépy II
-    sce_iss_SCL_n_Inv_IFAO : 8447
+  - traduction_sceau : "L'Horus d'or puissant, le fils de Rê Pépy"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8447"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0130"
+    typeObjet : "Sceau"
+    texte_sceau : "Ḥr nbw sḫm sȝ R‘ Pp[y]"
+    roi : "Pépy II"
+    sce_iss_SCL_n_Inv_IFAO : "8447"
     id_sceau : "0130"
-    dimensions_sceau : 
-    motif : titulature royale &#58; nom d'Horus d'or
-    type_sceau : cylindre
-    remarque : style proche de 0054 et 0111. Les tracés fragmentaires de la colonne de droite font-ils partie du même sceau ?
+    dimensions_sceau : ""
+    motif : "titulature royale &#58; nom d'Horus d'or"
+    type_sceau : "cylindre"
+    remarque : "style proche de 0054 et 0111. Les tracés fragmentaires de la colonne de droite font-ils partie du même sceau ?"
 
 
 title: Scellé n°8447

@@ -10,8 +10,10 @@ type_sceau : "cylindre"
 remarque : "peut-être les titres šps-nswt sm et le bord d'un cartouche à gauche."
 title: sceau n°0050
 scelles: "8255"
+notes: ""
+contrescellement: "0050"
 id_notice: 0050
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

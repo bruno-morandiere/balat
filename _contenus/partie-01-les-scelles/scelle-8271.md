@@ -17,21 +17,21 @@ scl_iss_SCE_type_sceau : "cylindre"
 type_scelle : "sceau unique"
 scl_iss_SCE_roi : "Pépy I"
 sceaux :
-  - traduction_sceau : L'aimé des deux terres ...
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8271
-    categorie : royal 
-    sce_iss_scl_iss_SCE_id_sceau : 0057
-    typeObjet : Sceau
-    texte_sceau : |
+  - traduction_sceau : "L'aimé des deux terres ..."
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8271"
+    categorie : "royal "
+    sce_iss_scl_iss_SCE_id_sceau : "0057"
+    typeObjet : "Sceau"
+    texte_sceau : "|
      <p>Mry-tȝwy </p>
-     <p>...<p>
-    roi : Pépy I
-    sce_iss_SCL_n_Inv_IFAO : 8271
+     <p>...<p>"
+    roi : "Pépy I"
+    sce_iss_SCL_n_Inv_IFAO : "8271"
     id_sceau : "0057"
-    dimensions_sceau : 
-    motif : titulature royale &#58; serekh
-    type_sceau : cylindre
-    remarque : orientation différente de la houe dans le serekh par rapport aux autres sceaux de Pépy I &#58; cp. 055, peut-être le même sceau. À côté du serekh, probablement la déesse Hathor trônant.
+    dimensions_sceau : ""
+    motif : "titulature royale &#58; serekh"
+    type_sceau : "cylindre"
+    remarque : "orientation différente de la houe dans le serekh par rapport aux autres sceaux de Pépy I &#58; cp. 055, peut-être le même sceau. À côté du serekh, probablement la déesse Hathor trônant."
 
 
 title: Scellé n°8271

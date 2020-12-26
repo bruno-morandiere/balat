@@ -10,8 +10,10 @@ type_sceau : "cylindre ?"
 remarque : "les deux motifs sont bien connus sur des estampilles du palais et de la nécropole. Étant donné les dimensions, il doit plutôt s'agir d'un cylindre."
 title: sceau n°0001
 scelles: "8080"
+notes: ""
+contrescellement: "0001"
 id_notice: 0001
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -16,25 +16,25 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "estampille"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8366
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8299
-    categorie : non royal
-    sce_iss_scl_iss_SCE_id_sceau : 0020
-    sce_iss_scl_iss_SCE_id_sceau : 0099
-    sce_iss_scl_iss_SCE_id_sceau : 0104
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8366
-    sce_iss_SCL_n_Inv_IFAO : 8299
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8366"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8299"
+    categorie : "non royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0020"
+    sce_iss_scl_iss_SCE_id_sceau : "0099"
+    sce_iss_scl_iss_SCE_id_sceau : "0104"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8366"
+    sce_iss_SCL_n_Inv_IFAO : "8299"
     id_sceau : "0104"
-    dimensions_sceau : diamètre 2,8 cm
-    motif : ronde de lézards (?) à queue et dos épineux ou écailleux, …
-    type_sceau : estampille
-    remarque : |
+    dimensions_sceau : "diamètre 2,8 cm"
+    motif : "ronde de lézards (?) à queue et dos épineux ou écailleux, …"
+    type_sceau : "estampille"
+    remarque : "|
      <p>cp. 0043 pour le motif.</p>
-     <p><p>
+     <p><p>"
 
 
 title: Scellé n°8366

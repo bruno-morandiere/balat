@@ -10,8 +10,10 @@ motif : "cercle divisé en quartiers ?"
 type_sceau : "estampille"
 title: sceau n°0105
 scelles: "9108"
+notes: ""
+contrescellement: "0105"
 id_notice: 0105
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

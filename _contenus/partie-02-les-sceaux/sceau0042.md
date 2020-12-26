@@ -11,9 +11,11 @@ motif : "symboles hiéroglyphiques"
 type_sceau : "cylindre"
 remarque : "cp. 0109."
 title: sceau n°0042
-scelles: "8235","8246"
+scelles: "8235,8246"
+notes: ""
+contrescellement: "0042"
 id_notice: 0042
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

@@ -16,19 +16,19 @@ fid_US : "3"
 scl_iss_SCE_type_sceau : "cylindre (empreinte)"
 type_scelle : "simple"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8510
-    categorie : royal ?
-    sce_iss_scl_iss_SCE_id_sceau : 0155
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8510
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8510"
+    categorie : "royal ?"
+    sce_iss_scl_iss_SCE_id_sceau : "0155"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8510"
     id_sceau : "0155"
-    dimensions_sceau : 
-    motif : texte hiéroglyphique ?
-    type_sceau : cylindre (empreinte)
-    remarque : 
+    dimensions_sceau : ""
+    motif : "texte hiéroglyphique ?"
+    type_sceau : "cylindre (empreinte)"
+    remarque : ""
 
 
 title: Scellé n°8510

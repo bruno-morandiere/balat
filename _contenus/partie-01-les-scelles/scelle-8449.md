@@ -18,19 +18,19 @@ type_scelle : "simple"
 scl_iss_SCE_roi : "Pépy I"
 remarque : "nswt bjty Mry-Ra"
 sceaux :
-  - traduction_sceau : Le roi de Haute et de Basse Égypte Méryrê
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8449
-    categorie : royal
-    sce_iss_scl_iss_SCE_id_sceau : 0132
-    typeObjet : Sceau
-    texte_sceau : nswt-bjty Mr[y]-Rʿ
-    roi : Pépy I
-    sce_iss_SCL_n_Inv_IFAO : 8449
+  - traduction_sceau : "Le roi de Haute et de Basse Égypte Méryrê"
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8449"
+    categorie : "royal"
+    sce_iss_scl_iss_SCE_id_sceau : "0132"
+    typeObjet : "Sceau"
+    texte_sceau : "nswt-bjty Mr[y]-Rʿ"
+    roi : "Pépy I"
+    sce_iss_SCL_n_Inv_IFAO : "8449"
     id_sceau : "0132"
-    dimensions_sceau : 
-    motif : titulature royale, cartouche vertical.
-    type_sceau : cylindre
-    remarque : 
+    dimensions_sceau : ""
+    motif : "titulature royale, cartouche vertical."
+    type_sceau : "cylindre"
+    remarque : ""
 
 
 title: Scellé n°8449

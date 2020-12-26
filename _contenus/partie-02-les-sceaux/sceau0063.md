@@ -10,8 +10,10 @@ type_sceau : "cylindre"
 remarque : "associé à un reste de note"
 title: sceau n°0063
 scelles: "8284"
+notes: ""
+contrescellement: "0063"
 id_notice: 0063
 layout: notice_sceau
 type: sceau
-partie: 1
+partie: 2
 ---

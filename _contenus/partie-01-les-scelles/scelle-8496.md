@@ -19,20 +19,20 @@ scl_NOT_transcription : "ȝbd 3 [...] sw [...]"
 type_scelle : "note"
 scl_NOT_traduction : "3e mois […] jour […]"
 sceaux :
-  - traduction_sceau : 
-    sce_iss_scl_iss_SCL_n_Inv_IFAO : 8496
-    categorie : indéterminé
-    sce_iss_scl_iss_SCE_id_sceau : 0115
-    typeObjet : Sceau
-    texte_sceau : 
-    roi : 
-    sce_iss_SCL_n_Inv_IFAO : 8496
+  - traduction_sceau : ""
+    sce_iss_scl_iss_SCL_n_Inv_IFAO : "8496"
+    categorie : "indéterminé"
+    sce_iss_scl_iss_SCE_id_sceau : "0115"
+    typeObjet : "Sceau"
+    texte_sceau : ""
+    roi : ""
+    sce_iss_SCL_n_Inv_IFAO : "8496"
     id_sceau : "0115"
-    dimensions_sceau : 
-    motif : indéterminé
-    type_sceau : cylindre
-    remarque : 
-    sce_iss_scl_NOT_nom_note : N8496
+    dimensions_sceau : ""
+    motif : "indéterminé"
+    type_sceau : "cylindre"
+    remarque : ""
+    sce_iss_scl_NOT_nom_note : "N8496"
 
 
 title: Scellé n°8496
