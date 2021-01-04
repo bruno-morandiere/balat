@@ -1666,3 +1666,29 @@ margin-bottom: 10px;
     max-height: 30px;
    
 }
+
+#intro-content {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    float:left;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+.plan {
+    /* height: 100px; */
+    /* display: block; */
+    /* max-height: 100px; */
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    width: calc(15% - 60px);
+}
+.plan img{
+    width : 100%
+}
+.plan legend{
+    font-size: 12px;
+    text-align: center;
+}

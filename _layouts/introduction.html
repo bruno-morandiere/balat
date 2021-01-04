@@ -7,16 +7,23 @@ layout: microtypo
 	{% include header.html %}
 	<main id="main-partie">
 		
-        <div id="content">		
+        <div id="intro-content">		
             {{ content }}
         </div>
 		
          <div class="plan">	
-             <img src="/balat/images/{{ page.plan1 }}" onerror="this.style.display='none'">
+             <img src="/balat/images/{{ page.plan1 }}" onerror="this.style.display='none'" onclick='window.open("/balat/images/{{ page.plan1 }}","{{ page.legende1 }}")'>
+             <legend>{{ page.legende1 }}</legend>
         </div>
 		
         <div class="plan">	
-             <img src="/balat/images/{{ page.plan2 }}" onerror="this.style.display='none'">
+             <img src="/balat/images/{{ page.plan2 }}" onerror="this.style.display='none'" onclick='window.open("/balat/images/{{ page.plan2 }}","{{ page.legende2 }}")'>
+             <legend>{{ page.legende2 }}</legend>
+        </div>
+        
+        <div class="plan">	
+             <img src="/balat/images/{{ page.photo }}" onerror="this.style.display='none'" onclick='window.open("/balat/images/{{ page.photo }}","{{ page.legende3 }}")'>
+             <legend>{{ page.legende3 }}</legend>
         </div>
 		
 	</main>

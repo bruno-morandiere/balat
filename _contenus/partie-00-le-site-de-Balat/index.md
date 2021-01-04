@@ -12,6 +12,10 @@ slug: partie-00-le-site-de-Balat
 redirect_from: partie-00
 plan1: Plan1.jpg
 plan2: Plan2.jpg
+photo: Magasins-sud.jpg
+legende1 : plan 1
+legende2 : plan 2
+legende3 : magasins sud
 ---
 
 Découvert en 1971 par Ahmed Fakhry, le site archéologique proche du village moderne de Balat a été fouillé par l’IFAO à partir de 1977. Il se compose de la ville d’‘Ayn ’Asil, résidence des gouverneurs du début de la 6ᵉ à la 11ᵉ dynastie (soit environ entre 2350 et 2000 av. J.-C.), et de sa nécropole, Qila' al-Dabba. Les vestiges urbains couvrent une surface globale de 800 m N-S x 500 m E-W. La ville s'est développée du nord vers le sud, au sein de deux enceintes palatiales. Le palais sud (plan 1), fouillé extensivement, comprend dans sa partie nord les appartements des gouverneurs et de leur entourage, le siège de l'administration centrale, des chapelles dédiées au culte mémorial des gouverneurs (hout-ka) et leurs dépendances. Au sud voisinaient magasins, ateliers et logements de service. Pillé puis incendié autour de 2200 le palais est ensuite partiellement restauré et continue à fonctionner au moins jusqu’à la 11e dynastie. 
