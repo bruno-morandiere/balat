@@ -15,7 +15,7 @@ sce_iss_scl_NOT_nom_note : "N8579"
 title: sceau n°0119
 scelles: "8579"
 notes: "N8579"
-contrescellement: "0003,0119"
+contrescellement: "0003"
 id_notice: 0119
 layout: notice_sceau
 type: sceau

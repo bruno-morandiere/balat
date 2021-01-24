@@ -13,7 +13,7 @@ remarque : "cp. 0109."
 title: sceau n°0042
 scelles: "8235,8246"
 notes: ""
-contrescellement: "0042"
+contrescellement: ""
 id_notice: 0042
 layout: notice_sceau
 type: sceau

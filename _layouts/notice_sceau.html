@@ -34,13 +34,12 @@ layout: microtypo
           	{% if page.type_sceau == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_sceau }}</dd></div>{% endif %}
    
          	{% if page.categorie == null %}{% else %}<div><dt>Catégorie</dt><dd>{{ page.categorie }}</dd></div>{% endif %}
-
-          	{% if page.texte_sceau == null %}{% else %}<div><dt>Texte</dt><dd>{{ page.texte_sceau }}</dd></div>{% endif %}
+{% if page.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ page.motif }}</dd></div>{% endif %}
+          	{% if page.texte_sceau == null %}{% else %}<div><dt>Texte</dt><dd><span class="transliteral">{{ page.texte_sceau }}</span></dd></div>{% endif %}
       		{% if page.traduction_sceau == null %}{% else %}<div><dt>Traduction</dt><dd>{{ page.traduction_sceau }}</dd></div>{% endif %}
-        	{% if page.motif == null %}{% else %}<div><dt>Motif</dt><dd>{{ page.motif }}</dd></div>{% endif %}
+        	
      		{% if page.roi == null %}{% else %}<div><dt>Roi</dt><dd>{{ page.roi }}</dd></div>{% endif %}
-         	{% if page.dimensions_sceau == null %}{% else %}<div><dt>Dimensions</dt><dd>{{ page.dimensions_sceau }}</dd></div>{% endif %}
-			
+         	
 
 
 			{% if page.nature_empreinte == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_empreinte }}</dd></div>{% endif %}
@@ -76,8 +75,11 @@ layout: microtypo
             <div><dt>Note{% if notes.size > 1 %}s{% endif %}</dt><dd>
         	{% for note in notes %}
             
-        	<a href = "/balat/partie-03-les-notes-hieratiques/note-{{ note }}">{{ note }}</a>&nbsp;-&nbsp;
-			
+        		
+            <a href = "/balat/partie-03-les-notes-hieratiques/note-{{ note }}"><span class="info_sceau">{{ note }}
+           </span><span class="img_sceau"> <img src="/balat/dessins-notes/{{ note }}.jpg" class="current-image" onerror="this.style.opacity=0;"></span>
+            </a> <br/>    
+                
   			{% endfor %}
 
 </dd></div>
@@ -115,7 +117,7 @@ layout: microtypo
 									<span>0%</span>
 							</div>
 							<div id="all_images" class="panzoom">
-                            <div><img src="/balat/dessins/{{ page.id_sceau }}.jpg" class="current-image" srcset="" sizes="" data-num-img="1" onerror="this.style.display='none'"></div>
+                            <div><img src="/balat/dessins/{{ page.id_sceau }}.jpg" class="current-image" srcset="" sizes="" data-num-img="1" onerror="this.style.display='none'" onclick='window.open("/balat/dessins/{{ page.id_sceau }}.jpg","{{ page.id_sceau }}")'></div>
                             </div>
 						</div>					
 				</div>

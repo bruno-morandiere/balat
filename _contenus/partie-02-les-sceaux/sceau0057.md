@@ -16,7 +16,7 @@ remarque : "orientation différente de la houe dans le serekh par rapport aux au
 title: sceau n°0057
 scelles: "8271"
 notes: ""
-contrescellement: "0057"
+contrescellement: ""
 id_notice: 0057
 layout: notice_sceau
 type: sceau

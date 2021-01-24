@@ -14,7 +14,7 @@ type_sceau : "estampille"
 title: sceau n°0036
 scelles: "8542,8667"
 notes: ""
-contrescellement: "0143,0036"
+contrescellement: "0143"
 id_notice: 0036
 layout: notice_sceau
 type: sceau

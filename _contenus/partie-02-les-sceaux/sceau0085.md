@@ -13,7 +13,7 @@ remarque : "différent de 0035 et 0114. Le signe supérieur, après le t, est in
 title: sceau n°0085
 scelles: "8251"
 notes: ""
-contrescellement: "0085"
+contrescellement: ""
 id_notice: 0085
 layout: notice_sceau
 type: sceau

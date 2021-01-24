@@ -49,7 +49,7 @@ layout: microtypo
  			{% if page.emp_SEC_nom_secteur == null %}{% else %}<div><dt>Localisation</dt><dd>{{ page.emp_SEC_nom_secteur }}</dd></div>{% endif %}
  			{% if page.emp_US_us_nom == null %}{% else %}<div><dt>US</dt><dd>{{ page.emp_US_us_nom }}</dd></div>{% endif %}
             
-            {% if page.transcription == null %}{% else %}<div><dt>Transcription</dt><dd>{{ page.transcription }}</dd></div>{% endif %}
+            {% if page.transcription == null %}{% else %}<div><dt>Transcription</dt><dd><span class="transliteral">{{ page.transcription }}</span></dd></div>{% endif %}
             
             {% if page.traduction == null %}{% else %}<div><dt>Traduction</dt><dd>{{ page.traduction }}</dd></div>{% endif %}
 
@@ -57,7 +57,7 @@ layout: microtypo
 
          
             
-            <dt>Scellé</dt><dd><a href = "/balat/partie-01-les-scelles/scelle-{{ page.id_note }}">{{ page.id_note }}</a></dd>
+            <dt></dt><dd><a href = "/balat/partie-01-les-scelles/scelle-{{ page.id_note }}">voir le scellé</a></dd>
 
 			
 

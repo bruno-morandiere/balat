@@ -938,7 +938,7 @@ font-size: 18px;
     color: #4c4c4c;
     line-height: 16px;
 
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -986,7 +986,8 @@ font-size: 18px;
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 72px;
-        text-transform: uppercase;
+        text-transform: capitalize;
+
     text-align: center;
     color: #45463c;
 }
@@ -1039,13 +1040,15 @@ font-size: 18px;
     display: inline-block;
     vertical-align: top;
 }
-
+.content-notice .transliteral{
+    font-style: italic;
+}
 .content-notice dl dd {
     padding-left: 10px;
     width: 55%;
-    font-family: "Orkney";
+    font-family: "Belleza";
     font-size: 16px;
-    line-height: 22px;
+    line-height: 16px;
     font-weight: 400;
     text-transform: initial;
     letter-spacing: 0px;
@@ -1668,10 +1671,11 @@ margin-bottom: 10px;
 }
 
 #intro-content {
-    font-size: 18px;
+    font-family: "Orkney";
+    font-size: 16px;
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     float:left;
     text-align: justify;
     padding-bottom: 60px;
@@ -1682,8 +1686,8 @@ margin-bottom: 10px;
     /* max-height: 100px; */
     float: left;
     margin-bottom: 50px;
-    margin-left: 20px;
-    width: calc(19% - 60px);
+    margin-right: 70px;
+    width: calc(30% - 60px);
 }
 .plan img{
     width : 100%

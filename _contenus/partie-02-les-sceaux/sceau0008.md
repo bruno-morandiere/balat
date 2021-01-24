@@ -40,7 +40,7 @@ type_sceau : "cylindre"
 title: sceau n°0008
 scelles: "8130,8136,8173,8218,8296,8314,8443,8444,8445,8538,8232,8337,8451"
 notes: ""
-contrescellement: "0008,0010,0074,0084,0121"
+contrescellement: "0010,0074,0084,0121"
 id_notice: 0008
 layout: notice_sceau
 type: sceau

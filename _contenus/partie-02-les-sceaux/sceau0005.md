@@ -29,7 +29,7 @@ remarque : "Le texte de ce sceau est original à plusieurs égards, de même que
 title: sceau n°0005
 scelles: "8126,8658"
 notes: ""
-contrescellement: "0005"
+contrescellement: ""
 id_notice: 0005
 layout: notice_sceau
 type: sceau

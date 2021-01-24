@@ -12,7 +12,7 @@ remarque : "associé au sceau 21."
 title: sceau n°0044
 scelles: "8461b"
 notes: ""
-contrescellement: "0021,0044"
+contrescellement: "0021"
 id_notice: 0044
 layout: notice_sceau
 type: sceau

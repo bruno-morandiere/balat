@@ -14,7 +14,7 @@ remarque : "style proche de 0054 et 0111. Les tracés fragmentaires de la colonn
 title: sceau n°0130
 scelles: "8447"
 notes: ""
-contrescellement: "0130"
+contrescellement: ""
 id_notice: 0130
 layout: notice_sceau
 type: sceau

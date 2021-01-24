@@ -15,7 +15,7 @@ remarque : "Le sceau a été fortement oblitéré par l'empreinte du sceau 0004.
 title: sceau n°0047
 scelles: "8169"
 notes: ""
-contrescellement: "0004,0047"
+contrescellement: "0004"
 id_notice: 0047
 layout: notice_sceau
 type: sceau

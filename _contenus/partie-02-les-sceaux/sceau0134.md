@@ -16,7 +16,7 @@ remarque : "cartouche horizontal écrit de gauche à droite. Le bas du serekh, t
 title: sceau n°0134
 scelles: "8515,8716"
 notes: ""
-contrescellement: "0004,0134"
+contrescellement: "0004"
 id_notice: 0134
 layout: notice_sceau
 type: sceau

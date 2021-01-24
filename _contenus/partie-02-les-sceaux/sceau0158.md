@@ -11,7 +11,7 @@ remarque : "Parallèle des lièvres affrontés : Balat V/2, p. 110, fig. 113, n�
 title: sceau n°0158
 scelles: "8513"
 notes: ""
-contrescellement: "0158"
+contrescellement: ""
 id_notice: 0158
 layout: notice_sceau
 type: sceau

@@ -16,7 +16,7 @@ remarque : "Le style rappelle le sceau 0054."
 title: sceau n°0111
 scelles: "8610"
 notes: ""
-contrescellement: "0111"
+contrescellement: ""
 id_notice: 0111
 layout: notice_sceau
 type: sceau

@@ -13,7 +13,7 @@ sce_iss_scl_NOT_nom_note : "N8504"
 title: sceau n°0103
 scelles: "8504"
 notes: "N8504"
-contrescellement: "0103"
+contrescellement: ""
 id_notice: 0103
 layout: notice_sceau
 type: sceau

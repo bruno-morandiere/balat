@@ -12,7 +12,7 @@ remarque : "quelques tracés en faible relief du sceau à spirales 0036 affleure
 title: sceau n°0143
 scelles: "8667"
 notes: ""
-contrescellement: "0143,0036"
+contrescellement: "0036"
 id_notice: 0143
 layout: notice_sceau
 type: sceau

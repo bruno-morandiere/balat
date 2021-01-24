@@ -10,7 +10,7 @@ type_sceau : "cylindre"
 title: sceau n°0161
 scelles: "8516"
 notes: ""
-contrescellement: "0161"
+contrescellement: ""
 id_notice: 0161
 layout: notice_sceau
 type: sceau

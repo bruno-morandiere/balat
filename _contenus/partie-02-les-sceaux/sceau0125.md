@@ -10,7 +10,7 @@ remarque : "scellé sur papyrus"
 title: sceau n°0125
 scelles: "8442"
 notes: ""
-contrescellement: "0125"
+contrescellement: ""
 id_notice: 0125
 layout: notice_sceau
 type: sceau

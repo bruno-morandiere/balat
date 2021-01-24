@@ -37,7 +37,7 @@ sce_iss_scl_NOT_nom_note : "N8158"
 title: sceau n°0069
 scelles: "8131,8132,8158,8313,8316,8321,8435b,8512,8522,8546a,8546c,8454"
 notes: "N8158"
-contrescellement: "0010,0011,0069,0084,0034"
+contrescellement: "0010,0011,0084,0034"
 id_notice: 0069
 layout: notice_sceau
 type: sceau

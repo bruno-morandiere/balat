@@ -18,7 +18,7 @@ remarque : |
 title: sceau n°0104
 scelles: "8366,8299"
 notes: ""
-contrescellement: "0020,0099,0104"
+contrescellement: "0020,0099"
 id_notice: 0104
 layout: notice_sceau
 type: sceau

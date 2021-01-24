@@ -14,7 +14,7 @@ remarque : "cp. 0010."
 title: sceau n°0068
 scelles: "8543"
 notes: ""
-contrescellement: "0004,0068"
+contrescellement: "0004"
 id_notice: 0068
 layout: notice_sceau
 type: sceau

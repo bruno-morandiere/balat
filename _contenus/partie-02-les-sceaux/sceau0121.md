@@ -14,7 +14,7 @@ remarque : "Style proche, mais sceau différent : n° 3477, Balat VI, p. 418 ; c
 title: sceau n°0121
 scelles: "8296"
 notes: ""
-contrescellement: "0008,0121"
+contrescellement: "0008"
 id_notice: 0121
 layout: notice_sceau
 type: sceau

@@ -35,7 +35,7 @@ sce_iss_scl_NOT_nom_note : "N8441"
 title: sceau n°0011
 scelles: "8134,8312,8435a,8435b,8435c,8435d,8435e,8435f,8514,8519,8441"
 notes: "N8441"
-contrescellement: "0011,0069"
+contrescellement: "0069"
 id_notice: 0011
 layout: notice_sceau
 type: sceau

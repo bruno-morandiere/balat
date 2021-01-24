@@ -69,7 +69,7 @@ sce_iss_scl_NOT_nom_note : "N8166"
 title: sceau n°0089
 scelles: "8342,8349,8360,8361,8431a,8431b,8431c,8458a,8458b,8458c,8458d,8458e,8458f,8458g,8458h,8458i,8458j,8458k,8458l,8458m,8458n,8458o,8166,8352,8465a,8465b,8465c"
 notes: "N8166"
-contrescellement: "0003,0020,0089"
+contrescellement: "0003,0020"
 id_notice: 0089
 layout: notice_sceau
 type: sceau

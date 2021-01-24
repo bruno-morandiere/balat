@@ -12,7 +12,7 @@ remarque : "Les deux lignes verticales suggèrent un serekh et un sceau de chanc
 title: sceau n°0151
 scelles: "8547"
 notes: ""
-contrescellement: "0151"
+contrescellement: ""
 id_notice: 0151
 layout: notice_sceau
 type: sceau

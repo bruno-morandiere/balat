@@ -13,7 +13,7 @@ remarque : "cp. 0016 pour le style, le format et le motif."
 title: sceau n°0028
 scelles: "8256"
 notes: ""
-contrescellement: "0028"
+contrescellement: ""
 id_notice: 0028
 layout: notice_sceau
 type: sceau

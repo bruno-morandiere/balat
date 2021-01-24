@@ -33,7 +33,7 @@ sce_iss_scl_NOT_nom_note : "N8608"
 title: sceau n°0041
 scelles: "8230,8325,8450,8525,8608"
 notes: "N8608"
-contrescellement: "0003,0004,0041"
+contrescellement: "0003,0004"
 id_notice: 0041
 layout: notice_sceau
 type: sceau

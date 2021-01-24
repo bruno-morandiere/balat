@@ -11,7 +11,7 @@ remarque : "Le style épais et la technique de gravure sont bien différents des
 title: sceau n°0002
 scelles: "8081"
 notes: ""
-contrescellement: "0002"
+contrescellement: ""
 id_notice: 0002
 layout: notice_sceau
 type: sceau

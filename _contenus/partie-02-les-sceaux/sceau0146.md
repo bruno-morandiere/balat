@@ -11,7 +11,7 @@ remarque : "peut-être le titre ḥqȝ wḥȝt"
 title: sceau n°0146
 scelles: "8535"
 notes: ""
-contrescellement: "0146"
+contrescellement: ""
 id_notice: 0146
 layout: notice_sceau
 type: sceau

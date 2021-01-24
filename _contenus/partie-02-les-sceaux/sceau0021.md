@@ -48,7 +48,7 @@ sce_iss_scl_NOT_nom_note : "N9082"
 title: sceau n°0021
 scelles: "8145,8149,8344,8351,8432a,8432b,8461a,8461c,8461d,8461e,8461f,8461g,8262,8461b,8469a,8469b,9082,9088a"
 notes: "N9088a,N9082"
-contrescellement: "0003,0021,0044"
+contrescellement: "0003,0044"
 id_notice: 0021
 layout: notice_sceau
 type: sceau

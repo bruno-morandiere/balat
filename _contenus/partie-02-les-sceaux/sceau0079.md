@@ -14,7 +14,7 @@ remarque : "différent de 0164."
 title: sceau n°0079
 scelles: "8327,8550"
 notes: ""
-contrescellement: "0079,0083"
+contrescellement: "0083"
 id_notice: 0079
 layout: notice_sceau
 type: sceau

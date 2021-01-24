@@ -14,7 +14,7 @@ remarque : "La disposition, les dimensions et le texte semblent proches de 0035 
 title: sceau n°0027
 scelles: "9087"
 notes: ""
-contrescellement: "0027"
+contrescellement: ""
 id_notice: 0027
 layout: notice_sceau
 type: sceau

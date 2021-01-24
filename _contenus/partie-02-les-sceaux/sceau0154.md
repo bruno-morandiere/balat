@@ -11,7 +11,7 @@ remarque : "tracé de contours : cp. 0121 sur 8296. Le même sceau ? "
 title: sceau n°0154
 scelles: "8509"
 notes: ""
-contrescellement: "0154"
+contrescellement: ""
 id_notice: 0154
 layout: notice_sceau
 type: sceau

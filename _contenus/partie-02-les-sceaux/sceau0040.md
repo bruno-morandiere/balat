@@ -14,7 +14,7 @@ remarque : "aucune trace de serekh ni cartouche, pas de trait de séparation des
 title: sceau n°0040
 scelles: "8228"
 notes: ""
-contrescellement: "0040"
+contrescellement: ""
 id_notice: 0040
 layout: notice_sceau
 type: sceau

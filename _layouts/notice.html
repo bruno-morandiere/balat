@@ -77,10 +77,10 @@ layout: microtypo
 
 
             
-            
+            	{% if page.n_Inv_IFAO == null %}{% else %}<div><dt>N° IFAO</dt><dd>{{ page.n_Inv_IFAO }}</dd></div>{% endif %}
 
 			{% if page.n_Inv_CSA == null %}{% else %}<div><dt>N° MoTA</dt><dd>{{ page.n_Inv_CSA }}</dd></div>{% endif %}
-         
+            {% if page.nature_scelle == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_scelle }}</dd></div>{% endif %}
           	{% if page.type_scelle == null %}{% else %}<div><dt>Type</dt><dd>{{ page.type_scelle }}</dd></div>{% endif %}
    
          	{% if page.niveau == null %}{% else %}<div><dt>Niveau</dt><dd>{{ page.niveau }}</dd></div>{% endif %}
@@ -91,7 +91,7 @@ layout: microtypo
 			
 
 
-			{% if page.nature_scelle == null %}{% else %}<div><dt>Nature du marquage</dt><dd>{{ page.nature_scelle }}</dd></div>{% endif %}
+	
 			 {% if page.type_empreinte == null %}{% else %}<div><dt>Type(s) de marque(s) conservée(s)</dt><dd>{{ page.type_empreinte }}</dd></div>{% endif %}
 
         	{% if page.remarque == null %}{% else %}<div><dt>Remarques</dt><dd>{{ page.remarque }}</dd></div>{% endif %}
@@ -115,6 +115,14 @@ layout: microtypo
 				</dd></div>
 			{% endif %}
 
+                    
+            {% if  page.scl_NOT_nom_note%}
+                <div><dt>Note{% if notes.size > 1 %}s{% endif %}</dt><dd>    	
+            <a href = "/balat/partie-03-les-notes-hieratiques/note-{{ page.scl_NOT_nom_note }}"><span class="info_sceau">{{ page.scl_NOT_nom_note }}
+           </span><span class="img_sceau"> <img src="/balat/dessins-notes/{{ page.scl_NOT_nom_note }}.jpg" class="current-image" onerror="this.style.display='none'"></span>
+            </a>
+                    </dd></div>
+            {% endif %}
 				{{ content }}
 				
 

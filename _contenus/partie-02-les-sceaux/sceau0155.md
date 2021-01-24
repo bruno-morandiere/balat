@@ -10,7 +10,7 @@ type_sceau : "cylindre (empreinte)"
 title: sceau n°0155
 scelles: "8510"
 notes: ""
-contrescellement: "0155"
+contrescellement: ""
 id_notice: 0155
 layout: notice_sceau
 type: sceau

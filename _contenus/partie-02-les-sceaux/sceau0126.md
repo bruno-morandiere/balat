@@ -12,7 +12,7 @@ remarque : "Le motif des 2 gazelles tête-bêche avec un seul corps est très co
 title: sceau n°0126
 scelles: "8479"
 notes: ""
-contrescellement: "0004,0126"
+contrescellement: "0004"
 id_notice: 0126
 layout: notice_sceau
 type: sceau

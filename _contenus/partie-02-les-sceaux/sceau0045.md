@@ -25,7 +25,7 @@ type_sceau : "estampille"
 title: sceau n°0045
 scelles: "8310,8424,8466a,8466b,8466c,8466d"
 notes: ""
-contrescellement: "0039,0045,0114,0129"
+contrescellement: "0039,0114,0129"
 id_notice: 0045
 layout: notice_sceau
 type: sceau

@@ -14,7 +14,7 @@ remarque : "cartouche royal, probablement Pépy II. Cp. 0054, 0111, 0130."
 title: sceau n°0133
 scelles: "8521"
 notes: ""
-contrescellement: "0133"
+contrescellement: ""
 id_notice: 0133
 layout: notice_sceau
 type: sceau

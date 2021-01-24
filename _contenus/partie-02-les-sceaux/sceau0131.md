@@ -15,7 +15,7 @@ remarque : "Le dernier signe est incomplet et peu distinct. Nb  est plus probabl
 title: sceau n°0131
 scelles: "8448"
 notes: ""
-contrescellement: "0131"
+contrescellement: ""
 id_notice: 0131
 layout: notice_sceau
 type: sceau
